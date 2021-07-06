@@ -33,7 +33,7 @@ Collection of links on useful resources to learn Rust with us.
 
 ### Engines and renderers
 
-- [State of the art API for rendering](https://github.com/gfx-rs/wgpu)
+- [WebGPU - State of the art API for rendering](https://github.com/gfx-rs/wgpu)
 - [Bevy - webgpu based game engine](https://github.com/bevyengine/bevy)
 - [Piston - the oldest game engine](https://github.com/PistonDevelopers/piston)
 - [RG3D](https://github.com/rg3dengine/rg3d)
