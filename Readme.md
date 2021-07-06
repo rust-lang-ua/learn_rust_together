@@ -17,7 +17,6 @@ Collection of links on useful resources to learn Rust with us.
 
 ### Problems solutions
 
-- [ How to install Rustup and Rust ](https://www.youtube.com/watch?v=f6tizikEMTk)
 - [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk)
 - [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc)
 
@@ -40,3 +39,9 @@ Collection of links on useful resources to learn Rust with us.
 - [RG3D](https://github.com/rg3dengine/rg3d)
 - [macroquad - cross platform game engine](https://github.com/not-fl3/macroquad)
 - [Amethyst](https://github.com/amethyst/amethyst)
+
+### How to get help
+
+- [Ask question on Rust Forum](https://users.rust-lang.org)
+- [Ask question on Stack overflow](https://stackoverflow.com/)
+- [Ask question here](https://github.com/Wandalen/LearnRustTogether/issues)
