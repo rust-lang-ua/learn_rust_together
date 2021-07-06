@@ -15,21 +15,23 @@ Collection of links on useful resources to learn Rust with us.
 
 - [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93)
 
+### Textual courses and books
+
+- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( Official )
+- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( Official )
+- [ The Rust Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( Official )
+- [ Code Refference ](https://doc.rust-lang.org/std/index.html) ( Official )
+- [ Rust with Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm)
+- [ Rust with RIP Tutorial ](https://riptutorial.com/rust)
+
+### Interactive courses with feedback
+
+- [ Rustlings ](https://github.com/rust-lang/rustlings)
+
 ### Problems solutions
 
 - [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk)
 - [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc)
-
-### Textual courses and books
-
-- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html)
-- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html)
-- [ The Rust Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html)
-- [ Code Refference ](https://doc.rust-lang.org/std/index.html)
-
-### Interactive courses and trainers
-
-- [ Rustlings ](https://github.com/rust-lang/rustlings)
 
 ### Engines and renderers
 
