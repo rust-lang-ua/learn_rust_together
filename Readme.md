@@ -1,4 +1,4 @@
-# Learn Rust together <img src="doc/image/Logo.png" alt="" style="width:35px;"/>
+![Rust](doc/image/Logo2.jpg)
 
 Collection of links on useful resources to learn Rust with us.
 
