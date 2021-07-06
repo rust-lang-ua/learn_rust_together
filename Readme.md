@@ -1,4 +1,4 @@
-# Learn Rust together <img src="doc/image/Logo.png" alt="drawing" style="width:35px;"/>
+# Learn Rust together <img src="doc/image/Logo.png" alt="" style="width:35px;"/>
 
 Collection of links on useful resources to learn Rust with us.
 
