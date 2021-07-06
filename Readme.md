@@ -25,7 +25,7 @@ Collection of links on useful resources to learn Rust with us.
 - [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html)
 - [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html)
 - [ The Rust Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html)
-[ Code Refference ](https://doc.rust-lang.org/std/index.html)
+- [ Code Refference ](https://doc.rust-lang.org/std/index.html)
 
 ### Interactive courses and trainers
 
