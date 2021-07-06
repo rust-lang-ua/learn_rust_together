@@ -1,4 +1,6 @@
-# Lets learn Rust together
+# Learn Rust together
+
+Collection of links on useful resources to learn Rust with us.
 
 ### Genera-purpose video-courses
 
