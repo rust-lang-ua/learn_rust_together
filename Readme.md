@@ -2,7 +2,7 @@
 
 Collection of links on useful resources to learn Rust with us.
 
-### Genera-purpose video-courses
+### General-purpose video-courses
 
 - [ Intro to Rust with Tensor ](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW)
 - [ Rust Tutorial with Doug Milford ](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
