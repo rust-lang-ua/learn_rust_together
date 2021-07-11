@@ -2,7 +2,19 @@
 
 Collection of lists of links on useful resources to learn Rust with us.
 
-### General-purpose video-courses
+## Content
+
+- [ General-purpose video courses ](#general-purpose-video-courses)
+- [ General-purpose textual courses and books ](#general-purpose-video-courses)
+- [ Domain-specific video ](#general-purpose-video-courses)
+- [ Interactive courses on Rust with feedback ](#general-purpose-video-courses)
+- [ Development on Rust problems solved ](#general-purpose-video-courses)
+- [ How to get help with Rust ](#general-purpose-video-courses)
+- [ Algorithmic problems and solutions in Rust ](#general-purpose-video-courses)
+- [ Other resources ](#general-purpose-video-courses)
+- [ Markers legend ](#general-purpose-video-courses)
+
+## General-purpose video courses
 
 ( _video_ ) ( _general_ ) ( _course_ )
 
@@ -13,7 +25,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Easy Rust with Mithradates/Dhghomon ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)  ( _reading_ )
 - [ Программирование на Rust with Computer Science Center ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) ( _non-english_ )
 
-### General-purpose textual courses and books
+## General-purpose textual courses and books
 
 ( _reading_ ) ( _general_ )
 
@@ -25,21 +37,21 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Rust with RIP Tutorial ](https://riptutorial.com/rust) ( _course_ )
 - [ Easy Rust with Mithradates/Dhghomon ](https://github.com/Dhghomon/easy_rust) ( _course_ ) ( _video_ )
 
-### Domain-specific video
+## Domain-specific video
 
 ( _video_ ) ( _specific_ )
 
 - [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _course_ )
 - [ Yew Crash Course with Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _article_ )
 
-### Interactive courses on Rust with feedback
+## Interactive courses on Rust with feedback
 
 ( _interactive_ )
 
 - [ Rustlings ](https://github.com/rust-lang/rustlings)
 - [ Rust with Exercism ](https://exercism.io/my/tracks/rust)
 
-### Common Rust problems solved
+## Development on Rust problems solved
 
 ( _article_ )
 
@@ -49,7 +61,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ How to optimize sizeo of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ )
 - [ How to optimize sizeo of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ )
 
-### How to get help with Rust
+## How to get help with Rust
 
 ( _forum_ )
 
@@ -57,11 +69,16 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [Ask question on Stack overflow](https://stackoverflow.com/)
 - [Ask question here](https://github.com/Wandalen/LearnRustTogether/issues)
 
-### Other resources
+## Algorithmic problems and solutions in Rust
+
+( _algo_ )
+- [ Rust Gym ](https://github.com/warycat/rustgym)
+
+## Other resources
 
 - [Safety in Systems Programming with Stanford University](https://web.stanford.edu/class/cs110l/) ( _reading_ ) ( _course_ )
 
-### Other collection and lists on Rust
+## Other collection and lists on Rust
 
 ( _list_ )
 
@@ -70,7 +87,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [A curated list of Rust code and resources with Dunham](https://github.com/rust-unofficial/awesome-rust)
 - [Rust Books with Sger](https://github.com/sger/RustBooks)
 
-### Markers
+## Markers legend
 
 - ( _general_ ) -- general-purpose material
 - ( _specific_ ) -- domain-specific material
@@ -85,3 +102,4 @@ Collection of lists of links on useful resources to learn Rust with us.
 - ( _list_ ) -- list of resources
 - ( _project_ ) -- a project
 - ( _forum_ ) -- either chat or forum to comminicate with people
+- ( _algo_ ) -- algorithmic problems and solutions
