@@ -88,7 +88,7 @@ Collection of lists of links on useful resources to learn Rust together.
 ( _list_ )
 
 - [Game Engines and Renderers](./GameEnginesAndRenderers.md)
-- [Our secondary collection](./Secondary.md)
+- [Our secondary collection of lists](./Secondary.md)
 - [A curated list of Rust code and resources with Dunham](https://github.com/rust-unofficial/awesome-rust)
 - [Rust Books with Sger](https://github.com/sger/RustBooks)
 
