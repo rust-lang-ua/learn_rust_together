@@ -18,12 +18,12 @@ Curated collection of lists of links on useful resources to learn Rust together.
 
 ( _general_ ) ( _official_ )
 
-- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ ) ( _general_ )
-- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _general_ ) ( _course_ )
-- [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _general_ )
-- [ Codebase Refference ](https://doc.rust-lang.org/std/index.html)
+- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ )
+- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _course_ )
+- [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ )
+- [ Codebase Refference ](https://doc.rust-lang.org/std/index.html) ( _reading_ )
 - [ Rust playground ](https://play.rust-lang.org/) ( _interactive_ )
-- [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _general_ )
+- [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
 
 ## General-purpose courses
 
