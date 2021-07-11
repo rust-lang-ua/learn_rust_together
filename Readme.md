@@ -83,5 +83,5 @@ Collection of lists of links on useful resources to learn Rust with us.
 - ( _reading_ ) -- material to read
 - ( _video_ ) -- material to watch
 - ( _list_ ) -- list of resources
-- ( _project_ ) -- project
+- ( _project_ ) -- a project
 - ( _forum_ ) -- either chat or forum to comminicate with people
