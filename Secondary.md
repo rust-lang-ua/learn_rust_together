@@ -1,6 +1,6 @@
 ![Rust](./doc/image/Logo2.jpg)
 
-Secondary collection of lists of links on resources to learn Rust with us. In the collection with have resources which are not finished or there is a reason not recommend it.
+Secondary collection of lists of resources to learn Rust with us. In the collection with have resources which are not finished or there is a reason not recommend it.
 
 ### Not finished general-purpose video-courses
 
