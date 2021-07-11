@@ -1,6 +1,6 @@
 ![Rust](./doc/image/Logo2.jpg)
 
-Collection of lists of links on useful resources to learn Rust with us.
+Collection of lists of links on useful resources to learn Rust together.
 
 ## Content
 
