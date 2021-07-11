@@ -9,9 +9,9 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Domain-specific video ](#domain-specific-video)
 - [ Interactive courses on Rust with feedback ](#interactive-courses-on-rust-with-feedback)
 - [ Development on Rust problems solved ](#development-on-rust-problems-solved)
-- [ How to get help with Rust ](#how-to-get-help-with-rust)
+- [ Get help with Rust ](#get-help-with-rust)
 - [ Algorithmic problems and solutions in Rust ](#algorithmic-problems-and-solutions-in-rust)
-- [ Other resources ](#other-resources)
+- [ Other resources on Rust ](#other-resources-on-rust)
 - [ Markers legend ](#markers-legend)
 
 ## General-purpose video courses
@@ -61,7 +61,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ How to optimize sizeo of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ )
 - [ How to optimize sizeo of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ )
 
-## How to get help with Rust
+## Get help with Rust
 
 ( _forum_ )
 
@@ -74,7 +74,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 ( _algo_ )
 - [ Rust Gym ](https://github.com/warycat/rustgym)
 
-## Other resources
+## Other resources on Rust
 
 - [Safety in Systems Programming with Stanford University](https://web.stanford.edu/class/cs110l/) ( _reading_ ) ( _course_ )
 
