@@ -5,14 +5,14 @@ Collection of lists of links on useful resources to learn Rust with us.
 ## Content
 
 - [ General-purpose video courses ](#general-purpose-video-courses)
-- [ General-purpose textual courses and books ](#general-purpose-video-courses)
-- [ Domain-specific video ](#general-purpose-video-courses)
-- [ Interactive courses on Rust with feedback ](#general-purpose-video-courses)
-- [ Development on Rust problems solved ](#general-purpose-video-courses)
-- [ How to get help with Rust ](#general-purpose-video-courses)
-- [ Algorithmic problems and solutions in Rust ](#general-purpose-video-courses)
-- [ Other resources ](#general-purpose-video-courses)
-- [ Markers legend ](#general-purpose-video-courses)
+- [ General-purpose textual courses and books ](#general-purpose-textual-courses-and-books)
+- [ Domain-specific video ](#domain-specific-video)
+- [ Interactive courses on Rust with feedback ](#interactive-courses-on-rust-with-feedback)
+- [ Development on Rust problems solved ](#development-on-rust-problems-solved)
+- [ How to get help with Rust ](#how-to-get-help-with-rust)
+- [ Algorithmic problems and solutions in Rust ](#algorithmic-problems-and-solutions-in-rust)
+- [ Other resources ](#other-resources)
+- [ Markers legend ](#markers-legend)
 
 ## General-purpose video courses
 
