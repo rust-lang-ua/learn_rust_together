@@ -6,7 +6,7 @@ Collection of lists of links on useful resources to learn Rust together.
 
 - [ General-purpose official resources ](#general-purpose-official-resources)
 - [ General-purpose courses ](#general-purpose-courses)
-- [ Domain-specific video ](#domain-specific-video)
+- [ Domain-specific ](#domain-specific)
 - [ Interactive courses on Rust with feedback ](#interactive-courses-on-rust-with-feedback)
 - [ Development on Rust problems solved ](#development-on-rust-problems-solved)
 - [ Get help with Rust ](#get-help-with-rust)
@@ -39,12 +39,12 @@ Collection of lists of links on useful resources to learn Rust together.
 - [ Rust with Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [ Rust with RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ )
 
-## Domain-specific video
+## Domain-specific
 
-( _video_ ) ( _specific_ )
+( _specific_ )
 
-- [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _course_ )
-- [ Yew Crash Course with Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _article_ )
+- [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _video_ ) ( _course_ )
+- [ Yew Crash Course with Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _video_ ) ( _article_ )
 
 ## Interactive courses on Rust with feedback
 
