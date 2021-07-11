@@ -10,7 +10,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Rust Tutorial with Doug Milford ](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 - [ The Rust Lang Book with Lets' Get Rusty ](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
 - [ Rust Programming Tutorial with Dcode ](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL)
-- [ Easy Rust with Mithradates(Dhghomon) ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)  ( _reading_ )
+- [ Easy Rust with Mithradates/Dhghomon ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)  ( _reading_ )
 - [ Программирование на Rust with Computer Science Center ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) ( _non-english_ )
 
 ### General-purpose textual courses and books
@@ -23,7 +23,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Code Refference ](https://doc.rust-lang.org/std/index.html) ( _official_ )
 - [ Rust with Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _course_ )
 - [ Rust with RIP Tutorial ](https://riptutorial.com/rust) ( _course_ )
-- [ Easy Rust with Mithradates(Dhghomon) ](https://github.com/Dhghomon/easy_rust) ( _course_ ) ( _video_ )
+- [ Easy Rust with Mithradates/Dhghomon ](https://github.com/Dhghomon/easy_rust) ( _course_ ) ( _video_ )
 
 ### Domain-specific video
 
