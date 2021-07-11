@@ -13,19 +13,7 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Easy Rust with Mithradates(Dhghomon) ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)  ( _reading_ )
 - [ Программирование на Rust with Computer Science Center ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) ( _non-english_ )
 
-### Domain-specific video-courses
-
-( _video_ ) ( _course_ ) ( _specific_ )
-
-- [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93)
-
-### Domain-specific video and textual articles
-
-( _video_ ) ( _article_ ) ( _specific_ )
-
-- [ Yew Crash Course with Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA)
-
-### Textual courses and books
+### General-purpose textual courses and books
 
 ( _reading_ ) ( _general_ )
 
@@ -36,6 +24,13 @@ Collection of lists of links on useful resources to learn Rust with us.
 - [ Rust with Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _course_ )
 - [ Rust with RIP Tutorial ](https://riptutorial.com/rust) ( _course_ )
 - [ Easy Rust with Mithradates(Dhghomon) ](https://github.com/Dhghomon/easy_rust) ( _course_ ) ( _video_ )
+
+### Domain-specific video
+
+( _video_ ) ( _specific_ )
+
+- [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _course_ )
+- [ Yew Crash Course with Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _article_ )
 
 ### Interactive courses on Rust with feedback
 
@@ -77,8 +72,8 @@ Collection of lists of links on useful resources to learn Rust with us.
 
 ### Markers
 
-- ( _general_ ) -- general purpose material
-- ( _specific_ ) -- domain specific material
+- ( _general_ ) -- general-purpose material
+- ( _specific_ ) -- domain-specific material
 - ( _official_ ) -- official Rust material
 - ( _non-english_ ) -- non-english language
 - ( _course_ ) -- long course or a book
