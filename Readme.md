@@ -1,49 +1,76 @@
-![Rust](doc/image/Logo2.jpg)
+![Rust](./doc/image/Logo2.jpg)
 
-Collection of links on useful resources to learn Rust with us.
+Collection of lists of links on useful resources to learn Rust with us.
 
 ### General-purpose video-courses
 
-- [ Intro to Rust with Tensor ](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW)
-- [ Rust Tutorial with Doug Milford ](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
-- [ The Rust Lang Book with Lets' Get Rusty ](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
-- [ Rust Programming Tutorial with dcode ](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL)
-- [ Rust Videos with Engineer Man ](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL)
-- [ Программирование на Rust with Computer Science Center ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e)
+- [ Intro to Rust with Tensor ](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) ( _video_ ) ( _general_ ) ( _course_ )
+- [ Rust Tutorial with Doug Milford ](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) ( _video_ ) ( _general_ ) ( _course_ )
+- [ The Rust Lang Book with Lets' Get Rusty ](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) ( _video_ ) ( _general_ ) ( _course_ )
+- [ Rust Programming Tutorial with Dcode ](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) ( _video_ ) ( _general_ ) ( _course_ )
+- [ Easy Rust with Mithradates(Dhghomon) ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) ( _video_ ) ( _general_ ) ( _course_ ) ( _reading_ )
+- [ Программирование на Rust with Computer Science Center ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) ( _video_ ) ( _general_ ) ( _non-english_ ) ( _course_ )
 
 ### Domain-specific video-courses
 
-- [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93)
+- [ Web development with rust with Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _video_ ) ( _course_ ) ( _specific_ )
+
+### Domain-specific video and textual articles
+
+- [ Yew Crash Course with Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _article_ ) ( _video_ ) ( _specific_ )
 
 ### Textual courses and books
 
-- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( Official )
-- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( Official )
-- [ The Rust Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( Official )
-- [ Code Refference ](https://doc.rust-lang.org/std/index.html) ( Official )
-- [ Rust with Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm)
-- [ Rust with RIP Tutorial ](https://riptutorial.com/rust)
+- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ ) ( _official_ ) ( _course_ ) ( _general_ )
+- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _official_ ) ( _course_ ) ( _general_ )
+- [ The Rust Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _official_ ) ( _course_ ) ( _general_ )
+- [ Code Refference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _official_ ) ( _general_ )
+- [ Rust with Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ ) ( _course_ ) ( _general_ )
+- [ Rust with RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ ) ( _course_ ) ( _general_ )
+- [ Easy Rust with Mithradates(Dhghomon) ](https://github.com/Dhghomon/easy_rust) ( _reading_ ) ( _general_ ) ( _course_ ) ( _video_ )
 
-### Interactive courses with feedback
+### Interactive courses on Rust with feedback
 
-- [ Rustlings ](https://github.com/rust-lang/rustlings)
+- [ Rustlings ](https://github.com/rust-lang/rustlings) ( _interactive_ )
+- [ Rust with Exercism ](https://exercism.io/my/tracks/rust) ( _interactive_ )
 
-### Problems solutions
+### Common Rust problems solved
 
-- [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk)
-- [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc)
+- [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk) ( _video_ ) ( _article_ )
+- [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc) ( _video_ ) ( _article_ )
+- [ How to optimize sizeo of binary executable ](https://github.com/johnthagen/min-sized-rust) ( _reading_ ) ( _article_ )
+- [ How to optimize sizeo of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
+- [ How to optimize sizeo of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 
-### Engines and renderers
+### How to get help with Rust
 
-- [WebGPU - State of the art API for rendering](https://github.com/gfx-rs/wgpu)
-- [Bevy - webgpu based game engine](https://github.com/bevyengine/bevy)
-- [Piston - the oldest game engine](https://github.com/PistonDevelopers/piston)
-- [RG3D](https://github.com/rg3dengine/rg3d)
-- [macroquad - cross platform game engine](https://github.com/not-fl3/macroquad)
-- [Amethyst](https://github.com/amethyst/amethyst)
+- [Ask question on Rust Forum](https://users.rust-lang.org) ( _forum_ )
+- [Ask question on Stack overflow](https://stackoverflow.com/) ( _forum_ )
+- [Ask question here](https://github.com/Wandalen/LearnRustTogether/issues) ( _forum_ )
 
-### How to get help
+### Other resources
 
-- [Ask question on Rust Forum](https://users.rust-lang.org)
-- [Ask question on Stack overflow](https://stackoverflow.com/)
-- [Ask question here](https://github.com/Wandalen/LearnRustTogether/issues)
+- [Safety in Systems Programming with Stanford University](https://web.stanford.edu/class/cs110l/) ( _reading_ ) ( _course_ )
+
+### Other collection and lists on Rust
+
+- [Game Engines and Renderers](./GameEnginesAndRenderers.md) ( _list_ )
+- [Secondary list](./Secondary.md) ( _list_ )
+- [A curated list of Rust code and resources with Dunham](https://github.com/rust-unofficial/awesome-rust) ( _list_ )
+- [Rust Books with Sger](https://github.com/sger/RustBooks) ( _list_ )
+
+### Markers
+
+- ( _general_ ) -- general purpose material
+- ( _specific_ ) -- domain specific material
+- ( _official_ ) -- official Rust material
+- ( _non-english_ ) -- non-english language
+- ( _course_ ) -- long course or a book
+- ( _article_ ) -- either single article or single video-tutorial
+- ( _not-finished_ ) -- not finished, too little to learn
+- ( _interactive_ ) -- it is possible to interact and get feedback from the system
+- ( _reading_ ) -- material to read
+- ( _video_ ) -- material to watch
+- ( _list_ ) -- list of resources
+- ( _project_ ) -- project
+- ( _forum_ ) -- either chat or forum to comminicate with people
