@@ -1,2 +1,0 @@
-# Lets learn Rust together
-
