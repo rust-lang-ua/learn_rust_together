@@ -69,7 +69,6 @@ Curated collection of lists of useful resources to learn Rust together.
 
 - [Ask question on Rust Forum](https://users.rust-lang.org)
 - [Ask question on Stack overflow](https://stackoverflow.com/)
-- [Ask question here](https://github.com/Wandalen/LearnRustTogether/issues)
 
 ## Algorithmic problems and solutions in Rust
 
