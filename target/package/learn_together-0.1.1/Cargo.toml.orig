@@ -1,0 +1,8 @@
+[package]
+name = "learn_together"
+version = "0.1.1"
+edition = "2018"
+description = "Curated collection of lists of useful resources to learn Rust together."
+license = "MIT"
+
+[dependencies]

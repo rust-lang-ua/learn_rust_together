@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "learn_together"
-version = "0.1.0"
+name = "learn_rust_together"
+version = "0.1.1"
