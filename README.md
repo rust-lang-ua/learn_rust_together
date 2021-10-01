@@ -38,8 +38,6 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _advanced_ ) -- advanced level
 - ( _domain:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 
-
-
 ## General-purpose official resources
 
 ( _general_ ) ( _official_ )
@@ -47,11 +45,15 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ ) ( _book_ )
 - [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _book_ )
+- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [ Codebase Reference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _book_ ) ( _book_ )
+- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _course_ ) ( _book_ )
+- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _book_ )
+- [The Cargo Book](https://doc.rust-lang.org/cargo/) ( _reading_ ) ( _book_ )
 
 ## General-purpose courses
 
@@ -64,8 +66,10 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Easy Rust ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _video_ )
 - [ Easy Rust ](https://github.com/Dhghomon/easy_rust) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
 - [ Программирование на Rust ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
+- [Курс Rust на NEAR (RU)] (https://www.youtube.com/watch?v=CNhfxDFk3yE&list=PL9tzQn_TEuFUakOn-IY9cDQL2ztNzZunh) by [NEAR](https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw) ( _video_ ) ( _non-eng_ )
 - [ Rust by Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [ Rust by RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ )
+- [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ )
 
 ## Advanced general-purpose courses
 
@@ -90,6 +94,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ## Algorithmic problems and solutions in Rust
 
 ( _algo_ )
+
 - [ Rust Gym ](https://github.com/warycat/rustgym) by [Larry Fantasy](https://github.com/warycat)
 
 <!-- ## Educational projects
@@ -141,3 +146,4 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) ( _list_ )
 - [Starting Rust](https://github.com/Learn-Together-Pro/RustPractice) ( _non-eng_ )
+- [The Rustacean Station Podcast](https://rustacean-station.org/) [A community project for creating podcast content for the Rust programming language]
