@@ -31,6 +31,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _interactive_ ) -- it is possible to interact and get feedback from the system
 - ( _reading_ ) -- material to read
 - ( _video_ ) -- material to watch
+- ( _audio_) -- material to listen
 - ( _list_ ) -- list of resources
 - ( _project_ ) -- a project
 - ( _algo_ ) -- algorithmic problems and solutions
@@ -146,4 +147,4 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) ( _list_ )
 - [Starting Rust](https://github.com/Learn-Together-Pro/RustPractice) ( _non-eng_ )
-- [The Rustacean Station Podcast](https://rustacean-station.org/) [A community project for creating podcast content for the Rust programming language]
+- [The Rustacean Station Podcast](https://rustacean-station.org/) [ Podcast] ( _audio_)
