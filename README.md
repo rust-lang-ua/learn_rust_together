@@ -147,4 +147,4 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) ( _list_ )
 - [Starting Rust](https://github.com/Learn-Together-Pro/RustPractice) ( _non-eng_ )
-- [The Rustacean Station Podcast](https://rustacean-station.org/) [ Podcast] ( _audio_)
+- [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_)
