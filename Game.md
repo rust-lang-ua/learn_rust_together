@@ -1,6 +1,6 @@
 ![Rust](doc/image/Logo2.jpg)
 
-Collection of links on projects and resources on game engines and renderers.
+Curated collection of resources to make games on Rust.
 
 ### Game Engines and Renderers
 
