@@ -36,7 +36,7 @@ Newspapers
 - ( _video_ ) -- material to watch
 - ( _audio_ ) -- material to listen
 - ( _list_ ) -- list of resources
-- ( _project_ ) -- a project
+- ( _newspaper_ ) -- regularly updating list of articles
 - ( _algo_ ) -- algorithmic problems and solutions
 - ( _toy_ ) -- educatuinal toy projects
 - ( _introductory_ ) -- introductory level <!-- qqq : apply the tag to learn rust together resources -->
@@ -145,6 +145,16 @@ Newspapers
 - [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
 - [ Making our own executable packer ](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
 
+## Newspapers
+
+( _list_ ) ( _newspaper_ )
+
+- [Read Rust](https://readrust.net/)
+- [This Week in Rust](https://this-week-in-rust.org/)
+- [Rust GameDev Working Group](https://gamedev.rs/)
+- [Rust and WebAssembly](https://rustwasm.github.io/)
+- [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
+
 ## Other lists on Rust
 
 ( _list_ )
@@ -159,13 +169,3 @@ Newspapers
 - [Are we game yet?](https://arewegameyet.rs/)
 - [Are we web yet?](https://www.arewewebyet.org/)
 - [Lib.rs](https://lib.rs/)
-
-## Newspapers
-
-( _list_ )
-
-- [Read Rust](https://readrust.net/)
-- [This Week in Rust](https://this-week-in-rust.org/)
-- [Rust GameDev Working Group](https://gamedev.rs/)
-- [Rust and WebAssembly](https://rustwasm.github.io/)
-- [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
