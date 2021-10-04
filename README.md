@@ -46,17 +46,17 @@ Newspapers
 
 ## General-purpose official resources
 
-( _general_ ) ( _official_ )
+( _general_ ) ( _official_ ) ( _course_ )
 
-- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ ) ( _book_ )
-- [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _book_ ) ( _non-eng_ )
-- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _book_ )
-- [ Язык программирования Rust ](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _book_ ) ( _non-eng_ )
+- [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ )
+- [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ )
+- [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ )
+- [ Язык программирования Rust ](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ )
 - [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [ Codebase Reference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
-- [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _book_ ) ( _book_ )
-- [ Rust. Сборник рецептов ](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _book_ ) ( _non-eng_ )
-- [ The Cargo Book ](https://doc.rust-lang.org/cargo/index.html) ( _reading_ ) ( _book_ )
+- [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
+- [ Rust. Сборник рецептов ](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
+- [ The Cargo Book ](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
 
 ## General-purpose courses
 
@@ -78,10 +78,10 @@ Newspapers
 ( _general_ ) ( _course_ ) ( _advanced_ )
 
 - :star: [ Crust of Rust ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _book_ ) ( _official_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _book_ ) ( _official_ ) ( _non-eng_ )
-- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ ) ( _book_ )
-- [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ ) ( _book_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ )
+- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _non-eng_ )
+- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
+- [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
 
@@ -161,7 +161,7 @@ Newspapers
 
 - [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) by [Learn Together](https://github.com/Learn-Together-Pro)
 - [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
-- [Rust Books](https://github.com/sger/RustBooks) by [Spiros Gerokostas](https://github.com/sger)
+- [Rust Books](https://github.com/sger/RustBooks) by [Spiros Gerokostas](https://github.com/sger) :blue_book: ( _book_ )
 - [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [https://github.com/ctjhoa](Camille TJHOA)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
