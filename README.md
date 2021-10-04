@@ -39,10 +39,11 @@ Newspapers
 - ( _newspaper_ ) -- regularly updating list of articles
 - ( _algo_ ) -- algorithmic problems and solutions
 - ( _toy_ ) -- educatuinal toy projects
-- ( _introductory_ ) -- introductory level <!-- qqq : apply the tag to learn rust together resources -->
+- ( _introductory_ ) -- introductory level
 - ( _advanced_ ) -- advanced level
-- ( _domain:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
+- ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:app_size_ ) -- about size of target application
+- ( _about:async_ ) -- about asynchronous programming
 
 ## General-purpose official resources
 
@@ -78,8 +79,8 @@ Newspapers
 ( _general_ ) ( _course_ ) ( _advanced_ )
 
 - :star: [ Crust of Rust ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _non-eng_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ )
+- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ ) ( _non-eng_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 
@@ -138,11 +139,19 @@ Newspapers
 
 ## Memory
 
-( _about:memory_ )
+( _about:mem_ )
 
 - [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
 - [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
-- [ Making our own executable packer ](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
+- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
+
+## Asynchronous
+
+( _about:async_ )
+
+- [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
+- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
 
 ## Newspapers
 

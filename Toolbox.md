@@ -46,3 +46,4 @@
 ( _db_ )
 
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
+- [diesel](https://github.com/diesel-rs/diesel) : ORM and query builder
