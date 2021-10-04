@@ -49,13 +49,13 @@ Newspapers
 ( _general_ ) ( _official_ )
 
 - [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ ) ( _book_ )
-- [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
+- [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _book_ ) ( _non-eng_ )
 - [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _book_ )
-- [ Язык программирования Rust ](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
+- [ Язык программирования Rust ](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _book_ ) ( _non-eng_ )
 - [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [ Codebase Reference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _book_ ) ( _book_ )
-- [ Rust. Сборник рецептов ](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ ) ( _book_ )
+- [ Rust. Сборник рецептов ](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _book_ ) ( _non-eng_ )
 - [ The Cargo Book ](https://doc.rust-lang.org/cargo/index.html) ( _reading_ ) ( _book_ )
 
 ## General-purpose courses
