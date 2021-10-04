@@ -35,10 +35,10 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _project_ ) -- a project
 - ( _algo_ ) -- algorithmic problems and solutions
 - ( _toy_ ) -- educatuinal toy projects
+- ( _introductory_ ) -- introductory level <!-- qqq : apply the tag to learn rust together resources -->
 - ( _advanced_ ) -- advanced level
 - ( _domain:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
-
-
+( _about:app_size_ ) -- about size of target application
 
 ## General-purpose official resources
 
@@ -71,7 +71,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ( _general_ ) ( _course_ ) ( _advanced_ )
 
-- [ Crust of Rust by Jon Gjengset ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) ( _video_ )
+- :star: [ Crust of Rust by Jon Gjengset ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) ( _video_ )
 
 ## Interactive courses on Rust with feedback
 
@@ -97,20 +97,30 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ( _toy_ )
 
 - [ Making our own executable packer ](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
-- [ Build a language VM ](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _course_ ) -->
+- [ Build a language VM ](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _course_ )
+- [ Building a runtime reflection system for Rust ](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/)
+
+-->
 
 ## Domain-specific topics
 
 - [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk) ( _video_ ) ( _article_ )
 - [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc) ( _video_ ) ( _article_ )
-- [ How to optimize sizeo of binary executable ](https://github.com/johnthagen/min-sized-rust) ( _reading_ ) ( _article_ )
-- [ How to optimize sizeo of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
-- [ How to optimize sizeo of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 - [ Web development with rust by Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _video_ ) ( _course_ )
 - [ Yew Crash Course by Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _video_ ) ( _article_ )
 - [Safety in Systems Programming by Stanford University](https://web.stanford.edu/class/cs110l/) ( _reading_ ) ( _course_ )
 - [Comp Sci Rust Programming Course from University of Pennsylvania's](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
 - [Refactoring to Rust by Lily Mara](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) ( _reading_ ) ( _course_ ) ( _advanced_ )
+
+## Size of applications
+
+( _about:app_size_ )
+
+- [ How to optimize size of binary executable ](https://github.com/johnthagen/min-sized-rust) ( _reading_ ) ( _article_ )
+- [ How to optimize size of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
+- [ How to optimize size of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
+- [ Optimize Rust binaries size with cargo and Semver ](https://oknozor.github.io/blog/optimize-rust-binary-size/) by [Paul Delafosse](https://oknozor.github.io/blog/) ( _reading_ ) ( _article_ )
+
 
 ## Memory
 
