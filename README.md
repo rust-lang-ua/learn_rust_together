@@ -125,7 +125,7 @@ Newspapers
 - [ Yew Crash Course ](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
 - [ Safety in Systems Programming from Stanford University ](https://web.stanford.edu/class/cs110l/) by Ryan Eberhardt and Julio Ballista ( _reading_ ) ( _course_ )
 - [ Comp Sci Rust Programming Course from University of Pennsylvania's ](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
-- [ Refactoring to Rust ](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) ( _reading_ ) ( _course_ ) ( _advanced_ )
+- [ Refactoring to Rust ](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) :blue_book: ( _book_ ) ( _reading_ ) ( _advanced_ ) :
 
 ## Size of applications
 
@@ -135,7 +135,6 @@ Newspapers
 - [ How to optimize size of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
 - [ How to optimize size of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 - [ Optimize Rust binaries size with cargo and Semver ](https://oknozor.github.io/blog/optimize-rust-binary-size/) by [Paul Delafosse](https://oknozor.github.io/blog/) ( _reading_ ) ( _article_ )
-
 
 ## Memory
 
