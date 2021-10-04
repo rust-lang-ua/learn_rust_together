@@ -167,4 +167,5 @@ Newspapers
 - [Read Rust](https://readrust.net/)
 - [This Week in Rust](https://this-week-in-rust.org/)
 - [Rust GameDev Working Group](https://gamedev.rs/)
+- [Rust and WebAssembly](https://rustwasm.github.io/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
