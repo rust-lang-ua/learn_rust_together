@@ -164,7 +164,7 @@ Newspapers
 
 ( _list_ )
 
-- [Read Rust by readrust.net](https://readrust.net/)
+- [Read Rust](https://readrust.net/)
 - [This Week in Rust](https://this-week-in-rust.org/)
 - [Rust GameDev Working Group](https://gamedev.rs/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
