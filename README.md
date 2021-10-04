@@ -34,7 +34,7 @@ Newspapers
 - ( _interactive_ ) -- it is possible to interact and get feedback from the system
 - ( _reading_ ) -- material to read
 - ( _video_ ) -- material to watch
-- ( _audio_) -- material to listen
+- ( _audio_ ) -- material to listen
 - ( _list_ ) -- list of resources
 - ( _project_ ) -- a project
 - ( _algo_ ) -- algorithmic problems and solutions
@@ -51,19 +51,12 @@ Newspapers
 - [ Rust by Example ](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ ) ( _book_ )
 - [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _book_ )
-- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
+- [ Язык программирования Rust ](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [ Codebase Reference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _book_ ) ( _book_ )
-
-x
-
-- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ ) ( _book_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _course_ ) ( _book_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
-- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _book_ )
-- [The Cargo Book](https://doc.rust-lang.org/cargo/) ( _reading_ ) ( _book_ )
-
+- [ Rust. Сборник рецептов ](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ ) ( _book_ )
+- [ The Cargo Book ](https://doc.rust-lang.org/cargo/index.html) ( _reading_ ) ( _book_ )
 
 ## General-purpose courses
 
@@ -76,18 +69,18 @@ x
 - [ Easy Rust ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _video_ )
 - [ Easy Rust ](https://github.com/Dhghomon/easy_rust) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
 - [ Программирование на Rust ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
-- [ Курс Rust на NEAR ](https://www.youtube.com/watch?v=CNhfxDFk3yE&list=PL9tzQn_TEuFUakOn-IY9cDQL2ztNzZunh) by [NEAR](https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw) ( _video_ ) ( _non-eng_ )
 - [ Rust by Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [ Rust by RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ )
-- [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ )
+- [ Take your first steps with Rust ](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ )
 
 ## Advanced general-purpose courses
 
 ( _general_ ) ( _course_ ) ( _advanced_ )
 
 - :star: [ Crust of Rust ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _course_ ) ( _book_ )
-- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _book_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _book_ ) ( _official_ )
+- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _book_ ) ( _official_ ) ( _non-eng_ )
+- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ ) ( _book_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ ) ( _book_ )
 
 ## Interactive courses on Rust with feedback
@@ -174,5 +167,4 @@ x
 - [Read Rust by readrust.net](https://readrust.net/)
 - [This Week in Rust](https://this-week-in-rust.org/)
 - [Rust GameDev Working Group](https://gamedev.rs/)
-- [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_)
-
+- [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
