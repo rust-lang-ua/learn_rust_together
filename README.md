@@ -15,7 +15,10 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Domain-specific topics ](#domain-specific-topics-on-rust)
 - [ Memory ](#memory)
 - [ Other lists on Rust ](#other-lists-on-rust)
-- [ Also ](#also)
+- [ Newspapers ](#newspapers)
+<!-- - [ Also ](#also) -->
+
+Newspapers
 
 ## Tags legend
 
@@ -50,8 +53,6 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [ Codebase Refference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _book_ ) ( _book_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _course_ ) ( _book_ )
-- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _book_ )
 
 ## General-purpose courses
 
@@ -72,6 +73,9 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ( _general_ ) ( _course_ ) ( _advanced_ )
 
 - :star: [ Crust of Rust by Jon Gjengset ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) ( _video_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _course_ ) ( _book_ )
+- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _book_ )
+- [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ ) ( _book_ )
 
 ## Interactive courses on Rust with feedback
 
@@ -134,19 +138,28 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ( _list_ )
 
-- [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity)
-- [A curated list of Rust code and resources by Dunham](https://github.com/rust-unofficial/awesome-rust)
-- [Rust Books by Sger](https://github.com/sger/RustBooks)
-- [List of resources to learn Rust by Ctjhoa](https://github.com/ctjhoa/rust-learning)
-- [List of resources to learn Rust by hackr.io](https://hackr.io/tutorials/learn-rust)
+- [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) by [Learn Together](https://github.com/Learn-Together-Pro)
+- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust)
+- [Rust Books](https://github.com/sger/RustBooks) by [Spiros Gerokostas](https://github.com/sger)
+- [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [https://github.com/ctjhoa](Camille TJHOA)
+- [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology by Brson](https://github.com/brson/rust-anthology/blob/master/master-list.md)
-- [Read Rust by readrust.net](https://readrust.net/)
 - [Are we game yet?](https://arewegameyet.rs/)
+- [Are we web yet?](https://www.arewewebyet.org/)
+- [Lib.rs](https://lib.rs/)
+
+## Newspapers
+
+( _list_ )
+
+- [Read Rust by readrust.net](https://readrust.net/)
+- [This Week in Rust](https://this-week-in-rust.org/)
+- [Rust GameDev Working Group](https://gamedev.rs/)
 
 <!-- - [Our secondary collection of lists](./Secondary.md) -->
 <!-- - [Game Engines and Renderers](./GameEnginesAndRenderers.md) -->
 
-## Also
+<!-- ## Also
 
-- [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) ( _list_ )
-- [Starting Rust](https://github.com/Learn-Together-Pro/RustPractice) ( _non-eng_ )
+- [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) ( _list_ ) -->
+<!-- - [Starting with Rust](https://github.com/Learn-Together-Pro/RustPractice) ( _non-eng_ ) -->
