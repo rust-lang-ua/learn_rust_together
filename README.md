@@ -51,20 +51,20 @@ Newspapers
 - [ Rust на примерах ](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ ) ( _book_ )
 - [ The Rust Programming Language ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _book_ )
 - [ The Rust Programming Reference ](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
-- [ Codebase Refference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
+- [ Codebase Reference ](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [ Rust cookbook ](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ ) ( _book_ ) ( _book_ )
 
 ## General-purpose courses
 
 ( _general_ ) ( _course_ )
 
-- [ Intro to Rust by Tensor ](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) ( _video_ )
-- [ Rust Tutorial by Doug Milford ](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) ( _video_ )
-- [ The Rust Lang Book by Lets' Get Rusty ](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) ( _video_ )
-- [ Rust Programming Tutorial by Dcode ](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) ( _video_ )
-- [ Easy Rust by Mithradates/Dhghomon ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) ( _video_ )
-- [ Easy Rust by Mithradates/Dhghomon ](https://github.com/Dhghomon/easy_rust)  ( _reading_ )
-- [ Программирование на Rust by Computer Science Center ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) ( _video_ ) ( _non-eng_ )
+- [ Intro to Rust ](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _video_ )
+- [ Rust Tutorial ](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ )
+- [ The Rust Lang Book ](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _video_ )
+- [ Rust Programming Tutorial ](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _video_ )
+- [ Easy Rust ](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _video_ )
+- [ Easy Rust ](https://github.com/Dhghomon/easy_rust) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
+- [ Программирование на Rust ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
 - [ Rust by Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [ Rust by RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ )
 
@@ -72,7 +72,7 @@ Newspapers
 
 ( _general_ ) ( _course_ ) ( _advanced_ )
 
-- :star: [ Crust of Rust by Jon Gjengset ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) ( _video_ )
+- :star: [ Crust of Rust ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _course_ ) ( _book_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _book_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ ) ( _book_ )
@@ -85,16 +85,16 @@ Newspapers
 - [ Rust explaine ](https://jrvidal.github.io/explaine.rs/)
 - [ Rustlings ](https://github.com/rust-lang/rustlings)
 - [ Tour of Rust ](https://tourofrust.com/index.html)
-- [ Rust by Exercism ](https://exercism.io/my/tracks/rust)
+- [ Rust by Exercism ](https://exercism.io/tracks/rust)
 
 ## Cheat sheets
 
-- [ Rust Language Cheat Sheet ](https://cheats.rs/)
+- [ Rust Language Cheat Sheet ](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
 
 ## Algorithmic problems and solutions in Rust
 
 ( _algo_ )
-- [ Rust Gym ](https://github.com/warycat/rustgym)
+- [ Rust Gym ](https://github.com/warycat/rustgym) by [Larry Fantasy](https://github.com/warycat)
 
 <!-- ## Educational projects
 
@@ -108,13 +108,17 @@ Newspapers
 
 ## Domain-specific topics
 
-- [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk) ( _video_ ) ( _article_ )
-- [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc) ( _video_ ) ( _article_ )
-- [ Web development with rust by Genus-v ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) ( _video_ ) ( _course_ )
-- [ Yew Crash Course by Jeff No Zhao ](https://www.youtube.com/watch?v=lmLiMozWNGA) ( _video_ ) ( _article_ )
-- [Safety in Systems Programming by Stanford University](https://web.stanford.edu/class/cs110l/) ( _reading_ ) ( _course_ )
-- [Comp Sci Rust Programming Course from University of Pennsylvania's](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
-- [Refactoring to Rust by Lily Mara](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) ( _reading_ ) ( _course_ ) ( _advanced_ )
+- [ Understanding lifetimes in Rust ](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
+- [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
+- [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
+- [ How to optimize size of binary executable ](https://github.com/johnthagen/min-sized-rust) by [johnthagen](https://github.com/johnthagen) ( _reading_ ) ( _article_ )
+- [ How to optimize size of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
+- [ How to optimize size of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
+- [ Web development with rust ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
+- [ Yew Crash Course ](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
+- [ Safety in Systems Programming from Stanford University ](https://web.stanford.edu/class/cs110l/) by Ryan Eberhardt and Julio Ballista ( _reading_ ) ( _course_ )
+- [ Comp Sci Rust Programming Course from University of Pennsylvania's ](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
+- [ Refactoring to Rust ](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) ( _reading_ ) ( _course_ ) ( _advanced_ )
 
 ## Size of applications
 
@@ -139,11 +143,12 @@ Newspapers
 ( _list_ )
 
 - [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) by [Learn Together](https://github.com/Learn-Together-Pro)
-- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust)
+- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 - [Rust Books](https://github.com/sger/RustBooks) by [Spiros Gerokostas](https://github.com/sger)
 - [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [https://github.com/ctjhoa](Camille TJHOA)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
-- [Rust Anthology by Brson](https://github.com/brson/rust-anthology/blob/master/master-list.md)
+- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
+- [Read Rust](https://readrust.net/) by [Wesley Moore](https://github.com/wezm)
 - [Are we game yet?](https://arewegameyet.rs/)
 - [Are we web yet?](https://www.arewewebyet.org/)
 - [Lib.rs](https://lib.rs/)
