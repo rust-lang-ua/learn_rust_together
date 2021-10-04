@@ -6,6 +6,8 @@
 
 - ( _error_ ) -- errors handling
 - ( _ui_ ) -- user interface
+- ( _build_ ) -- to build your project
+- ( _wasm_ ) -- WebAssembly-related
 
 ### Errors handling
 
@@ -24,4 +26,12 @@
 
 ( _build_ )
 
-- [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) : wasm web application bundler
+- [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _wasm_ ) : WebAssembly web application bundler
+
+### WebAssembly
+
+( _wasm_ )
+
+- [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _build_ ) : WebAssembly web application bundler
+- [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) : interactions between WebAssembly modules and JavaScript
+- [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
