@@ -40,6 +40,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _toy_ ) -- educatuinal toy projects
 - ( _introductory_ ) -- introductory level
 - ( _advanced_ ) -- advanced level
+- _about:setup_ -- how to install rust and stup your development environment
 - ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:app_size_ ) -- about size of target application
 - ( _about:async_ ) -- about asynchronous programming
@@ -117,22 +118,26 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ## Domain-specific topics
 
 - [ Understanding lifetimes in Rust ](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
-- [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
-- [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
-- [ How to optimize size of binary executable ](https://github.com/johnthagen/min-sized-rust) by [johnthagen](https://github.com/johnthagen) ( _reading_ ) ( _article_ )
-- [ How to optimize size of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
-- [ How to optimize size of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 - [ Web development with rust ](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
 - [ Yew Crash Course ](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
 - [ Safety in Systems Programming from Stanford University ](https://web.stanford.edu/class/cs110l/) by Ryan Eberhardt and Julio Ballista ( _reading_ ) ( _course_ )
 - [ Comp Sci Rust Programming Course from University of Pennsylvania's ](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
 - [ Refactoring to Rust ](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) :blue_book: ( _book_ ) ( _reading_ ) ( _advanced_ ) :
 
+## Setup
+
+( _about:setup_ )
+
+- [ Install Rust ](https://www.rust-lang.org/tools/install) ( _official_ )
+- [ Rustup book ](https://rust-lang.github.io/rustup/) ( _official_ ) ( _reading_ ) ( _course_ )
+- [ How to install debugger on Windows ](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
+- [ How to install debugger on Linux ](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
+
 ## Size of applications
 
 ( _about:app_size_ )
 
-- [ How to optimize size of binary executable ](https://github.com/johnthagen/min-sized-rust) ( _reading_ ) ( _article_ )
+- [ How to optimize size of binary executable ](https://github.com/johnthagen/min-sized-rust) by [johnthagen](https://github.com/johnthagen) ( _reading_ ) ( _article_ )
 - [ How to optimize size of binary executable ](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
 - [ How to optimize size of WebAssembly binary executable ](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 - [ Optimize Rust binaries size with cargo and Semver ](https://oknozor.github.io/blog/optimize-rust-binary-size/) by [Paul Delafosse](https://oknozor.github.io/blog/) ( _reading_ ) ( _article_ )
