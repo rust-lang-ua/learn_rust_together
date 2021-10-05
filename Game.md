@@ -1,4 +1,4 @@
-![Rust](doc/img/logo/Logo2.jpg)
+### Game developer Toolbox
 
 Curated collection of resources to make games on Rust.
 
