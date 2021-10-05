@@ -14,11 +14,9 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Algorithmic problems and solutions in Rust ](#algorithmic-problems-and-solutions-in-rust)
 - [ Domain-specific topics ](#domain-specific-topics-on-rust)
 - [ Memory ](#memory)
-- [ Other lists on Rust ](#other-lists-on-rust)
+- [ Projects catalogue ](#projects-catalogue)
 - [ Newspapers ](#newspapers)
-<!-- - [ Also ](#also) -->
-
-Newspapers
+- [ Other lists on Rust ](#other-lists-on-rust)
 
 ## Tags legend
 
@@ -98,7 +96,7 @@ Newspapers
 ## Cheat sheets
 
 - [ Rust Language Cheat Sheet ](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
-- [ Memory Layout ](./doc/img/logo/Layout.jpg) by Raph Levien
+- [ Memory Layout ](./doc/img/cheatsheet/Layout.jpg) by Raph Levien
 
 ## Algorithmic problems and solutions in Rust
 
@@ -155,6 +153,15 @@ Newspapers
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
 
+## Projects catalogue
+
+( _list_ ) ( _project_ )
+
+- [Are we game yet?](https://arewegameyet.rs/)
+- [Are we web yet?](https://www.arewewebyet.org/)
+- [Lib.rs](https://lib.rs/)
+- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
+
 ## Newspapers
 
 ( _list_ ) ( _newspaper_ )
@@ -164,15 +171,6 @@ Newspapers
 - [Rust GameDev Working Group](https://gamedev.rs/)
 - [Rust and WebAssembly](https://rustwasm.github.io/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
-
-## Projects catalogue
-
-( _list_ ) ( _project_ )
-
-- [Are we game yet?](https://arewegameyet.rs/)
-- [Are we web yet?](https://www.arewewebyet.org/)
-- [Lib.rs](https://lib.rs/)
-- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 
 ## Other lists on Rust
 
