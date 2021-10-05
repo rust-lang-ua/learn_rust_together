@@ -75,7 +75,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Программирование на Rust ](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
 - [ Rust by Tutorials Point ](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [ Rust by RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ )
-- [ Take your first steps with Rust ](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ )
+- [ Take your first steps with Rust ](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 
 ## Advanced general-purpose courses
 
