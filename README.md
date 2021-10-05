@@ -96,7 +96,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ## Cheat sheets
 
 - [ Rust Language Cheat Sheet ](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
-- [ Memory Layout ](./doc/img/cheatsheet/Layout.jpg) by Raph Levien
+- [ Memoty Layout ](./Cheatsheets#memory-Layout) by Raph Levien
 
 ## Algorithmic problems and solutions in Rust
 
