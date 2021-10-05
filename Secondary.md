@@ -1,4 +1,4 @@
-![Rust](./doc/image/Logo2.jpg)
+![Rust](./doc/img/logo/Logo2.jpg)
 
 Secondary collection of lists of resources to learn Rust with us. In the collection with have resources which are not finished or there is a reason not recommend it.
 

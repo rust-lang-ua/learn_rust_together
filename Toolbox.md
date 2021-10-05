@@ -9,6 +9,7 @@
 - ( _build_ ) -- to build your project
 - ( _wasm_ ) -- WebAssembly-related
 - ( _db_ ) -- Database-related
+- ( _async_ ) -- asynchronous programming
 
 ### Errors handling
 
@@ -47,3 +48,9 @@
 
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
 - [diesel](https://github.com/diesel-rs/diesel) : ORM and query builder
+
+### Asynchronous
+
+( _async_ )
+
+- [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives

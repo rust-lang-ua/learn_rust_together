@@ -1,4 +1,4 @@
-![Rust](./doc/image/Logo2.jpg)
+![Rust](./doc/img/logo/Logo2.jpg)
 
 Curated collection of lists of useful resources to learn Rust together.
 
@@ -37,6 +37,7 @@ Newspapers
 - ( _audio_ ) -- material to listen
 - ( _list_ ) -- list of resources
 - ( _newspaper_ ) -- regularly updating list of articles
+- ( _project_ ) -- project
 - ( _algo_ ) -- algorithmic problems and solutions
 - ( _toy_ ) -- educatuinal toy projects
 - ( _introductory_ ) -- introductory level
@@ -97,6 +98,7 @@ Newspapers
 ## Cheat sheets
 
 - [ Rust Language Cheat Sheet ](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
+- [ Memory Layout ](./doc/img/logo/Layout.jpg) by Raph Levien
 
 ## Algorithmic problems and solutions in Rust
 
@@ -163,17 +165,21 @@ Newspapers
 - [Rust and WebAssembly](https://rustwasm.github.io/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
 
+## Projects catalogue
+
+( _list_ ) ( _project_ )
+
+- [Are we game yet?](https://arewegameyet.rs/)
+- [Are we web yet?](https://www.arewewebyet.org/)
+- [Lib.rs](https://lib.rs/)
+- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
+
 ## Other lists on Rust
 
 ( _list_ )
 
 - [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) by [Learn Together](https://github.com/Learn-Together-Pro)
-- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
-- [Rust Books](https://github.com/sger/RustBooks) by [Spiros Gerokostas](https://github.com/sger) :blue_book: ( _book_ )
-- [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [https://github.com/ctjhoa](Camille TJHOA)
+- [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
-- [Read Rust](https://readrust.net/) by [Wesley Moore](https://github.com/wezm)
-- [Are we game yet?](https://arewegameyet.rs/)
-- [Are we web yet?](https://www.arewewebyet.org/)
-- [Lib.rs](https://lib.rs/)
+- [Rust Books](https://github.com/sger/RustBooks) by [Spiros Gerokostas](https://github.com/sger) :blue_book: ( _book_ )

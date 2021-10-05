@@ -1,4 +1,4 @@
-![Rust](doc/image/Logo2.jpg)
+![Rust](doc/img/logo/Logo2.jpg)
 
 Curated collection of resources to make games on Rust.
 
