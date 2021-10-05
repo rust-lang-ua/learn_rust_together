@@ -8,7 +8,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [ Tags legend ](#tags-legend)
 - [ General-purpose official resources ](#general-purpose-official-resources)
-- [ :star: General-purpose courses ](#general-purpose-courses)
+- [ :star: General-purpose courses ](#star-general-purpose-courses)
 - [ Interactive courses on Rust with feedback ](#interactive-courses-on-rust-with-feedback)
 - [ Cheat sheets ](#interactive-courses-on-rust-with-feedback)
 - [ Algorithmic problems and solutions in Rust ](#algorithmic-problems-and-solutions-in-rust)
