@@ -8,7 +8,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [ Tags legend ](#tags-legend)
 - [ General-purpose official resources ](#general-purpose-official-resources)
-- [ General-purpose courses ](#general-purpose-courses)
+- [ :star: General-purpose courses ](#general-purpose-courses)
 - [ Interactive courses on Rust with feedback ](#interactive-courses-on-rust-with-feedback)
 - [ Cheat sheets ](#interactive-courses-on-rust-with-feedback)
 - [ Algorithmic problems and solutions in Rust ](#algorithmic-problems-and-solutions-in-rust)
@@ -62,7 +62,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Rust. Сборник рецептов ](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
 - [ The Cargo Book ](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
 
-## General-purpose courses
+## :star: General-purpose courses
 
 ( _general_ ) ( _course_ )
 

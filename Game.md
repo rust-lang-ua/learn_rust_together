@@ -1,8 +1,8 @@
-### Game developer Toolbox
+# Game developer Toolbox
 
 Curated collection of resources to make games on Rust.
 
-### Game Engines
+## Game Engines
 
 - [Bevy](https://github.com/bevyengine/bevy) : webgpu based game engine
 - [Piston](https://github.com/PistonDevelopers/piston) : the oldest game engine on Rust
@@ -10,11 +10,11 @@ Curated collection of resources to make games on Rust.
 - [macroquad](https://github.com/not-fl3/macroquad) : cross platform game engine
 - [Amethyst](https://github.com/amethyst/amethyst)
 
-### Renderer
+## Renderer
 
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
 
-### Network
+## Network
 
 - [crystalorb](https://github.com/ErnWong/crystalorb) by [Ernest Wong](https://github.com/ErnWong) : networking library

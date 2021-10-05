@@ -1,8 +1,8 @@
 # Toolbox of a developer
 
-### Content
+## Content
 
-### Tags legend
+## Tags legend
 
 - ( _error_ ) -- errors handling
 - ( _ui_ ) -- user interface
@@ -11,30 +11,30 @@
 - ( _db_ ) -- Database-related
 - ( _async_ ) -- asynchronous programming
 
-### Errors handling
+## Errors handling
 
 ( _error_ )
 
 - [miette](https://github.com/zkat/miette) by [Kat Marchán](https://github.com/zkat) : error reporting facilities
 - [thiserror](https://github.com/dtolnay/thiserror) by [David Tolnay](https://github.com/dtolnay) : macro for struct and enum error types
 
-### UI
+## UI
 
 ( _ui_ )
 
 - [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : terminal user interfaces
 
-### Nodejs
+## Nodejs
 
 - [neon](https://github.com/neon-bindings/neon) : native Node.js modules
 
-### Building
+## Building
 
 ( _build_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _wasm_ ) : WebAssembly web application bundler
 
-### WebAssembly
+## WebAssembly
 
 ( _wasm_ )
 
@@ -42,14 +42,14 @@
 - [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) : interactions between WebAssembly modules and JavaScript
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
 
-### Database
+## Database
 
 ( _db_ )
 
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
 - [diesel](https://github.com/diesel-rs/diesel) : ORM and query builder
 
-### Asynchronous
+## Asynchronous
 
 ( _async_ )
 
