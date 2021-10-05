@@ -157,10 +157,10 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ( _list_ ) ( _project_ )
 
-- [Are we game yet?](https://arewegameyet.rs/)
-- [Are we web yet?](https://www.arewewebyet.org/)
-- [Are we GUI yet?](http://www.areweguiyet.com/)
-- [Are we learning yet?](http://www.arewelearningyet.com/) : machine learning in Rust
+- [Are we game yet?](https://arewegameyet.rs/) : gamedev
+- [Are we web yet?](https://www.arewewebyet.org/) : web
+- [Are we GUI yet?](http://www.areweguiyet.com/) : user interfaces
+- [Are we learning yet?](http://www.arewelearningyet.com/) : machine learning
 - [Lib.rs](https://lib.rs/)
 - [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 
