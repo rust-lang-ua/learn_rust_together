@@ -34,6 +34,7 @@
 ( _ui_ )
 
 - [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : terminal user interfaces
+- [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an easy-to-use immediate mode GUI
 
 ## Nodejs
 

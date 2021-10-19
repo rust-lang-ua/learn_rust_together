@@ -18,3 +18,7 @@ Curated collection of resources to make games on Rust.
 ## Network
 
 - [crystalorb](https://github.com/ErnWong/crystalorb) by [Ernest Wong](https://github.com/ErnWong) : networking library
+
+## bevy
+
+- [bevy_mod_picking](https://github.com/aevyrie/bevy_mod_picking) by [Aevyrie](https://github.com/aevyrie) : 3D mouse picking

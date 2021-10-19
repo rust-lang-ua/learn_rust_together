@@ -77,16 +77,18 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [ Rust by RIP Tutorial ](https://riptutorial.com/rust) ( _reading_ )
 - [ Take your first steps with Rust ](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 
-## Advanced general-purpose courses
+## Advanced courses
 
-( _general_ ) ( _course_ ) ( _advanced_ )
+( _course_ ) ( _advanced_ )
 
-- :star: [ Crust of Rust ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ )
+- :star: [ Crust of Rust ](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ ) ( _general_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ )
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ ) ( _non-eng_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
+- [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
+- [The wasm-bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
 
