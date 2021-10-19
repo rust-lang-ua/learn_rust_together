@@ -43,7 +43,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _toy_ ) -- educatuinal toy projects
 - ( _introductory_ ) -- introductory level
 - ( _advanced_ ) -- advanced level
-- _about:setup_ -- how to install rust and stup your development environment
+- ( _about:setup_ ) -- how to install rust and stup your development environment
 - ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:app_size_ ) -- about size of target application
 - ( _about:async_ ) -- about asynchronous programming
@@ -86,6 +86,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ ) ( _non-eng_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
+- [Compile-Time Reflection in Rust](https://www.mn.uio.no/ifi/english/research/groups/psy/completedmasters/2020/gaarde/masterthesis-gaarde.pdf) by Asbjørn Gaarde ( _reading_ )
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
