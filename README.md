@@ -88,7 +88,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 - [Compile-Time Reflection in Rust](https://www.mn.uio.no/ifi/english/research/groups/psy/completedmasters/2020/gaarde/masterthesis-gaarde.pdf) by Asbjørn Gaarde ( _reading_ )
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
-- [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
+- :star: [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
 - [The wasm-bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
