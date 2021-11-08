@@ -47,6 +47,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:app_size_ ) -- about size of target application
 - ( _about:async_ ) -- about asynchronous programming
+- ( _about:closure_ ) -- about closures
 
 ## General-purpose official resources
 
@@ -77,7 +78,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 
-## Advanced courses
+## Advanced
 
 ( _course_ ) ( _advanced_ )
 
@@ -90,6 +91,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
 - :star: [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
 - [The wasm-bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html) ( _reading_ )
+- [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
 
@@ -165,6 +167,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) ( _reading_ ) ( _advanced_ ) by [Amos](https://fasterthanli.me/)
+
+## Closures
+
+( _about:closure_ )
+
+- [Finding Closure](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/) by [Huon Wilson](https://huonw.github.io/about/)  ( _reading_ ) ( _article_ )
+- [Understanding Closures](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759) by [Andrew Pritchard](https://andrewjpritchard.medium.com/) ( _reading_ ) ( _article_ )
 
 ## Projects catalogue
 
