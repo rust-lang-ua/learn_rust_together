@@ -204,4 +204,5 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
 - [Rust Books](https://github.com/sger/RustBooks) :blue_book: by [Spiros Gerokostas](https://github.com/sger)  ( _book_ )
-- [List of chats and forums about Rust](https://github.com/Learn-Together-Pro/RustCommunity) :speech_balloon: by [Learn Together](https://github.com/Learn-Together-Pro)
+- [List of chats and forums](https://github.com/Learn-Together-Pro/RustCommunity) :speech_balloon: by [Learn Together](https://github.com/Learn-Together-Pro)
+- :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by [Learn Together](./Toolbox.md)
