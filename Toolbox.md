@@ -6,6 +6,7 @@
 
 - ( _error_ ) -- errors handling
 - ( _macro_ ) -- writing macros
+- ( _njs_ ) -- NodeJs related
 - ( _ui_ ) -- user interface
 - ( _build_ ) -- toolchains to build your project
 - ( _wasm_ ) -- WebAssembly-related
@@ -47,6 +48,8 @@
 - [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an easy-to-use immediate mode GUI
 
 ## Nodejs
+
+( _njs_ )
 
 - [neon](https://github.com/neon-bindings/neon) : native Node.js modules
 - [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : envirnment manager, like NVM
