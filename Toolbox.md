@@ -49,6 +49,7 @@
 ## Nodejs
 
 - [neon](https://github.com/neon-bindings/neon) : native Node.js modules
+- [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : envirnment manager, like NVM
 
 ## Building
 
