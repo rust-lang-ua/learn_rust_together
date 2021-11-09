@@ -1,4 +1,4 @@
-# Toolbox of a developer
+# Rust Developer's Toolbox
 
 ## Content
 

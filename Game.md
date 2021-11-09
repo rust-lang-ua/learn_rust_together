@@ -1,4 +1,4 @@
-# Game developer Toolbox
+# Rust Game Developer's Toolbox
 
 Curated collection of resources to make games on Rust.
 
