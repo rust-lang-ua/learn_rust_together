@@ -59,7 +59,7 @@ Curated collection of resources to make games on Rust.
 
 - [ultraviolet](https://github.com/termhn/ultraviolet) by [Gray Olson](https://github.com/termhn) : linear algebra crate for games and graphics
 - [packed_simd_2](https://github.com/rust-lang/packed_simd) by [gnzlbg](https://github.com/gnzlbg) : Packed SIMD Vectors
-- [flo_curves](https://github.com/Logicalshift/flo_curves/blob/v0.5/Cargo.toml) by [Avatar Andrew Hunter](https://github.com/Logicalshift) ( _line_ ) :
+- [flo_curves](https://github.com/Logicalshift/flo_curves) by [Andrew Hunter](https://github.com/Logicalshift) ( _line_ ) : bezier curve
 
 ## Sound
 
