@@ -131,7 +131,9 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
 - [Safety in Systems Programming from Stanford University](https://web.stanford.edu/class/cs110l/) by Ryan Eberhardt and Julio Ballista ( _reading_ ) ( _course_ )
 - [Comp Sci Rust Programming Course from University of Pennsylvania's](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
-- [Refactoring to Rust](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) :blue_book: ( _book_ ) ( _reading_ ) ( _advanced_ ) :
+- [Refactoring to Rust](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) :blue_book: ( _book_ ) ( _reading_ ) ( _advanced_ )
+- [Zero To Production In Rust. An introduction to backend development](https://www.zero2prod.com/index.html) by [Luca Palmieri](https://github.com/LukeMathWalker) :blue_book: ( _book_ ) ( _reading_ )
+
 
 ## Setup
 
