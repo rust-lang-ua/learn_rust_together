@@ -89,6 +89,7 @@
 - [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) : interactions between WebAssembly modules and JavaScript
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
 - [wasmtime](https://github.com/bytecodealliance/wasmtime) by [bytecodealliance](https://github.com/bytecodealliance) : standalone JIT-style runtime
+- [wasmer](https://github.com/wasmerio/wasmer) by [Wasmer](https://wasmer.io/)
 - [web-sys](https://crates.io/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
 - [js-sys](https://crates.io/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
 - [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
