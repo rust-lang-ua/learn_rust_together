@@ -18,6 +18,7 @@ wasm-opt -O -o output.wasm input.wasm
 # Optimize aggressively for speed.
 wasm-opt -O3 -o output.wasm input.wasm
 
+# remove a function
 wasm-snip input.wasm -o output.wasm function1
 
 ```
