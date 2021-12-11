@@ -2,7 +2,7 @@
 
 Curated collection of lists of useful resources to learn Rust together.
 
-List of forums and chats you may find [here](https://github.com/Learn-Together-Pro/RustCommunity). I encourage you to seek for help if you struggle to solve a problem. Rust comminity is very friendly!
+List of forums and chats you may find [here](https://github.com/Learn-Together-Pro/RustCommunity). I encourage you to seek for help if you struggle to solve a problem. Rust community is very friendly!
 
 ## Content
 
@@ -45,9 +45,10 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _advanced_ ) -- advanced level
 - ( _about:setup_ ) -- how to install rust and stup your development environment
 - ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
-- ( _about:app_size_ ) -- about size of target application
+- ( _about:bin_size_ ) -- about size of target application
 - ( _about:async_ ) -- about asynchronous programming
 - ( _about:closure_ ) -- about closures
+- ( _about:selfref_ ) -- about self-referential structures
 
 ## General-purpose official resources
 
@@ -142,14 +143,15 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [How to install debugger on Windows](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
 - [How to install debugger on Linux](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
 
-## Size of applications
+## Size of binaries
 
-( _about:app_size_ )
+( _about:bin_size_ )
 
 - [How to optimize size of binary executable](https://github.com/johnthagen/min-sized-rust) by [johnthagen](https://github.com/johnthagen) ( _reading_ ) ( _article_ )
 - [How to optimize size of binary executable](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
 - [How to optimize size of WebAssembly binary executable](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 - [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/) by [Paul Delafosse](https://oknozor.github.io/blog/) ( _reading_ ) ( _article_ )
+- [Shrinking .wasm Code Size](https://rustwasm.github.io/docs/book/reference/code-size.html) by [Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html) ( _reading_ ) ( _article_ )
 
 ## Memory
 
@@ -174,6 +176,12 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [Finding Closure](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/) by [Huon Wilson](https://huonw.github.io/about/)  ( _reading_ ) ( _article_ )
 - [Understanding Closures](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759) by [Andrew Pritchard](https://andrewjpritchard.medium.com/) ( _reading_ ) ( _article_ )
+
+## Self-referential structures
+
+( _about:selfref_ )
+
+- [Self-referential structs](https://www.youtube.com/watch?v=xNrglKGi-7o) by [Amos](https://www.youtube.com/channel/UCs4fQRyl1TJvoeOdekW6lYA) :
 
 ## Projects catalogue
 

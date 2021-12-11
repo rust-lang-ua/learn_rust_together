@@ -102,6 +102,7 @@
 - [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
 - [rayon](https://github.com/rayon-rs/rayon) by [rayon-rs](https://github.com/rayon-rs) : data-parallelism
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
+- [crossbeam](https://github.com/crossbeam-rs/crossbeam) : tools for concurrent programming
 
 ## Abstract Data types
 
