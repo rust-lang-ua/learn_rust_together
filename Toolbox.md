@@ -52,7 +52,8 @@
 ( _njs_ )
 
 - [neon](https://github.com/neon-bindings/neon) : native Node.js modules
-- [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : envirnment manager, like NVM
+- [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : environment manager, like NVM
+- [fnm](https://github.com/Schniz/fnm) by [Gal Schlezinger](https://github.com/Schniz): Fast and simple Node.js version manager
 
 ## Building
 
