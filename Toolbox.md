@@ -30,7 +30,7 @@
 - ( _ios_ ) -- tools for running rust code on iOS
 - ( _example_ ) -- example project
 - ( _templating_ ) -- tools to generate text using template
-- ( _web_server_ ) -- web server
+- ( _web_backend_ ) -- web backend
 
 
 ## Errors handling
@@ -282,8 +282,8 @@
 ( _ios_ )
 
 - [rust-to-ios](https://github.com/wojteklu/rust-to-ios) by [Wojtek Lukaszuk](https://github.com/wojteklu) ( _example_ ) : Example project for building a library for iOS.
-- [xcodegen](https://github.com/yonaskolb/XcodeGen) by [Yonas Kolb](https://github.com/yonaskolb) : Generates your Xcode project
-- [cargo-lipo](https://github.com/TimNN/cargo-lipo) by [Tim Neumann](https://github.com/TimNN) : Provides a cargo lipo subcommand which automatically creates a universal library for use with your iOS application
+- [xcodegen](https://github.com/yonaskolb/XcodeGen) by [Yonas Kolb](https://github.com/yonaskolb) : Utility to generates your Xcode project
+- [cargo-lipo](https://github.com/TimNN/cargo-lipo) by [Tim Neumann](https://github.com/TimNN) : Utility to automatically creates a universal library for use with iOS application
 
 ## Templating
 
@@ -292,8 +292,10 @@
 - [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) : utility to instantiate a template ( _cargo_ ) ( _build_ )
 
-## Web Server
+## Web Backend
 
-( _web_server_ )
+( _web_backend_ )
 
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
+
+<!-- qqq : add tag::utility for each utility -->
