@@ -10,9 +10,12 @@
 - ( _ui_ ) -- user interface
 - ( _build_ ) -- toolchains to build your project
 - ( _wasm_ ) -- WebAssembly-related
+- ( _dom_ ) -- web DOM
 - ( _db_ ) -- database-related
+- ( _functional_ ) -- functional programming
 - ( _virtualisation_ ) -- virtualisation-related, docker-related
 - ( _async_ ) -- asynchronous programming
+- ( _communication_ ) -- either inter-process or inter-thread communication
 - ( _mem_ ) -- memory management
 - ( _fs_ ) -- file system related
 - ( _cargo_ ) -- extension of cargo
@@ -55,16 +58,20 @@
 ( _ui_ )
 
 - [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : terminal user interfaces
-- [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an easy-to-use immediate mode GUI
+- [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an immediate mode GUI
+- [imgui](https://github.com/imgui-rs/imgui-rs) by [imgui-rs](https://github.com/imgui-rs/imgui-rs) : an immediate mode GUI
+- [dialoguer](https://github.com/mitsuhiko/dialoguer) by [Armin Ronacher](https://github.com/mitsuhiko) : command line prompts
 
-## Nodejs
+## NodeJS and JS
 
 ( _njs_ )
 
 - [neon](https://github.com/neon-bindings/neon) : native Node.js modules
-- [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : envirnment manager, like NVM
+- [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : environment manager, like NVM
+- [fnm](https://github.com/Schniz/fnm) by [Gal Schlezinger](https://github.com/Schniz) : Fast and simple Node.js version manager
+- [volta](https://github.com/volta-cli/volta) by [Volta](https://github.com/volta-cli) : JS Toolchains
 
-## Building
+## Building and Optimization
 
 ( _build_ )
 
@@ -80,13 +87,18 @@
 - [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) : Rust task runner and build tool
 - [rust-script](https://crates.io/crates/rust-script) by [Fredrik Fornwall](https://github.com/fornwall) : Run Rust files and expressions without any setup or compilation necessary
 - [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) ( _file-watcher_ ) : Cargo Watch watches over your project's source for changes, and runs Cargo commands when they occur
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
+- [cargo-generate](https://github.com/cargo-generate/cargo-generate) : templates instantiator
 
 ## WebAssembly
 
 ( _wasm_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _build_ ) : WebAssembly web application bundler
-- [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) : interactions between WebAssembly modules and JavaScript
+- [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by [Rust and WebAssembly](https://github.com/rustwasm) : interactions between WebAssembly modules and JavaScript
+- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Rust and WebAssembly](https://github.com/rustwasm) : run tests in browser
+- [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Rust and WebAssembly](https://github.com/rustwasm) : A panic hook for wasm
+- [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to remove function body from a wasm file
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
 - [wasmtime](https://github.com/bytecodealliance/wasmtime) by [bytecodealliance](https://github.com/bytecodealliance) : standalone JIT-style runtime
 - [wasmer](https://github.com/wasmerio/wasmer) by [Wasmer](https://wasmer.io/)
@@ -95,6 +107,16 @@
 - [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
 - [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
 - [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [rustwasm](https://github.com/rustwasm) ( _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook that forwards panic messages to console
+- [twiggy](https://github.com/rustwasm/twiggy) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to profile wasm code size
+- [Binaryen Optimizations](https://github.com/WebAssembly/binaryen) by [WebAssembly](https://github.com/WebAssembly) : utility to optimize wasm file
+- [wizer](https://github.com/bytecodealliance/wizer) by [Bytecode Alliance](https://github.com/bytecodealliance) : performance optimization by compile-time pre-initialization
+- [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Rust and WebAssembly](https://github.com/rustwasm) : 1kB-size memory allocator for size-optimized builds
+
+## Web DOM
+
+( _dom_ )
+
+- [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
 
 ## Database
 
@@ -103,6 +125,18 @@
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
 - [diesel](https://github.com/diesel-rs/diesel) : ORM and query builder
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
+
+## Functional programming
+
+( _functional_ )
+
+- [itertools](https://github.com/rust-itertools/itertools) : extra iterator tools
+
+## Version Control Systems
+
+( _vcs_ )
+
+- [gix](https://github.com/Byron/gitoxide) by [Sebastian Thiel](https://github.com/Byron) : implementation of Git
 
 ## Virtualization
 
@@ -121,6 +155,14 @@
 - [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
 - [rayon](https://github.com/rayon-rs/rayon) by [rayon-rs](https://github.com/rayon-rs) : data-parallelism
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
+- [crossbeam](https://github.com/crossbeam-rs/crossbeam) : tools for concurrent programming
+- [bounded-spsc-queue](https://github.com/polyfractal/bounded-spsc-queue) by [Zachary Tong](https://github.com/polyfractal) : bounded, Single-producer Single-consumer queue (SPSC)
+
+## Communication
+
+( _communication_ )
+
+- [turbine](https://github.com/polyfractal/Turbine) by [Zachary Tong](https://github.com/polyfractal) : inter-task communication
 
 ## Abstract Data types
 
@@ -139,7 +181,9 @@
 - [byte-slice-cast](https://github.com/sdroege/byte-slice-cast) by [Sebastian Dröge](https://github.com/sdroege)
 - [zerocopy](https://docs.rs/zerocopy/) by [Joshua Liebow-Feeser](https://github.com/joshlf) : zero-copy parsing and serialization
 - [bincode](https://github.com/bincode-org/bincode) by [Nathan McCarty](https://github.com/nmccarty) : a binary encoder / decoder implementation
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
 - [memmap](https://github.com/danburkert/memmap-rs) by [Dan Burkert](https://github.com/danburkert) : API for memory mapped IO
+- [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Rust and WebAssembly](https://github.com/rustwasm) : 1kB-size memory allocator for size-optimized builds
 
 ## Serialization
 
@@ -180,6 +224,8 @@
 
 - [faerie](https://github.com/m4b/faerie) by [m4b](https://github.com/m4b) : ELF and Mach-o object file writer
 - [goblin](https://github.com/m4b/goblin) by [m4b](https://github.com/m4b) : binary parsing
+- [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
 - [cpuid](https://github.com/gz/rust-cpuid) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
 
@@ -188,7 +234,7 @@
 ( _crypto_ )
 
 - [ahash](https://github.com/tkaitchuck/aHash) by [Tom Kaitchuck](https://github.com/tkaitchuck) : fast non-cryptographic hashing
-- [xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) by [Douman](https://github.com/DoumanAsh) :
+- [xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) by [Douman](https://github.com/DoumanAsh) : one of the fastest non-crypto hashes
 
 ## Compression
 
