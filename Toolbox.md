@@ -32,7 +32,7 @@
 - ( _ios_ ) -- tools for running rust code on iOS
 - ( _example_ ) -- example project
 - ( _templating_ ) -- tools to generate text using template
-- ( _server_ ) -- server-related tool or crate
+- ( _web_server_ ) -- web server
 
 
 ## Errors handling
@@ -83,10 +83,10 @@
 
 ( _cargo_ ) ( _build_ )
 
-- [cargo-edit](https://github.com/killercup/cargo-edit) by [Pascal Hertleif](https://github.com/killercup) : add commands add, remove, upgrade
-- [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) : Rust task runner and build tool
-- [rust-script](https://crates.io/crates/rust-script) by [Fredrik Fornwall](https://github.com/fornwall) : Run Rust files and expressions without any setup or compilation necessary
-- [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) ( _file-watcher_ ) : Cargo Watch watches over your project's source for changes, and runs Cargo commands when they occur
+- [cargo-edit](https://github.com/killercup/cargo-edit) by [Pascal Hertleif](https://github.com/killercup) : Utility to add, remove, upgrade cargo dependencies
+- [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) : Utility to build
+- [rust-script](https://github.com/fornwall/rust-script) by [Fredrik Fornwall](https://github.com/fornwall) : Utility to interpret rust files and expressions
+- [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) : Utility to watch over your project's source for changes
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) : templates instantiator
 
@@ -211,7 +211,7 @@
 
 - [smartstring](https://github.com/bodil/smartstring) by [Bodil Stokke](https://github.com/bodil) : compact inlined strings
 
-## parser
+## Parser
 
 ( _parser_ )
 
@@ -253,9 +253,9 @@
 
 ( _terminal_ )
 
-- [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : are you or are you not a tty?
+- [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : check is it a tty?
 
-## Logging 
+## Logging
 
 ( _logger_ )
 
@@ -265,7 +265,7 @@
 
 ( _mobile_ )
 
-- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _building_ ) : Run rust on mobile
+- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _building_ ) : Utility to run rust on mobile
 - [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) ( _building_ ) : cross-platform rust toolkit for games
 - [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Brainium Studios LLC](http://brainiumstudios.com/) : Wraps a function to make it the entry-point for an mobile app
 
@@ -273,9 +273,9 @@
 
 ( _android_ )
 
-- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) ( _android_ ) : Libraries and tools for Rust programming on Android targets
-- [ndk-glue](https://crates.io/crates/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : Interoperability library for a native Rust application with the Android framework.
-- [ndk-sys](https://crates.io/crates/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : Raw FFI bindings to the NDK
+- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) : Libraries and tools for Rust programming on Android targets
+- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : Interoperability library for a native Rust application with the Android framework.
+- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : Raw FFI bindings to the NDK
 - [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : Send Rust logs to Logcat
 - [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _building_ ) : Tool for creating Android packages
 
@@ -293,9 +293,8 @@
 
 - [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
 
-## Server
+## Web Server
 
-( _server_ )
+( _web_server_ )
 
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
-
