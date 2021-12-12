@@ -102,10 +102,6 @@
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
 - [wasmtime](https://github.com/bytecodealliance/wasmtime) by [bytecodealliance](https://github.com/bytecodealliance) : standalone JIT-style runtime
 - [wasmer](https://github.com/wasmerio/wasmer) by [Wasmer](https://wasmer.io/)
-- [web-sys](https://crates.io/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
-- [js-sys](https://crates.io/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
-- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
-- [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
 - [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [rustwasm](https://github.com/rustwasm) ( _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook that forwards panic messages to console
 - [twiggy](https://github.com/rustwasm/twiggy) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to profile wasm code size
 - [Binaryen Optimizations](https://github.com/WebAssembly/binaryen) by [WebAssembly](https://github.com/WebAssembly) : utility to optimize wasm file
@@ -116,7 +112,11 @@
 
 ( _dom_ )
 
+- [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
+- [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
+- [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
+- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
 
 ## Database
 
