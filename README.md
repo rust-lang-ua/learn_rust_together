@@ -9,12 +9,16 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Tags legend](#tags-legend)
 - [General-purpose official resources](#general-purpose-official-resources)
 - [:star: General-purpose courses](#star-general-purpose-courses)
+- [Advanced](#advanced)
+- [Additional](#additional)
+- [WebAssembly](#webassembly)
+- [Embedded](#embedded)
 - [Interactive courses on Rust with feedback](#interactive-courses-on-rust-with-feedback)
 - [Cheat sheets](#interactive-courses-on-rust-with-feedback)
 - [Algorithmic problems and solutions in Rust](#algorithmic-problems-and-solutions-in-rust)
 - [Domain-specific topics](#domain-specific-topics-on-rust)
 - [Setup](#setup)
-- [Size of applications](#size-of-applications)
+- [Size of binaries](#size-of-binaries)
 - [Memory](#memory)
 - [Asynchronous](#asynchronous)
 - [Projects catalogue](#projects-catalogue)
@@ -49,6 +53,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _about:async_ ) -- about asynchronous programming
 - ( _about:closure_ ) -- about closures
 - ( _about:selfref_ ) -- about self-referential structures
+- ( _about:webasm_ ) -- about WebAssembly
 
 ## General-purpose official resources
 
@@ -62,7 +67,6 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
 - [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
-- [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
 
 ## :star: General-purpose courses
 
@@ -75,6 +79,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _video_ )
 - [Easy Rust](https://github.com/Dhghomon/easy_rust) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
+- [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
@@ -84,15 +89,32 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ( _course_ ) ( _advanced_ )
 
 - :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ ) ( _general_ )
+
+## Additional
+
+( _course_ ) ( _advanced_ )
+
+- [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ )
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ ) ( _non-eng_ )
+- [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 - [Compile-Time Reflection in Rust](https://www.mn.uio.no/ifi/english/research/groups/psy/completedmasters/2020/gaarde/masterthesis-gaarde.pdf) by Asbjørn Gaarde ( _reading_ )
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
+- [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
+- [API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
+
+## WebAssembly
+
+( _course_ ) ( _about:webasm_ )
+
 - :star: [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
 - [The wasm-bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html) ( _reading_ )
-- [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
+
+## Embedded
+
+- [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html) ( _course_ ) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
 
@@ -108,6 +130,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [Rust Language Cheat Sheet](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
 - [Memoty Layout](./Cheatsheets.md#memory-layout) by Raph Levien
+- [Cheat Sheet](https://github.com/donbright/rust-lang-cheat-sheet) by [don bright](https://github.com/donbright) : basics
 
 ## Algorithmic problems and solutions in Rust
 
