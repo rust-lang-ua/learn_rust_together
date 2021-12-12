@@ -1,7 +1,5 @@
 # Rust Developer's Toolbox
 
-## Content
-
 ## Tags legend
 
 - ( _error_ ) -- errors handling
