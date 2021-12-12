@@ -24,6 +24,16 @@
 - ( _compression_ ) -- compression, archiving
 - ( _srs_ ) -- self referential structures
 - ( _terminal_ ) -- terminal, textual output
+- ( _bindings_ ) -- bindings to foreign library or service
+- ( _logger_ ) -- tool for printing information
+- ( _mobile_ ) -- tool or lib related to running rust code on mobile
+- ( _building_ ) -- project building tool
+- ( _android_ ) -- tools for running rust code on Android
+- ( _ios_ ) -- tools for running rust code on iOS
+- ( _example_ ) -- example project
+- ( _templating_ ) -- tools to generate text using template
+- ( _server_ ) -- server-related tool or crate
+
 
 ## Errors handling
 
@@ -66,8 +76,19 @@
 ( _build_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _wasm_ ) : WebAssembly web application bundler
-- [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) : cross-platform rust toolkit for games
-- [cross](https://github.com/rust-embedded/cross) by [Rust Embedded](https://github.com/rust-embedded) : cross-compilation and cross-testing
+<!-- - [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) : cross-platform rust toolkit for games -->
+- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) : cross-compilation and cross-testing
+
+## Cargo extension
+
+( _cargo_ ) ( _build_ )
+
+- [cargo-edit](https://github.com/killercup/cargo-edit) by [Pascal Hertleif](https://github.com/killercup) : add commands add, remove, upgrade
+- [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) : Rust task runner and build tool
+- [rust-script](https://crates.io/crates/rust-script) by [Fredrik Fornwall](https://github.com/fornwall) : Run Rust files and expressions without any setup or compilation necessary
+- [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) ( _file-watcher_ ) : Cargo Watch watches over your project's source for changes, and runs Cargo commands when they occur
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
+- [cargo-generate](https://github.com/cargo-generate/cargo-generate) : templates instantiator
 
 ## WebAssembly
 
@@ -80,6 +101,12 @@
 - [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to remove function body from a wasm file
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
 - [wasmtime](https://github.com/bytecodealliance/wasmtime) by [bytecodealliance](https://github.com/bytecodealliance) : standalone JIT-style runtime
+- [wasmer](https://github.com/wasmerio/wasmer) by [Wasmer](https://wasmer.io/)
+- [web-sys](https://crates.io/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
+- [js-sys](https://crates.io/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
+- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
+- [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
+- [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [rustwasm](https://github.com/rustwasm) ( _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook that forwards panic messages to console
 - [twiggy](https://github.com/rustwasm/twiggy) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to profile wasm code size
 - [Binaryen Optimizations](https://github.com/WebAssembly/binaryen) by [WebAssembly](https://github.com/WebAssembly) : utility to optimize wasm file
 - [wizer](https://github.com/bytecodealliance/wizer) by [Bytecode Alliance](https://github.com/bytecodealliance) : performance optimization by compile-time pre-initialization
@@ -90,14 +117,6 @@
 ( _dom_ )
 
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
-
-## Cargo extension
-
-( _cargo_ ) ( _build_ )
-
-- [cargo-edit](https://github.com/killercup/cargo-edit) by [Pascal Hertleif](https://github.com/killercup) : add commands add, remove, upgrade
-- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
-- [cargo-generate](https://github.com/cargo-generate/cargo-generate) : templates instantiator
 
 ## Database
 
@@ -235,3 +254,48 @@
 ( _terminal_ )
 
 - [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : are you or are you not a tty?
+
+## Logging 
+
+( _logger_ )
+
+- [log](https://crates.io/crates/log) by [Rust-lang](https://github.com/rust-lang) : Library providing a lightweight logging facade
+
+## Mobile
+
+( _mobile_ )
+
+- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _building_ ) : Run rust on mobile
+- [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) ( _building_ ) : cross-platform rust toolkit for games
+- [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Brainium Studios LLC](http://brainiumstudios.com/) : Wraps a function to make it the entry-point for an mobile app
+
+## Android
+
+( _android_ )
+
+- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) ( _android_ ) : Libraries and tools for Rust programming on Android targets
+- [ndk-glue](https://crates.io/crates/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : Interoperability library for a native Rust application with the Android framework.
+- [ndk-sys](https://crates.io/crates/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : Raw FFI bindings to the NDK
+- [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : Send Rust logs to Logcat
+- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _building_ ) : Tool for creating Android packages
+
+## iOS
+
+( _ios_ )
+
+- [rust-to-ios](https://github.com/wojteklu/rust-to-ios) by [Wojtek Lukaszuk](https://github.com/wojteklu) ( _example_ ) : Example project for building a library for iOS.
+- [xcodegen](https://github.com/yonaskolb/XcodeGen) by [Yonas Kolb](https://github.com/yonaskolb) : Generates your Xcode project
+- [cargo-lipo](https://github.com/TimNN/cargo-lipo) by [Tim Neumann](https://github.com/TimNN) : Provides a cargo lipo subcommand which automatically creates a universal library for use with your iOS application
+
+## Templating
+
+( _templating_ )
+
+- [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
+
+## Server
+
+( _server_ )
+
+- [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
+

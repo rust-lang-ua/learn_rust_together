@@ -8,6 +8,7 @@ Curated collection of resources to make games on Rust.
 ( _bevy_ ) - Bevy-related
 ( _line_ ) - line-related
 ( _dsp_ ) - digital signal processing
+( _windowing_ ) - window creation and management
 
 ## Game Engines
 
@@ -21,6 +22,12 @@ Curated collection of resources to make games on Rust.
 
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
+
+## Window management
+
+( _windowing_ )
+
+- [winit](https://github.com/rust-windowing/winit) by [rust-windowing](https://github.com/rust-windowing) : Cross-platform window creation and management
 
 ## Network
 
