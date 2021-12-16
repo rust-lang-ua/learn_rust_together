@@ -1,5 +1,43 @@
 # Rust Developer's Toolbox
 
+## [Rust Developer's Toolbox](#rust-developer-s-toolbox)
+
+- [Tags legend](#tags-legend)
+- [Errors handling](#errors-handling)
+- [Macros](#macros)
+- [UI](#ui)
+- [NodeJS and JS](#nodejs-and-js)
+- [Building and Optimization](#building-and-optimization)
+- [Cross-compile](#cross-compile)
+- [Cargo extension](#cargo-extension)
+- [Testing](#testing)
+- [WebAssembly](#webassembly)
+- [Web DOM](#web-dom)
+- [Database](#database)
+- [Functional programming](#functional-programming)
+- [Version Control Systems](#version-control-systems)
+- [Virtualization](#virtualization)
+- [Asynchronous](#asynchronous)
+- [Communication](#communication)
+- [Abstract Data types](#abstract-data-types)
+- [Memory management](#memory-management)
+- [Serialization](#serialization)
+- [File system](#file-system)
+- [Network](#network)
+- [String](#string)
+- [Parser](#parser)
+- [Asm](#asm)
+- [Cryptographic](#cryptographic)
+- [Compression](#compression)
+- [Self Referential Structs](#self-referential-structs)
+- [Terminal](#terminal)
+- [Logging](#logging)
+- [Mobile](#mobile)
+- [Android](#android)
+- [iOS](#ios)
+- [Templating](#templating)
+- [Web Backend](#web-backend)
+
 ## Tags legend
 
 - ( _error_ ) -- errors handling
@@ -80,6 +118,11 @@
 ## Cross-compile
 
 - [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _build_ ) : cross-compilation and cross-testing
+- [rust-cross](https://github.com/japaric/rust-cross) by [Jorge Aparicio](https://github.com/japaric) ( _build_ ) : cross-compilation
+- [Cross-Compiling Rust from macOS To Linux](https://omarkhawaja.com/cross-compiling-rust-from-macos-to-linux/) by [Omar Khawaja](https://omarkhawaja.com/author/omar/) ( _build_ ) : cross-compilation
+- [osxcross](https://github.com/tpoechtrager/osxcross) by [Thomas Pöchtrager](https://github.com/tpoechtrager) ( _build_ ) : cross toolchain for Linux and *BSD
+- [Cross compiling Rust from Linux to macOS](https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html) by [James Waples](https://wapl.es) ( _build_ ) : cross-compilation
+- [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/) by [Jake Shadle](https://github.com/Jake-Shadle) ( _build_ ) : cross-compilation
 
 ## Cargo extension
 
