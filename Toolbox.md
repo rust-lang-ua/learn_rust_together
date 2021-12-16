@@ -6,6 +6,7 @@
 - ( _macro_ ) -- writing macros
 - ( _njs_ ) -- NodeJs related
 - ( _ui_ ) -- user interface
+- ( _cross_compile_ ) - build from one platform to another one
 - ( _build_ ) -- toolchains to build your project
 - ( _wasm_ ) -- WebAssembly-related
 - ( _dom_ ) -- web DOM
@@ -25,13 +26,12 @@
 - ( _bindings_ ) -- bindings to foreign library or service
 - ( _logger_ ) -- tool for printing information
 - ( _mobile_ ) -- tool or lib related to running rust code on mobile
-- ( _building_ ) -- project building tool
 - ( _android_ ) -- tools for running rust code on Android
 - ( _ios_ ) -- tools for running rust code on iOS
 - ( _example_ ) -- example project
 - ( _templating_ ) -- tools to generate text using template
 - ( _web_backend_ ) -- web backend
-
+- ( _testing_ ) -- for writing tests
 
 ## Errors handling
 
@@ -74,9 +74,12 @@
 ( _build_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _wasm_ ) : WebAssembly web application bundler
-- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) : cross-compilation and cross-testing
+- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _cross_compile_ ) : cross-compilation and cross-testing
 - [duckscript](https://github.com/sagiegurari/duckscript) by [Sagie Gur-Ari](https://github.com/sagiegurari) : utility to be cross-platform shell.
-<!-- - [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) : cross-platform rust toolkit for games -->
+
+## Cross-compile
+
+- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _build_ ) : cross-compilation and cross-testing
 
 ## Cargo extension
 
@@ -89,13 +92,20 @@
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) : utility to instantiate a template ( _templating_ )
 
+## Testing
+
+( _testing_ )
+
+- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Rust and WebAssembly](https://github.com/rustwasm) ( _wasm_ ) : run tests of wasm-based application in browser
+- [trybuild](https://github.com/dtolnay/trybuild) by [David Tolnay](https://github.com/dtolnay) : negative testing, when error during compilation is expected result.
+
 ## WebAssembly
 
 ( _wasm_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _build_ ) : WebAssembly web application bundler
 - [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by [Rust and WebAssembly](https://github.com/rustwasm) : interactions between WebAssembly modules and JavaScript
-- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Rust and WebAssembly](https://github.com/rustwasm) : run tests in browser
+- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Rust and WebAssembly](https://github.com/rustwasm) ( _testing_ ) : run tests of wasm-based application in browser
 - [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Rust and WebAssembly](https://github.com/rustwasm) : A panic hook for wasm
 - [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to remove function body from a wasm file
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
@@ -265,8 +275,8 @@
 
 ( _mobile_ )
 
-- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _building_ ) : utility to run rust on mobile
-- [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) ( _building_ ) : cross-platform rust toolkit for games
+- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _build_ ) : utility to run rust on mobile
+- [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) : cross-platform rust toolkit for games
 - [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Brainium Studios LLC](http://brainiumstudios.com/) : Wraps a function to make it the entry-point for an mobile app
 
 ## Android
@@ -277,7 +287,7 @@
 - [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : Interoperability library for a native Rust application with the Android framework.
 - [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : Raw FFI bindings to the NDK
 - [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : Send Rust logs to Logcat
-- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _building_ ) : Tool for creating Android packages
+- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _build_ ) : Tool for creating Android packages
 
 ## iOS
 
