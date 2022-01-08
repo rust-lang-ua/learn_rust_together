@@ -20,6 +20,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Algorithmic problems and solutions in Rust](#algorithmic-problems-and-solutions-in-rust)
 - [Domain-specific topics](#domain-specific-topics-on-rust)
 - [Setup](#setup)
+- [Cross-compile](#cross-compile)
 - [Size of binaries](#size-of-binaries)
 - [Memory](#memory)
 - [Asynchronous](#asynchronous)
@@ -51,12 +52,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _introductory_ ) -- introductory level
 - ( _advanced_ ) -- advanced level
 - ( _about:setup_ ) -- how to install rust and stup your development environment
+- ( _about:cross_compile_ ) -- how to build from one platform to another one
 - ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:bin_size_ ) -- about size of target application
 - ( _about:async_ ) -- about asynchronous programming
-- ( _about:ownership-semantics_ ) -- about owning/borrowing/lifetimes
+- ( _about:ownership_semantics_ ) -- about owning/borrowing/lifetimes
 - ( _about:closure_ ) -- about closures
-- ( _about:self-ref_ ) -- about self-referential structures
+- ( _about:self_ref_ ) -- about self-referential structures
 - ( _about:webasm_ ) -- about WebAssembly
 - ( _about:web_ ) -- web development
 - ( _about:graphics_ ) -- graphics
@@ -170,6 +172,15 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [How to install debugger on Windows](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
 - [How to install debugger on Linux](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
 
+## Cross-compile
+
+( _about:cross_compile_ ) ( _specific_ )
+
+- [rust-cross](https://github.com/japaric/rust-cross) by [Jorge Aparicio](https://github.com/japaric) ( _reading_ ) ( _article_ )
+- [Cross-Compiling Rust from macOS To Linux](https://omarkhawaja.com/cross-compiling-rust-from-macos-to-linux/) by [Omar Khawaja](https://omarkhawaja.com/author/omar/) ( _reading_ ) ( _article_ )
+- [Cross compiling Rust from Linux to macOS](https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html) by [James Waples](https://wapl.es) ( _reading_ ) ( _article_ )
+- [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/) by [Jake Shadle](https://github.com/Jake-Shadle) ( _reading_ ) ( _article_ )
+
 ## Size of binaries
 
 ( _about:bin_size_ )
@@ -199,7 +210,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Ownership semantics
 
-( _about:ownership-semantics_ )
+( _about:ownership_semantics_ )
 
 - [Deref vs AsRef vs Borrow vs Cow](https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6) by [Alex](https://dev.to/zhanghandong)
 - [Understanding lifetimes in Rust](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
@@ -213,7 +224,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Self-referential structures
 
-( _about:self-ref_ )
+( _about:self_ref_ )
 
 - [Self-referential structs](https://www.youtube.com/watch?v=xNrglKGi-7o) by [Amos](https://www.youtube.com/channel/UCs4fQRyl1TJvoeOdekW6lYA) :
 

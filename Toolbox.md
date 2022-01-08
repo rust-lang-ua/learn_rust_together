@@ -39,8 +39,8 @@
 - ( _hashing_ ) -- hashing algorithms
 - ( _cryptographic_ ) -- cryptographic
 - ( _compression_ ) -- compression, archiving
-- ( _self-ref_ ) -- self referential structures
-- ( _ownership-semantics_ ) -- solutions of problems of owning/borrowing/lifetimes self referring 
+- ( _self_ref_ ) -- self referential structures
+- ( _ownership_semantics_ ) -- solutions of problems of owning/borrowing/lifetimes self referring
 - ( _terminal_ ) -- terminal, textual output
 - ( _bindings_ ) -- bindings to foreign library or service
 - ( _logger_ ) -- tool for printing information
@@ -129,6 +129,13 @@
 - [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) ( _utility_ ) : make-like utility
 - [just](https://github.com/casey/just) by [Casey Rodarmor](https://github.com/casey) ( _utility_ ) : make-like utility
 - [cargo-bundle](https://github.com/burtonageo/cargo-bundle) by [George Burton](https://github.com/burtonageo) : cross-platform bundling
+
+## Cross-compile
+
+( _cross_compile_ )
+
+- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _build_ ) : cross-compilation and cross-testing
+- [osxcross](https://github.com/tpoechtrager/osxcross) by [Thomas Pöchtrager](https://github.com/tpoechtrager) : cross toolchain for Linux and *BSD
 
 ## Cargo extension
 
@@ -402,14 +409,14 @@
 
 ## Self Referential Structs
 
-( _self-ref_ ) ( _ownership-semantics_ )
+( _self_ref_ ) ( _ownership_semantics_ )
 
 - [owning_ref](https://github.com/Kimundi/owning-ref-rs) by [Marvin Löbel](https://github.com/Kimundi) : references that carry their owner with them
 - [ouroboros](https://github.com/joshua-maros/ouroboros) by [Joshua Maros](https://github.com/joshua-maros) : self-referential struct generation
 
 ## Ownership semantic
 
-( _ownership-semantics_ )
+( _ownership_semantics_ )
 
 - [indexing](https://github.com/bluss/indexing) by [bluss](https://github.com/bluss) : solving indexing problem by associating lifetime with intervals
 
