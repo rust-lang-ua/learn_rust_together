@@ -4,6 +4,8 @@ Curated collection of lists of useful resources to learn Rust together.
 
 List of forums and chats you may find [here](https://github.com/Learn-Together-Pro/RustCommunity). I encourage you to seek for help if you struggle to solve a problem. Rust community is very friendly!
 
+<!-- - []() by []() : -->
+
 ## Content
 
 - [Tags legend](#tags-legend)
@@ -21,6 +23,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Size of binaries](#size-of-binaries)
 - [Memory](#memory)
 - [Asynchronous](#asynchronous)
+- [Ownership semantics](#ownership_semantics)
 - [Projects catalogue](#projects-catalogue)
 - [Newspapers](#newspapers)
 - [Other lists on Rust](#other-lists-on-rust)
@@ -51,22 +54,25 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:bin_size_ ) -- about size of target application
 - ( _about:async_ ) -- about asynchronous programming
+- ( _about:ownership-semantics_ ) -- about owning/borrowing/lifetimes
 - ( _about:closure_ ) -- about closures
-- ( _about:selfref_ ) -- about self-referential structures
+- ( _about:self-ref_ ) -- about self-referential structures
 - ( _about:webasm_ ) -- about WebAssembly
+- ( _about:web_ ) -- web development
+- ( _about:graphics_ ) -- graphics
 
 ## General-purpose official resources
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ )
-- [Rust на примерах](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ )
 - [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ )
 - [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ )
-- [The Rust Programming Reference](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
-- [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ )
+- [Rust на примерах](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
 - [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
+- [The Rust Programming Reference](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
+- [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 
 ## :star: General-purpose courses
 
@@ -138,19 +144,17 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [Rust Gym](https://github.com/warycat/rustgym) by [Larry Fantasy](https://github.com/warycat)
 
-<!-- ## Educational projects
+## Educational projects
 
 ( _toy_ )
 
 - [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
 - [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _course_ )
 - [Building a runtime reflection system for Rust](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/)
-
--->
+- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _video_ ) ( _course_ )
 
 ## Domain-specific topics
 
-- [Understanding lifetimes in Rust](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
 - [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
 - [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
 - [Safety in Systems Programming from Stanford University](https://web.stanford.edu/class/cs110l/) by Ryan Eberhardt and Julio Ballista ( _reading_ ) ( _course_ )
@@ -193,6 +197,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) ( _reading_ ) ( _advanced_ ) by [Amos](https://fasterthanli.me/)
 
+## Ownership semantics
+
+( _about:ownership-semantics_ )
+
+- [Deref vs AsRef vs Borrow vs Cow](https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6) by [Alex](https://dev.to/zhanghandong)
+- [Understanding lifetimes in Rust](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
+
 ## Closures
 
 ( _about:closure_ )
@@ -202,9 +213,21 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Self-referential structures
 
-( _about:selfref_ )
+( _about:self-ref_ )
 
 - [Self-referential structs](https://www.youtube.com/watch?v=xNrglKGi-7o) by [Amos](https://www.youtube.com/channel/UCs4fQRyl1TJvoeOdekW6lYA) :
+
+## Web development
+
+( _about:web_ )
+
+- [Validating JSON input](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/) by [Evaldas Buinauskas](https://github.com/buinauskas) ( _reading_ ) ( _article_ )
+
+## Graphics
+
+( _about:graphics_ )
+
+- [Learn Wgpu](https://sotrh.github.io/learn-wgpu/) by [sotrh](https://github.com/sotrh) : good introduction into [wgpu](https://github.com/gfx-rs/wgpu)
 
 ## Projects catalogue
 
