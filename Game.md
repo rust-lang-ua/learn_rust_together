@@ -1,4 +1,4 @@
-# Rust Game & Graphics Developer's Toolbox
+# Rust Game, Graphics and Multimedia Developer's Toolbox
 
 Curated collection of resources to make games on Rust.
 

@@ -411,7 +411,7 @@
 
 - [yazi](https://github.com/dfrg/yazi) by [Chad Brokaw](https://github.com/dfrg) : deflate/zlib compression
 
-## Self Referential Structs
+## Self referential structures
 
 ( _self_ref_ ) ( _ownership_semantics_ )
 

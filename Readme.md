@@ -270,5 +270,5 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
 - [Rust Books](https://github.com/sger/RustBooks) :blue_book: by [Spiros Gerokostas](https://github.com/sger)  ( _book_ )
 - [List of chats and forums](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Communities.md) :speech_balloon: by us
-- [Game Developer's Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Game.md) :video_game: by [Learn Together](./Toolbox.md)
+- [Game Developer's Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Game.md) :video_game: by us
 - :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by us
