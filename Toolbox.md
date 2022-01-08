@@ -15,6 +15,7 @@
 - ( _build_ ) -- toolchains to build your project
 - ( _wasm_ ) -- WebAssembly-related
 - ( _dom_ ) -- web DOM
+- ( _web_backend_ ) -- web backend
 - ( _db_ ) -- database-related
 - ( _functional_ ) -- functional programming
 - ( _virtualisation_ ) -- virtualisation-related, docker-related
@@ -28,6 +29,7 @@
 - ( _stack_based_ ) -- stack-based data structures and algorithms
 - ( _graphs_ ) -- graphcs data structures and algorithms
 - ( _gdf_ ) -- general data format, genera-purpose formats to exchange data
+- ( _asset_image_ ) -- reading / writing / manipulating various image formats
 - ( _fs_ ) -- file system related
 - ( _os_ ) -- operation systems, bootloaders and components of such
 - ( _cargo_ ) -- extension of cargo
@@ -51,7 +53,6 @@
 - ( _utility_ ) -- utility to run in terminal
 - ( _example_ ) -- example project
 - ( _templating_ ) -- tools to generate text using template
-- ( _web_backend_ ) -- web backend
 - ( _hpc_ ) -- high performance computing
 - ( _embed_ ) -- embedded
 - ( _foreign_ ) -- foreign functions, C / C++ binding,  foreign function interface ( FFI )
@@ -129,6 +130,7 @@
 - [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) ( _utility_ ) : make-like utility
 - [just](https://github.com/casey/just) by [Casey Rodarmor](https://github.com/casey) ( _utility_ ) : make-like utility
 - [cargo-bundle](https://github.com/burtonageo/cargo-bundle) by [George Burton](https://github.com/burtonageo) : cross-platform bundling
+- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) ( _parser_ ) : CSS parser, transformer, and minifier
 
 ## Cross-compile
 
@@ -149,11 +151,7 @@
 - [cargo-depgraph](https://crates.io/crates/cargo-depgraph) by [Jonas Platte](https://blog.turbo.fish/) : generate dependencies graph
 - [cargo_metadata](https://github.com/oli-obk/cargo_metadata) by [Oli Scherer](https://github.com/oli-obk) : information about cargo module
 
-## Cross-compile
-
-- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _build_ ) : cross-compilation and cross-testing
-
-## video
+## Video
 
 ( _video_ )
 
@@ -191,14 +189,18 @@
 ( _dom_ )
 
 - [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
-
 - [stdweb](https://github.com/koute/stdweb) by [](https://github.com/koute) : standard library for the client-side Web
-
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
 - [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
 - [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
 - [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
 - [winit](https://github.com/rust-windowing/winit) by [rust-windowing](https://github.com/rust-windowing) : Cross-platform window creation and management
+
+## Web backend
+
+( _web_backend_ )
+
+- [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
 
 ## Database
 
@@ -214,7 +216,7 @@
 
 - [itertools](https://github.com/rust-itertools/itertools) : extra iterator tools
 
-## Version Control Systems
+## Version control systems
 
 ( _vcs_ )
 
@@ -299,7 +301,7 @@
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
 - [dmsort](https://github.com/emilk/drop-merge-sort) by [Emil Ernerfeldt](https://github.com/emilk) : fast novel adaptive sorting algorithm optimized for nearly-sorted data
 
-## Stack based data structures
+## Stack-based data structures
 
 ( _data_structure_ ) ( _stack_based_ )
 
@@ -323,6 +325,8 @@
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _serialization_ ) : readable data serialization format
 
 ## Images
+
+( _asset_image_ )
 
 - [fast_image_resize](https://github.com/Cykooz/fast_image_resize) by [Kirill Kuzminykh](https://github.com/Cykooz) : SIMD image resizing
 - [libheif-rs](https://github.com/Cykooz/libheif-rs) by [Kirill Kuzminykh](https://github.com/Cykooz) : heif/heic files reading/writing
@@ -361,7 +365,7 @@
 - [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _serialization_ ) : derive macro Display and FromStr
 - [lexical](https://github.com/Alexhuszagh/rust-lexical) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _serialization_ ) : numeric to and from string conversion
 - [minimad](https://github.com/Canop/minimad) by [Canop](https://github.com/Canop) : markdown parser
-- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) : CSS parser, transformer, and minifier
+- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) ( _build_ ) : CSS parser, transformer, and minifier
 
 ## Compilers and Static Analyzers
 
@@ -468,12 +472,6 @@
 
 - [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) : utility to instantiate a template ( _cargo_ ) ( _build_ )
-
-## Web backend
-
-( _web_backend_ )
-
-- [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
 
 ## HPC
 

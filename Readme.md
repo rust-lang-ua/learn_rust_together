@@ -238,7 +238,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ( _about:graphics_ )
 
-- [Learn Wgpu](https://sotrh.github.io/learn-wgpu/) by [sotrh](https://github.com/sotrh) : good introduction into [wgpu](https://github.com/gfx-rs/wgpu)
+- [Learn Wgpu](https://sotrh.github.io/learn-wgpu/) by [sotrh](https://github.com/sotrh) : good introduction into [wgpu](https://github.com/gfx-rs/wgpu) ( _reading_ ) ( _course_ )
 
 ## Projects catalogue
 
