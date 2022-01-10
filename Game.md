@@ -7,11 +7,17 @@ Curated collection of resources to make games on Rust.
 ## Tags legend
 
 - ( _renderer_ ) - renderers
+- ( _middleware_ ) - software of middle layer to leverage low-level functionality
 - ( _engine_ ) - game engines
 - ( _hid_ ) - human interface device
+- ( _shader_ ) - shader related
+- ( _geometry_ ) - geometry / mesh generation
+- ( _windowing_ ) - window creation and management
+- ( _network_ ) - network programming
 - ( _webgpu_ ) - WebGPU related
 - ( _bevy_ ) - Bevy related
 - ( _math_ ) - math
+- ( _color_ ) - color related
 - ( _physics_ ) - physics
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
@@ -19,7 +25,10 @@ Curated collection of resources to make games on Rust.
 - ( _assets_3d_ ) - 3D assets loading/saving
 - ( _sound_ ) - sound-related
 - ( _dsp_ ) - digital signals processing
-- ( _windowing_ ) - window creation and management
+- ( _game_ ) - finished game, maybe toy game
+- ( _utility_ ) - utilities
+
+<!-- qqq : improve tags descriptions -->
 
 ## Renderer
 
@@ -28,21 +37,28 @@ Curated collection of resources to make games on Rust.
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
 - [glutin](https://github.com/rust-windowing/glutin) by [Rust Windowing](https://github.com/rust-windowing) : OpenGL context
+- [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
+
+## Rendering Middleware
+
+( _renderer_ ) ( _middleware_ )
+
+- [three-d](https://github.com/asny/three-d) by [Asger Nyman Christiansen](https://github.com/asny) : another rendering middleware renderer
+- [luminance](https://github.com/phaazon/luminance-rs) by [Dimitri Sabadie](https://github.com/phaazon) : another rendering middleware renderer
 - [miniquad](https://github.com/not-fl3/miniquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform renderer
+- [kiss3d](https://github.com/sebcrozet/kiss3d) by [Sébastien Crozet](https://github.com/sebcrozet) : stupid 3d renderer
 
 ## Game Engines
 
 ( _engine_ )
 
-- [Bevy](https://github.com/bevyengine/bevy) : webgpu based game engine
+- [Bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _bevy_ ) : popular wgpu-based game engine
 - [Piston](https://github.com/PistonDevelopers/piston) : the oldest game engine on Rust
 - [RG3D](https://github.com/rg3dengine/rg3d)
-- [macroquad](https://github.com/not-fl3/macroquad) : cross-platform game engine
 - [Amethyst](https://github.com/amethyst/amethyst)
 - [emerald](https://github.com/Bombfuse/emerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
 - [tetra](https://github.com/17cupsofcoffee/tetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
 - [macroquad](https://github.com/not-fl3/macroquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform game engine
-- [kiss3d](https://github.com/sebcrozet/kiss3d) by [Sébastien Crozet](https://github.com/sebcrozet) : stupid 3d graphics engine
 
 ## Human interface device
 
@@ -50,16 +66,15 @@ Curated collection of resources to make games on Rust.
 
 - [gamepad-rs](https://github.com/unrust/gamepad-rs) by [Edwin Cheng](https://github.com/edwin0cheng) : cross-platform gamepad support
 
-## Rendering Middleware
-
-- [three-d](https://github.com/asny/three-d) by [Asger Nyman Christiansen](https://github.com/asny) : another rendering middleware renderer
-- [luminance](https://github.com/phaazon/luminance-rs) by [Dimitri Sabadie](https://github.com/phaazon) : another rendering middleware renderer
-
 ## Shader Middleware
+
+( _shader_ ) ( _middleware_ )
 
 - [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL Shading Language parser
 
 ## Geometry
+
+( _geometry_ )
 
 - [tri-mesh](https://github.com/asny/tri-mesh) by [][Asger Nyman Christiansen](https://github.com/asny) : a triangle mesh data structure
 
@@ -71,13 +86,20 @@ Curated collection of resources to make games on Rust.
 
 ## Network
 
+( _network_ )
+
 - [crystalorb](https://github.com/ErnWong/crystalorb) by [Ernest Wong](https://github.com/ErnWong) : networking library
 
 ## Bevy
 
 ( _bevy_ )
 
+- [Bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _engine_ ) : popular wgpu-based game engine
 - [bevy_mod_picking](https://github.com/aevyrie/bevy_mod_picking) by [Aevyrie](https://github.com/aevyrie) : 3D mouse picking
+- [bevy_ecs_tilemap](https://github.com/StarArawn/bevy_ecs_tilemap) by [John Mitchell](https://github.com/StarArawn) : ECS tilemap
+- [kayak_ui](https://github.com/StarArawn/kayak_ui) by [John Mitchell](https://github.com/StarArawn) : game UI
+- [bevy_tiled](https://github.com/StarArawn/bevy_tiled) by [John Mitchell](https://github.com/StarArawn) : rendering tiled maps
+- [bevy_asset_ron](https://github.com/inodentry/bevy_asset_ron) by [Ida Iyes](https://github.com/inodentry) : RON Assets
 
 ## WebGPU
 
@@ -129,7 +151,13 @@ Curated collection of resources to make games on Rust.
 - [nalgebra](https://github.com/dimforge/nalgebra) by [dimforge](https://github.com/dimforge) : game linear algebra
 - [simba](https://github.com/dimforge/simba) by [dimforge](https://github.com/dimforge) : SIMD algebra for [nalgebra](https://github.com/dimforge/nalgebra)
 - [approx](https://github.com/brendanzab/approx) by [Brendan Zabarauskas](https://github.com/brendanzab) : approximate floating point comparisons
-- [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
+- [noisy_float](https://github.com/SergiusIW/noisy_float-rs) by [Matthew Michelotti](https://github.com/SergiusIW) : floating point types that panic if they are set to an illegal value, such as NaN
+
+## Color
+
+( _color_ )
+
+- [rgb](https://github.com/kornelski/rust-rgb) by [Kornel](https://github.com/kornelski) : RGB / RGBA
 
 ## Physics
 
@@ -160,3 +188,16 @@ Curated collection of resources to make games on Rust.
 - [spectrum-analyzer](https://github.com/phip1611/spectrum-analyzer) by [Philipp Schuster](https://github.com/phip1611) : spectrum analysis
 - [beat-detector](https://github.com/phip1611/beat-detector) by [Philipp Schuster](https://github.com/phip1611) : beat detection
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
+
+## Game
+
+( _game_ )
+
+- [veolren](https://github.com/veloren/veloren) by [Joshua Barretto](https://github.com/zesterer) : open world, open source voxel RPG
+- [chirperjax](https://github.com/SergiusIW/chirperjax) by [Matthew Michelotti](https://github.com/SergiusIW) : simple 2D platformer
+
+## Utilities
+
+( _utility_ )
+
+- [landon](https://github.com/chinedufn/landon) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : exporting Blender data

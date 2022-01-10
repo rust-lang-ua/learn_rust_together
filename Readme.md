@@ -239,6 +239,9 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ( _about:graphics_ )
 
 - [Learn Wgpu](https://sotrh.github.io/learn-wgpu/) by [sotrh](https://github.com/sotrh) : good introduction into [wgpu](https://github.com/gfx-rs/wgpu) ( _reading_ ) ( _course_ )
+- [WebGL water tutorial](https://github.com/chinedufn/webgl-water-tutorial) by [Chinedu Francis Nwafili](https://github.com/chinedufn)
+- [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/) by [Ida Iyes ](https://github.com/inodentry)
+- [Bevy Assets](https://github.com/bevyengine/bevy-assets) by [Carter Anderson](https://github.com/cart) : collection of Bevy assets, plugins, learning resources, and apps
 
 ## Projects catalogue
 
@@ -270,5 +273,6 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
 - [Rust Books](https://github.com/sger/RustBooks) :blue_book: by [Spiros Gerokostas](https://github.com/sger)  ( _book_ )
 - [List of chats and forums](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Communities.md) :speech_balloon: by us
+- [Utilities](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Utilities.md) :wrench: by us
 - [Game Developer's Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Game.md) :video_game: by us
 - :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by us
