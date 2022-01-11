@@ -38,6 +38,7 @@ Curated collection of resources to make games on Rust.
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
 - [glutin](https://github.com/rust-windowing/glutin) by [Rust Windowing](https://github.com/rust-windowing) : OpenGL context
 - [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
+- [limelight](https://crates.io/crates/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper with a renderer
 
 ## Rendering Middleware
 
@@ -47,6 +48,8 @@ Curated collection of resources to make games on Rust.
 - [luminance](https://github.com/phaazon/luminance-rs) by [Dimitri Sabadie](https://github.com/phaazon) : another rendering middleware renderer
 - [miniquad](https://github.com/not-fl3/miniquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform renderer
 - [kiss3d](https://github.com/sebcrozet/kiss3d) by [Sébastien Crozet](https://github.com/sebcrozet) : stupid 3d renderer
+- [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : tiny hardware-accelerated pixel frame buffer
+- [speedy2d](https://github.com/QuantumBadger/Speedy2D) by [QuantumBadger](https://github.com/QuantumBadger) : hardware-accelerated renderer with easy to use API
 
 ## Game Engines
 
@@ -201,3 +204,16 @@ Curated collection of resources to make games on Rust.
 ( _utility_ )
 
 - [landon](https://github.com/chinedufn/landon) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : exporting Blender data
+
+
+## Rendering creates comparison
+
+| Name      | WebGL 2 support | Size( wasm + js)                      |
+| :-------- | :-------------- | :------------------------------------ |
+| glow      | Yes             | 55 Kb                                 |
+| three-d   | Yes             | 139 Kb                                |
+| pixels    | WIP             | 1 Mb                                  |
+| limelight | Yes             | 175 Kb                                |
+| speedy2d  | Yes             | 1 Mb                                  |
+| luminance | Yes             | 77 Kb                                 |
+| gl-rs     | Yes             | [Problem](./renderer/gl-rs/Readme.md) |
