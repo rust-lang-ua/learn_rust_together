@@ -209,12 +209,12 @@ Curated collection of resources to make games on Rust.
 
 ## Rendering creates comparison
 
-| Name      | WebGL 2 support | Size( wasm + js)                      |
-| :-------- | :-------------- | :------------------------------------ |
-| glow      | Yes             | 55 Kb                                 |
-| three-d   | Yes             | 139 Kb                                |
-| pixels    | WIP             | 1 Mb                                  |
-| limelight | Yes             | 175 Kb                                |
-| speedy2d  | Yes             | 1 Mb                                  |
-| luminance | Yes             | 77 Kb                                 |
-| gl-rs     | Yes             | [Problem](./renderer/gl-rs/Readme.md) |
+| Name                                                  | WebGL 2 support | Size( wasm + js)                      |
+| :---------------------------------------------------- | :-------------- | :------------------------------------ |
+| [glow](https://github.com/grovesNL/glow)              | Yes             | 55 Kb                                 |
+| [three-d](https://github.com/asny/three-d)            | Yes             | 139 Kb                                |
+| [pixels](https://github.com/parasyte/pixels)          | WIP             | 1 Mb                                  |
+| [limelight](https://crates.io/crates/limelight)       | Yes             | 175 Kb                                |
+| [speedy2d](https://github.com/QuantumBadger/Speedy2D) | Yes             | 1 Mb                                  |
+| [luminance](https://github.com/phaazon/luminance-rs)  | Yes             | 77 Kb                                 |
+| [gl-rs](https://github.com/brendanzab/gl-rs)          | Yes             | [Problem](./renderer/gl-rs/Readme.md) |
