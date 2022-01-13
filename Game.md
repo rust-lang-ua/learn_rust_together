@@ -207,7 +207,7 @@ Curated collection of resources to make games on Rust.
 - [landon](https://github.com/chinedufn/landon) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : exporting Blender data
 
 
-## Rendering creates comparison
+## Rendering comparison
 
 | Name                                                  | WebGL 2 support | Size( wasm + js)                      |
 | :---------------------------------------------------- | :-------------- | :------------------------------------ |
