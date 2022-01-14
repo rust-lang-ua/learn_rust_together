@@ -86,6 +86,7 @@
 - [syn](https://github.com/dtolnay/syn) by [David Tolnay](https://github.com/dtolnay) : parser for writing macros
 - [quote](https://github.com/dtolnay/quote) by [David Tolnay](https://github.com/dtolnay) : tool to write procedure macros
 - [rustversion](https://github.com/dtolnay/rustversion) by [David Tolnay](https://github.com/dtolnay) : conditional compilation according to rustc compiler version
+- [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [lukaslueg](https://github.com/lukaslueg) : generate syntax diagrams for macro_rules!()
 
 ## Meta
 

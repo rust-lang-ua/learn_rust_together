@@ -272,6 +272,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
 - [Rust Books](https://github.com/sger/RustBooks) :blue_book: by [Spiros Gerokostas](https://github.com/sger)  ( _book_ )
+- [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly)  by [rustwasm](https://github.com/rustwasm)
 - [List of chats and forums](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Communities.md) :speech_balloon: by us
 - [Distros written on Rust](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Distros.md) :wrench: by us
 - [Game Developer's Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Game.md) :video_game: by us
