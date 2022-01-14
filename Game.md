@@ -141,6 +141,8 @@ Curated collection of resources to make games on Rust.
 ( _svg_ )
 
 - [resvg](https://github.com/RazrFalcon/resvg) by [Yevhenii Reizner](https://github.com/RazrFalcon) : SVG rendering
+- [railroad](https://github.com/lukaslueg/railroad) by [Lukas Lueg](https://github.com/lukaslueg) : produce syntax diagrams as SVG
+- [railroad_dsl](https://github.com/lukaslueg/railroad_dsl) by [Lukas Lueg](https://github.com/lukaslueg) : a language to produce syntax diagrams as SVG
 
 ## 3D assets
 
@@ -197,8 +199,15 @@ Curated collection of resources to make games on Rust.
 
 ( _sound_ )
 
-- [usfx](https://github.com/tversteeg/usfx) by [Thomas Versteeg](https://github.com/tversteeg) : generate sound effects
 - [symphonia](https://github.com/pdeljanov/Symphonia) by [Philip Deljanov](https://github.com/pdeljanov) : audio decoding
+
+## Sound and Music generation
+
+( _sound_gen_ )
+
+- [usfx](https://github.com/tversteeg/usfx) by [Thomas Versteeg](https://github.com/tversteeg) : generate sound effects
+- [glicol](https://github.com/chaosprint/glicol) by [](https://github.com/chaosprint) : live coding language to generate music
+- [service glicol](https://glicol.org/) by [](https://github.com/chaosprint) : live coding language to generate music as a service
 
 ## DSP
 

@@ -4,7 +4,18 @@
 
 ## Tags legend
 
-- ( _general_utility_ ) -- general purpose utilities
+- ( _site_generation_ ) - generating a site with documentation from either MD or similar languages
+- ( _general_utility_ ) - general purpose utilities
+
+## Site Generation
+
+( _site_generation_ )
+
+- [mdbook](https://github.com/rust-lang/mdBook) : [documentation](http://rust-lang.github.io/mdBook/index.html)
+- [Zola](https://www.getzola.org/)
+- [mkdocs-material](https://github.com/squidfunk/mkdocs-material) by [Martin Donath](https://github.com/squidfunk) : [site](https://squidfunk.github.io/mkdocs-material/)
+
+https://squidfunk.github.io/mkdocs-material/
 
 ## General purpose utilities
 

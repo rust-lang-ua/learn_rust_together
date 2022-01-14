@@ -86,7 +86,8 @@
 - [syn](https://github.com/dtolnay/syn) by [David Tolnay](https://github.com/dtolnay) : parser for writing macros
 - [quote](https://github.com/dtolnay/quote) by [David Tolnay](https://github.com/dtolnay) : tool to write procedure macros
 - [rustversion](https://github.com/dtolnay/rustversion) by [David Tolnay](https://github.com/dtolnay) : conditional compilation according to rustc compiler version
-- [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [Lukas Lueg](https://github.com/lukaslueg) : [a service](https://lukaslueg.github.io/macro_railroad_wasm_demo/) to generate syntax diagrams for macro_rules!()
+- [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [Lukas Lueg](https://github.com/lukaslueg) : to generate syntax diagrams for macro_rules!()
+- [macro_railroad as service](https://lukaslueg.github.io/macro_railroad_wasm_demo) by [Lukas Lueg](https://github.com/lukaslueg) : a service to generate syntax diagrams for macro_rules!()
 
 ## Meta
 
@@ -167,6 +168,7 @@
 - [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) ( _parser_ ) : CSS parser, transformer, and minifier
 - [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) : HTML minifier
 - [tauri](https://github.com/tauri-apps/tauri) by [Razvan Stoenescu](https://github.com/rstoenescu) : desktop applications with a web frontend
+- [built](https://github.com/lukaslueg/built) by [Lukas Lueg](https://github.com/lukaslueg) : information when and how it was built
 
 ## Cross-compile
 
@@ -334,6 +336,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [unique_type_id_workspace](https://github.com/vityafx/unique-type-id) by [Victor Polevoy](https://github.com/vityafx) : procedural macro for generating unique ids
 - [zerocopy](https://docs.rs/zerocopy/) by [Joshua Liebow-Feeser](https://github.com/joshlf) ( _mem_ ) : zero-copy parsing and serialization
+- [restruct](https://github.com/lukaslueg/restruct) by [Lukas Lueg](https://github.com/lukaslueg) : serializing and deserializing of a tuple
 - [bincode](https://github.com/bincode-org/bincode) by [Nathan McCarty](https://github.com/nmccarty) : a binary encoder / decoder implementation
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _gdf_ ) : readable data serialization format
 - [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
