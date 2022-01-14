@@ -40,7 +40,7 @@
 - ( _stack_based_ ) -- stack-based data structures and algorithms
 - ( _graphs_ ) -- graphcs data structures and algorithms
 - ( _hashing_ ) -- hashing algorithms
-- ( _cryptographic_ ) -- cryptographic
+- ( _cryptography_ ) -- cryptographic
 - ( _compression_ ) -- compression, archiving
 - ( _encoding_ ) -- encoding / decoding
 - ( _gdf_ ) -- general data format, genera-purpose formats to exchange data
@@ -408,6 +408,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
 - [dmsort](https://github.com/emilk/drop-merge-sort) by [Emil Ernerfeldt](https://github.com/emilk) : fast novel adaptive sorting algorithm optimized for nearly-sorted data
+- [bitvec](https://github.com/bitvecto-rs/bitvec) by [Alexander Payne](https://github.com/myrrlyn) : bitfields
 - [bitflags](https://github.com/bitflags/bitflags) by [Alex Crichton](https://github.com/bitflags) : macro to generate structures which behave like bitflags
 - [growable-bloom-filter](https://github.com/dpbriggs/growable-bloom-filters) by [David Briggs](https://github.com/dpbriggs) : growable bloom filter
 - [associative-cache](https://github.com/fitzgen/associative-cache) by [Nick Fitzgerald](https://github.com/fitzgen) : fixed-size, associative cache
@@ -484,9 +485,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Ticki](https://gitlab.redox-os.org/redox-os) : one of the fastest non-cryptographic hashing algorithm
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _adt_ ) : comparison by pointer address
 
-## Cryptographic
+## Cryptography
 
-( _cryptographic_ )
+( _cryptography_ )
 
 - [Cupcake](https://github.com/facebookresearch/Cupcake) by [Hao Chen](https://github.com/haochenuw) : lattice-based additive homomorphic encryption
 - [elgamal-curve25519](https://github.com/chritchens/elgamal-curve25519) by [Christian Nyumbayire](https://github.com/chritchens) : ElGamal homomorphic encryption on Curve25519
@@ -499,6 +500,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [yazi](https://github.com/dfrg/yazi) by [Chad Brokaw](https://github.com/dfrg) : deflate/zlib compression
 - [flate2](https://github.com/rust-lang/flate2-rs) by [Alex Crichton](https://github.com/alexcrichton) : deflate, gzip, and zlib bindings
 - [snap](https://github.com/BurntSushi/rust-snappy) by [Andrew Gallant](https://github.com/BurntSushi) : high speeds and reasonable compression
+- [smush](https://github.com/gwihlidal/smush-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : adapter of variety of compression codecs
 
 ## Encoding / decoding
 
@@ -507,7 +509,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [percent-encoding](https://github.com/servo/rust-url/tree/master/percent_encoding) by [Simon Sapin](https://github.com/SimonSapin) : do [URL percent encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 - [url](https://github.com/servo/rust-url) by [Simon Sapin](https://github.com/SimonSapin) : URI parsing
 - [hex](https://github.com/KokaKiwi/rust-hex) by [KokaKiwi](https://github.com/KokaKiwi) : hexadecimal encoding
-- [smush](https://github.com/gwihlidal/smush-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : adapter of variety of compression codecs
 
 ## General data format
 
