@@ -16,13 +16,17 @@
 - ( _cross_compile_ ) - build from one platform to another one
 - ( _build_ ) -- toolchains to build your project
 - ( _wasm_ ) -- WebAssembly-related
+- ( _windowing_ ) -- windows creating, manipulating OS GUI
 - ( _dom_ ) -- web DOM
+- ( _web_frontend_ ) -- web frontend
 - ( _web_backend_ ) -- web backend
 - ( _db_ ) -- database-related
 - ( _functional_ ) -- functional programming
 - ( _virtualisation_ ) -- virtualisation-related, docker-related
 - ( _async_ ) -- asynchronous programming
 - ( _communication_ ) -- either inter-process or inter-thread communication
+- ( _streams_ ) -- read/write streams
+- ( _buffers_ ) -- buffers for memory management
 - ( _mem_ ) -- memory management
 - ( _serialization_ ) -- serialization / deserialization
 - ( _stringification_ ) -- converting to / from a string
@@ -30,11 +34,15 @@
 - ( _parser_ ) -- parser of a specific language
 - ( _compiler_ ) -- compilers and static analyzers
 - ( _compile_time_ ) -- non run-time
-- ( _ADT_ ) -- abstract data types
+- ( _adt_ ) -- abstract data types
 - ( _data_structure_ ) -- data structures and algorithms
 - ( _string_ ) -- either string or bytes slice based data structures and algorithms
 - ( _stack_based_ ) -- stack-based data structures and algorithms
 - ( _graphs_ ) -- graphcs data structures and algorithms
+- ( _hashing_ ) -- hashing algorithms
+- ( _cryptography_ ) -- cryptographic
+- ( _compression_ ) -- compression, archiving
+- ( _encoding_ ) -- encoding / decoding
 - ( _gdf_ ) -- general data format, genera-purpose formats to exchange data
 - ( _asset_image_ ) -- reading / writing / manipulating various image formats
 - ( _fs_ ) -- file system related
@@ -45,9 +53,6 @@
 - ( _hardware_ ) -- reading / writing hardware
 - ( _embed_ ) -- embedded
 - ( _foreign_ ) -- foreign functions, C / C++ binding,  foreign function interface ( FFI )
-- ( _hashing_ ) -- hashing algorithms
-- ( _cryptographic_ ) -- cryptographic
-- ( _compression_ ) -- compression, archiving
 - ( _self_ref_ ) -- self referential structures
 - ( _ownership_semantics_ ) -- solutions of problems of owning/borrowing/lifetimes self referring
 - ( _multidimensional_ ) -- multidimensional data structures and algorithms
@@ -137,6 +142,7 @@
 
 - [doapi](https://github.com/kbknapp/doapi-rs) by [Kevin K.](https://github.com/kbknapp) : DigitalOcean API v2
 - [octocrab](https://github.com/XAMPPRocky/octocrab) by [Erin P](https://github.com/XAMPPRocky) : GitHub API
+- [giphy api](https://github.com/thedodd/giphy-api) by [Anthony Dodd](https://github.com/thedodd) : giphy API
 
 ## NodeJS and JS
 
@@ -180,6 +186,7 @@
 - [cargo-depgraph](https://crates.io/crates/cargo-depgraph) by [Jonas Platte](https://blog.turbo.fish/) : generate dependencies graph
 - [cargo_metadata](https://github.com/oli-obk/cargo_metadata) by [Oli Scherer](https://github.com/oli-obk) : information about cargo module
 - [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) : manage cargo cache
+- [cargo-when](https://github.com/starkat99/cargo-when) by [Kathryn Long](https://github.com/starkat99) : run conditionally upon rustc version and environment
 
 ## Video
 
@@ -214,9 +221,15 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Rust and WebAssembly](https://github.com/rustwasm) : 1kB-size memory allocator for size-optimized builds
 <!-- - [cargo-web](https://github.com/koute/cargo-web) by [Koute](https://github.com/koute) : cargo subcommand for Web -->
 
+## Windowing
+
+( _windowing_ )
+
+- [winit](https://github.com/rust-windowing/winit) by [rust-windowing](https://github.com/rust-windowing) : cross-platform window creation and management
+
 ## Web DOM
 
-( _dom_ )
+( _web_backend_ ) ( _dom_ )
 
 - [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
 - [stdweb](https://github.com/koute/stdweb) by [](https://github.com/koute) : standard library for the client-side Web
@@ -224,9 +237,14 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
 - [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
 - [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
-- [winit](https://github.com/rust-windowing/winit) by [rust-windowing](https://github.com/rust-windowing) : Cross-platform window creation and management
 
-## Web backend
+## Web Frontend
+
+( _web_frontend_ )
+
+- [ybc](https://github.com/thedodd/ybc) by [Anthony Dodd](https://github.com/thedodd) : a Yew component library based on the Bulma CSS framework
+
+## Web Backend
 
 ( _web_backend_ )
 
@@ -242,6 +260,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) : query engine from Apache
+- [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
+- [monger](https://github.com/mongodb/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
 
 ## Functional programming
 
@@ -289,12 +309,18 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [turbine](https://github.com/polyfractal/Turbine) by [Zachary Tong](https://github.com/polyfractal) : inter-task communication
 
+## Streams and Buffers
+
+( _streams_ ) ( _buffers_ ) ( _data_structure_ )
+
+- [peekreed](https://github.com/orlp/peekread) by [Orson Peters](https://github.com/orlp) : peekable read streams
+- [bytes](https://github.com/tokio-rs/bytes) by [Carl Lerche](https://github.com/carllerche) : working with bytes
+- [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
+
 ## Memory management
 
 ( _mem_ )
 
-- [bytes](https://github.com/tokio-rs/bytes) by [Carl Lerche](https://github.com/carllerche) : working with bytes
-- [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
 - [byte-slice-cast](https://github.com/sdroege/byte-slice-cast) by [Sebastian Dröge](https://github.com/sdroege) : casting to / from byte slice
 - [zerocopy](https://docs.rs/zerocopy/) by [Joshua Liebow-Feeser](https://github.com/joshlf) ( _serialization_ ) : zero-copy parsing and serialization
 - [memmap](https://github.com/danburkert/memmap-rs) by [Dan Burkert](https://github.com/danburkert) : API for memory mapped IO
@@ -319,9 +345,11 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _stringification_ )
 
 - [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _parser_ ) : derive macro Display and FromStr
+- [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _adt_ ) : enum stringification, parsing and iterating
 - [lexical](https://github.com/Alexhuszagh/rust-lexical) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : numeric to and from string conversion
 - [lexical-core](https://github.com/Alexhuszagh/rust-lexical/tree/main/lexical-core) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : minimal implementation of lexical
 - [humansize](https://github.com/LeopoldArkham/humansize) by [Leopold Arkham](https://github.com/LeopoldArkham) : file size formatting
+- [num-format](https://github.com/bcmyers/num-format) by [Brian Myers](https://github.com/bcmyers) : formatting of numbers
 
 ## Parser generator
 
@@ -361,13 +389,15 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Abstract Data types
 
-( _ADT_ )
+( _adt_ )
 
+- [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
 - [num](https://github.com/rust-num/num) by [Josh Stone](https://github.com/cuviper) : a collection of numeric types and traits
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _hashing_ ) : comparison by pointer address
 - [getrandom](https://github.com/rust-random/getrandom) by [rust-random](https://github.com/rust-random) : cross-platform get random back-end
 - [rand](https://github.com/rust-random/rand) by [rust-random](https://github.com/rust-random) : random number generation front-end
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
+- [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
 
 ## Data structures and algorithms
 
@@ -378,6 +408,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
 - [dmsort](https://github.com/emilk/drop-merge-sort) by [Emil Ernerfeldt](https://github.com/emilk) : fast novel adaptive sorting algorithm optimized for nearly-sorted data
+- [bitvec](https://github.com/bitvecto-rs/bitvec) by [Alexander Payne](https://github.com/myrrlyn) : bitfields
 - [bitflags](https://github.com/bitflags/bitflags) by [Alex Crichton](https://github.com/bitflags) : macro to generate structures which behave like bitflags
 - [growable-bloom-filter](https://github.com/dpbriggs/growable-bloom-filters) by [David Briggs](https://github.com/dpbriggs) : growable bloom filter
 - [associative-cache](https://github.com/fitzgen/associative-cache) by [Nick Fitzgerald](https://github.com/fitzgen) : fixed-size, associative cache
@@ -398,6 +429,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [aho-corasick](https://github.com/BurntSushi/aho-corasick) by [Andrew Gallant](https://github.com/BurntSushi) : finding occurrences of many patterns at once
 - [suffix](https://github.com/BurntSushi/suffix) by [Andrew Gallant](https://github.com/BurntSushi) : finding several occurrences of the same pattern in a long text
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _fs_ ) : glob matching
+- [widestring](https://github.com/starkat99/widestring-rs) by [Kathryn Long](https://github.com/starkat99) : a wide string Rust library for converting to and from wide Unicode strings
 
 ## Stack-based data structures
 
@@ -425,6 +457,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
 - [slab](https://github.com/tokio-rs/slab) by [Tokio](https://github.com/tokio-rs) : hashMap-like collection with implicit key
 - [indexing](https://github.com/bluss/indexing) by [bluss](https://github.com/bluss) : solving indexing problem by associating lifetime with intervals
+- [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
 - [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
 - [id-arena](https://github.com/fitzgen/id-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids without the ability to deallocate an individual element
 - [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element
@@ -442,14 +475,32 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [petgraph](https://github.com/petgraph/petgraph) by [bluss](https://github.com/bluss) : graph data structure and algorithms
 
-## General data format
+## Hashing
 
-( _gdf_ )
+( _hashing_ )
 
-- [flatc-rust](https://github.com/frol/flatc-rust) by [Vlad Frolov](https://github.com/frol/flatc-rust) : FlatBuffers
-- [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _serialization_ ) : readable data serialization format
-- [rmp](https://github.com/3Hren/msgpack-rust) by [Evgeny Safronov](https://github.com/3Hren) : MessagePack
-- [minicbor](https://gitlab.com/twittner/minicbor) by [Toralf Wittner](https://gitlab.com/twittner) : CBOR
+- [ahash](https://github.com/tkaitchuck/aHash) by [Tom Kaitchuck](https://github.com/tkaitchuck) : fast non-cryptographic hashing
+- [xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) by [Douman](https://github.com/DoumanAsh) : xxhash algorithm - one of the fastest non-cryptographic hashing
+- [twox-hash](https://github.com/shepmaster/twox-hash) by [Jake Goulding](https://github.com/shepmaster) : xxhash algorithm - one of the fastest non-cryptographic hashing
+- [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Ticki](https://gitlab.redox-os.org/redox-os) : one of the fastest non-cryptographic hashing algorithm
+- [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _adt_ ) : comparison by pointer address
+
+## Cryptography
+
+( _cryptography_ )
+
+- [Cupcake](https://github.com/facebookresearch/Cupcake) by [Hao Chen](https://github.com/haochenuw) : lattice-based additive homomorphic encryption
+- [elgamal-curve25519](https://github.com/chritchens/elgamal-curve25519) by [Christian Nyumbayire](https://github.com/chritchens) : ElGamal homomorphic encryption on Curve25519
+- [argonautica](https://github.com/bcmyers/argonautica) by [Brian Myers](https://github.com/bcmyers) : password hashing
+
+## Compression
+
+( _compression_ )
+
+- [yazi](https://github.com/dfrg/yazi) by [Chad Brokaw](https://github.com/dfrg) : deflate/zlib compression
+- [flate2](https://github.com/rust-lang/flate2-rs) by [Alex Crichton](https://github.com/alexcrichton) : deflate, gzip, and zlib bindings
+- [snap](https://github.com/BurntSushi/rust-snappy) by [Andrew Gallant](https://github.com/BurntSushi) : high speeds and reasonable compression
+- [smush](https://github.com/gwihlidal/smush-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : adapter of variety of compression codecs
 
 ## Encoding / decoding
 
@@ -458,6 +509,15 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [percent-encoding](https://github.com/servo/rust-url/tree/master/percent_encoding) by [Simon Sapin](https://github.com/SimonSapin) : do [URL percent encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 - [url](https://github.com/servo/rust-url) by [Simon Sapin](https://github.com/SimonSapin) : URI parsing
 - [hex](https://github.com/KokaKiwi/rust-hex) by [KokaKiwi](https://github.com/KokaKiwi) : hexadecimal encoding
+
+## General data format
+
+( _gdf_ )
+
+- [flatc-rust](https://github.com/frol/flatc-rust) by [Vlad Frolov](https://github.com/frol/flatc-rust) : FlatBuffers
+- [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _serialization_ ) : readable data serialization format
+- [rmp](https://github.com/3Hren/msgpack-rust) by [Evgeny Safronov](https://github.com/3Hren) : MessagePack
+- [minicbor](https://gitlab.com/twittner/minicbor) by [Toralf Wittner](https://gitlab.com/twittner) : CBOR
 
 ## Image reading / writing
 
@@ -500,7 +560,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [Ion](https://github.com/Andy-Python-Programmer/ion) by [Anhad Singh ](https://github.com/Andy-Python-Programmer) : x86_64 UEFI bootloader
 - [winapi](https://github.com/retep998/winapi-rs) by [Peter Atashian](https://github.com/retep998) : bindings to Windows API
 - [wio](https://github.com/retep998/wio-rs) by [Peter Atashian](https://github.com/retep998) : extra bindings to Windows API
-- [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above [winapi](https://github.com/retep998/winapi-rs)
+- [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above - [rio](https://github.com/spacejam/rio) by [Tyler Neely](https://github.com/spacejam) : io_uring
 
 ## Network
 
@@ -545,31 +605,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [foreign_types](https://github.com/sfackler/foreign-types) by [Steven Fackler](https://github.com/sfackler) : wrappers over C APIs.
 
-## Hashing
-
-( _hashing_ )
-
-- [ahash](https://github.com/tkaitchuck/aHash) by [Tom Kaitchuck](https://github.com/tkaitchuck) : fast non-cryptographic hashing
-- [xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) by [Douman](https://github.com/DoumanAsh) : xxhash algorithm - one of the fastest non-cryptographic hashing
-- [twox-hash](https://github.com/shepmaster/twox-hash) by [Jake Goulding](https://github.com/shepmaster) : xxhash algorithm - one of the fastest non-cryptographic hashing
-- [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Ticki](https://gitlab.redox-os.org/redox-os) : one of the fastest non-cryptographic hashing algorithm
-- [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _ADT_ ) : comparison by pointer address
-
-## Cryptographic
-
-( _cryptographic_ )
-
-- [Cupcake](https://github.com/facebookresearch/Cupcake) by [Hao Chen](https://github.com/haochenuw) : lattice-based additive homomorphic encryption
-- [elgamal-curve25519](https://github.com/chritchens/elgamal-curve25519) by [Christian Nyumbayire](https://github.com/chritchens) : ElGamal homomorphic encryption on Curve25519
-
-## Compression
-
-( _compression_ )
-
-- [yazi](https://github.com/dfrg/yazi) by [Chad Brokaw](https://github.com/dfrg) : deflate/zlib compression
-- [flate2](https://github.com/rust-lang/flate2-rs) by [Alex Crichton](https://github.com/alexcrichton) : deflate, gzip, and zlib bindings
-- [snap](https://github.com/BurntSushi/rust-snappy) by [Andrew Gallant](https://github.com/BurntSushi) : high speeds and reasonable compression
-
 ## Logging
 
 ( _logger_ )
@@ -595,11 +630,11 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _android_ )
 
-- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) : Libraries and tools for Rust programming on Android targets
-- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : Interoperability library for a native Rust application with the Android framework.
-- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : Raw FFI bindings to the NDK
-- [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : Send Rust logs to Logcat
-- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _build_ ) : Tool for creating Android packages
+- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) : libraries and tools for Rust programming on Android targets
+- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : interoperability library for a native Rust application with the Android framework
+- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : raw FFI bindings to the NDK
+- [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : send Rust logs to Logcat
+- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _build_ ) : tool for creating Android packages
 
 ## iOS
 
@@ -625,3 +660,5 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
 <!-- qqq : emoji instead of tags? -->
+<!-- qqq : replace rust-windowing by a person -->
+<!-- qqq : replace orgs by persons, add missing authors -->
