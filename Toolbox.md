@@ -38,11 +38,13 @@
 - ( _gdf_ ) -- general data format, genera-purpose formats to exchange data
 - ( _asset_image_ ) -- reading / writing / manipulating various image formats
 - ( _fs_ ) -- file system related
-- ( _os_ ) -- operation systems, bootloaders and components of such
+- ( _os_ ) -- operation systems, bootloaders and components of such, OS APIs
 - ( _cargo_ ) -- extension of cargo
 - ( _video_ ) -- video-processing, capturing
 - ( _asm_ ) -- machine code, byte code, interpreters, assembler
 - ( _hardware_ ) -- reading / writing hardware
+- ( _embed_ ) -- embedded
+- ( _foreign_ ) -- foreign functions, C / C++ binding,  foreign function interface ( FFI )
 - ( _hashing_ ) -- hashing algorithms
 - ( _cryptographic_ ) -- cryptographic
 - ( _compression_ ) -- compression, archiving
@@ -60,8 +62,6 @@
 - ( _example_ ) -- example project
 - ( _templating_ ) -- tools to generate text using template
 - ( _hpc_ ) -- high performance computing
-- ( _embed_ ) -- embedded
-- ( _foreign_ ) -- foreign functions, C / C++ binding,  foreign function interface ( FFI )
 
 ## Errors handling
 
@@ -129,6 +129,7 @@
 - [termize](https://github.com/JohnTitor/termize) by [Yuki Okushi](https://github.com/JohnTitor) : terminal size
 - [terminal_size](https://github.com/eminence/terminal-size) by [Andrew Chin](https://github.com/eminence) : terminal size
 - [terminal-clipboard](https://github.com/Canop/terminal-clipboard) by [Canop](https://github.com/Canop) : text only clipboard facade
+- [termcolor](https://github.com/BurntSushi/termcolor) by [Andrew Gallant](https://github.com/BurntSushi) : terminal colors
 
 ## Cloud APIs
 
@@ -240,6 +241,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [diesel](https://github.com/diesel-rs/diesel) : ORM and query builder
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
+- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) : query engine from Apache
 
 ## Functional programming
 
@@ -264,6 +266,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _async_ )
 
 - [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
+- [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
 - [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : tools around futures
 - [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : pin-projection
@@ -277,6 +280,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [left-right](https://github.com/jonhoo/left-right) by [Jon Gjengset](https://github.com/jonhoo) : lock-free, read-optimized, concurrency primitive
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _data_structure_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _data_structure_ ) : concurrent HashMap
+- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
+- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
 
 ## Communication
 
@@ -289,12 +294,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _mem_ )
 
 - [bytes](https://github.com/tokio-rs/bytes) by [Carl Lerche](https://github.com/carllerche) : working with bytes
-- [byte-slice-cast](https://github.com/sdroege/byte-slice-cast) by [Sebastian Dröge](https://github.com/sdroege)
+- [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
+- [byte-slice-cast](https://github.com/sdroege/byte-slice-cast) by [Sebastian Dröge](https://github.com/sdroege) : casting to / from byte slice
 - [zerocopy](https://docs.rs/zerocopy/) by [Joshua Liebow-Feeser](https://github.com/joshlf) ( _serialization_ ) : zero-copy parsing and serialization
-- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
 - [memmap](https://github.com/danburkert/memmap-rs) by [Dan Burkert](https://github.com/danburkert) : API for memory mapped IO
 - [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Rust and WebAssembly](https://github.com/rustwasm) : 1kB-size memory allocator for size-optimized builds
-- [shuffling-allocator](https://github.com/fitzgen/shuffling-allocator) by [Nick Fitzgerald](https://github.com/fitzgen) : randomizing heap object locations
+- [shuffling-allocator](https://github.com/fitzgen/shuffling-allocator) by [Nick Fitzgerald](https://github.com/fitzgen) : randomizing location in the heap
 
 ## Serialization
 
@@ -315,6 +320,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _parser_ ) : derive macro Display and FromStr
 - [lexical](https://github.com/Alexhuszagh/rust-lexical) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : numeric to and from string conversion
+- [lexical-core](https://github.com/Alexhuszagh/rust-lexical/tree/main/lexical-core) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : minimal implementation of lexical
 - [humansize](https://github.com/LeopoldArkham/humansize) by [Leopold Arkham](https://github.com/LeopoldArkham) : file size formatting
 
 ## Parser generator
@@ -389,6 +395,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [similar](https://github.com/mitsuhiko/similar) by [Armin Ronacher](https://github.com/mitsuhiko) : determining difference between string
 - [twoway](https://github.com/bluss/twoway) by [bluss](https://github.com/bluss) : twoway substring search
 - [memchr](https://github.com/BurntSushi/memchr) by [Andrew Gallant](https://github.com/BurntSushi) : string search routines
+- [aho-corasick](https://github.com/BurntSushi/aho-corasick) by [Andrew Gallant](https://github.com/BurntSushi) : finding occurrences of many patterns at once
+- [suffix](https://github.com/BurntSushi/suffix) by [Andrew Gallant](https://github.com/BurntSushi) : finding several occurrences of the same pattern in a long text
+- [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _fs_ ) : glob matching
 
 ## Stack-based data structures
 
@@ -440,6 +449,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [flatc-rust](https://github.com/frol/flatc-rust) by [Vlad Frolov](https://github.com/frol/flatc-rust) : FlatBuffers
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _serialization_ ) : readable data serialization format
 - [rmp](https://github.com/3Hren/msgpack-rust) by [Evgeny Safronov](https://github.com/3Hren) : MessagePack
+- [minicbor](https://gitlab.com/twittner/minicbor) by [Toralf Wittner](https://gitlab.com/twittner) : CBOR
 
 ## Encoding / decoding
 
@@ -447,6 +457,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [percent-encoding](https://github.com/servo/rust-url/tree/master/percent_encoding) by [Simon Sapin](https://github.com/SimonSapin) : do [URL percent encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 - [url](https://github.com/servo/rust-url) by [Simon Sapin](https://github.com/SimonSapin) : URI parsing
+- [hex](https://github.com/KokaKiwi/rust-hex) by [KokaKiwi](https://github.com/KokaKiwi) : hexadecimal encoding
 
 ## Image reading / writing
 
@@ -454,6 +465,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [libheif-rs](https://github.com/Cykooz/libheif-rs) by [Kirill Kuzminykh](https://github.com/Cykooz) : heif/heic files reading/writing
 - [lodepng](https://github.com/kornelski/lodepng-rust) by [Kornel](https://github.com/kornelski) : PNG image reader/writer
+- [exifsd](https://github.com/vadixidav/exifsd) by [Geordon Worley](https://github.com/vadixidav) : exif serialization and deserialization
 
 ## Image processing
 
@@ -474,6 +486,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [remove_dir_all](https://github.com/XAMPPRocky/remove_dir_all) by [Erin P](https://github.com/XAMPPRocky) : directory removal
 - [filetime](https://github.com/bitflags/filetime) by [Alex Crichton](https://github.com/bitflags) : file timestamps reading / writing
 - [is_executable](https://github.com/fitzgen/is_executable) by [Nick Fitzgerald](https://github.com/fitzgen) : is an executable
+- [same-file](https://github.com/BurntSushi/same-file) by [Andrew Gallant](https://github.com/BurntSushi) : two files or directories are the same
+- [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
+
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
 
@@ -483,6 +498,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [Aero](https://github.com/Andy-Python-Programmer/aero) by [Anhad Singh ](https://github.com/Andy-Python-Programmer) : unix-like operating system
 - [Ion](https://github.com/Andy-Python-Programmer/ion) by [Anhad Singh ](https://github.com/Andy-Python-Programmer) : x86_64 UEFI bootloader
+- [winapi](https://github.com/retep998/winapi-rs) by [Peter Atashian](https://github.com/retep998) : bindings to Windows API
+- [wio](https://github.com/retep998/wio-rs) by [Peter Atashian](https://github.com/retep998) : extra bindings to Windows API
+- [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above [winapi](https://github.com/retep998/winapi-rs)
 
 ## Network
 
@@ -503,6 +521,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
+- [symbol](https://github.com/calebzulawski/symbol) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
 
 ## Hardware
 
@@ -511,6 +530,20 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cpuid](https://github.com/gz/rust-cpuid) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
 - [cupid](https://github.com/shepmaster/cupid) by [Jake Goulding](https://github.com/shepmaster) : x86 CPUID instruction
 - [num_cpus](https://github.com/seanmonstar/num_cpus) by [Sean McArthur](https://github.com/seanmonstar) : number of CPUs
+- [generic-simd](https://github.com/calebzulawski/generic-simd) by [Caleb Zulawski](https://github.com/calebzulawski) : SIMD instructions
+- [multiversion](https://github.com/calebzulawski/multiversion) by [Caleb Zulawski](https://github.com/calebzulawski) : tool to write multiversioned architecture-specific implementations of functions
+
+## Embedded
+
+( _embed_ )
+
+- [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Rust Embedded](https://github.com/rust-embedded) : hardware abstraction layer (HAL) for embedded systems
+
+## Foreign
+
+( _foreign_ )
+
+- [foreign_types](https://github.com/sfackler/foreign-types) by [Steven Fackler](https://github.com/sfackler) : wrappers over C APIs.
 
 ## Hashing
 
@@ -535,6 +568,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [yazi](https://github.com/dfrg/yazi) by [Chad Brokaw](https://github.com/dfrg) : deflate/zlib compression
 - [flate2](https://github.com/rust-lang/flate2-rs) by [Alex Crichton](https://github.com/alexcrichton) : deflate, gzip, and zlib bindings
+- [snap](https://github.com/BurntSushi/rust-snappy) by [Andrew Gallant](https://github.com/BurntSushi) : high speeds and reasonable compression
 
 ## Logging
 
@@ -587,18 +621,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _hpc_ )
 
 - [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Rust GPU](https://github.com/Rust-GPU) : CUDA
-
-## Embedded
-
-( _embed_ )
-
-- [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Rust Embedded](https://github.com/rust-embedded) : hardware abstraction layer (HAL) for embedded systems
-
-## Foreign
-
-( _foreign_ )
-
-- [foreign_types](https://github.com/sfackler/foreign-types) by [Steven Fackler](https://github.com/sfackler) : wrappers over C APIs.
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
