@@ -2,6 +2,10 @@
 
 <!-- - []() : -->
 
+## Sound
+
+- [synth](https://github.com/orlp/synth) : MIDI
+
 ## Macros
 
 - [auto_enums](https://github.com/taiki-e/auto_enums) : automatically generated enum

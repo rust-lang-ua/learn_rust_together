@@ -14,8 +14,9 @@ Curated collection of resources to make games on Rust.
 - ( _geometry_ ) - geometry / mesh generation
 - ( _windowing_ ) - window creation and management
 - ( _network_ ) - network programming
-- ( _webgpu_ ) - WebGPU related
 - ( _bevy_ ) - Bevy related
+- ( _webgpu_ ) - WebGPU related
+- ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
 - ( _math_ ) - math
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
@@ -25,7 +26,9 @@ Curated collection of resources to make games on Rust.
 - ( _assets_3d_ ) - 3D assets loading/saving
 - ( _sound_ ) - sound-related
 - ( _dsp_ ) - digital signals processing
-- ( _game_ ) - finished game, maybe toy game
+- ( _game_design_ ) - game design tools
+- ( _game_ ) - finished game
+- ( _toy_ ) - toy game
 - ( _utility_ ) - utilities
 
 <!-- qqq : improve tags descriptions -->
@@ -50,6 +53,8 @@ Curated collection of resources to make games on Rust.
 - [kiss3d](https://github.com/sebcrozet/kiss3d) by [Sébastien Crozet](https://github.com/sebcrozet) : stupid 3d renderer
 - [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : tiny hardware-accelerated pixel frame buffer
 - [speedy2d](https://github.com/QuantumBadger/Speedy2D) by [QuantumBadger](https://github.com/QuantumBadger) : hardware-accelerated renderer with easy to use API
+- [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : small hardware-accelerated pixel frame buffer
+- [lomelight](https://github.com/drifting-in-space/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper
 
 ## Game Engines
 
@@ -73,13 +78,15 @@ Curated collection of resources to make games on Rust.
 
 ( _shader_ ) ( _middleware_ )
 
-- [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL Shading Language parser
+- [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL shading language parser
+- [naga](https://github.com/gfx-rs/naga) by [Dzmitry Malyshau](https://github.com/kvark) : shader translation
 
 ## Geometry
 
 ( _geometry_ )
 
-- [tri-mesh](https://github.com/asny/tri-mesh) by [][Asger Nyman Christiansen](https://github.com/asny) : a triangle mesh data structure
+- [tri-mesh](https://github.com/asny/tri-mesh) by [Asger Nyman Christiansen](https://github.com/asny) : a triangle mesh data structure
+- [meshopt](https://github.com/gwihlidal/meshopt-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : binding of zeux/meshoptimizer
 
 ## Window management
 
@@ -97,12 +104,13 @@ Curated collection of resources to make games on Rust.
 
 ( _bevy_ )
 
-- [Bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _engine_ ) : popular wgpu-based game engine
+- [bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _engine_ ) : popular wgpu-based game engine
 - [bevy_mod_picking](https://github.com/aevyrie/bevy_mod_picking) by [Aevyrie](https://github.com/aevyrie) : 3D mouse picking
 - [bevy_ecs_tilemap](https://github.com/StarArawn/bevy_ecs_tilemap) by [John Mitchell](https://github.com/StarArawn) : ECS tilemap
 - [kayak_ui](https://github.com/StarArawn/kayak_ui) by [John Mitchell](https://github.com/StarArawn) : game UI
 - [bevy_tiled](https://github.com/StarArawn/bevy_tiled) by [John Mitchell](https://github.com/StarArawn) : rendering tiled maps
 - [bevy_asset_ron](https://github.com/inodentry/bevy_asset_ron) by [Ida Iyes](https://github.com/inodentry) : RON Assets
+- [smooth-bevy-cameras](https://github.com/bonsairobo/smooth-bevy-cameras) by [Duncan](https://github.com/bonsairobo) : camera controllers with buttery, exponential smoothing
 
 ## WebGPU
 
@@ -110,6 +118,12 @@ Curated collection of resources to make games on Rust.
 
 - [wgpu_glyph](https://github.com/hecrj/wgpu_glyph) by [Héctor Ramón](https://github.com/hecrj) ( _webgpu_ ) : text renderer for wgpu
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
+
+## Data Structures and Algorithms
+
+( _data_structures_ )
+
+- [building-blocks](https://github.com/bonsairobo/building-blocks) by [Duncan](https://github.com/bonsairobo) : data structures for graphics
 
 ## Font
 
@@ -155,6 +169,8 @@ Curated collection of resources to make games on Rust.
 - [simba](https://github.com/dimforge/simba) by [dimforge](https://github.com/dimforge) : SIMD algebra for [nalgebra](https://github.com/dimforge/nalgebra)
 - [approx](https://github.com/brendanzab/approx) by [Brendan Zabarauskas](https://github.com/brendanzab) : approximate floating point comparisons
 - [noisy_float](https://github.com/SergiusIW/noisy_float-rs) by [Matthew Michelotti](https://github.com/SergiusIW) : floating point types that panic if they are set to an illegal value, such as NaN
+- [half](https://github.com/starkat99/half-rs) by [Kathryn Long](https://github.com/starkat99) : half-precision floating point types f16 and bf16 for
+- [mint](https://github.com/kvark/mint) by [Dzmitry Malyshau](https://github.com/kvark) : math interoperability types
 
 ## Color
 
@@ -193,19 +209,33 @@ Curated collection of resources to make games on Rust.
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
 
-## Game
+## Game Design
+
+( _game_design_ )
+
+- [grue](https://github.com/gwihlidal/grue-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : tools for building role-playing and adventure games
+
+## Games
 
 ( _game_ )
 
 - [veolren](https://github.com/veloren/veloren) by [Joshua Barretto](https://github.com/zesterer) : open world, open source voxel RPG
 - [chirperjax](https://github.com/SergiusIW/chirperjax) by [Matthew Michelotti](https://github.com/SergiusIW) : simple 2D platformer
+- [sandbox](https://github.com/JMS55/sandbox) by [JMS55](https://github.com/JMS55) : a sand simulation
+
+## Toy Games
+
+( _game_ ) ( _toy_ )
+
+- [bevy_rider](https://github.com/bonsairobo/bevy_rider) by [Duncan](https://github.com/bonsairobo) : drawing with 2d physics
+- [roguelike](https://github.com/JMS55/roguelike) by [JMS55](https://github.com/JMS55) : turn based dungeon exploration
+- [crossword](https://github.com/paulgb/crossword-composer) by [Paul Butler](https://github.com/paulgb) : crossword composer.
 
 ## Utilities
 
 ( _utility_ )
 
 - [landon](https://github.com/chinedufn/landon) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : exporting Blender data
-
 
 ## Rendering creates comparison
 
@@ -218,3 +248,5 @@ Curated collection of resources to make games on Rust.
 | speedy2d  | Yes             | 1 Mb                                  |
 | luminance | Yes             | 77 Kb                                 |
 | gl-rs     | Yes             | [Problem](./renderer/gl-rs/Readme.md) |
+
+<!-- qqq : split toy games and games -->
