@@ -7,6 +7,8 @@
 - ( _error_ ) -- errors handling
 - ( _macro_ ) -- writing macros
 - ( _meta_ ) -- meta programming : reflection, introspection and such things
+- ( _compiler_ ) -- compilers and static analyzers
+- ( _compile_time_ ) -- non run-time
 - ( _njs_ ) -- NodeJs related
 - ( _ui_ ) -- user interface related
 - ( _cui_ ) -- command user interface related
@@ -32,8 +34,6 @@
 - ( _stringification_ ) -- converting to / from a string
 - ( _parser_generator_ ) -- parser generator
 - ( _parser_ ) -- parser of a specific language
-- ( _compiler_ ) -- compilers and static analyzers
-- ( _compile_time_ ) -- non run-time
 - ( _adt_ ) -- abstract data types
 - ( _data_structure_ ) -- data structures and algorithms
 - ( _string_ ) -- either string or bytes slice based data structures and algorithms
@@ -97,6 +97,21 @@
 - [field_names](https://github.com/TedDriggs/field_names) by [Ted Driggs](https://github.com/TedDriggs) : list of names of fields bound to the structure
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
+
+## Compilers, Static Analyzers, code formatters
+
+( _compiler_ )
+
+- [rudra](https://github.com/sslab-gatech/Rudra) by [gts3.org](https://github.com/sslab-gatech) : undefined behavior detection
+
+<!-- https://github.com/dtolnay/prettyplease -->
+
+## Compile-time
+
+( _compile_time_ )
+
+- [phf](https://github.com/rust-phf/rust-phf) by [Steven Fackler](https://github.com/sfackler) : compile-time hashmap
+- [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
 
 ## UI
 
@@ -290,6 +305,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
 - [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
+- [radium](https://github.com/bitvecto-rs/radium) by [Nika Layzell ](https://github.com/mystor) : atomic instructions fallback
 - [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : tools around futures
 - [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : pin-projection
@@ -377,19 +393,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
 - [ress](https://github.com/rusty-ecma/RESS) by [Robert Masen](https://github.com/FreeMasen) : tokenizer of JS
 - [ressa](https://github.com/rusty-ecma/RESSA) by [Robert Masen](https://github.com/FreeMasen) : parser of JS
-
-## Compilers and Static Analyzers
-
-( _compiler_ )
-
-- [rudra](https://github.com/sslab-gatech/Rudra) by [gts3.org](https://github.com/sslab-gatech) : undefined behavior detection
-
-## Compile-time
-
-( _compile_time_ )
-
-- [phf](https://github.com/rust-phf/rust-phf) by [Steven Fackler](https://github.com/sfackler) : compile-time hashmap
-- [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
 
 ## Abstract Data types
 
@@ -608,6 +611,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _foreign_ )
 
 - [foreign_types](https://github.com/sfackler/foreign-types) by [Steven Fackler](https://github.com/sfackler) : wrappers over C APIs.
+- [cpp](https://github.com/mystor/rust-cpp) by [Nika Layzell](https://github.com/mystor) : embed C++ inside rust code
 
 ## Logging
 
