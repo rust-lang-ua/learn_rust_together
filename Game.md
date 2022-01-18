@@ -17,12 +17,14 @@ Curated collection of resources to make games on Rust.
 - ( _bevy_ ) - Bevy related
 - ( _webgpu_ ) - WebGPU related
 - ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
+- ( _plotting_ ) - plot data
 - ( _math_ ) - math
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
 - ( _svg_ ) - SVG related
+- ( _svg_ ) - image processing related
 - ( _assets_3d_ ) - 3D assets loading/saving
 - ( _sound_ ) - sound-related
 - ( _dsp_ ) - digital signals processing
@@ -54,7 +56,7 @@ Curated collection of resources to make games on Rust.
 - [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : tiny hardware-accelerated pixel frame buffer
 - [speedy2d](https://github.com/QuantumBadger/Speedy2D) by [QuantumBadger](https://github.com/QuantumBadger) : hardware-accelerated renderer with easy to use API
 - [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : small hardware-accelerated pixel frame buffer
-- [lomelight](https://github.com/drifting-in-space/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper
+- [limelight](https://github.com/drifting-in-space/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper
 
 ## Game Engines
 
@@ -118,6 +120,7 @@ Curated collection of resources to make games on Rust.
 
 - [wgpu_glyph](https://github.com/hecrj/wgpu_glyph) by [Héctor Ramón](https://github.com/hecrj) ( _webgpu_ ) : text renderer for wgpu
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
+- [rugl](https://github.com/gregtatum/rugl) by [Greg Tatum](https://github.com/gregtatum) : declarative Stateless OpenGL in Rust (inspired by regl)
 
 ## Data Structures and Algorithms
 
@@ -144,6 +147,13 @@ Curated collection of resources to make games on Rust.
 - [railroad](https://github.com/lukaslueg/railroad) by [Lukas Lueg](https://github.com/lukaslueg) : produce syntax diagrams as SVG
 - [railroad_dsl](https://github.com/lukaslueg/railroad_dsl) by [Lukas Lueg](https://github.com/lukaslueg) : a language to produce syntax diagrams as SVG
 
+## Image
+
+( _image_ )
+
+- [imageproc](https://github.com/image-rs/imageproc) by [image-rs](https://github.com/image-rs) : library for images processing
+- [anim-rs](https://github.com/Joylei/anim-rs) by [Joylei](https://github.com/Joylei) : animation library
+
 ## 3D assets
 
 ( _assets_3d_ )
@@ -157,6 +167,13 @@ Curated collection of resources to make games on Rust.
 
 - [line_drawing](https://github.com/expenses/line_drawing) by [Ashley](https://github.com/expenses) : line-drawing algorithms
 - [zeno](https://github.com/dfrg/swash) by [Chad Brokaw](https://github.com/dfrg) ( _font_ ) : path rasterization library
+
+## Plotting
+
+( _plotting_ )
+
+- [`plotlib` - generic data visualisation and plotting library for Rust](https://github.com/milliams/plotlib) by [Matt Williams](https://github.com/milliams) ( _rust_ )
+- [`plotly` - a plotting library for Rust powered by Plotly.js](https://github.com/igiagkiozis/plotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) ( _rust_ )
 
 ## Math
 
