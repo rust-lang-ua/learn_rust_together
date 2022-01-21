@@ -542,6 +542,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [imagequant](https://github.com/ImageOptim/libimagequant) by [Kornel](https://github.com/kornelski) : palette quantization library
 - [dssim](https://github.com/kornelski/dssim) by [Kornel](https://github.com/kornelski) : image similarity comparison simulating human perception
 - [noise](https://github.com/Razaekel/noise-rs) by [Nick Whitney](https://github.com/Razaekel) : procedural noise generation
+- [imageproc](https://github.com/image-rs/imageproc) by [image-rs](https://github.com/image-rs) : library for images processing
+- [anim-rs](https://github.com/Joylei/anim-rs) by [Joylei](https://github.com/Joylei) : animation library
 
 ## File system
 
