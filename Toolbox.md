@@ -1,5 +1,6 @@
 # Rust Developer's Toolbox
 
+<!-- https://github.com/dherman -->
 <!-- - []() by []() : -->
 
 ## Tags legend
@@ -75,7 +76,7 @@
 - [miette](https://github.com/zkat/miette) by [Kat Marchán](https://github.com/zkat) : error reporting facilities
 - [thiserror](https://github.com/dtolnay/thiserror) by [David Tolnay](https://github.com/dtolnay) : macro error for struct and enum error types
 - [anyhow](https://github.com/dtolnay/anyhow) by [David Tolnay](https://github.com/dtolnay) : a generic error trait
-- [flex-error](https://github.com/informalsystems/flex-error) by [Soares Chen](https://github.com/soareschen) : adopter for error handling approaches
+- [flex-error](https://github.com/informalsystems/flex-error) by [Soares Chen](https://github.com/soareschen) : adapter for error handling approaches
 
 ## Macros
 
@@ -165,7 +166,7 @@
 
 ( _njs_ )
 
-- [neon](https://github.com/neon-bindings/neon) : native Node.js modules
+- [neon](https://github.com/neon-bindings/neon) by [Dave Herman](https://github.com/dherman) : native Node.js modules
 - [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : environment manager, like NVM
 - [fnm](https://github.com/Schniz/fnm) by [Gal Schlezinger](https://github.com/Schniz) : Fast and simple Node.js version manager
 - [volta](https://github.com/volta-cli/volta) by [Volta](https://github.com/volta-cli) : JS Toolchains
