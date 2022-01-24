@@ -639,7 +639,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _android_ )
 
-- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) : libraries and tools for Rust programming on Android targets
+- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [Mark Barbone](https://github.com/mb64) : libraries and tools for Rust programming on Android targets
 - [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : interoperability library for a native Rust application with the Android framework
 - [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : raw FFI bindings to the NDK
 - [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : send Rust logs to Logcat
