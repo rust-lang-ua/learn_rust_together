@@ -387,7 +387,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _parser_ )
 
 - [minimad](https://github.com/Canop/minimad) by [Canop](https://github.com/Canop) : markdown ( MD ) parser
-- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) ( _build_ ) : CSS parser, transformer, and minifier
+- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Devon Govett](https://github.com/devongovett) ( _build_ ) : CSS parser, transformer, and minifier
 - [csv](https://github.com/BurntSushi/rust-csv) by [Andrew Gallant](https://github.com/BurntSushi) : CSV parser
 - [toml](https://github.com/alexcrichton/toml-rs) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
 - [toml_edit](https://github.com/ordian/toml_edit) by [Andronik Ordian](https://github.com/ordian) : format-preserving TOML parser
@@ -402,8 +402,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
 - [num](https://github.com/rust-num/num) by [Josh Stone](https://github.com/cuviper) : a collection of numeric types and traits
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _hashing_ ) : comparison by pointer address
-- [getrandom](https://github.com/rust-random/getrandom) by [rust-random](https://github.com/rust-random) : cross-platform get random back-end
-- [rand](https://github.com/rust-random/rand) by [rust-random](https://github.com/rust-random) : random number generation front-end
+- [getrandom](https://github.com/rust-random/getrandom) by [Diggory Hardy](https://github.com/dhardy) : cross-platform get random back-end
+- [rand](https://github.com/rust-random/rand) by [Roy Frostig](https://github.com/froystig) : random number generation front-end
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
 
@@ -463,7 +463,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _data_structure_ ) ( _ownership_semantics_ )
 
 - [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
-- [slab](https://github.com/tokio-rs/slab) by [Tokio](https://github.com/tokio-rs) : hashMap-like collection with implicit key
+- [slab](https://github.com/tokio-rs/slab) by [Carl Lerche](https://github.com/carllerche) : hashMap-like collection with implicit key
 - [indexing](https://github.com/bluss/indexing) by [bluss](https://github.com/bluss) : solving indexing problem by associating lifetime with intervals
 - [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
 - [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
@@ -490,7 +490,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ahash](https://github.com/tkaitchuck/aHash) by [Tom Kaitchuck](https://github.com/tkaitchuck) : fast non-cryptographic hashing
 - [xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) by [Douman](https://github.com/DoumanAsh) : xxhash algorithm - one of the fastest non-cryptographic hashing
 - [twox-hash](https://github.com/shepmaster/twox-hash) by [Jake Goulding](https://github.com/shepmaster) : xxhash algorithm - one of the fastest non-cryptographic hashing
-- [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Ticki](https://gitlab.redox-os.org/redox-os) : one of the fastest non-cryptographic hashing algorithm
+- [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Tom Almeida](https://github.com/Tommoa) : one of the fastest non-cryptographic hashing algorithm
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _adt_ ) : comparison by pointer address
 
 ## Cryptography
@@ -574,7 +574,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _network_ )
 
-- [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo)
+- [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo) : ___ 
 - [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
@@ -587,7 +587,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [faerie](https://github.com/m4b/faerie) by [m4b](https://github.com/m4b) : ELF and Mach-o object file writer
 - [goblin](https://github.com/m4b/goblin) by [m4b](https://github.com/m4b) : binary parsing
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
-- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
 - [symbol](https://github.com/calebzulawski/symbol) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
 
@@ -605,7 +605,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _embed_ )
 
-- [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Rust Embedded](https://github.com/rust-embedded) : hardware abstraction layer (HAL) for embedded systems
+- [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Jorge Aparicio](https://github.com/japaric) : hardware abstraction layer (HAL) for embedded systems
 
 ## Foreign
 
@@ -618,7 +618,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _logger_ )
 
-- [log](https://github.com/rust-lang/log) by [Rust-lang](https://github.com/rust-lang) : lightweight logging
+- [log](https://github.com/rust-lang/log) by [Alex Crichton](https://github.com/alexcrichton) : lightweight logging
 - [log4rs](https://github.com/estk/log4rs) by [estk](https://github.com/estk) : configurable logging
 
 ## Diagnostics tools
@@ -631,9 +631,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _mobile_ )
 
-- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _build_ ) : utility to run rust on mobile
-- [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) : cross-platform rust toolkit for games
-- [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Brainium Studios LLC](http://brainiumstudios.com/) : Wraps a function to make it the entry-point for an mobile app
+- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [mtak-](https://github.com/mtak-) ( _build_ ) : utility to run rust on mobile
+- [crossbow](https://github.com/dodorare/crossbow) by [David Ackerman](https://github.com/enfipy) : cross-platform rust toolkit for games
+- [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Francesca Lovebloom](https://github.com/francesca64) : Wraps a function to make it the entry-point for an mobile app
 
 ## Android
 
@@ -658,13 +658,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _templating_ )
 
 - [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
-- [cargo-generate](https://github.com/cargo-generate/cargo-generate) : utility to instantiate a template ( _cargo_ ) ( _build_ )
+- [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _cargo_ ) ( _build_ )
 
 ## HPC
 
 ( _hpc_ )
 
-- [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Rust GPU](https://github.com/Rust-GPU) : CUDA
+- [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
