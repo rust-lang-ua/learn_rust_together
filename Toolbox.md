@@ -137,16 +137,16 @@
 
 ( _ui_ ) ( _cui_ ) ( _cui_parsing_ )
 
-- [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) - the most popular CUI tool
-- [structopt](https://github.com/TeXitoi/structopt) by [Guillaume P.](https://github.com/TeXitoi)
-- [pico-args](https://github.com/RazrFalcon/pico-args) by [Yevhenii Reizner](https://github.com/RazrFalcon) - smallest one CUI tool
+- [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) : the most popular CUI tool
+- [structopt](https://github.com/TeXitoi/structopt) by [Guillaume P.](https://github.com/TeXitoi) : ___
+- [pico-args](https://github.com/RazrFalcon/pico-args) by [Yevhenii Reizner](https://github.com/RazrFalcon) : smallest one CUI tool
 
 ## Terminal
 
 ( _terminal_ )
 
 - [console](https://github.com/mitsuhiko/console) by [Armin Ronacher](https://github.com/mitsuhiko) : the most popular module to manipulate terminal
-- [termion](https://gitlab.redox-os.org/redox-os/termion) by [Ticki](https://gitlab.redox-os.org/redox-os) : low-level handling, manipulating and reading information about terminals
+- [termion](https://gitlab.redox-os.org/redox-os/termion) by [Ticki](https://github.com/ticki) : low-level handling, manipulating and reading information about terminals
 - [crossterm](https://github.com/crossterm-rs/crossterm) by [Timon](https://github.com/TimonPost) : cross platform terminal
 - [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : check is it a tty
 - [termize](https://github.com/JohnTitor/termize) by [Yuki Okushi](https://github.com/JohnTitor) : terminal size
@@ -230,7 +230,7 @@
 - [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Nick Fitzgerald](https://github.com/fitzgen) : A panic hook for wasm
 - [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Nick Fitzgerald](https://github.com/fitzgen) : utility to remove function body from a wasm file
 - [wasm-tools](https://github.com/bytecodealliance/wasm-tools) by [Yury Delendik](https://github.com/yurydelendik): tooling for WebAssembly
-- [wasmtime](https://github.com/bytecodealliance/wasmtime) by [bytecodealliance](https://github.com/bytecodealliance) : standalone JIT-style runtime ???
+- [wasmtime](https://github.com/bytecodealliance/wasmtime) by [Jakob Stoklund Olesen](https://github.com/stoklund) : standalone JIT-style runtime
 - [wasmer](https://github.com/wasmerio/wasmer) by [Syrus Akbary](https://github.com/syrusakbary)
 _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook that forwards panic messages to console
 - [twiggy](https://github.com/rustwasm/twiggy) by [Nick Fitzgerald](https://github.com/fitzgen) : utility to profile wasm code size
@@ -286,7 +286,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _functional_ )
 
-- [itertools](https://github.com/rust-itertools/itertools) : extra iterator tools  ???
+- [itertools](https://github.com/rust-itertools/itertools) by [bluss](https://github.com/bluss) : extra iterator tools  ???
 
 ## Version control systems
 
@@ -447,7 +447,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [smartstring](https://github.com/bodil/smartstring) by [Bodil Stokke](https://github.com/bodil) ( _string_ ) : stack-based string if small, otherwise heap-based
 - [kstring](https://github.com/cobalt-org/kstring) by [Ed Page](https://github.com/epage) : stack-based string if small, otherwise heap-based, optimal as a key for hashmap
 - [arrayvec](https://github.com/bluss/arrayvec) by [bluss](https://github.com/bluss) : stack-based vector and string
-- [smallvec](https://github.com/servo/rust-smallvec) by [Servo](https://github.com/servo) : stack-based vector
+- [smallvec](https://github.com/servo/rust-smallvec) by [Simon Sapin](https://github.com/SimonSapin) : stack-based vector
 - [tinymap](https://github.com/notgull/tinymap) by [John](https://github.com/notgull) : stack-based hashmap
 - [storagevec](https://github.com/notgull/storagevec-rs) by [John](https://github.com/notgull) : feature to chose stack-based containers
 
