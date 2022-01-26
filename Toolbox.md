@@ -103,7 +103,7 @@
 
 ( _compiler_ )
 
-- [rudra](https://github.com/sslab-gatech/Rudra) by [gts3.org](https://github.com/sslab-gatech) : undefined behavior detection
+- [rudra](https://github.com/sslab-gatech/Rudra) by [Yechan Bae](https://github.com/Qwaz) : undefined behavior detection
 
 <!-- https://github.com/dtolnay/prettyplease -->
 
@@ -119,8 +119,8 @@
 ( _ui_ )
 
 - [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an immediate mode GUI
-- [imgui](https://github.com/imgui-rs/imgui-rs) by [imgui-rs](https://github.com/imgui-rs/imgui-rs) : an immediate mode GUI
-- [iced](https://github.com/iced-rs/iced) by [iced-rs](https://github.com/iced-rs) : cross-platform GUI inspired by Elm
+- [imgui](https://github.com/imgui-rs/imgui-rs) by [Joonas Javanainen](https://github.com/Gekkio) : an immediate mode GUI
+- [iced](https://github.com/iced-rs/iced) by [Héctor Ramón](https://github.com/hecrj) : cross-platform GUI inspired by Elm
 - [pw-viz](https://github.com/Ax9D/pw-viz) by [Ax9D](https://github.com/Ax9D) : graph editor
 - [kayak_ui](https://github.com/StarArawn/kayak_ui) by [John Mitchell](https://github.com/StarArawn) : game UI
 
@@ -137,17 +137,17 @@
 
 ( _ui_ ) ( _cui_ ) ( _cui_parsing_ )
 
-- [clap](https://github.com/clap-rs/clap) by [clap-rs](https://github.com/clap-rs) - the most popular CUI tool
-- [structopt](https://github.com/TeXitoi/structopt) by [Guillaume P.](https://github.com/TeXitoi)
-- [pico-args](https://github.com/RazrFalcon/pico-args) by [Yevhenii Reizner](https://github.com/RazrFalcon) - smallest one CUI tool
+- [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) : the most popular CUI tool
+- [structopt](https://github.com/TeXitoi/structopt) by [Guillaume P.](https://github.com/TeXitoi) : ___
+- [pico-args](https://github.com/RazrFalcon/pico-args) by [Yevhenii Reizner](https://github.com/RazrFalcon) : smallest one CUI tool
 
 ## Terminal
 
 ( _terminal_ )
 
 - [console](https://github.com/mitsuhiko/console) by [Armin Ronacher](https://github.com/mitsuhiko) : the most popular module to manipulate terminal
-- [termion](https://gitlab.redox-os.org/redox-os/termion) by [Ticki](https://gitlab.redox-os.org/redox-os) : low-level handling, manipulating and reading information about terminals
-- [crossterm](https://github.com/crossterm-rs/crossterm) by [Crossterm](https://github.com/crossterm-rs) : cross platform terminal
+- [termion](https://gitlab.redox-os.org/redox-os/termion) by [Ticki](https://github.com/ticki) : low-level handling, manipulating and reading information about terminals
+- [crossterm](https://github.com/crossterm-rs/crossterm) by [Timon](https://github.com/TimonPost) : cross platform terminal
 - [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : check is it a tty
 - [termize](https://github.com/JohnTitor/termize) by [Yuki Okushi](https://github.com/JohnTitor) : terminal size
 - [terminal_size](https://github.com/eminence/terminal-size) by [Andrew Chin](https://github.com/eminence) : terminal size
@@ -169,19 +169,19 @@
 - [neon](https://github.com/neon-bindings/neon) by [Dave Herman](https://github.com/dherman) : native Node.js modules
 - [snm](https://github.com/numToStr/snm) by [Vikas Raj](https://github.com/numToStr) : environment manager, like NVM
 - [fnm](https://github.com/Schniz/fnm) by [Gal Schlezinger](https://github.com/Schniz) : Fast and simple Node.js version manager
-- [volta](https://github.com/volta-cli/volta) by [Volta](https://github.com/volta-cli) : JS Toolchains
+- [volta](https://github.com/volta-cli/volta) by [Dave Herman](https://github.com/dherman) : JS Toolchains
 
 ## Building and Optimization
 
 ( _build_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _wasm_ ) : WebAssembly web application bundler
-- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _cross_compile_ ) : cross-compilation and cross-testing
+- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _cross_compile_ ) : cross-compilation and cross-testing
 - [duckscript](https://github.com/sagiegurari/duckscript) by [Sagie Gur-Ari](https://github.com/sagiegurari) : utility to be cross-platform shell.
 - [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) ( _utility_ ) : make-like utility
 - [just](https://github.com/casey/just) by [Casey Rodarmor](https://github.com/casey) ( _utility_ ) : make-like utility
 - [cargo-bundle](https://github.com/burtonageo/cargo-bundle) by [George Burton](https://github.com/burtonageo) : cross-platform bundling
-- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) ( _parser_ ) : CSS parser, transformer, and minifier
+- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Devon Govett](https://github.com/devongovett) ( _parser_ ) : CSS parser, transformer, and minifier
 - [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) : HTML minifier
 - [tauri](https://github.com/tauri-apps/tauri) by [Razvan Stoenescu](https://github.com/rstoenescu) : desktop applications with a web frontend
 - [built](https://github.com/lukaslueg/built) by [Lukas Lueg](https://github.com/lukaslueg) : information when and how it was built
@@ -190,7 +190,7 @@
 
 ( _cross_compile_ )
 
-- [cross](https://github.com/rust-embedded/cross) by [https://github.com/rust-embedded](https://github.com/rust-embedded) ( _build_ ) : cross-compilation and cross-testing
+- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _build_ ) : cross-compilation and cross-testing
 - [osxcross](https://github.com/tpoechtrager/osxcross) by [Thomas Pöchtrager](https://github.com/tpoechtrager) : cross toolchain for Linux and *BSD
 
 ## Cargo extension
@@ -200,8 +200,8 @@
 - [cargo-edit](https://github.com/killercup/cargo-edit) by [Pascal Hertleif](https://github.com/killercup) : utility to add, remove, upgrade cargo dependencies
 - [rust-script](https://github.com/fornwall/rust-script) by [Fredrik Fornwall](https://github.com/fornwall) : utility to interpret rust files and expressions
 - [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) : utility to watch over your project's source for changes
-- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
-- [cargo-generate](https://github.com/cargo-generate/cargo-generate) : utility to instantiate a template ( _templating_ )
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
+- [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _templating_ )
 - [cargo-depgraph](https://crates.io/crates/cargo-depgraph) by [Jonas Platte](https://blog.turbo.fish/) : generate dependencies graph
 - [cargo_metadata](https://github.com/oli-obk/cargo_metadata) by [Oli Scherer](https://github.com/oli-obk) : information about cargo module
 - [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) : manage cargo cache
@@ -217,7 +217,7 @@
 
 ( _testing_ )
 
-- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Rust and WebAssembly](https://github.com/rustwasm) ( _wasm_ ) : run tests of wasm-based application in browser
+- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Alex Crichton](https://github.com/alexcrichton) ( _wasm_ ) : run tests of wasm-based application in browser
 - [trybuild](https://github.com/dtolnay/trybuild) by [David Tolnay](https://github.com/dtolnay) : negative testing, when error during compilation is expected result.
 
 ## WebAssembly
@@ -225,37 +225,37 @@
 ( _wasm_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _build_ ) : WebAssembly web application bundler
-- [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by [Rust and WebAssembly](https://github.com/rustwasm) : interactions between WebAssembly modules and JavaScript
-- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Rust and WebAssembly](https://github.com/rustwasm) ( _testing_ ) : run tests of wasm-based application in browser
-- [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Rust and WebAssembly](https://github.com/rustwasm) : A panic hook for wasm
-- [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to remove function body from a wasm file
-- [wasm-tools](https://github.com/bytecodealliance/wasm-tools) : tooling for WebAssembly
-- [wasmtime](https://github.com/bytecodealliance/wasmtime) by [bytecodealliance](https://github.com/bytecodealliance) : standalone JIT-style runtime
-- [wasmer](https://github.com/wasmerio/wasmer) by [Wasmer](https://wasmer.io/)
+- [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by [Alex Crichton](https://github.com/alexcrichton) : interactions between WebAssembly modules and JavaScript
+- [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Alex Crichton](https://github.com/alexcrichton) ( _testing_ ) : run tests of wasm-based application in browser
+- [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Nick Fitzgerald](https://github.com/fitzgen) : A panic hook for wasm
+- [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Nick Fitzgerald](https://github.com/fitzgen) : utility to remove function body from a wasm file
+- [wasm-tools](https://github.com/bytecodealliance/wasm-tools) by [Yury Delendik](https://github.com/yurydelendik): tooling for WebAssembly
+- [wasmtime](https://github.com/bytecodealliance/wasmtime) by [Jakob Stoklund Olesen](https://github.com/stoklund) : standalone JIT-style runtime
+- [wasmer](https://github.com/wasmerio/wasmer) by [Syrus Akbary](https://github.com/syrusakbary)
 _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook that forwards panic messages to console
-- [twiggy](https://github.com/rustwasm/twiggy) by [Rust and WebAssembly](https://github.com/rustwasm) : utility to profile wasm code size
-- [Binaryen Optimizations | wasm-opt](https://github.com/WebAssembly/binaryen) by [WebAssembly](https://github.com/WebAssembly) : utility to optimize wasm file
-- [wasm-pack](https://github.com/rustwasm/wasm-pack) by [Rust and WebAssembly](https://github.com/rustwasm) : wasn-bindgen and binaryen/wasm-opt as single utility
-- [wizer](https://github.com/bytecodealliance/wizer) by [Bytecode Alliance](https://github.com/bytecodealliance) : performance optimization by compile-time pre-initialization
-- [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Rust and WebAssembly](https://github.com/rustwasm) : 1kB-size memory allocator for size-optimized builds
+- [twiggy](https://github.com/rustwasm/twiggy) by [Nick Fitzgerald](https://github.com/fitzgen) : utility to profile wasm code size
+- [Binaryen Optimizations | wasm-opt](https://github.com/WebAssembly/binaryen) by [Alon Zakai](https://github.com/kripken) : utility to optimize wasm file
+- [wasm-pack](https://github.com/rustwasm/wasm-pack) by [ashley williams](https://github.com/ashleygwilliams) : wasn-bindgen and binaryen/wasm-opt as single utility
+- [wizer](https://github.com/bytecodealliance/wizer) by [Nick Fitzgerald](https://github.com/fitzgen) : performance optimization by compile-time pre-initialization
+- [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Nick Fitzgerald](https://github.com/fitzgen) : 1kB-size memory allocator for size-optimized builds
 <!-- - [cargo-web](https://github.com/koute/cargo-web) by [Koute](https://github.com/koute) : cargo subcommand for Web -->
 
 ## Windowing
 
 ( _windowing_ )
 
-- [winit](https://github.com/rust-windowing/winit) by [rust-windowing](https://github.com/rust-windowing) : cross-platform window creation and management
+- [winit](https://github.com/rust-windowing/winit) by [Pierre Krieger](https://github.com/tomaka) : cross-platform window creation and management
 
 ## Web DOM
 
 ( _web_backend_ ) ( _dom_ )
 
 - [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
-- [stdweb](https://github.com/koute/stdweb) by [](https://github.com/koute) : standard library for the client-side Web
+- [stdweb](https://github.com/koute/stdweb) by [Koute](https://github.com/koute) : standard library for the client-side Web
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
-- [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [rustwasm](https://github.com/rustwasm) : Raw wasm-bindgen imports for all of the Web's APIsDescription
-- [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [rustwasm](https://github.com/rustwasm) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
-- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [rustwasm](https://github.com/rustwasm) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
+- [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [Nick Fitzgerald](https://github.com/fitzgen) : Raw wasm-bindgen imports for all of the Web's APIsDescription
+- [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [Alex Crichton](https://github.com/alexcrichton) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
+- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [Alex Crichton](https://github.com/alexcrichton) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
 
 ## Web Frontend
 
@@ -275,7 +275,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _db_ )
 
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
-- [diesel](https://github.com/diesel-rs/diesel) : ORM and query builder
+- [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) : query engine from Apache
@@ -286,7 +286,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _functional_ )
 
-- [itertools](https://github.com/rust-itertools/itertools) : extra iterator tools
+- [itertools](https://github.com/rust-itertools/itertools) by [bluss](https://github.com/bluss) : extra iterator tools  ???
 
 ## Version control systems
 
@@ -311,7 +311,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : tools around futures
 - [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : pin-projection
 - [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
-- [rayon](https://github.com/rayon-rs/rayon) by [rayon-rs](https://github.com/rayon-rs) : data-parallelism
+- [rayon](https://github.com/rayon-rs/rayon) by [Niko Matsakis](https://github.com/nikomatsakis) : data-parallelism
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
 - [flume](https://github.com/zesterer/flume) by [Joshua Barretto](https://github.com/zesterer) : multi-producer, multi-consumer channel
@@ -344,7 +344,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [byte-slice-cast](https://github.com/sdroege/byte-slice-cast) by [Sebastian Dröge](https://github.com/sdroege) : casting to / from byte slice
 - [zerocopy](https://docs.rs/zerocopy/) by [Joshua Liebow-Feeser](https://github.com/joshlf) ( _serialization_ ) : zero-copy parsing and serialization
 - [memmap](https://github.com/danburkert/memmap-rs) by [Dan Burkert](https://github.com/danburkert) : API for memory mapped IO
-- [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Rust and WebAssembly](https://github.com/rustwasm) : 1kB-size memory allocator for size-optimized builds
+- [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Nick Fitzgerald](https://github.com/fitzgen) : 1kB-size memory allocator for size-optimized builds
 - [shuffling-allocator](https://github.com/fitzgen/shuffling-allocator) by [Nick Fitzgerald](https://github.com/fitzgen) : randomizing location in the heap
 
 ## Serialization
@@ -387,7 +387,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _parser_ )
 
 - [minimad](https://github.com/Canop/minimad) by [Canop](https://github.com/Canop) : markdown ( MD ) parser
-- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Parcel](https://github.com/parcel-bundler) ( _build_ ) : CSS parser, transformer, and minifier
+- [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Devon Govett](https://github.com/devongovett) ( _build_ ) : CSS parser, transformer, and minifier
 - [csv](https://github.com/BurntSushi/rust-csv) by [Andrew Gallant](https://github.com/BurntSushi) : CSV parser
 - [toml](https://github.com/alexcrichton/toml-rs) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
 - [toml_edit](https://github.com/ordian/toml_edit) by [Andronik Ordian](https://github.com/ordian) : format-preserving TOML parser
@@ -402,8 +402,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
 - [num](https://github.com/rust-num/num) by [Josh Stone](https://github.com/cuviper) : a collection of numeric types and traits
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _hashing_ ) : comparison by pointer address
-- [getrandom](https://github.com/rust-random/getrandom) by [rust-random](https://github.com/rust-random) : cross-platform get random back-end
-- [rand](https://github.com/rust-random/rand) by [rust-random](https://github.com/rust-random) : random number generation front-end
+- [getrandom](https://github.com/rust-random/getrandom) by [Diggory Hardy](https://github.com/dhardy) : cross-platform get random back-end
+- [rand](https://github.com/rust-random/rand) by [Roy Frostig](https://github.com/froystig) : random number generation front-end
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
 
@@ -447,7 +447,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [smartstring](https://github.com/bodil/smartstring) by [Bodil Stokke](https://github.com/bodil) ( _string_ ) : stack-based string if small, otherwise heap-based
 - [kstring](https://github.com/cobalt-org/kstring) by [Ed Page](https://github.com/epage) : stack-based string if small, otherwise heap-based, optimal as a key for hashmap
 - [arrayvec](https://github.com/bluss/arrayvec) by [bluss](https://github.com/bluss) : stack-based vector and string
-- [smallvec](https://github.com/servo/rust-smallvec) by [Servo](https://github.com/servo) : stack-based vector
+- [smallvec](https://github.com/servo/rust-smallvec) by [Simon Sapin](https://github.com/SimonSapin) : stack-based vector
 - [tinymap](https://github.com/notgull/tinymap) by [John](https://github.com/notgull) : stack-based hashmap
 - [storagevec](https://github.com/notgull/storagevec-rs) by [John](https://github.com/notgull) : feature to chose stack-based containers
 
@@ -463,7 +463,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _data_structure_ ) ( _ownership_semantics_ )
 
 - [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
-- [slab](https://github.com/tokio-rs/slab) by [Tokio](https://github.com/tokio-rs) : hashMap-like collection with implicit key
+- [slab](https://github.com/tokio-rs/slab) by [Carl Lerche](https://github.com/carllerche) : hashMap-like collection with implicit key
 - [indexing](https://github.com/bluss/indexing) by [bluss](https://github.com/bluss) : solving indexing problem by associating lifetime with intervals
 - [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
 - [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
@@ -490,7 +490,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ahash](https://github.com/tkaitchuck/aHash) by [Tom Kaitchuck](https://github.com/tkaitchuck) : fast non-cryptographic hashing
 - [xxhash-rust](https://github.com/DoumanAsh/xxhash-rust) by [Douman](https://github.com/DoumanAsh) : xxhash algorithm - one of the fastest non-cryptographic hashing
 - [twox-hash](https://github.com/shepmaster/twox-hash) by [Jake Goulding](https://github.com/shepmaster) : xxhash algorithm - one of the fastest non-cryptographic hashing
-- [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Ticki](https://gitlab.redox-os.org/redox-os) : one of the fastest non-cryptographic hashing algorithm
+- [seahash](https://gitlab.redox-os.org/redox-os/seahash) by [Tom Almeida](https://github.com/Tommoa) : one of the fastest non-cryptographic hashing algorithm
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _adt_ ) : comparison by pointer address
 
 ## Cryptography
@@ -574,7 +574,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _network_ )
 
-- [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo)
+- [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo) : ___ 
 - [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
@@ -587,7 +587,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [faerie](https://github.com/m4b/faerie) by [m4b](https://github.com/m4b) : ELF and Mach-o object file writer
 - [goblin](https://github.com/m4b/goblin) by [m4b](https://github.com/m4b) : binary parsing
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
-- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Embedded WG Tools team](https://github.com/rust-embedded/wg#the-tools-team) : LLVM utility
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
 - [symbol](https://github.com/calebzulawski/symbol) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
 
@@ -605,7 +605,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _embed_ )
 
-- [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Rust Embedded](https://github.com/rust-embedded) : hardware abstraction layer (HAL) for embedded systems
+- [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Jorge Aparicio](https://github.com/japaric) : hardware abstraction layer (HAL) for embedded systems
 
 ## Foreign
 
@@ -618,7 +618,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _logger_ )
 
-- [log](https://github.com/rust-lang/log) by [Rust-lang](https://github.com/rust-lang) : lightweight logging
+- [log](https://github.com/rust-lang/log) by [Alex Crichton](https://github.com/alexcrichton) : lightweight logging
 - [log4rs](https://github.com/estk/log4rs) by [estk](https://github.com/estk) : configurable logging
 
 ## Diagnostics tools
@@ -631,19 +631,19 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _mobile_ )
 
-- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [Brainium Studios LLC](https://brainiumstudios.com/site/index.html) ( _build_ ) : utility to run rust on mobile
-- [crossbow](https://github.com/dodorare/crossbow) by [dodorare](https://github.com/dodorare) : cross-platform rust toolkit for games
-- [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Brainium Studios LLC](http://brainiumstudios.com/) : Wraps a function to make it the entry-point for an mobile app
+- [cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) by [mtak-](https://github.com/mtak-) ( _build_ ) : utility to run rust on mobile
+- [crossbow](https://github.com/dodorare/crossbow) by [David Ackerman](https://github.com/enfipy) : cross-platform rust toolkit for games
+- [mobile-entry-point](https://github.com/BrainiumLLC/mobile-entry-point) by [Francesca Lovebloom](https://github.com/francesca64) : Wraps a function to make it the entry-point for an mobile app
 
 ## Android
 
 ( _android_ )
 
-- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [rust-windowing](https://github.com/rust-windowing) : libraries and tools for Rust programming on Android targets
-- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [rust-windowing](https://github.com/rust-windowing) : interoperability library for a native Rust application with the Android framework
-- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [rust-windowing](https://github.com/rust-windowing) ( _bindings_ ) : raw FFI bindings to the NDK
+- [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [Mark Barbone](https://github.com/mb64) : libraries and tools for Rust programming on Android targets
+- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [David Craven](https://github.com/dvc94ch) : interoperability library for a native Rust application with the Android framework
+- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [David Craven](https://github.com/dvc94ch) ( _bindings_ ) : raw FFI bindings to the NDK
 - [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : send Rust logs to Logcat
-- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [rust-windowing](https://github.com/rust-windowing) ( _build_ ) : tool for creating Android packages
+- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [David Craven](https://github.com/dvc94ch) ( _build_ ) : tool for creating Android packages
 
 ## iOS
 
@@ -658,13 +658,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _templating_ )
 
 - [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
-- [cargo-generate](https://github.com/cargo-generate/cargo-generate) : utility to instantiate a template ( _cargo_ ) ( _build_ )
+- [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _cargo_ ) ( _build_ )
 
 ## HPC
 
 ( _hpc_ )
 
-- [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Rust GPU](https://github.com/Rust-GPU) : CUDA
+- [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
