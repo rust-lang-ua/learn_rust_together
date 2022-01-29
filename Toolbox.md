@@ -5,69 +5,70 @@
 
 ## Tags legend
 
-- ( _error_ ) -- errors handling
-- ( _macro_ ) -- writing macros
-- ( _meta_ ) -- meta programming : reflection, introspection and such things
-- ( _compiler_ ) -- compilers and static analyzers
-- ( _compile_time_ ) -- non run-time
-- ( _njs_ ) -- NodeJs related
-- ( _ui_ ) -- user interface related
-- ( _cui_ ) -- command user interface related
-- ( _cui_parsing_ ) -- tools to parse input of command user interface ( CUI )
-- ( _terminal_ ) -- terminal, textual output
-- ( _cloud_api_ ) -- remote APIs, mostly REST
+- ( _error_ ) - errors handling
+- ( _macro_ ) - writing macros
+- ( _meta_ ) - meta programming : reflection, introspection and such things
+- ( _derive_ ) - procedural derive macroses
+- ( _compiler_ ) - compilers and static analyzers
+- ( _compile_time_ ) - non run-time
+- ( _njs_ ) - NodeJs related
+- ( _ui_ ) - user interface related
+- ( _cui_ ) - command user interface related
+- ( _cui_parsing_ ) - tools to parse input of command user interface ( CUI )
+- ( _terminal_ ) - terminal, textual output
+- ( _cloud_api_ ) - remote APIs, mostly REST
 - ( _cross_compile_ ) - build from one platform to another one
-- ( _build_ ) -- toolchains to build your project
-- ( _wasm_ ) -- WebAssembly-related
-- ( _windowing_ ) -- windows creating, manipulating OS GUI
-- ( _dom_ ) -- web DOM
-- ( _web_frontend_ ) -- web frontend
-- ( _web_backend_ ) -- web backend
-- ( _db_ ) -- database-related
-- ( _functional_ ) -- functional programming
-- ( _virtualisation_ ) -- virtualisation-related, docker-related
-- ( _async_ ) -- asynchronous programming
-- ( _communication_ ) -- either inter-process or inter-thread communication
-- ( _streams_ ) -- read/write streams
-- ( _buffers_ ) -- buffers for memory management
-- ( _mem_ ) -- memory management
-- ( _serialization_ ) -- serialization / deserialization
-- ( _stringification_ ) -- converting to / from a string
-- ( _parser_generator_ ) -- parser generator
-- ( _parser_ ) -- parser of a specific language
-- ( _adt_ ) -- abstract data types
-- ( _data_structure_ ) -- data structures and algorithms
-- ( _string_ ) -- either string or bytes slice based data structures and algorithms
-- ( _stack_based_ ) -- stack-based data structures and algorithms
-- ( _graphs_ ) -- graphcs data structures and algorithms
-- ( _hashing_ ) -- hashing algorithms
-- ( _cryptography_ ) -- cryptographic
-- ( _compression_ ) -- compression, archiving
-- ( _encoding_ ) -- encoding / decoding
-- ( _gdf_ ) -- general data format, genera-purpose formats to exchange data
-- ( _asset_image_ ) -- reading / writing / manipulating various image formats
-- ( _fs_ ) -- file system related
-- ( _os_ ) -- operation systems, bootloaders and components of such, OS APIs
-- ( _cargo_ ) -- extension of cargo
-- ( _video_ ) -- video-processing, capturing
-- ( _asm_ ) -- machine code, byte code, interpreters, assembler
-- ( _hardware_ ) -- reading / writing hardware
-- ( _embed_ ) -- embedded
-- ( _foreign_ ) -- foreign functions, C / C++ binding,  foreign function interface ( FFI )
-- ( _self_ref_ ) -- self referential structures
-- ( _ownership_semantics_ ) -- solutions of problems of owning/borrowing/lifetimes self referring
-- ( _multidimensional_ ) -- multidimensional data structures and algorithms
-- ( _bindings_ ) -- bindings to foreign library or service
-- ( _logger_ ) -- tools for printing information
-- ( _daignostics_ ) -- tools for diagnostics
-- ( _mobile_ ) -- tool or lib related to running rust code on mobile
-- ( _android_ ) -- tools for running rust code on Android
-- ( _ios_ ) -- tools for running rust code on iOS
-- ( _testing_ ) -- for writing tests
-- ( _utility_ ) -- utility to run in terminal
-- ( _example_ ) -- example project
-- ( _templating_ ) -- tools to generate text using template
-- ( _hpc_ ) -- high performance computing
+- ( _build_ ) - toolchains to build your project
+- ( _wasm_ ) - WebAssembly-related
+- ( _windowing_ ) - windows creating, manipulating OS GUI
+- ( _dom_ ) - web DOM
+- ( _web_frontend_ ) - web frontend
+- ( _web_backend_ ) - web backend
+- ( _db_ ) - database-related
+- ( _functional_ ) - functional programming
+- ( _virtualisation_ ) - virtualisation-related, docker-related
+- ( _async_ ) - asynchronous programming
+- ( _communication_ ) - either inter-process or inter-thread communication
+- ( _streams_ ) - read/write streams
+- ( _buffers_ ) - buffers for memory management
+- ( _mem_ ) - memory management
+- ( _serialization_ ) - serialization / deserialization
+- ( _stringification_ ) - converting to / from a string
+- ( _parser_generator_ ) - parser generator
+- ( _parser_ ) - parser of a specific language
+- ( _adt_ ) - abstract data types
+- ( _data_structure_ ) - data structures and algorithms
+- ( _string_ ) - either string or bytes slice based data structures and algorithms
+- ( _stack_based_ ) - stack-based data structures and algorithms
+- ( _graphs_ ) - graphcs data structures and algorithms
+- ( _hashing_ ) - hashing algorithms
+- ( _cryptography_ ) - cryptographic
+- ( _compression_ ) - compression, archiving
+- ( _encoding_ ) - encoding / decoding
+- ( _gdf_ ) - general data format, genera-purpose formats to exchange data
+- ( _asset_image_ ) - reading / writing / manipulating various image formats
+- ( _fs_ ) - file system related
+- ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
+- ( _cargo_ ) - extension of cargo
+- ( _video_ ) - video-processing, capturing
+- ( _asm_ ) - machine code, byte code, interpreters, assembler
+- ( _hardware_ ) - reading / writing hardware
+- ( _embed_ ) - embedded
+- ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
+- ( _self_ref_ ) - self referential structures
+- ( _ownership_semantics_ ) - solutions of problems of owning/borrowing/lifetimes self referring
+- ( _multidimensional_ ) - multidimensional data structures and algorithms
+- ( _bindings_ ) - bindings to foreign library or service
+- ( _logger_ ) - tools for printing information
+- ( _daignostics_ ) - tools for diagnostics
+- ( _mobile_ ) - tool or lib related to running rust code on mobile
+- ( _android_ ) - tools for running rust code on Android
+- ( _ios_ ) - tools for running rust code on iOS
+- ( _testing_ ) - for writing tests
+- ( _utility_ ) - utility to run in terminal
+- ( _example_ ) - example project
+- ( _templating_ ) - tools to generate text using template
+- ( _hpc_ ) - high performance computing
 
 ## Errors handling
 
@@ -98,6 +99,14 @@
 - [field_names](https://github.com/TedDriggs/field_names) by [Ted Driggs](https://github.com/TedDriggs) : list of names of fields bound to the structure
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
+
+## Derives
+
+( _meta_ ) ( _derive_ )
+
+- [derive-new](https://github.com/nrc/derive-new) by [Nick Cameron](https://github.com/nrc) : derive new
+- [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _parser_ ) ( _stringification_ ) : derive macro Display and FromStr
+- [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) :  macro to generate the method is_variant for each variant of an enum
 
 ## Compilers, Static Analyzers, code formatters
 
@@ -245,6 +254,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _windowing_ )
 
 - [winit](https://github.com/rust-windowing/winit) by [rust-windowing](https://github.com/rust-windowing) : cross-platform window creation and management
+- [web-view](https://github.com/Boscop/web-view) by [Boscop](https://github.com/Boscop) : bindings for webview, a tiny cross-platform library
 
 ## Web DOM
 
@@ -357,6 +367,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [bincode](https://github.com/bincode-org/bincode) by [Nathan McCarty](https://github.com/nmccarty) : a binary encoder / decoder implementation
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _gdf_ ) : readable data serialization format
 - [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
+- [serde-hjson](https://github.com/hjson/hjson-rust) by [Christian Zangl](https://github.com/laktak) : serde plugin to parse JSON with comments
+
 - [nanoserde](https://github.com/not-fl3/nanoserde) by [Fedor Logachev](https://github.com/not-fl3) : minimal serialization library with zero dependencies
 - [speedy](https://github.com/koute/speedy) by [Koute](https://github.com/koute) : another serialization alternative
 - [dipa](https://github.com/chinedufn/dipa) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : structures delta encoding
@@ -365,7 +377,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _stringification_ )
 
-- [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _parser_ ) : derive macro Display and FromStr
+- [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _derive_ ) : derive macro Display and FromStr
 - [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _adt_ ) : enum stringification, parsing and iterating
 - [lexical](https://github.com/Alexhuszagh/rust-lexical) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : numeric to and from string conversion
 - [lexical-core](https://github.com/Alexhuszagh/rust-lexical/tree/main/lexical-core) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : minimal implementation of lexical
@@ -404,7 +416,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _hashing_ ) : comparison by pointer address
 - [getrandom](https://github.com/rust-random/getrandom) by [rust-random](https://github.com/rust-random) : cross-platform get random back-end
 - [rand](https://github.com/rust-random/rand) by [rust-random](https://github.com/rust-random) : random number generation front-end
-- [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
 
 ## Data structures and algorithms
@@ -526,6 +537,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _serialization_ ) : readable data serialization format
 - [rmp](https://github.com/3Hren/msgpack-rust) by [Evgeny Safronov](https://github.com/3Hren) : MessagePack
 - [minicbor](https://gitlab.com/twittner/minicbor) by [Toralf Wittner](https://gitlab.com/twittner) : CBOR
+- [record-query](https://github.com/dflemstr/rq) by [David Flemström](https://github.com/dflemstr) : transform from one GDF to another one
 
 ## Image reading / writing
 
@@ -578,7 +590,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
-- [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) :  composable, web server framework
+- [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
 
 ## Asm
 

@@ -5,7 +5,8 @@
 ## Tags legend
 
 - ( _site_generation_ ) - generating a site with documentation from either MD or similar languages
-- ( _general_utility_ ) - general purpose utilities
+- ( _general_purpose_ ) - general purpose utilities
+- ( _vcs_ ) - versions controls systems
 
 ## Site Generation
 
@@ -19,7 +20,7 @@ https://squidfunk.github.io/mkdocs-material/
 
 ## General purpose utilities
 
-( _general_utility_ )
+( _general_purpose_ )
 
 - [broot](https://github.com/Canop/broot) by [Denys Séguret](https://github.com/Canop) : CUI for files navigation
 - [bartib](https://github.com/nikolassv/bartib) by [Nikolas Schmidt-Voigt](https://github.com/nikolassv) : CUI for time tracking
@@ -35,6 +36,12 @@ https://squidfunk.github.io/mkdocs-material/
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [alacritty](https://github.com/alacritty/alacritty) by [Joe Wilm](https://github.com/jwilm) : cross-platform, OpenGL terminal emulator
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
+
+## Versions Control Systems
+
+( _vcs_ )
+
+- [gitui](https://github.com/extrawurst/gitui) by [Stephan Dilly](https://github.com/extrawurst) : terminal-ui for git
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->

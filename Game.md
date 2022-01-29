@@ -26,6 +26,7 @@ Curated collection of resources to make games on Rust.
 - ( _assets_3d_ ) - 3D assets loading/saving
 - ( _sound_ ) - sound-related
 - ( _dsp_ ) - digital signals processing
+- ( _vst_ ) - virtual studio technology
 - ( _game_design_ ) - game design tools
 - ( _game_ ) - finished game
 - ( _toy_ ) - toy game
@@ -67,6 +68,7 @@ Curated collection of resources to make games on Rust.
 - [emerald](https://github.com/Bombfuse/emerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
 - [tetra](https://github.com/17cupsofcoffee/tetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
 - [macroquad](https://github.com/not-fl3/macroquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform game engine
+- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _physics_ ) : godot engine binding
 
 ## Human interface device
 
@@ -76,7 +78,7 @@ Curated collection of resources to make games on Rust.
 
 ## Shader Middleware
 
-( _shader_ ) ( _middleware_ )
+( _middleware_ ) ( _shader_ )
 
 - [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL shading language parser
 - [naga](https://github.com/gfx-rs/naga) by [Dzmitry Malyshau](https://github.com/kvark) : shader translation
@@ -179,6 +181,7 @@ Curated collection of resources to make games on Rust.
 ( _color_ )
 
 - [rgb](https://github.com/kornelski/rust-rgb) by [Kornel](https://github.com/kornelski) : RGB / RGBA
+- [palette](https://github.com/Ogeon/palette) by [Erik Hedvall](https://github.com/Ogeon) : color conversion
 
 ## Physics
 
@@ -188,6 +191,8 @@ Curated collection of resources to make games on Rust.
 - [nphysics](https://github.com/dimforge/nphysics) by [Sébastien Crozet](https://github.com/sebcrozet) : 2 and 3-dimensional rigid body physics engine
 - [k](https://github.com/openrr/k) by [Takashi Ogura](https://github.com/OTL) : kinematics library
 - [rapier2d](https://github.com/dimforge/rapier) by [Sébastien Crozet](https://github.com/sebcrozet) : 2D physics engines focused on performance
+- [godot-vs-rapier](https://github.com/extrawurst/godot-vs-rapier) by [Stephan Dilly](https://github.com/extrawurst) : comparison of two physics engines
+- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _engine_ ) : godot engine binding
 
 ## SDK bindings
 
@@ -211,18 +216,40 @@ Curated collection of resources to make games on Rust.
 
 ## DSP
 
-( _dsp_ )
+( _sound_ ) ( _dsp_ )
 
 - [spectrum-analyzer](https://github.com/phip1611/spectrum-analyzer) by [Philipp Schuster](https://github.com/phip1611) : spectrum analysis
 - [beat-detector](https://github.com/phip1611/beat-detector) by [Philipp Schuster](https://github.com/phip1611) : beat detection
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
 
-## Game Design
+## Virtual Studio Technology
+
+( _sound_ ) ( _vst_ )
+
+- [vst2](https://github.com/overdrivenpotato/rust-vst2) by [https://github.com/overdrivenpotato](Marko Mijalkovic) : VST 2.4 API implementation
+- [easyvst](https://github.com/Boscop/easyvst) by [Boscop](https://github.com/Boscop) : helper crate for creating VST audio plugins
+
+## Sound Shaders
+
+( _sound_ ) ( _shader_ )
+
+- [BoiTracker](https://github.com/LeStahL/BoiTracker) by [Alexander Kraus](https://github.com/LeStahL) ( _midi_ ) : visualization of MIDI input
+
+## MIDI
+
+( _sound_ ) ( _midi_ )
+
+- [BoiTracker](https://github.com/LeStahL/BoiTracker) by [Alexander Kraus](https://github.com/LeStahL) ( _shader_ ) : visualization of MIDI input
+- [midir](https://github.com/Boddlnagg/midir) by [Patrick Reisert](https://github.com/Boddlnagg/) : cross-platform realtime MIDI processing
+
+## Game Design and Practice
 
 ( _game_design_ )
 
 - [grue](https://github.com/gwihlidal/grue-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : tools for building role-playing and adventure games
+- [bracket-lib](https://github.com/amethyst/bracket-lib) by [Herbert Wolverson](https://github.com/thebracket) : terminal-based game development
+- [HandsOnRust](https://github.com/thebracket/HandsOnRust) by [Herbert Wolverson](https://github.com/thebracket) : samples from Hands-on Rust book
 
 ## Games
 
