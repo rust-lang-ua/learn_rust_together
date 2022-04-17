@@ -266,6 +266,7 @@ Curated collection of resources to make games on Rust.
 - [bevy_rider](https://github.com/bonsairobo/bevy_rider) by [Duncan](https://github.com/bonsairobo) : drawing with 2d physics
 - [roguelike](https://github.com/JMS55/roguelike) by [JMS55](https://github.com/JMS55) : turn based dungeon exploration
 - [crossword](https://github.com/paulgb/crossword-composer) by [Paul Butler](https://github.com/paulgb) : crossword composer.
+- [name-needed](https://github.com/DomWilliams0/name-needed) by [Dom Williams](https://github.com/DomWilliams0) : Dwarf Fortress-like game
 
 ## Utilities
 

@@ -157,11 +157,10 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Domain-specific topics
 
-- [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
-- [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
 - [Safety in Systems Programming from Stanford University](https://web.stanford.edu/class/cs110l/) by Ryan Eberhardt and Julio Ballista ( _reading_ ) ( _course_ )
 - [Comp Sci Rust Programming Course from University of Pennsylvania's](http://cis198-2016s.github.io/schedule/) ( _reading_ ) ( _course_ )
 - [Refactoring to Rust](https://livebook.manning.com/book/refactoring-to-rust/chapter-1/v-2/) by [Lily Mara](https://github.com/lily-mara) :blue_book: ( _book_ ) ( _reading_ ) ( _advanced_ ) :
+- [r4cppp](https://github.com/nrc/r4cppp) by [Nick Cameron](https://github.com/nrc) : Rust for C++ programmers
 
 ## Setup
 
@@ -233,6 +232,8 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ( _about:web_ )
 
 - [Validating JSON input](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/) by [Evaldas Buinauskas](https://github.com/buinauskas) ( _reading_ ) ( _article_ )
+- [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
+- [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
 
 ## Graphics
 

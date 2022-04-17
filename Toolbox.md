@@ -69,6 +69,7 @@
 - ( _example_ ) - example project
 - ( _templating_ ) - tools to generate text using template
 - ( _hpc_ ) - high performance computing
+- ( _idea_ ) - it is rather proof of concept than production-ready implementation
 
 ## Errors handling
 
@@ -95,10 +96,10 @@
 
 ( _meta_ )
 
-- [treeflection](https://github.com/rukai/treeflection) by [Lucas Kent](https://github.com/rukai) : pseudo-reflection for structs and enums
-- [field_names](https://github.com/TedDriggs/field_names) by [Ted Driggs](https://github.com/TedDriggs) : list of names of fields bound to the structure
+- [treeflection](https://github.com/rukai/treeflection) by [Lucas Kent](https://github.com/rukai) ( _idea_ ) : pseudo-reflection for structs and enums
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
+- [cfg_aliases](https://github.com/katharostech/cfg_aliases) by [Zicklag](https://github.com/zicklag) : aliasing of cfg
 
 ## Derives
 
@@ -107,6 +108,7 @@
 - [derive-new](https://github.com/nrc/derive-new) by [Nick Cameron](https://github.com/nrc) : derive new
 - [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _parser_ ) ( _stringification_ ) : derive macro Display and FromStr
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) :  macro to generate the method is_variant for each variant of an enum
+- [field_names](https://github.com/TedDriggs/field_names) by [Ted Driggs](https://github.com/TedDriggs) : derive to list names of fields bound to the structure
 
 ## Compilers, Static Analyzers, code formatters
 
@@ -278,7 +280,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _web_backend_ )
 
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
-- [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP
+<!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
 ## Database
 
@@ -356,6 +358,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [memmap](https://github.com/danburkert/memmap-rs) by [Dan Burkert](https://github.com/danburkert) : API for memory mapped IO
 - [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Nick Fitzgerald](https://github.com/fitzgen) : 1kB-size memory allocator for size-optimized builds
 - [shuffling-allocator](https://github.com/fitzgen/shuffling-allocator) by [Nick Fitzgerald](https://github.com/fitzgen) : randomizing location in the heap
+- [slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) by [Christopher Durham](https://github.com/CAD97) : slice-based DST allocation
+- [ptr-union](https://github.com/CAD97/pointer-utils/tree/master/crates/ptr-union) by [Christopher Durham](https://github.com/CAD97) : union of pointers storing the tag in alignment bits
+- [erasable](https://github.com/CAD97/pointer-utils/tree/master/crates/erasable) by [Christopher Durham](https://github.com/CAD97) : produce type-less pointers
+- [rc-box](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-box) by [Christopher Durham](https://github.com/CAD97) : better Rc< Box > and Arc< Box >
+- [rc-borrow](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-borrow) by [Christopher Durham](https://github.com/CAD97) : borrow Rc/Arc without wrapping borrowed
+- [triomphe](https://github.com/Manishearth/triomphe) by [Manish Goregaokar](https://github.com/Manishearth) : FFI-focused ARC
 
 ## Serialization
 
@@ -414,14 +422,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
 - [num](https://github.com/rust-num/num) by [Josh Stone](https://github.com/cuviper) : a collection of numeric types and traits
 - [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _hashing_ ) : comparison by pointer address
-<<<<<<< HEAD
-- [getrandom](https://github.com/rust-random/getrandom) by [rust-random](https://github.com/rust-random) : cross-platform get random back-end
-- [rand](https://github.com/rust-random/rand) by [rust-random](https://github.com/rust-random) : random number generation front-end
-=======
 - [getrandom](https://github.com/rust-random/getrandom) by [Diggory Hardy](https://github.com/dhardy) : cross-platform get random back-end
 - [rand](https://github.com/rust-random/rand) by [Roy Frostig](https://github.com/froystig) : random number generation front-end
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
->>>>>>> 265883a8caaa4e059e6bb2ec6a5e989b7a905faa
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
 
 ## Data structures and algorithms
@@ -455,6 +458,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [suffix](https://github.com/BurntSushi/suffix) by [Andrew Gallant](https://github.com/BurntSushi) : finding several occurrences of the same pattern in a long text
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _fs_ ) : glob matching
 - [widestring](https://github.com/starkat99/widestring-rs) by [Kathryn Long](https://github.com/starkat99) : a wide string Rust library for converting to and from wide Unicode strings
+- [heck](https://github.com/withoutboats/heck) by [Saoirse Shipwreckt](https://github.com/withoutboats) : case conversion
+- [convert-case](https://github.com/rutrum/convert-case) by [Dave Purdum](https://github.com/rutrum) : case conversion
 
 ## Stack-based data structures
 
