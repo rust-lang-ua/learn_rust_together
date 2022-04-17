@@ -35,7 +35,6 @@ https://squidfunk.github.io/mkdocs-material/
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [alacritty](https://github.com/alacritty/alacritty) by [Joe Wilm](https://github.com/jwilm) : cross-platform, OpenGL terminal emulator
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
-
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
 
 ## File system distros
