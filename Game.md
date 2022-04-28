@@ -19,6 +19,7 @@ Curated collection of resources to make games on Rust.
 - ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
 - ( _plotting_ ) - plot data
 - ( _math_ ) - math
+- ( _meta_ ) - meta
 - ( _tesselation_ ) - tesselation libs
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
@@ -209,6 +210,12 @@ Curated collection of resources to make games on Rust.
 - [rustometry](https://github.com/bradmartin333/rustometry) by [Brad Martin](https://github.com/bradmartin333): Spatial Geometry in Pure Rust
 - [geometry_tools](https://github.com/scanmountgoat/geometry_tools) by [ScanMountGoat](https://github.com/scanmountgoat) : Efficient computation of single precision geometric data
 - [Myelin Geometry](https://github.com/myelin-ai/geometry) by [Myelin Research Group](https://github.com/myelin-ai) : Basic linear and vector geometry for two-dimensional Euclidean geometry
+
+## Meta math
+
+( _math_ ) ( _meta_ )
+
+- [https://github.com/rust-num/num-traits](num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
 
 ## Tesselation
 

@@ -17,8 +17,6 @@
 - [Zola](https://www.getzola.org/)
 - [mkdocs-material](https://github.com/squidfunk/mkdocs-material) by [Martin Donath](https://github.com/squidfunk) : [site](https://squidfunk.github.io/mkdocs-material/)
 
-https://squidfunk.github.io/mkdocs-material/
-
 ## General purpose distros
 
 ( _general_purpose_ )
