@@ -19,12 +19,13 @@ Curated collection of resources to make games on Rust.
 - ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
 - ( _plotting_ ) - plot data
 - ( _math_ ) - math
+- ( _tesselation_ ) - tesselation libs
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
 - ( _svg_ ) - SVG related
-- ( _svg_ ) - image processing related
+- ( _img_ ) - image processing related
 - ( _assets_3d_ ) - 3D assets loading/saving
 - ( _sound_ ) - sound-related
 - ( _dsp_ ) - digital signals processing
@@ -32,6 +33,7 @@ Curated collection of resources to make games on Rust.
 - ( _game_design_ ) - game design tools
 - ( _game_ ) - finished game
 - ( _toy_ ) - toy game
+- ( _specific_ ) -- some specific graphics libraries
 - ( _utility_ ) - utilities
 
 <!-- qqq : improve tags descriptions -->
@@ -91,6 +93,14 @@ Curated collection of resources to make games on Rust.
 
 - [tri-mesh](https://github.com/asny/tri-mesh) by [Asger Nyman Christiansen](https://github.com/asny) : a triangle mesh data structure
 - [meshopt](https://github.com/gwihlidal/meshopt-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : binding of zeux/meshoptimizer
+- [euclid](https://github.com/servo/euclid) by [Servo](https://github.com/servo) : Geometry primitives
+- [Pointy](https://github.com/douglau/pointy) by [Douglas Lau](https://github.com/douglau) : Minimal 2D geometry library
+- [geom-rs](https://github.com/vectorious/geom-rs) by [Brandon King](https://github.com/vectorious) : Simple 2D geometry library
+- [implicit3d](https://github.com/hmeyer/implicit3d) by [Henning Meyer](https://github.com/hmeyer) : 3d implicit geometry
+- [euler](https://github.com/alteous/euler) by [David Harvey-Macaulay](https://github.com/alteous) : Mathematics library for 3D computer graphics
+- [lyon](https://github.com/nical/lyon) by [Nicolas Silva](https://github.com/nical) : A path tessellation library written in rust for GPU-based 2D graphics rendering.
+- [raqote](https://github.com/jrmuizel/raqote) by [Jeff Muizelaar](https://github.com/jrmuizel) : A pure Rust 2D Graphics Library.
+- [footile](https://github.com/douglau/footile) by [Douglas Lau](https://github.com/douglau) : A 2D vector graphics library
 
 ## Window management
 
@@ -162,6 +172,9 @@ Curated collection of resources to make games on Rust.
 
 - [line_drawing](https://github.com/expenses/line_drawing) by [Ashley](https://github.com/expenses) : line-drawing algorithms
 - [zeno](https://github.com/dfrg/swash) by [Chad Brokaw](https://github.com/dfrg) ( _font_ ) : path rasterization library
+- [bezier-nd](https://github.com/atthecodeface/bezier-nd-rs) by [Gavin J Stark](https://github.com/atthecodeface) : Bezier curve implementations using N-dimensional vectors
+- [makima_spline](https://github.com/grasbock/makima_spline) by [GRASBOCK](https://github.com/grasbock) : An implementation of the modified akima spline interpolation
+- [Uniform Cubic Spline Interpolation & Inversion](https://github.com/virtualritz/uniform-cubic-splines) by [Moritz Mœller](https://github.com/virtualritz) : Simple uniform cubic spline evaluation and inversion
 
 ## Plotting
 
@@ -185,6 +198,28 @@ Curated collection of resources to make games on Rust.
 - [noisy_float](https://github.com/SergiusIW/noisy_float-rs) by [Matthew Michelotti](https://github.com/SergiusIW) : floating point types that panic if they are set to an illegal value, such as NaN
 - [half](https://github.com/starkat99/half-rs) by [Kathryn Long](https://github.com/starkat99) : half-precision floating point types f16 and bf16 for
 - [mint](https://github.com/kvark/mint) by [Dzmitry Malyshau](https://github.com/kvark) : math interoperability types
+- [cgmath](https://github.com/rustgd/cgmath) by [rustgd](https://github.com/rustgd) : A linear algebra and mathematics library for computer graphics
+- [gee](https://github.com/brainiumllc/gee) by [Brainium](https://github.com/brainiumllc) : A convenience-first geometry library tailor-made for 2D games!
+- [gml](https://lib.rs/crates/gml) : Graphics Math Library. Generic Vector and Matrix Math library targetting graphics applications.
+- [geomath](https://github.com/samibendou/geomath) by [bendou](https://github.com/samibendou) : Stack-allocated maths for geometry, simulation and computer graphics
+- [beagle-rs](https://github.com/popog/beagle-rs) by [Popog](https://github.com/popog) : A basic linear algebra library for computer graphics
+- [GFX Maths](https://github.com/rob2309/gfx-maths-rs) by [Robin Quint](https://github.com/rob2309) : Implementations for the most essential Graphics Math operations
+- [mini-math-rs](https://github.com/swiftcoder/mini-math-rs) by [Tristam MacDonald](https://github.com/swiftcoder) : Lightweight math routines for 3D graphics ( _3d_ )
+- [geometric_algebra](https://github.com/lichtso/geometric_algebra) by [Alexander Meißner](https://github.com/lichtso) : Generate(d) custom libraries for geometric algebras
+- [rustometry](https://github.com/bradmartin333/rustometry) by [Brad Martin](https://github.com/bradmartin333): Spatial Geometry in Pure Rust
+- [geometry_tools](https://github.com/scanmountgoat/geometry_tools) by [ScanMountGoat](https://github.com/scanmountgoat) : Efficient computation of single precision geometric data
+- [Myelin Geometry](https://github.com/myelin-ai/geometry) by [Myelin Research Group](https://github.com/myelin-ai) : Basic linear and vector geometry for two-dimensional Euclidean geometry
+
+## Tesselation
+
+( _tesselation_ )
+
+- [cdshealpix-rust](https://github.com/cds-astro/cds-healpix-rust) by [CDS (Centre de Données astronomiques de Strasbourg)](https://github.com/cds-astro) : Rust implementation of the HEALPix tesselation
+- [lyon::path](https://github.com/nical/lyon/tree/HEAD/crates/path) by [Nicolas Silva](https://github.com/nical) : Types and utilities to store, build and iterate over 2D paths
+- [tir](https://github.com/dcrasch/tir/tree/HEAD/tessellations) by [David Rasch](https://github.com/dcrasch) : Library to create and draw periodic tilings of the plane
+- [geopattern](https://github.com/suyash/geopattern-rs) by [Suyash](https://github.com/suyash) : Beautiful generative geometric background images from a string, a Rust implementation of geo_pattern from @jasonlong
+- [tessellation](https://github.com/hmeyer/tessellation) by [Henning Meyer](https://github.com/hmeyer) : 3d tessellation library
+- [plane-split](https://github.com/servo/plane-split) by [Servo](https://github.com/servo) : Plane splitting
 
 ## Color
 
@@ -277,6 +312,19 @@ Curated collection of resources to make games on Rust.
 - [roguelike](https://github.com/JMS55/roguelike) by [JMS55](https://github.com/JMS55) : turn based dungeon exploration
 - [crossword](https://github.com/paulgb/crossword-composer) by [Paul Butler](https://github.com/paulgb) : crossword composer.
 - [name-needed](https://github.com/DomWilliams0/name-needed) by [Dom Williams](https://github.com/DomWilliams0) : Dwarf Fortress-like game
+
+## Specific
+
+( _specific_ )
+
+- [triangle-rs](https://github.com/rconan/triangle-rs) by [Rod Conan](https://github.com/rconan) : A Rust binder for the 2D mesh generator and Delaunay triangulator Triangle
+- [Hilbert 2D](https://github.com/hbertoduarte/hilbert_2d) by [Humberto Duarte](https://github.com/hbertoduarte) : Functions for mapping between 1D and 2D space using the Hilbert curve, and its approximations
+- [truck-geometry](https://github.com/ricosjp/truck/tree/HEAD/truck-geometry) by [RICOS Co. Ltd.](https://github.com/ricosjp) : geometrical structs: knot vector, B-spline and NURBS
+- [centerline.rs](https://github.com/eadf/centerline.rs) by [eadf](https://github.com/eadf) : Simple library for finding centerlines of 2D closed geometry
+- [ring-algorithm](https://gitlab.com/Toru3/ring-algorithm) by [Toru3](https://gitlab.com/Toru3) : algorithms on ring (Abstruct Algebra)
+- [Enterpolation](https://github.com/nicolasklenert/enterpolation) by [NicolasKlenert](https://github.com/nicolasklenert) : A library for creating and computing interpolations, extrapolations and smoothing of generic data points
+- [libreda-shapes](https://codeberg.org/libreda/iron-shapes) by [LibrEDA](https://codeberg.org/libreda) : Basic data types and routines for computational geometry focused on VLSI chip design
+
 
 ## Utilities
 
