@@ -4,9 +4,9 @@ Curated collection of lists of useful resources to learn Rust together.
 
 List of forums and chats you may find [here](https://github.com/Learn-Together-Pro/RustCommunity). I encourage you to seek for help if you struggle to solve a problem. Rust community is very friendly!
 
-<!-- - []() by []() : -->
+<!- - []() by []() : ->
 
-## Content
+<!-- ## Content
 
 - [Tags legend](#tags-legend)
 - [General-purpose official resources](#general-purpose-official-resources)
@@ -27,41 +27,42 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Ownership semantics](#ownership_semantics)
 - [Projects catalogue](#projects-catalogue)
 - [Newspapers](#newspapers)
-- [Other lists on Rust](#other-lists-on-rust)
+- [Other lists on Rust](#other-lists-on-rust) -->
 
 ## Tags legend
 
-- ( _general_ ) -- general-purpose material
-- ( _specific_ ) -- domain-specific material
-- ( _official_ ) -- official Rust material
-- ( _non-eng_ ) -- non-english language
-- ( _course_ ) -- consists of series of text/video articles trying to give to a reader solid foundation
-- ( _book_ ) -- a book
-- ( _reference_ ) -- a reference
-- ( _article_ ) -- either single article or single video-tutorial
-- ( _not-finished_ ) -- not finished, too little to learn
-- ( _interactive_ ) -- it is possible to interact and get feedback from the system
-- ( _reading_ ) -- material to read
-- ( _video_ ) -- material to watch
-- ( _audio_ ) -- material to listen
-- ( _list_ ) -- list of resources
-- ( _newspaper_ ) -- regularly updating list of articles
-- ( _project_ ) -- project
-- ( _algo_ ) -- algorithmic problems and solutions
-- ( _toy_ ) -- educatuinal toy projects
-- ( _introductory_ ) -- introductory level
-- ( _advanced_ ) -- advanced level
-- ( _about:setup_ ) -- how to install rust and stup your development environment
-- ( _about:cross_compile_ ) -- how to build from one platform to another one
-- ( _about:mem_ ) -- about memory management in Rust, the difference between heap, stack, code segments, etc
-- ( _about:bin_size_ ) -- about size of target application
-- ( _about:async_ ) -- about asynchronous programming
-- ( _about:ownership_semantics_ ) -- about owning/borrowing/lifetimes
-- ( _about:closure_ ) -- about closures
-- ( _about:self_ref_ ) -- about self-referential structures
-- ( _about:webasm_ ) -- about WebAssembly
-- ( _about:web_ ) -- web development
-- ( _about:graphics_ ) -- graphics
+- ( _general_ ) - general-purpose material
+- ( _specific_ ) - domain-specific material
+- ( _official_ ) - official Rust material
+- ( _non-eng_ ) - non-english language
+- ( _course_ ) - consists of series of text/video articles trying to give to a reader solid foundation
+- ( _book_ ) - a book
+- ( _reference_ ) - a reference
+- ( _article_ ) - either single article or single video-tutorial
+- ( _not-finished_ ) - not finished, too little to learn
+- ( _interactive_ ) - it is possible to interact and get feedback from the system
+- ( _reading_ ) - material to read
+- ( _video_ ) - material to watch
+- ( _audio_ ) - material to listen
+- ( _list_ ) - list of resources
+- ( _newspaper_ ) - regularly updating list of articles
+- ( _project_ ) - project
+- ( _algo_ ) - algorithmic problems and solutions
+- ( _toy_ ) - educatuinal toy projects
+- ( _introductory_ ) - introductory level
+- ( _advanced_ ) - advanced level
+- ( _about:setup_ ) - how to install rust and stup your development environment
+- ( _about:cross_compile_ ) - how to build from one platform to another one
+- ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
+- ( _about:bin_size_ ) - about size of target application
+- ( _about:async_ ) - about asynchronous programming
+- ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
+- ( _about:closure_ ) - about closures
+- ( _about:self_ref_ ) - about self-referential structures
+- ( _about:macro_ ) - about macros
+- ( _about:webasm_ ) - about WebAssembly
+- ( _about:web_ ) - web development
+- ( _about:graphics_ ) - graphics
 
 ## General-purpose official resources
 
@@ -112,6 +113,12 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
 - [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
 - [API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
+
+## Macros
+
+( _about:macro_ )
+
+- [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
 
 ## WebAssembly
 
@@ -194,6 +201,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ( _about:mem_ )
 
+- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _video_ ) ( _article_ ) : all about memory layout
 - [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
 - [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
 - [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
@@ -213,6 +221,8 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [Deref vs AsRef vs Borrow vs Cow](https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6) by [Alex](https://dev.to/zhanghandong)
 - [Understanding lifetimes in Rust](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
+
+- [Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) by [pretzelhammer](https://github.com/pretzelhammer) :
 
 ## Closures
 
@@ -276,5 +286,5 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly)  by [rustwasm](https://github.com/rustwasm)
 - [List of chats and forums](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Communities.md) :speech_balloon: by us
 - [Distros written on Rust](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Distros.md) :wrench: by us
-- [Game Developer's Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Game.md) :video_game: by us
+- [Game and Multimedia Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Mulitmedia.md) :video_game: by us
 - :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by us

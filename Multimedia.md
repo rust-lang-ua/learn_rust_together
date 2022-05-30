@@ -18,6 +18,8 @@ Curated collection of resources to make games on Rust.
 - ( _webgpu_ ) - WebGPU related
 - ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
 - ( _plotting_ ) - plot data
+- ( _data_structure_ ) - data structures and algorithms
+- ( _graphs_ ) - graphs data structures and algorithms
 - ( _math_ ) - math
 - ( _meta_ ) - meta
 - ( _tesselation_ ) - tesselation libs
@@ -31,10 +33,12 @@ Curated collection of resources to make games on Rust.
 - ( _sound_ ) - sound-related
 - ( _dsp_ ) - digital signals processing
 - ( _vst_ ) - virtual studio technology
+- ( _midi_ ) - MIDI related
+- ( _gis_ ) - geographic information system
 - ( _game_design_ ) - game design tools
 - ( _game_ ) - finished game
 - ( _toy_ ) - toy game
-- ( _specific_ ) -- some specific graphics libraries
+- ( _specific_ ) - some specific graphics libraries
 - ( _utility_ ) - utilities
 
 <!-- qqq : improve tags descriptions -->
@@ -134,6 +138,7 @@ Curated collection of resources to make games on Rust.
 - [wgpu_glyph](https://github.com/hecrj/wgpu_glyph) by [Héctor Ramón](https://github.com/hecrj) ( _webgpu_ ) : text renderer for wgpu
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
 - [rugl](https://github.com/gregtatum/rugl) by [Greg Tatum](https://github.com/gregtatum) : declarative Stateless OpenGL in Rust (inspired by regl)
+- [glyphon](https://github.com/grovesNL/glyphon) by [Josh Groves](https://github.com/grovesNL) : 2D text renderer for wgpu
 
 ## Data Structures and Algorithms
 
@@ -183,6 +188,12 @@ Curated collection of resources to make games on Rust.
 
 - [`plotlib` - generic data visualisation and plotting library for Rust](https://github.com/milliams/plotlib) by [Matt Williams](https://github.com/milliams) ( _rust_ )
 - [`plotly` - a plotting library for Rust powered by Plotly.js](https://github.com/igiagkiozis/plotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) ( _rust_ )
+
+## Graphs
+
+( _data_structure_ ) ( _graphs_ )
+
+- [petgraph](https://github.com/petgraph/petgraph) by [bluss](https://github.com/bluss) : graph data structure and algorithms
 
 ## Math
 
@@ -295,6 +306,12 @@ Curated collection of resources to make games on Rust.
 - [BoiTracker](https://github.com/LeStahL/BoiTracker) by [Alexander Kraus](https://github.com/LeStahL) ( _shader_ ) : visualization of MIDI input
 - [midir](https://github.com/Boddlnagg/midir) by [Patrick Reisert](https://github.com/Boddlnagg/) : cross-platform realtime MIDI processing
 
+## GIS
+
+( _gis_ )
+
+- [osmpbf](https://github.com/b-r-u/osmpbf) by [Johannes Hofmann](https://github.com/b-r-u) : reading the OpenStreetMap PBF file format
+
 ## Game Design and Practice
 
 ( _game_design_ )
@@ -332,13 +349,11 @@ Curated collection of resources to make games on Rust.
 - [Enterpolation](https://github.com/nicolasklenert/enterpolation) by [NicolasKlenert](https://github.com/nicolasklenert) : A library for creating and computing interpolations, extrapolations and smoothing of generic data points
 - [libreda-shapes](https://codeberg.org/libreda/iron-shapes) by [LibrEDA](https://codeberg.org/libreda) : Basic data types and routines for computational geometry focused on VLSI chip design
 
-
 ## Utilities
 
 ( _utility_ )
 
 - [landon](https://github.com/chinedufn/landon) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : exporting Blender data
-
 
 ## Rendering comparison
 

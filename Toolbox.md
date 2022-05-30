@@ -8,9 +8,11 @@
 - ( _error_ ) - errors handling
 - ( _macro_ ) - writing macros
 - ( _meta_ ) - meta programming : reflection, introspection and such things
+- ( _decorator_ ) - decorators for nicer code
 - ( _derive_ ) - procedural derive macroses
 - ( _compiler_ ) - compilers and static analyzers
 - ( _compile_time_ ) - non run-time
+- ( _global_ ) - global variable
 - ( _njs_ ) - NodeJs related
 - ( _ui_ ) - user interface related
 - ( _cui_ ) - command user interface related
@@ -24,10 +26,12 @@
 - ( _dom_ ) - web DOM
 - ( _web_frontend_ ) - web frontend
 - ( _web_backend_ ) - web backend
+- ( _network_ ) - network
 - ( _db_ ) - database-related
 - ( _functional_ ) - functional programming
 - ( _virtualisation_ ) - virtualisation-related, docker-related
-- ( _async_ ) - asynchronous programming
+- ( _concurrency_ ) - concurrency and asynchronous programming
+- ( _persistence_ ) - persistence and delayed execution
 - ( _communication_ ) - either inter-process or inter-thread communication
 - ( _streams_ ) - read/write streams
 - ( _buffers_ ) - buffers for memory management
@@ -36,11 +40,15 @@
 - ( _stringification_ ) - converting to / from a string
 - ( _parser_generator_ ) - parser generator
 - ( _parser_ ) - parser of a specific language
+- ( _statistics_ ) - random generators, distributions and statistics-related things
 - ( _adt_ ) - abstract data types
+- ( _algo_ ) - algorithms
 - ( _data_structure_ ) - data structures and algorithms
+- ( _primitive_ ) - primitives
+- ( _collection_ ) - data structures which are collections
 - ( _string_ ) - either string or bytes slice based data structures and algorithms
 - ( _stack_based_ ) - stack-based data structures and algorithms
-- ( _graphs_ ) - graphcs data structures and algorithms
+- ( _graphs_ ) - graphs data structures and algorithms
 - ( _hashing_ ) - hashing algorithms
 - ( _cryptography_ ) - cryptographic
 - ( _compression_ ) - compression, archiving
@@ -60,6 +68,7 @@
 - ( _multidimensional_ ) - multidimensional data structures and algorithms
 - ( _bindings_ ) - bindings to foreign library or service
 - ( _logger_ ) - tools for printing information
+- ( _config_ ) - config managing
 - ( _daignostics_ ) - tools for diagnostics
 - ( _mobile_ ) - tool or lib related to running rust code on mobile
 - ( _android_ ) - tools for running rust code on Android
@@ -91,24 +100,34 @@
 - [rustversion](https://github.com/dtolnay/rustversion) by [David Tolnay](https://github.com/dtolnay) : conditional compilation according to rustc compiler version
 - [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [Lukas Lueg](https://github.com/lukaslueg) : to generate syntax diagrams for macro_rules!()
 - [macro_railroad as service](https://lukaslueg.github.io/macro_railroad_wasm_demo) by [Lukas Lueg](https://github.com/lukaslueg) : a service to generate syntax diagrams for macro_rules!()
+- [litrs](https://github.com/LukasKalbertodt/litrs) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : parse Rust literals
 
 ## Meta
 
 ( _meta_ )
 
 - [treeflection](https://github.com/rukai/treeflection) by [Lucas Kent](https://github.com/rukai) ( _idea_ ) : pseudo-reflection for structs and enums
+
+## Decorators
+
+( _meta_ ) ( _decorator_ )
+
+- [cfg_aliases](https://github.com/katharostech/cfg_aliases) by [Zicklag](https://github.com/zicklag) : aliasing of cfg
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
-- [cfg_aliases](https://github.com/katharostech/cfg_aliases) by [Zicklag](https://github.com/zicklag) : aliasing of cfg
+- [if_chain](https://github.com/lambda-fairy/if_chain) by [Chris Wong](https://github.com/lambda-fairy) : nested if let
 
 ## Derives
 
 ( _meta_ ) ( _derive_ )
 
+- [derive_more](https://github.com/JelteF/derive_more) by [Jelte Fennema](https://github.com/JelteF) : many useful derives
 - [derive-new](https://github.com/nrc/derive-new) by [Nick Cameron](https://github.com/nrc) : derive new
 - [parse-display](https://github.com/frozenlib/parse-display) by [Frozenlib](https://github.com/frozenlib) ( _parser_ ) ( _stringification_ ) : derive macro Display and FromStr
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) :  macro to generate the method is_variant for each variant of an enum
 - [field_names](https://github.com/TedDriggs/field_names) by [Ted Driggs](https://github.com/TedDriggs) : derive to list names of fields bound to the structure
+- [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
+- [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
 
 ## Compilers, Static Analyzers, code formatters
 
@@ -124,6 +143,15 @@
 
 - [phf](https://github.com/rust-phf/rust-phf) by [Steven Fackler](https://github.com/sfackler) : compile-time hashmap
 - [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
+- [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
+- [reinda](https://github.com/LukasKalbertodt/reinda) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : embed assets
+
+## Global
+
+( _global_ )
+
+- [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) by [Marvin Löbel](https://github.com/Kimundi) : macro for defining lazy evaluated static variables
+- [one_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros
 
 ## UI
 
@@ -134,6 +162,7 @@
 - [iced](https://github.com/iced-rs/iced) by [Héctor Ramón](https://github.com/hecrj) : cross-platform GUI inspired by Elm
 - [pw-viz](https://github.com/Ax9D/pw-viz) by [Ax9D](https://github.com/Ax9D) : graph editor
 - [kayak_ui](https://github.com/StarArawn/kayak_ui) by [John Mitchell](https://github.com/StarArawn) : game UI
+- [eww](https://github.com/elkowar/eww) by [ElKowar](https://github.com/elkowar) : drop-down widgets
 
 ## Command user interface input / output
 
@@ -164,6 +193,8 @@
 - [terminal_size](https://github.com/eminence/terminal-size) by [Andrew Chin](https://github.com/eminence) : terminal size
 - [terminal-clipboard](https://github.com/Canop/terminal-clipboard) by [Canop](https://github.com/Canop) : text only clipboard facade
 - [termcolor](https://github.com/BurntSushi/termcolor) by [Andrew Gallant](https://github.com/BurntSushi) : terminal colors
+- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) :  colored and formatted text to a terminal
+- [ansi-parser](https://gitlab.com/davidbittner/ansi-parser) by [David Bittner](https://gitlab.com/davidbittner) : parseing ANSI escape codes based on nom
 
 ## Cloud APIs
 
@@ -260,14 +291,14 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Web DOM
 
-( _web_backend_ ) ( _dom_ )
+( _web_frontend_ ) ( _dom_ )
 
 - [console_log](https://github.com/iamcodemaker/console_log) by [Matthew Nicholson](https://github.com/iamcodemaker) : A logger that routes messages to the browser's console
 - [stdweb](https://github.com/koute/stdweb) by [Koute](https://github.com/koute) : standard library for the client-side Web
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
 - [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [Nick Fitzgerald](https://github.com/fitzgen) : Raw wasm-bindgen imports for all of the Web's APIsDescription
 - [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [Alex Crichton](https://github.com/alexcrichton) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
-- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [Alex Crichton](https://github.com/alexcrichton) ( _async_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
+- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [Alex Crichton](https://github.com/alexcrichton) ( _concurrency_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
 
 ## Web Frontend
 
@@ -275,12 +306,26 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [ybc](https://github.com/thedodd/ybc) by [Anthony Dodd](https://github.com/thedodd) : a Yew component library based on the Bulma CSS framework
 
+
 ## Web Backend
 
 ( _web_backend_ )
 
-- [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : A simple static HTTP server, for learning and local development
+- [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : a simple static HTTP server, for learning and local development
+- [penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a static server
+- [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
+- [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
+- [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
+
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
+
+## Network
+
+( _network_ )
+
+- [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo) : IMAP interface
+- [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
+- [pcap](https://github.com/rust-pcap/pcap) by [Sean Bowe](https://github.com/ebfull) : packet sniffing
 
 ## Database
 
@@ -293,6 +338,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) : query engine from Apache
 - [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
 - [monger](https://github.com/mongodb/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
+- [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
 
 ## Functional programming
 
@@ -312,28 +358,40 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [shiplift](https://github.com/softprops/shiplift) by [Doug Tangren](https://github.com/softprops) : maneuvering docker containers
 
-## Asynchronous
+## Concurrency
 
-( _async_ )
+( _concurrency_ )
 
-- [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
-- [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
 - [radium](https://github.com/bitvecto-rs/radium) by [Nika Layzell ](https://github.com/mystor) : atomic instructions fallback
 - [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : tools around futures
-- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : pin-projection
-- [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
 - [rayon](https://github.com/rayon-rs/rayon) by [Niko Matsakis](https://github.com/nikomatsakis) : data-parallelism
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
+- [scoped_threadpool](https://github.com/Kimundi/scoped-threadpool-rs) by [Marvin Löbel](https://github.com/Kimundi) : scoped and cached threadpools
+
+## Concurrency primitives
+
+( _concurrency_ ) ( _primitive_ )
+
+- [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
+- [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
+- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
+- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
+- [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
 - [flume](https://github.com/zesterer/flume) by [Joshua Barretto](https://github.com/zesterer) : multi-producer, multi-consumer channel
 - [bounded-spsc-queue](https://github.com/polyfractal/bounded-spsc-queue) by [Zachary Tong](https://github.com/polyfractal) : bounded, Single-producer Single-consumer queue (SPSC)
 - [bus](https://github.com/jonhoo/bus) by [Jon Gjengset](https://github.com/jonhoo) : lock-free, bounded, single-producer, multi-consumer, broadcast channel
 - [left-right](https://github.com/jonhoo/left-right) by [Jon Gjengset](https://github.com/jonhoo) : lock-free, read-optimized, concurrency primitive
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _data_structure_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _data_structure_ ) : concurrent HashMap
-- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
-- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
+- [atomig](https://github.com/LukasKalbertodt/atomig) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : type constructor of atmotics
+
+## Persistence and delayed execution
+
+( _persistence_ )
+
+- [schedule](https://github.com/mehcode/schedule-rs) by [Ryan Leckey](https://github.com/mehcode) : in-process cron-like scheduler
 
 ## Communication
 
@@ -358,12 +416,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [memmap](https://github.com/danburkert/memmap-rs) by [Dan Burkert](https://github.com/danburkert) : API for memory mapped IO
 - [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Nick Fitzgerald](https://github.com/fitzgen) : 1kB-size memory allocator for size-optimized builds
 - [shuffling-allocator](https://github.com/fitzgen/shuffling-allocator) by [Nick Fitzgerald](https://github.com/fitzgen) : randomizing location in the heap
-- [slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) by [Christopher Durham](https://github.com/CAD97) : slice-based DST allocation
-- [ptr-union](https://github.com/CAD97/pointer-utils/tree/master/crates/ptr-union) by [Christopher Durham](https://github.com/CAD97) : union of pointers storing the tag in alignment bits
-- [erasable](https://github.com/CAD97/pointer-utils/tree/master/crates/erasable) by [Christopher Durham](https://github.com/CAD97) : produce type-less pointers
-- [rc-box](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-box) by [Christopher Durham](https://github.com/CAD97) : better Rc< Box > and Arc< Box >
-- [rc-borrow](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-borrow) by [Christopher Durham](https://github.com/CAD97) : borrow Rc/Arc without wrapping borrowed
-- [triomphe](https://github.com/Manishearth/triomphe) by [Manish Goregaokar](https://github.com/Manishearth) : FFI-focused ARC
 
 ## Serialization
 
@@ -401,6 +453,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [combine](https://github.com/Marwes/combine) by [Markus Westerlind](https://github.com/Marwes) : parser combinators
 - [combine-language](https://github.com/Marwes/combine-language) by [Markus Westerlind](https://github.com/Marwes) : extension of combine to generate parsers of programming languages
 - [lalrpop](https://github.com/lalrpop/lalrpop) by [Niko Matsakis](https://github.com/nikomatsakis) : LR(1) parser generator
+- [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
 ## Parser of a specific language
 
@@ -414,39 +467,61 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
 - [ress](https://github.com/rusty-ecma/RESS) by [Robert Masen](https://github.com/FreeMasen) : tokenizer of JS
 - [ressa](https://github.com/rusty-ecma/RESSA) by [Robert Masen](https://github.com/FreeMasen) : parser of JS
+- [syntect](https://github.com/trishume/syntect) by [Tristan Hume](https://github.com/trishume) : syntax highlighting using Sublime text syntax definitions
+
+## Statistics
+
+( _statistics_ )
+
+- [getrandom](https://github.com/rust-random/getrandom) by [Diggory Hardy](https://github.com/dhardy) : cross-platform get random back-end
+- [rand](https://github.com/rust-random/rand) by [Roy Frostig](https://github.com/froystig) : random number generation front-end
+- [fastrand](https://github.com/smol-rs/fastrand) by [Stjepan Glavina](https://github.com/smol-rs) : fast random number generator
+- [uuid](https://github.com/uuid-rs/uuid) by [Biru Mohanathas](https://github.com/poiru) : generate and parse UUIDs
 
 ## Abstract Data types
 
 ( _adt_ )
 
-- [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
 - [num](https://github.com/rust-num/num) by [Josh Stone](https://github.com/cuviper) : a collection of numeric types and traits
-- [by_address](https://github.com/mbrubeck/by_address) by [Matt Brubeck](https://github.com/mbrubeck) ( _hashing_ ) : comparison by pointer address
-- [getrandom](https://github.com/rust-random/getrandom) by [Diggory Hardy](https://github.com/dhardy) : cross-platform get random back-end
-- [rand](https://github.com/rust-random/rand) by [Roy Frostig](https://github.com/froystig) : random number generation front-end
-- [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
+
+## Algorithms
+
+( _data_structure_ ) ( _algo_ )
+
+- [dmsort](https://github.com/emilk/drop-merge-sort) by [Emil Ernerfeldt](https://github.com/emilk) : fast novel adaptive sorting algorithm optimized for nearly-sorted data
+- [longest-increasing-subsequence](https://github.com/fitzgen/longest-increasing-subsequence) by [Nick Fitzgerald](https://github.com/fitzgen) : longest increasing subsequence
+
+## Primitive data structures
+
+( _data_structure_ ) ( _primitive_ )
+
+- [either](https://github.com/bluss/either) by [bluss](https://github.com/bluss) : enum Either with variants Left and Right is a general purpose sum type with two cases
+- [ptr-union](https://github.com/CAD97/pointer-utils/tree/master/crates/ptr-union) by [Christopher Durham](https://github.com/CAD97) : union of pointers storing the tag in alignment bits
+- [erasable](https://github.com/CAD97/pointer-utils/tree/master/crates/erasable) by [Christopher Durham](https://github.com/CAD97) : produce type-less pointers
+- [rc-box](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-box) by [Christopher Durham](https://github.com/CAD97) : better Rc< Box > and Arc< Box >
+- [rc-borrow](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-borrow) by [Christopher Durham](https://github.com/CAD97) : borrow Rc/Arc without wrapping borrowed
+- [triomphe](https://github.com/Manishearth/triomphe) by [Manish Goregaokar](https://github.com/Manishearth) : FFI-focused ARC
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
+- [beef](https://github.com/maciejhirsz/beef) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
-## Data structures and algorithms
+## Collections
 
-( _data_structure_ )
+( _data_structure_ ) ( _collection_ )
 
 - [indexmap](https://github.com/bluss/indexmap) by [bluss](https://github.com/bluss) : hash table which preserves insertion order
-- [either](https://github.com/bluss/either) by [bluss](https://github.com/bluss) : enum Either with variants Left and Right is a general purpose sum type with two cases
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
+- [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys.
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
-- [dmsort](https://github.com/emilk/drop-merge-sort) by [Emil Ernerfeldt](https://github.com/emilk) : fast novel adaptive sorting algorithm optimized for nearly-sorted data
 - [bitvec](https://github.com/bitvecto-rs/bitvec) by [Alexander Payne](https://github.com/myrrlyn) : bitfields
 - [bitflags](https://github.com/bitflags/bitflags) by [Alex Crichton](https://github.com/bitflags) : macro to generate structures which behave like bitflags
 - [growable-bloom-filter](https://github.com/dpbriggs/growable-bloom-filters) by [David Briggs](https://github.com/dpbriggs) : growable bloom filter
 - [associative-cache](https://github.com/fitzgen/associative-cache) by [Nick Fitzgerald](https://github.com/fitzgen) : fixed-size, associative cache
 - [intrusive_splay_tree](https://github.com/fitzgen/intrusive_splay_tree) by [Nick Fitzgerald](https://github.com/fitzgen) : an intrusive, allocation-free [splay tree](https://en.wikipedia.org/wiki/Splay_tree) implementation
 - [fst](https://github.com/BurntSushi/fst) by [Andrew Gallant](https://github.com/BurntSushi) : trie-like to represent large sets and maps
-- [longest-increasing-subsequence](https://github.com/fitzgen/longest-increasing-subsequence) by [Nick Fitzgerald](https://github.com/fitzgen) : longest increasing subsequence
-- [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _async_ ) : lock-free, eventually consistent, concurrent multi-value map
-- [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _async_ ) : concurrent HashMap
+- [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _concurrency_ ) : lock-free, eventually consistent, concurrent multi-value map
+- [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 
-## String data structures and algorithms
+## String and slice data structures and algorithms
 
 ( _data_structure_ ) ( _string_ )
 
@@ -460,6 +535,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [widestring](https://github.com/starkat99/widestring-rs) by [Kathryn Long](https://github.com/starkat99) : a wide string Rust library for converting to and from wide Unicode strings
 - [heck](https://github.com/withoutboats/heck) by [Saoirse Shipwreckt](https://github.com/withoutboats) : case conversion
 - [convert-case](https://github.com/rutrum/convert-case) by [Dave Purdum](https://github.com/rutrum) : case conversion
+- [slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) by [Christopher Durham](https://github.com/CAD97) : slice-based DST allocation
+- [unicode-width](https://github.com/unicode-rs/unicode-width) by [Riad S. Wahby](https://github.com/kwantam) : displayed width
 
 ## Stack-based data structures
 
@@ -549,6 +626,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rmp](https://github.com/3Hren/msgpack-rust) by [Evgeny Safronov](https://github.com/3Hren) : MessagePack
 - [minicbor](https://gitlab.com/twittner/minicbor) by [Toralf Wittner](https://gitlab.com/twittner) : CBOR
 - [record-query](https://github.com/dflemstr/rq) by [David Flemström](https://github.com/dflemstr) : transform from one GDF to another one
+<!-- - [json](https://github.com/maciejhirsz/json-rust) by [Maciej Hirsz](https://github.com/maciejhirsz) : inlined JSON -->
 
 ## Image reading / writing
 
@@ -581,6 +659,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [is_executable](https://github.com/fitzgen/is_executable) by [Nick Fitzgerald](https://github.com/fitzgen) : is an executable
 - [same-file](https://github.com/BurntSushi/same-file) by [Andrew Gallant](https://github.com/BurntSushi) : two files or directories are the same
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
+- [which](https://github.com/harryfei/which-rs) by [Harry Fei](https://github.com/harryfei) : equivalent of Unix command "which"
 
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
@@ -594,16 +673,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [winapi](https://github.com/retep998/winapi-rs) by [Peter Atashian](https://github.com/retep998) : bindings to Windows API
 - [wio](https://github.com/retep998/wio-rs) by [Peter Atashian](https://github.com/retep998) : extra bindings to Windows API
 - [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above - [rio](https://github.com/spacejam/rio) by [Tyler Neely](https://github.com/spacejam) : io_uring
-
-## Network
-
-( _network_ )
-
-- [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo) : ___
-- [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
-- [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
-- [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
-- [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
+- [telefork](https://github.com/trishume/telefork) by [Tristan Hume](https://github.com/trishume) : remote fork()
 
 ## Asm
 
@@ -646,6 +716,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [log](https://github.com/rust-lang/log) by [Alex Crichton](https://github.com/alexcrichton) : lightweight logging
 - [log4rs](https://github.com/estk/log4rs) by [estk](https://github.com/estk) : configurable logging
 
+## Config
+
+( _config_ )
+
+- [config](https://github.com/mehcode/config-rs) by [Ryan Leckey](https://github.com/mehcode) : generic config manager
+
 ## Diagnostics tools
 
 ( _daignostics_ )
@@ -684,12 +760,14 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [handlebars-rust](https://github.com/sunng87/handlebars-rust) by [Ning Sun](https://github.com/sunng87) : Handlebars templating language implemented in Rust and for Rust
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _cargo_ ) ( _build_ )
+- [ramhorns](https://github.com/maciejhirsz/ramhorns) by [Maciej Hirsz](https://github.com/maciejhirsz) : Mustache template engine
 
 ## HPC
 
 ( _hpc_ )
 
 - [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
+- [opencv](https://github.com/twistedfall/opencv-rust) by [twistedfall](https://github.com/twistedfall) : bindings for OpenCV 3 & 4
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->

@@ -6,7 +6,9 @@
 
 - ( _site_generation_ ) - generating a site with documentation from either MD or similar languages
 - ( _general_purpose_ ) - general purpose distros
-- ( _fs_ ) -
+- ( _posix_ ) - standard posix shell commands related
+- ( _processors_ ) - data processors
+- ( _fs_ ) - file system
 - ( _vcs_ ) - versions controls systems
 
 ## Site Generation
@@ -16,6 +18,12 @@
 - [mdbook](https://github.com/rust-lang/mdBook) : [documentation](http://rust-lang.github.io/mdBook/index.html)
 - [Zola](https://www.getzola.org/)
 - [mkdocs-material](https://github.com/squidfunk/mkdocs-material) by [Martin Donath](https://github.com/squidfunk) : [site](https://squidfunk.github.io/mkdocs-material/)
+
+## Data Processors
+
+( _processors_ )
+
+- [jaq](https://github.com/01mf02/jaq) by [Michael Färber ](https://github.com/01mf02) : JSON processor
 
 ## General purpose distros
 
@@ -34,6 +42,13 @@
 - [alacritty](https://github.com/alacritty/alacritty) by [Joe Wilm](https://github.com/jwilm) : cross-platform, OpenGL terminal emulator
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
+
+
+## Standard posix shell commands related
+
+( _posix_ )
+
+- [pipr](https://github.com/elkowar/pipr) by [ElKowar](https://github.com/elkowar) : interactively write shell pipelines
 
 ## File system distros
 
