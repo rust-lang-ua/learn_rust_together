@@ -52,11 +52,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _algo_ ) - algorithmic problems and solutions
 - ( _toy_ ) - educational toy projects
 - ( _predictions_ ) history and predictions
+- ( _teachings_material_ ) - Teaching materials and Workshops
+- ( _teaching_materials_ ) - teaching materials
 - ( _about:setup_ ) - how to install rust and setup your development environment
 - ( _about:cross_compile_ ) - how to build from one platform to another one
 - ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:bin_size_ ) - about size of target application
-- ( _about:async_ ) - about asynchronous programming
+- ( _about:concurrency_ ) - about asynchronous programming
 - ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
 - ( _about:closure_ ) - about closures
 - ( _about:self_ref_ ) - about self-referential structures
@@ -105,8 +107,8 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 ( _course_ ) ( _advanced_ )
 
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:async_ ) ( _non-eng_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:concurrency_ )
+- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:concurrency_ ) ( _non-eng_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
@@ -114,6 +116,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
 - [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
 - [API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
+- [Command Line Applications](https://rust-cli.github.io/book/in-depth/signals.html) ( _reading_ )
 
 ## Macros
 
@@ -209,12 +212,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Asynchronous
 
-( _about:async_ )
+( _about:concurrency_ )
 
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
 - [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) ( _reading_ ) ( _advanced_ ) by [Amos](https://fasterthanli.me/)
+- [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _teaching_materials_ )
 
 ## Ownership semantics
 
@@ -268,6 +272,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( _video_ ) ( _playlist_ )
 - [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( _video_ )
+
+## Teaching materials and Workshops
+
+( _teachings_material_ )
+
+- [Teaching Material](https://github.com/ferrous-systems/teaching-material) by [Ferrous](https://github.com/ferrous-systems)
+- [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:concurrency_ )
 
 ## Projects catalogue
 
