@@ -57,6 +57,7 @@
 - ( _asset_image_ ) - reading / writing / manipulating various image formats
 - ( _fs_ ) - file system related
 - ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
+- ( _kernel_ ) - kernel of operation system
 - ( _cargo_ ) - extension of cargo
 - ( _video_ ) - video-processing, capturing
 - ( _asm_ ) - machine code, byte code, interpreters, assembler
@@ -683,18 +684,24 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
 
-## Operation Systems
+## Operation Systems - related
 
 ( _os_ )
 
-- [Ion](https://github.com/Andy-Python-Programmer/ion) by [Anhad Singh ](https://github.com/Andy-Python-Programmer) : x86_64 UEFI bootloader
 - [winapi](https://github.com/retep998/winapi-rs) by [Peter Atashian](https://github.com/retep998) : bindings to Windows API
 - [wio](https://github.com/retep998/wio-rs) by [Peter Atashian](https://github.com/retep998) : extra bindings to Windows API
 - [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above
 - [rio](https://github.com/spacejam/rio) by [Tyler Neely](https://github.com/spacejam) : io_uring
 - [telefork](https://github.com/trishume/telefork) by [Tristan Hume](https://github.com/trishume) : remote fork()
+
+## Operation Systems - kernel
+
+( _os_ ) ( _kernel_ )
+
+- [Ion](https://github.com/Andy-Python-Programmer/ion) by [Anhad Singh ](https://github.com/Andy-Python-Programmer) : x86_64 UEFI bootloader
 - [Aero](https://github.com/Andy-Python-Programmer/aero) by [Anhad Singh ](https://github.com/Andy-Python-Programmer) : unix-like operating system
 - [mycelium](https://github.com/hawkw/mycelium) by [Eliza Weisman](https://github.com/hawkw) : operating system
+- [hermit-sys](https://github.com/hermitcore/rusty-hermit) by [Stefan Lankes](https://github.com/stlankes) : lightweight unikernel
 
 ## Asm
 
