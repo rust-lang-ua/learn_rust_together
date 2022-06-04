@@ -280,6 +280,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [wasm-pack](https://github.com/rustwasm/wasm-pack) by [ashley williams](https://github.com/ashleygwilliams) : wasn-bindgen and binaryen/wasm-opt as single utility
 - [wizer](https://github.com/bytecodealliance/wizer) by [Nick Fitzgerald](https://github.com/fitzgen) : performance optimization by compile-time pre-initialization
 - [wee_alloc](https://github.com/rustwasm/wee_alloc) by [Nick Fitzgerald](https://github.com/fitzgen) : 1kB-size memory allocator for size-optimized builds
+- [parity-wasm](https://github.com/paritytech/parity-wasm) by [Nikolay Volf](https://github.com/NikVolf) : read wasm files
+
 <!-- - [cargo-web](https://github.com/koute/cargo-web) by [Koute](https://github.com/koute) : cargo subcommand for Web -->
 
 ## Windowing
@@ -298,7 +300,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
 - [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [Nick Fitzgerald](https://github.com/fitzgen) : Raw wasm-bindgen imports for all of the Web's APIsDescription
 - [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [Alex Crichton](https://github.com/alexcrichton) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
-- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [Alex Crichton](https://github.com/alexcrichton) ( _concurrency_ ) : Bridges the gap between a Rust Future and a JavaScript Promise
+- [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [Alex Crichton](https://github.com/alexcrichton) ( _concurrency_ ) : bridges the gap between a Rust Future and a JavaScript Promise
 
 ## Web Frontend
 
@@ -316,6 +318,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
 - [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
+- [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -326,6 +329,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [imap](https://github.com/jonhoo/rust-imap) by [Jon Gjengset](https://github.com/jonhoo) : IMAP interface
 - [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
 - [pcap](https://github.com/rust-pcap/pcap) by [Sean Bowe](https://github.com/ebfull) : packet sniffing
+- [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket ( _cui_ )
 
 ## Database
 
@@ -369,6 +373,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
 - [scoped_threadpool](https://github.com/Kimundi/scoped-threadpool-rs) by [Marvin Löbel](https://github.com/Kimundi) : scoped and cached threadpools
+- [async-std](https://github.com/async-rs/async-std) by [Florian Gilcher](https://github.com/skade) : async version of std
 
 ## Concurrency primitives
 
@@ -386,6 +391,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _data_structure_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _data_structure_ ) : concurrent HashMap
 - [atomig](https://github.com/LukasKalbertodt/atomig) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : type constructor of atmotics
+- [syncell](https://github.com/kvark/syncell) by [Dzmitry Malyshau](https://github.com/kvark) : sync alternative to RefCell
 
 ## Persistence and delayed execution
 
@@ -468,6 +474,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ress](https://github.com/rusty-ecma/RESS) by [Robert Masen](https://github.com/FreeMasen) : tokenizer of JS
 - [ressa](https://github.com/rusty-ecma/RESSA) by [Robert Masen](https://github.com/FreeMasen) : parser of JS
 - [syntect](https://github.com/trishume/syntect) by [Tristan Hume](https://github.com/trishume) : syntax highlighting using Sublime text syntax definitions
+
+## Time
+
+
+- [chrono](https://github.com/chronotope/chrono) by [Kang Seonghoon](https://github.com/lifthrasiir) : most popular Date and time module
+- [chrono-humanize](https://gitlab.com/imp/chrono-humanize-rs) by [Cyril Plisko](https://gitlab.com/imp) : human-friendly time expressions
 
 ## Statistics
 
@@ -661,6 +673,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
 - [which](https://github.com/harryfei/which-rs) by [Harry Fei](https://github.com/harryfei) : equivalent of Unix command "which"
 
+- [vfs](https://github.com/manuel-woelker/rust-vfs) by [Manuel Woelker](https://github.com/manuel-woelker) : file system adapter
+
+
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
 
@@ -701,6 +716,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _embed_ )
 
 - [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Jorge Aparicio](https://github.com/japaric) : hardware abstraction layer (HAL) for embedded systems
+- [serial_enumerator](https://github.com/rede97/serial_enumerator) by [eebear](https://github.com/rede97) : serial port enumreator
 
 ## Foreign
 

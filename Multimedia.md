@@ -268,6 +268,7 @@ Curated collection of resources to make games on Rust.
 ( _sound_ )
 
 - [symphonia](https://github.com/pdeljanov/Symphonia) by [Philip Deljanov](https://github.com/pdeljanov) : audio decoding
+- [audrey](https://github.com/RustAudio/audrey) by [mitchmindtree](https://github.com/mitchmindtree) : aggregator of audio format readers
 
 ## Sound and Music generation
 

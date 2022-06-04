@@ -43,12 +43,17 @@
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
 
+## Network
+
+- [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket
 
 ## Standard posix shell commands related
 
 ( _posix_ )
 
 - [pipr](https://github.com/elkowar/pipr) by [ElKowar](https://github.com/elkowar) : interactively write shell pipelines
+
+- [wezterm](https://github.com/wez/wezterm) by [Wez Furlong](https://github.com/wez) : GPU-accelerated cross-platform terminal emulator
 
 ## File system distros
 

@@ -4,7 +4,7 @@ Curated collection of lists of useful resources to learn Rust together.
 
 List of forums and chats you may find [here](https://github.com/Learn-Together-Pro/RustCommunity). I encourage you to seek for help if you struggle to solve a problem. Rust community is very friendly!
 
-<!- - []() by []() : ->
+<!-- - []() by []() -->
 
 <!-- ## Content
 
@@ -35,6 +35,8 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _specific_ ) - domain-specific material
 - ( _official_ ) - official Rust material
 - ( _non-eng_ ) - non-english language
+- ( _introductory_ ) - introductory level
+- ( _advanced_ ) - advanced level
 - ( _course_ ) - consists of series of text/video articles trying to give to a reader solid foundation
 - ( _book_ ) - a book
 - ( _reference_ ) - a reference
@@ -48,10 +50,9 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _newspaper_ ) - regularly updating list of articles
 - ( _project_ ) - project
 - ( _algo_ ) - algorithmic problems and solutions
-- ( _toy_ ) - educatuinal toy projects
-- ( _introductory_ ) - introductory level
-- ( _advanced_ ) - advanced level
-- ( _about:setup_ ) - how to install rust and stup your development environment
+- ( _toy_ ) - educational toy projects
+- ( _predictions_ ) history and predictions
+- ( _about:setup_ ) - how to install rust and setup your development environment
 - ( _about:cross_compile_ ) - how to build from one platform to another one
 - ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:bin_size_ ) - about size of target application
@@ -243,7 +244,14 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 - [Validating JSON input](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/) by [Evaldas Buinauskas](https://github.com/buinauskas) ( _reading_ ) ( _article_ )
 - [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
+
+## Web development
+
+( _about:web_ ) ( _about:web_frontend_ )
+
 - [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
+- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo) : ( _video_ )
+- [Overview of Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j) : ( _video_ )
 
 ## Graphics
 
@@ -253,6 +261,13 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [WebGL water tutorial](https://github.com/chinedufn/webgl-water-tutorial) by [Chinedu Francis Nwafili](https://github.com/chinedufn)
 - [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/) by [Ida Iyes ](https://github.com/inodentry)
 - [Bevy Assets](https://github.com/bevyengine/bevy-assets) by [Carter Anderson](https://github.com/cart) : collection of Bevy assets, plugins, learning resources, and apps
+
+## History and Predictions
+
+( _predictions_ )
+
+- [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( _video_ ) ( _playlist_ )
+- [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( _video_ )
 
 ## Projects catalogue
 
@@ -265,7 +280,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Lib.rs](https://lib.rs/)
 - [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 
-## Newspapers
+## Newspapers and working groups
 
 ( _list_ ) ( _newspaper_ )
 
