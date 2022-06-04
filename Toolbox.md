@@ -306,8 +306,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _web_frontend_ )
 
+- [sycamore](https://github.com/sycamore-rs/sycamore) by [Luke Chu](https://github.com/lukechu10) : reactive frontend
+- [yew](https://github.com/yewstack/yew) by [Denis Kolodin](https://github.com/DenisKolodin) : Elm-inspired frontend
 - [ybc](https://github.com/thedodd/ybc) by [Anthony Dodd](https://github.com/thedodd) : a Yew component library based on the Bulma CSS framework
-
 
 ## Web Backend
 
