@@ -15,7 +15,7 @@
 
 Чи Rust+Elm майбутнє фронтенду?
 
-[Біьше про це](https://youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j)
-[Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo)
+- [Біьше про це](https://youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j)
+- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo)
 
 #frontend #elm #rustlang #future

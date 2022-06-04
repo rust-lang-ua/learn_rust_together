@@ -15,7 +15,7 @@ Do you know that Rust and Elm have a lot in common?
 
 Is Rust+Elm future of front-end?
 
-[More on that](https://youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j)
-[Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo)
+- [More on that](https://youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j)
+- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo)
 
 #frontend #elm #rustlang #future
