@@ -47,13 +47,13 @@
 
 - [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket
 
-## Standard posix shell commands related
+## Administration
 
-( _posix_ )
+( _administration_ )
 
 - [pipr](https://github.com/elkowar/pipr) by [ElKowar](https://github.com/elkowar) : interactively write shell pipelines
-
 - [wezterm](https://github.com/wez/wezterm) by [Wez Furlong](https://github.com/wez) : GPU-accelerated cross-platform terminal emulator
+- [log-analyzer-pro](https://github.com/MrCasCode/log-analyzer-pro) by [Mario Casals](https://github.com/MrCasCode) : log analyzer
 
 ## File system distros
 

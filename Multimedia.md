@@ -25,6 +25,7 @@ Curated collection of resources to make games on Rust.
 - ( _tesselation_ ) - tesselation libs
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
+- ( _simulation_ ) - simulation
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
 - ( _svg_ ) - SVG related
@@ -213,7 +214,7 @@ Curated collection of resources to make games on Rust.
 - [cgmath](https://github.com/rustgd/cgmath) by [rustgd](https://github.com/rustgd) : A linear algebra and mathematics library for computer graphics
 - [gee](https://github.com/brainiumllc/gee) by [Brainium](https://github.com/brainiumllc) : A convenience-first geometry library tailor-made for 2D games!
 - [gml](https://lib.rs/crates/gml) : Graphics Math Library. Generic Vector and Matrix Math library targetting graphics applications.
-- [geomath](https://github.com/samibendou/geomath) by [bendou](https://github.com/samibendou) : Stack-allocated maths for geometry, simulation and computer graphics
+- [geomath](https://github.com/samibendou/geomath) by [bendou](https://github.com/samibendou) : stack-allocated maths for geometry, simulation and computer graphics
 - [beagle-rs](https://github.com/popog/beagle-rs) by [Popog](https://github.com/popog) : A basic linear algebra library for computer graphics
 - [GFX Maths](https://github.com/rob2309/gfx-maths-rs) by [Robin Quint](https://github.com/rob2309) : Implementations for the most essential Graphics Math operations
 - [mini-math-rs](https://github.com/swiftcoder/mini-math-rs) by [Tristam MacDonald](https://github.com/swiftcoder) : Lightweight math routines for 3D graphics ( _3d_ )
@@ -256,6 +257,12 @@ Curated collection of resources to make games on Rust.
 - [rapier2d](https://github.com/dimforge/rapier) by [Sébastien Crozet](https://github.com/sebcrozet) : 2D physics engines focused on performance
 - [godot-vs-rapier](https://github.com/extrawurst/godot-vs-rapier) by [Stephan Dilly](https://github.com/extrawurst) : comparison of two physics engines
 - [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _engine_ ) : godot engine binding
+
+## Simulation
+
+( _simulation_ )
+
+- [gfx-ocean](https://github.com/gfx-rs/gfx-ocean) by [Markus Siglreithmaier](https://github.com/msiglreith) : ocean simulation
 
 ## SDK bindings
 

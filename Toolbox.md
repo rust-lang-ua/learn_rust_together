@@ -14,8 +14,9 @@
 - ( _compile_time_ ) - non run-time
 - ( _global_ ) - global variable
 - ( _njs_ ) - NodeJs related
-- ( _ui_ ) - user interface related
-- ( _cui_ ) - command user interface related
+- ( _ui_ ) - user interface
+- ( _gui_ ) - graphical user interface
+- ( _cui_ ) - command user interface
 - ( _cui_parsing_ ) - tools to parse input of command user interface ( CUI )
 - ( _terminal_ ) - terminal, textual output
 - ( _cloud_api_ ) - remote APIs, mostly REST
@@ -156,7 +157,13 @@
 
 ## UI
 
-( _ui_ )
+( _ui_ ) ( _gui_ )
+
+- [stretch](https://github.com/vislyhq/stretch) by [Emil Sjölander](https://github.com/vislyhq) : flexbox implementation
+
+## GUI
+
+( _ui_ ) ( _gui_ )
 
 - [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an immediate mode GUI
 - [imgui](https://github.com/imgui-rs/imgui-rs) by [Joonas Javanainen](https://github.com/Gekkio) : an immediate mode GUI
@@ -320,6 +327,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a static server
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
+- [headers](https://github.com/hyperium/headers) by [Jonathan Reem](https://github.com/reem) : HTTP Headers for hyper
 - [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
 - [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
 
@@ -364,6 +372,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _virtualisation_ )
 
 - [shiplift](https://github.com/softprops/shiplift) by [Doug Tangren](https://github.com/softprops) : maneuvering docker containers
+- [unshare](https://github.com/tailhook/unshare) by [Paul Colomiets](https://github.com/tailhook) : low-level linux containers
 
 ## Concurrency
 
@@ -437,7 +446,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _gdf_ ) : readable data serialization format
 - [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
 - [serde-hjson](https://github.com/hjson/hjson-rust) by [Christian Zangl](https://github.com/laktak) : serde plugin to parse JSON with comments
-
 - [nanoserde](https://github.com/not-fl3/nanoserde) by [Fedor Logachev](https://github.com/not-fl3) : minimal serialization library with zero dependencies
 - [speedy](https://github.com/koute/speedy) by [Koute](https://github.com/koute) : another serialization alternative
 - [dipa](https://github.com/chinedufn/dipa) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : structures delta encoding
@@ -533,6 +541,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [growable-bloom-filter](https://github.com/dpbriggs/growable-bloom-filters) by [David Briggs](https://github.com/dpbriggs) : growable bloom filter
 - [associative-cache](https://github.com/fitzgen/associative-cache) by [Nick Fitzgerald](https://github.com/fitzgen) : fixed-size, associative cache
 - [intrusive_splay_tree](https://github.com/fitzgen/intrusive_splay_tree) by [Nick Fitzgerald](https://github.com/fitzgen) : an intrusive, allocation-free [splay tree](https://en.wikipedia.org/wiki/Splay_tree) implementation
+- [anymap](https://github.com/chris-morgan/anymap) by [Chris Morgan](https://github.com/chris-morgan) : wrapper around HashMap< TypeId, Box< dyn Any > >
 - [fst](https://github.com/BurntSushi/fst) by [Andrew Gallant](https://github.com/BurntSushi) : trie-like to represent large sets and maps
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _concurrency_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
@@ -677,14 +686,14 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [same-file](https://github.com/BurntSushi/same-file) by [Andrew Gallant](https://github.com/BurntSushi) : two files or directories are the same
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
 - [which](https://github.com/harryfei/which-rs) by [Harry Fei](https://github.com/harryfei) : equivalent of Unix command "which"
-
 - [vfs](https://github.com/manuel-woelker/rust-vfs) by [Manuel Woelker](https://github.com/manuel-woelker) : file system adapter
 
 
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
 
-## Operation Systems - related
+
+## Operation Systems - userland
 
 ( _os_ )
 
@@ -693,6 +702,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above
 - [rio](https://github.com/spacejam/rio) by [Tyler Neely](https://github.com/spacejam) : io_uring
 - [telefork](https://github.com/trishume/telefork) by [Tristan Hume](https://github.com/trishume) : remote fork()
+- [nix](https://github.com/nix-rust/nix) by [Carl Lerche](https://github.com/carllerche) : nix APIs
 
 ## Operation Systems - kernel
 
@@ -744,6 +754,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [log](https://github.com/rust-lang/log) by [Alex Crichton](https://github.com/alexcrichton) : lightweight logging
 - [log4rs](https://github.com/estk/log4rs) by [estk](https://github.com/estk) : configurable logging
+- [simplelog](https://github.com/Drakulix/simplelog.rs) by [Victoria Brekenfeld](https://github.com/Drakulix) : simple logging
 
 ## Config
 
