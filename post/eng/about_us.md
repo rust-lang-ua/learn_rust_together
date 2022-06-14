@@ -71,8 +71,11 @@ Please pay attention to manually-selected courses and [learning materials on Rus
 Please contact [me](https://t.me/wandalen_me) on Telegram if you wish to: help with moderation, host an event, provide comments, or make any other contributions to the promotion of Rust in Ukraine.
 
 ## Join
+
 Come join our friendly community!
+
 💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](t.me/learn_rust_ukr).
+
 📖 Our collection of materials to master Rust are[here](https://github.com/Learn-Together-Pro/LearnRustTogether).
 
 You may also follow us on these platforms:
