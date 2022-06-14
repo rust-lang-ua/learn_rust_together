@@ -40,7 +40,7 @@ Yes, you can. Most participants develop in several languages. Many members write
 <ins>*- May I look for employees here?*</ins><br/>
 Yes, but please keep your description concise and move the conversation to private after finding a candidate.
 <ins>*- What actions can get members  banned?*</ins><br/>
-- Members can get banned for disrespecting other members of the community, for promoting aggressive propaganda against Ukraine, and for a systematic violation of rules.
+Members can get banned for disrespecting other members of the community, for promoting aggressive propaganda against Ukraine, and for a systematic violation of rules.
 <ins>*- Do you have other social media accounts?*</ins><br/>
 Yes, you can also find us on Twitter, Facebook, Discord, Patreon, Reddit, and LinkedIn. Links to our other social media networks are [here](https://t.me/rustlang_ua/2383)   
 <ins>*- Do you conduct face-to-face meetings?*</ins><br/>
