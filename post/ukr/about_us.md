@@ -67,15 +67,19 @@ Rust - мультипарадигмова мова, головними пере�
 <ins>*- До кого звертатися стосовно співпраці?*</ins><br/>
  Якщо маєте бажання допомогти із модерацією, провести свій захід, дати фідбек чи внести будь-який інший внесок у популяризацію Rust в Україні, то пишіть, будь ласка, [kos](https://t.me/wandalen_me) у Телеграм.
 
-Долучитися
+## Долучитися
+
 Чекаємо тебе у нашому дружньому ком’юніті “Вивчаємо Rust Разом”.
+
 💬 Долучайся до [Телеграм-Чату](https://t.me/rustlang_ua) та [Телеграм-Каналу](https://t.me/rustlang_ua).
+
 📖 Наша добірка матеріали для освоєння Rust [тут](https://github.com/Learn-Together-Pro/LearnRustTogether).
 
 Також шукай нас на платформах:
 [Twitter](https://twitter.com/LearnTogetherP)  | [Facebook](https://www.facebook.com/learntogetherpro) |
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
-[GitHub](https://github.com/Learn-Together-Pro) |
-[Discord](https://discord.com/invite/JVCZfTVf5A)
+[GitHub](https://github.com/rust-lang-ua) |
+[Discord](https://discord.com/invite/JVCZfTVf5A) |
+[Reddit](https://www.reddit.com/r/rustlang_ua/) |
 
 Let’s Learn Rust 🦀 Together

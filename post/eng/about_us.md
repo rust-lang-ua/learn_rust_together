@@ -1,4 +1,4 @@
-# Learn Rust Together
+# Ukrainian branch of Rust Community
 
 ![learn rust together](https://raw.githubusercontent.com/Learn-Together-Pro/LearnRustTogether/a393b96375c534418d12c47230b05d1fef9a8fc7/asset/logo/Collage_2.jpg)
 
@@ -74,14 +74,16 @@ Please contact [me](https://t.me/wandalen_me) on Telegram if you wish to: help w
 
 Come join our friendly community!
 
-💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](t.me/learn_rust_ukr).
+💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr).
 
-📖 Our collection of materials to master Rust are[here](https://github.com/Learn-Together-Pro/LearnRustTogether).
+📖 Our collection of materials to master Rust are [here](https://github.com/Learn-Together-Pro/LearnRustTogether).
 
 You may also follow us on these platforms:
 [Twitter](https://twitter.com/LearnTogetherP)  | [Facebook](https://www.facebook.com/learntogetherpro) |
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
-[GitHub](https://github.com/Learn-Together-Pro) |
-[Discord](https://discord.com/invite/JVCZfTVf5A)
+[GitHub](https://github.com/rust-lang-ua) |
+[Discord](https://discord.com/invite/JVCZfTVf5A) |
+[Reddit](https://www.reddit.com/r/rustlang_ua/) |
+[Telegram](https://t.me/rustlang_ua) |
 
-Let’s Learn Rust 🦀Together!
+Let’s Learn Rust 🦀 Together!
