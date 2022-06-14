@@ -39,7 +39,7 @@
 - ( _mem_ ) - memory management
 - ( _serialization_ ) - serialization / deserialization
 - ( _stringification_ ) - converting to / from a string
-- ( _parser_generator_ ) - parser generator
+- ( _parser_generator_ ) - parser generators / combinators
 - ( _parser_ ) - parser of a specific language
 - ( _statistics_ ) - random generators, distributions and statistics-related things
 - ( _adt_ ) - abstract data types
@@ -86,6 +86,7 @@
 
 ( _error_ )
 
+<!-- xxx : https://github.com/brendanzab/codespan -->
 - [miette](https://github.com/zkat/miette) by [Kat Marchán](https://github.com/zkat) : error reporting facilities
 - [thiserror](https://github.com/dtolnay/thiserror) by [David Tolnay](https://github.com/dtolnay) : macro error for struct and enum error types
 - [anyhow](https://github.com/dtolnay/anyhow) by [David Tolnay](https://github.com/dtolnay) : a generic error trait
@@ -461,7 +462,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [humansize](https://github.com/LeopoldArkham/humansize) by [Leopold Arkham](https://github.com/LeopoldArkham) : file size formatting
 - [num-format](https://github.com/bcmyers/num-format) by [Brian Myers](https://github.com/bcmyers) : formatting of numbers
 
-## Parser generator
+## Parser generators / combinators
 
 ( _parser_generator_ )
 
