@@ -405,6 +405,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _data_structure_ ) : concurrent HashMap
 - [atomig](https://github.com/LukasKalbertodt/atomig) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : type constructor of atmotics
 - [syncell](https://github.com/kvark/syncell) by [Dzmitry Malyshau](https://github.com/kvark) : sync alternative to RefCell
+- [qcell](https://github.com/uazu/qcell) by [Jim Peters](https://github.com/uazu) : statically-checked alternatives to RefCell and RwLock
+- [reffers](https://github.com/diwic/reffers-rs) by [David Henningsson](https://github.com/diwic) : wrappers around references, boxes and Arcs
 
 ## Persistence and delayed execution
 
@@ -507,6 +509,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _adt_ )
 
 - [num](https://github.com/rust-num/num) by [Josh Stone](https://github.com/cuviper) : a collection of numeric types and traits
+- [total_float_wrap](https://github.com/tritoke/total_float_wrap) by [](https://github.com/tritoke) : hash and equal for floats
 
 ## Algorithms
 
