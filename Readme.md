@@ -1,4 +1,6 @@
-![Rust](./doc/img/logo/Logo2.jpg)
+<!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
+
+![learn rust together](https://raw.githubusercontent.com/Learn-Together-Pro/LearnRustTogether/a393b96375c534418d12c47230b05d1fef9a8fc7/asset/logo/Collage_2.jpg)
 
 Curated collection of lists of useful resources to learn Rust together.
 
