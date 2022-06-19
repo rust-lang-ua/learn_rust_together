@@ -4,45 +4,9 @@
 
 Curated collection of resources to learn Rust.
 
+- [Tags legend](.#tags-legend) at the end of the page.
+
 <!-- - []() by []() -->
-
-## Tags legend
-
-- ( _general_ ) - general-purpose material
-- ( _specific_ ) - domain-specific material
-- ( _official_ ) - official Rust material
-- ( _non-eng_ ) - non-english language
-- ( _introductory_ ) - introductory level
-- ( _advanced_ ) - advanced level
-- ( _course_ ) - consists of series of text/video articles trying to give to a reader solid foundation
-- ( _book_ ) - a book
-- ( _reference_ ) - a reference
-- ( _article_ ) - either single article or single video-tutorial
-- ( _not-finished_ ) - not finished, too little to learn
-- ( _interactive_ ) - it is possible to interact and get feedback from the system
-- ( _reading_ ) - material to read
-- ( _video_ ) - material to watch
-- ( _audio_ ) - material to listen
-- ( _collection_ ) - list of resources
-- ( _newspaper_ ) - regularly updating list of articles
-- ( _project_ ) - project
-- ( _algo_ ) - algorithmic problems and solutions
-- ( _toy_ ) - educational toy projects
-- ( _predictions_ ) history and predictions
-- ( _teachings_material_ ) - Teaching materials and Workshops
-- ( _teaching_materials_ ) - teaching materials
-- ( _about:setup_ ) - how to install rust and setup your development environment
-- ( _about:cross_compile_ ) - how to build from one platform to another one
-- ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
-- ( _about:bin_size_ ) - about size of target application
-- ( _about:concurrency_ ) - about asynchronous programming
-- ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
-- ( _about:closure_ ) - about closures
-- ( _about:self_ref_ ) - about self-referential structures
-- ( _about:macro_ ) - about macros
-- ( _about:webasm_ ) - about WebAssembly
-- ( _about:web_ ) - web development
-- ( _about:graphics_ ) - graphics
 
 ## General-purpose official resources
 
@@ -257,42 +221,43 @@ Curated collection of resources to learn Rust.
 - [Teaching Material](https://github.com/ferrous-systems/teaching-material) by [Ferrous](https://github.com/ferrous-systems)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:concurrency_ )
 
-## Projects catalogue
+## Tags legend
 
-( _collection_ ) ( _project_ )
-
-- [Are we game yet?](https://arewegameyet.rs/) : gamedev
-- [Are we web yet?](https://www.arewewebyet.org/) : web
-- [Are we GUI yet?](http://www.areweguiyet.com/) : user interfaces
-- [Are we learning yet?](http://www.arewelearningyet.com/) : machine learning
-- [Lib.rs](https://lib.rs/)
-- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
-
-## Newspapers and working groups
-
-( _collection_ ) ( _newspaper_ )
-
-- [Read Rust](https://readrust.net/)
-- [This Week in Rust](https://this-week-in-rust.org/)
-- [Rust GameDev Working Group](https://gamedev.rs/)
-- [Rust and WebAssembly](https://rustwasm.github.io/)
-- [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
-
-## Other lists on Rust
-
-( _collection_ )
-
-- [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
-- [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
-- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
-- [Rust Books](https://github.com/sger/RustBooks) :blue_book: by [Spiros Gerokostas](https://github.com/sger)  ( _book_ )
-- [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly)  by [rustwasm](https://github.com/rustwasm)
-- [List of chats and forums](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Communities.md) :speech_balloon: by us
-- [Distros written on Rust](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Distros.md) :wrench: by us
-- [Game and Multimedia Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Mulitmedia.md) :video_game: by us
-- :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by us
-
-<!-- xxx : qqq : discuss. use :clapper: for video -->
+- ( _general_ ) - general-purpose material
+- ( _specific_ ) - domain-specific material
+- ( _official_ ) - official Rust material
+- ( _non-eng_ ) - non-english language
+- ( _introductory_ ) - introductory level
+- ( _advanced_ ) - advanced level
+- ( _course_ ) - consists of series of text/video articles trying to give to a reader solid foundation
+- ( _book_ ) - a book
+- ( _reference_ ) - a reference
+- ( _article_ ) - either single article or single video-tutorial
+- ( _not-finished_ ) - not finished, too little to learn
+- ( _interactive_ ) - it is possible to interact and get feedback from the system
+- ( _reading_ ) - material to read
+- ( _video_ ) - material to watch
+- ( _audio_ ) - material to listen
+- ( _collection_ ) - list of resources
+- ( _newspaper_ ) - regularly updating list of articles
+- ( _project_ ) - project
+- ( _algo_ ) - algorithmic problems and solutions
+- ( _toy_ ) - educational toy projects
+- ( _predictions_ ) history and predictions
+- ( _teachings_material_ ) - Teaching materials and Workshops
+- ( _teaching_materials_ ) - teaching materials
+- ( _about:setup_ ) - how to install rust and setup your development environment
+- ( _about:cross_compile_ ) - how to build from one platform to another one
+- ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
+- ( _about:bin_size_ ) - about size of target application
+- ( _about:concurrency_ ) - about asynchronous programming
+- ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
+- ( _about:closure_ ) - about closures
+- ( _about:self_ref_ ) - about self-referential structures
+- ( _about:macro_ ) - about macros
+- ( _about:webasm_ ) - about WebAssembly
+- ( _about:web_ ) - web development
+- ( _about:graphics_ ) - graphics
 
 ## Learn Rust Together
 
