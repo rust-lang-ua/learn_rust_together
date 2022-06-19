@@ -1,6 +1,6 @@
 <!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
 
-# Learn Rust Together 💙💛
+# 🦀 Learn Rust Together 💙💛
 
 [![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
@@ -14,7 +14,7 @@ Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
 - :pencil2: [Learn](./learn.md) : collection of materials to learn Rust.
-- :chart_with_upwards_trend: [Systemize](./ceatsheets.md) : collection of ceatsheets.
+- :chart_with_upwards_trend: [Systemize](./ceatsheets.md) : collection of cheat sheets.
 - :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
 - :question: [Get answer](./about_us.md#faq) : our FAQ and community rules.
 - :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.

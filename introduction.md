@@ -1,4 +1,6 @@
-# Introduction
+# :footprints:️ Introduction
+
+It is setup and step-by-step introduction into development on Rust.
 
 ## Resources to use
 
