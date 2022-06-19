@@ -9,43 +9,9 @@ You might also be interested in other tooboxes:
 - :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+
 <!-- - []() by []() : -->
-
-## Tags legend
-
-- ( _renderer_ ) - renderers
-- ( _middleware_ ) - software of middle layer to leverage low-level functionality
-- ( _engine_ ) - game engines
-- ( _hid_ ) - human interface device
-- ( _shader_ ) - shader related
-- ( _geometry_ ) - geometry / mesh generation
-- ( _windowing_ ) - window creation and management
-- ( _network_ ) - network programming
-- ( _bevy_ ) - Bevy related
-- ( _webgpu_ ) - WebGPU related
-- ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
-- ( _plotting_ ) - plot data
-- ( _data_structure_ ) - data structures and algorithms
-- ( _tesselation_ ) - tesselation libs
-- ( _color_ ) - color related
-- ( _physics_ ) - physics
-- ( _simulation_ ) - simulation
-- ( _line_ ) - line related
-- ( _font_ ) - fonts related
-- ( _svg_ ) - SVG related
-- ( _img_ ) - image processing related
-- ( _assets_3d_ ) - 3D assets loading/saving
-- ( _sound_ ) - sound-related
-- ( _vst_ ) - virtual studio technology
-- ( _midi_ ) - MIDI related
-- ( _gis_ ) - geographic information system
-- ( _game_design_ ) - game design tools
-- ( _game_ ) - finished game
-- ( _toy_ ) - toy game
-- ( _specific_ ) - some specific graphics libraries
-- ( _utility_ ) - utilities
-
-<!-- qqq : improve tags descriptions -->
 
 ## Renderer
 
@@ -318,3 +284,39 @@ You might also be interested in other tooboxes:
 | [speedy2d](https://github.com/QuantumBadger/Speedy2D) | Yes             | 1 Mb                                  |
 | [luminance](https://github.com/phaazon/luminance-rs)  | Yes             | 77 Kb                                 |
 | [gl-rs](https://github.com/brendanzab/gl-rs)          | Yes             | [Problem](./unsorted/renderer/gl-rs/Readme.md) |
+
+## Tags legend
+
+- ( _renderer_ ) - renderers
+- ( _middleware_ ) - software of middle layer to leverage low-level functionality
+- ( _engine_ ) - game engines
+- ( _hid_ ) - human interface device
+- ( _shader_ ) - shader related
+- ( _geometry_ ) - geometry / mesh generation
+- ( _windowing_ ) - window creation and management
+- ( _network_ ) - network programming
+- ( _bevy_ ) - Bevy related
+- ( _webgpu_ ) - WebGPU related
+- ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
+- ( _plotting_ ) - plot data
+- ( _data_structure_ ) - data structures and algorithms
+- ( _tesselation_ ) - tesselation libs
+- ( _color_ ) - color related
+- ( _physics_ ) - physics
+- ( _simulation_ ) - simulation
+- ( _line_ ) - line related
+- ( _font_ ) - fonts related
+- ( _svg_ ) - SVG related
+- ( _img_ ) - image processing related
+- ( _assets_3d_ ) - 3D assets loading/saving
+- ( _sound_ ) - sound-related
+- ( _vst_ ) - virtual studio technology
+- ( _midi_ ) - MIDI related
+- ( _gis_ ) - geographic information system
+- ( _game_design_ ) - game design tools
+- ( _game_ ) - finished game
+- ( _toy_ ) - toy game
+- ( _specific_ ) - some specific graphics libraries
+- ( _utility_ ) - utilities
+
+<!-- qqq : improve tags descriptions -->

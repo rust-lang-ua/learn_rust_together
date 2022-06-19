@@ -12,84 +12,7 @@ You might also be interested in other tooboxes:
 - :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
-## Tags legend
-
-- ( _error_ ) - errors handling
-- ( _macro_ ) - writing macros
-- ( _meta_ ) - meta programming : reflection, introspection and such things
-- ( _decorator_ ) - decorators for nicer code
-- ( _derive_ ) - procedural derive macroses
-- ( _compiler_ ) - compilers and static analyzers
-- ( _compile_time_ ) - non run-time
-- ( _global_ ) - global variable
-- ( _njs_ ) - NodeJs related
-- ( _ui_ ) - user interface
-- ( _gui_ ) - graphical user interface
-- ( _cui_ ) - command user interface
-- ( _cui_parsing_ ) - tools to parse input of command user interface ( CUI )
-- ( _terminal_ ) - terminal, textual output
-- ( _cloud_api_ ) - remote APIs, mostly REST
-- ( _cross_compile_ ) - build from one platform to another one
-- ( _build_ ) - toolchains to build your project
-- ( _wasm_ ) - WebAssembly-related
-- ( _windowing_ ) - windows creating, manipulating OS GUI
-- ( _dom_ ) - web DOM
-- ( _web_frontend_ ) - web frontend
-- ( _web_backend_ ) - web backend
-- ( _network_ ) - network
-- ( _db_ ) - database-related
-- ( _functional_ ) - functional programming
-- ( _virtualisation_ ) - virtualisation-related, docker-related
-- ( _concurrency_ ) - concurrency and asynchronous programming
-- ( _persistence_ ) - persistence and delayed execution
-- ( _communication_ ) - either inter-process or inter-thread communication
-- ( _streams_ ) - read/write streams
-- ( _buffers_ ) - buffers for memory management
-- ( _mem_ ) - memory management
-- ( _serialization_ ) - serialization / deserialization
-- ( _stringification_ ) - converting to / from a string
-- ( _parser_generator_ ) - parser generators / combinators
-- ( _parser_ ) - parser of a specific language
-- ( _statistics_ ) - random generators, distributions and statistics-related things
-- ( _adt_ ) - abstract data types
-- ( _algo_ ) - algorithms
-- ( _data_structure_ ) - data structures and algorithms
-- ( _primitive_ ) - primitives
-- ( _collection_ ) - data structures which are collections
-- ( _string_ ) - either string or bytes slice based data structures and algorithms
-- ( _stack_based_ ) - stack-based data structures and algorithms
-- ( _graphs_ ) - graphs data structures and algorithms
-- ( _hashing_ ) - hashing algorithms
-- ( _cryptography_ ) - cryptographic
-- ( _compression_ ) - compression, archiving
-- ( _encoding_ ) - encoding / decoding
-- ( _gdf_ ) - general data format, genera-purpose formats to exchange data
-- ( _asset_image_ ) - reading / writing / manipulating various image formats
-- ( _fs_ ) - file system related
-- ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
-- ( _kernel_ ) - kernel of operation system
-- ( _cargo_ ) - extension of cargo
-- ( _video_ ) - video-processing, capturing
-- ( _asm_ ) - machine code, byte code, interpreters, assembler
-- ( _hardware_ ) - reading / writing hardware
-- ( _embed_ ) - embedded
-- ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
-- ( _self_ref_ ) - self referential structures
-- ( _ownership_semantics_ ) - solutions of problems of owning/borrowing/lifetimes self referring
-- ( _multidimensional_ ) - multidimensional data structures and algorithms
-- ( _bindings_ ) - bindings to foreign library or service
-- ( _logger_ ) - tools for printing information
-- ( _config_ ) - config managing
-- ( _daignostics_ ) - tools for diagnostics
-- ( _mobile_ ) - tool or lib related to running rust code on mobile
-- ( _android_ ) - tools for running rust code on Android
-- ( _ios_ ) - tools for running rust code on iOS
-- ( _testing_ ) - for writing tests
-- ( _utility_ ) - utility to run in terminal
-- ( _example_ ) - example project
-- ( _templating_ ) - tools to generate text using template
-- ( _hpc_ ) - high performance computing
-- ( _idea_ ) - it is rather proof of concept than production-ready implementation
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 ## Errors handling
 
@@ -828,3 +751,82 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 <!-- qqq : emoji instead of tags? -->
 <!-- qqq : replace rust-windowing by a person -->
 <!-- qqq : replace orgs by persons, add missing authors -->
+
+## Tags legend
+
+- ( _error_ ) - errors handling
+- ( _macro_ ) - writing macros
+- ( _meta_ ) - meta programming : reflection, introspection and such things
+- ( _decorator_ ) - decorators for nicer code
+- ( _derive_ ) - procedural derive macroses
+- ( _compiler_ ) - compilers and static analyzers
+- ( _compile_time_ ) - non run-time
+- ( _global_ ) - global variable
+- ( _njs_ ) - NodeJs related
+- ( _ui_ ) - user interface
+- ( _gui_ ) - graphical user interface
+- ( _cui_ ) - command user interface
+- ( _cui_parsing_ ) - tools to parse input of command user interface ( CUI )
+- ( _terminal_ ) - terminal, textual output
+- ( _cloud_api_ ) - remote APIs, mostly REST
+- ( _cross_compile_ ) - build from one platform to another one
+- ( _build_ ) - toolchains to build your project
+- ( _wasm_ ) - WebAssembly-related
+- ( _windowing_ ) - windows creating, manipulating OS GUI
+- ( _dom_ ) - web DOM
+- ( _web_frontend_ ) - web frontend
+- ( _web_backend_ ) - web backend
+- ( _network_ ) - network
+- ( _db_ ) - database-related
+- ( _functional_ ) - functional programming
+- ( _virtualisation_ ) - virtualisation-related, docker-related
+- ( _concurrency_ ) - concurrency and asynchronous programming
+- ( _persistence_ ) - persistence and delayed execution
+- ( _communication_ ) - either inter-process or inter-thread communication
+- ( _streams_ ) - read/write streams
+- ( _buffers_ ) - buffers for memory management
+- ( _mem_ ) - memory management
+- ( _serialization_ ) - serialization / deserialization
+- ( _stringification_ ) - converting to / from a string
+- ( _parser_generator_ ) - parser generators / combinators
+- ( _parser_ ) - parser of a specific language
+- ( _statistics_ ) - random generators, distributions and statistics-related things
+- ( _adt_ ) - abstract data types
+- ( _algo_ ) - algorithms
+- ( _data_structure_ ) - data structures and algorithms
+- ( _primitive_ ) - primitives
+- ( _collection_ ) - data structures which are collections
+- ( _string_ ) - either string or bytes slice based data structures and algorithms
+- ( _stack_based_ ) - stack-based data structures and algorithms
+- ( _graphs_ ) - graphs data structures and algorithms
+- ( _hashing_ ) - hashing algorithms
+- ( _cryptography_ ) - cryptographic
+- ( _compression_ ) - compression, archiving
+- ( _encoding_ ) - encoding / decoding
+- ( _gdf_ ) - general data format, genera-purpose formats to exchange data
+- ( _asset_image_ ) - reading / writing / manipulating various image formats
+- ( _fs_ ) - file system related
+- ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
+- ( _kernel_ ) - kernel of operation system
+- ( _cargo_ ) - extension of cargo
+- ( _video_ ) - video-processing, capturing
+- ( _asm_ ) - machine code, byte code, interpreters, assembler
+- ( _hardware_ ) - reading / writing hardware
+- ( _embed_ ) - embedded
+- ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
+- ( _self_ref_ ) - self referential structures
+- ( _ownership_semantics_ ) - solutions of problems of owning/borrowing/lifetimes self referring
+- ( _multidimensional_ ) - multidimensional data structures and algorithms
+- ( _bindings_ ) - bindings to foreign library or service
+- ( _logger_ ) - tools for printing information
+- ( _config_ ) - config managing
+- ( _daignostics_ ) - tools for diagnostics
+- ( _mobile_ ) - tool or lib related to running rust code on mobile
+- ( _android_ ) - tools for running rust code on Android
+- ( _ios_ ) - tools for running rust code on iOS
+- ( _testing_ ) - for writing tests
+- ( _utility_ ) - utility to run in terminal
+- ( _example_ ) - example project
+- ( _templating_ ) - tools to generate text using template
+- ( _hpc_ ) - high performance computing
+- ( _idea_ ) - it is rather proof of concept than production-ready implementation

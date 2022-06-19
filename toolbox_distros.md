@@ -9,16 +9,9 @@ You might also be interested in other tooboxes:
 - :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+
 <!-- - []() by []() : -->
-
-## Tags legend
-
-- ( _site_generation_ ) - generating a site with documentation from either MD or similar languages
-- ( _general_purpose_ ) - general purpose distros
-- ( _posix_ ) - standard posix shell commands related
-- ( _processors_ ) - data processors
-- ( _fs_ ) - file system
-- ( _vcs_ ) - versions controls systems
 
 ## Site Generation
 
@@ -81,3 +74,12 @@ You might also be interested in other tooboxes:
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
 <!-- qqq : emoji instead of tags? -->
+
+## Tags legend
+
+- ( _site_generation_ ) - generating a site with documentation from either MD or similar languages
+- ( _general_purpose_ ) - general purpose distros
+- ( _posix_ ) - standard posix shell commands related
+- ( _processors_ ) - data processors
+- ( _fs_ ) - file system
+- ( _vcs_ ) - versions controls systems

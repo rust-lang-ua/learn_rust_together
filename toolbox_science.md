@@ -9,19 +9,9 @@ You might also be interested in other tooboxes:
 - :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+
 <!-- - []() by []() : -->
-
-## Tags legend
-
-- ( _general_ ) - general-purpose
-- ( _data_structure_ ) - data structures and algorithms
-- ( _graphs_ ) - graphs data structures and algorithms
-- ( _math_ ) - math
-- ( _meta_ ) - meta
-- ( _physics_ ) - physics
-- ( _dsp_ ) - digital signals processing
-
-<!-- qqq : improve tags descriptions -->
 
 ## General-purpose math
 
@@ -86,3 +76,15 @@ You might also be interested in other tooboxes:
 - [beat-detector](https://github.com/phip1611/beat-detector) by [Philipp Schuster](https://github.com/phip1611) : beat detection
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
+
+## Tags legend
+
+- ( _general_ ) - general-purpose
+- ( _data_structure_ ) - data structures and algorithms
+- ( _graphs_ ) - graphs data structures and algorithms
+- ( _math_ ) - math
+- ( _meta_ ) - meta
+- ( _physics_ ) - physics
+- ( _dsp_ ) - digital signals processing
+
+<!-- qqq : improve tags descriptions -->
