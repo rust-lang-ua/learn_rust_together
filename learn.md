@@ -223,6 +223,7 @@ Curated collection of resources to learn Rust.
 
 ## Tags legend
 
+- :star: - fearured and strongly recommended
 - ( _general_ ) - general-purpose material
 - ( _specific_ ) - domain-specific material
 - ( _official_ ) - official Rust material
