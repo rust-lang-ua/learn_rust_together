@@ -1,4 +1,4 @@
-# Multimedia Developer Toolbox
+# :video_game: Multimedia Developer Toolbox
 
 Awesome collection of multimedia crates: GameDev, Graphics, Video, Audio, Math, DSP. It is curated by us.
 

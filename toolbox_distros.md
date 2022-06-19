@@ -1,4 +1,4 @@
-# Awesome Collection of Distros
+# :package: Awesome Collection of Distros
 
 Awesome collection of utilities written in Rust to been distributed outside of Rust ecosystem. It is curated by us.
 

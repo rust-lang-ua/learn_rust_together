@@ -1,4 +1,4 @@
-# Scientific Toolbox
+# :infinity: Scientific Toolbox
 
 Awesome collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP. It is curated by us.
 

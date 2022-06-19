@@ -1,4 +1,4 @@
-# Rust Developer's Toolbox
+# :wrench: Rust Developer's Toolbox
 
 <!-- https://github.com/dherman -->
 <!-- - []() by []() : -->
