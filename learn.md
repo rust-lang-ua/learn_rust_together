@@ -1,6 +1,6 @@
 <!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
 
-# Our Awesome Collection of Materials to Learn Rust
+# :mortar_board: Our Awesome Collection of Materials to Learn Rust
 
 Curated collection of resources to learn Rust.
 
