@@ -1,4 +1,13 @@
-# Distros written on Rust
+# Awesome Collection of Distros
+
+Awesome collection of utilities written in Rust to been distributed outside of Rust ecosystem. It is curated by us.
+
+You might also be interested in other tooboxes:
+
+- :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
+- :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
+- :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
 <!-- - []() by []() : -->
 
@@ -37,6 +46,7 @@
 - [tokei](https://github.com/XAMPPRocky/tokei) by [Erin P](https://github.com/XAMPPRocky) : CUI to count lines of code quickly
 - [eve](https://github.com/XAMPPRocky/eve) by [Erin P](https://github.com/XAMPPRocky) : CUI for environment variables based templating
 - [silicon](https://github.com/Aloxaf/silicon) by [Aloxaf](https://github.com/Aloxaf) : CUI to image of your source code
+- [rust-highlight](https://github.com/KokaKiwi/rust-highlight) by [extrawurst](https://github.com/KokaKiwi) : export Rust code as HTML
 - [bottom](https://github.com/ClementTsang/bottom) by [Clement Tsang](https://github.com/ClementTsang) : cross-platform graphical process/system monitor
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [alacritty](https://github.com/alacritty/alacritty) by [Joe Wilm](https://github.com/jwilm) : cross-platform, OpenGL terminal emulator

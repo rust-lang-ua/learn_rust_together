@@ -50,7 +50,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - ( _reading_ ) - material to read
 - ( _video_ ) - material to watch
 - ( _audio_ ) - material to listen
-- ( _list_ ) - list of resources
+- ( _collection_ ) - list of resources
 - ( _newspaper_ ) - regularly updating list of articles
 - ( _project_ ) - project
 - ( _algo_ ) - algorithmic problems and solutions
@@ -286,7 +286,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Projects catalogue
 
-( _list_ ) ( _project_ )
+( _collection_ ) ( _project_ )
 
 - [Are we game yet?](https://arewegameyet.rs/) : gamedev
 - [Are we web yet?](https://www.arewewebyet.org/) : web
@@ -297,7 +297,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Newspapers and working groups
 
-( _list_ ) ( _newspaper_ )
+( _collection_ ) ( _newspaper_ )
 
 - [Read Rust](https://readrust.net/)
 - [This Week in Rust](https://this-week-in-rust.org/)
@@ -307,7 +307,7 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 
 ## Other lists on Rust
 
-( _list_ )
+( _collection_ )
 
 - [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
@@ -318,3 +318,5 @@ List of forums and chats you may find [here](https://github.com/Learn-Together-P
 - [Distros written on Rust](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Distros.md) :wrench: by us
 - [Game and Multimedia Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Mulitmedia.md) :video_game: by us
 - :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by us
+
+<!-- xxx : qqq : discuss. use :clapper: for video -->
