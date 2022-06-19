@@ -86,7 +86,7 @@ You might also be interested in other tooboxes:
 ( _global_ )
 
 - [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) by [Marvin Löbel](https://github.com/Kimundi) : macro for defining lazy evaluated static variables
-- [one_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros
+- [once_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros
 
 ## UI
 
