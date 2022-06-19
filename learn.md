@@ -4,34 +4,9 @@
 
 [![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
-Curated collection of lists of useful resources to learn Rust together.
-
-List of forums and chats you may find [here](https://github.com/Learn-Together-Pro/RustCommunity). I encourage you to seek for help if you struggle to solve a problem. Rust community is very friendly!
+Curated collection of resources to learn Rust.
 
 <!-- - []() by []() -->
-
-<!-- ## Content
-
-- [Tags legend](#tags-legend)
-- [General-purpose official resources](#general-purpose-official-resources)
-- [:star: General-purpose courses](#star-general-purpose-courses)
-- [Advanced](#advanced)
-- [Additional](#additional)
-- [WebAssembly](#webassembly)
-- [Embedded](#embedded)
-- [Interactive courses on Rust with feedback](#interactive-courses-on-rust-with-feedback)
-- [Cheat sheets](#interactive-courses-on-rust-with-feedback)
-- [Algorithmic problems and solutions in Rust](#algorithmic-problems-and-solutions-in-rust)
-- [Domain-specific topics](#domain-specific-topics-on-rust)
-- [Setup](#setup)
-- [Cross-compile](#cross-compile)
-- [Size of binaries](#size-of-binaries)
-- [Memory](#memory)
-- [Asynchronous](#asynchronous)
-- [Ownership semantics](#ownership_semantics)
-- [Projects catalogue](#projects-catalogue)
-- [Newspapers](#newspapers)
-- [Other lists on Rust](#other-lists-on-rust) -->
 
 ## Tags legend
 
