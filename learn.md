@@ -2,8 +2,6 @@
 
 # Our Awesome Collection of Materials to Learn Rust
 
-[![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
-
 Curated collection of resources to learn Rust.
 
 <!-- - []() by []() -->
@@ -295,3 +293,7 @@ Curated collection of resources to learn Rust.
 - :star: [Toolbox](https://github.com/Learn-Together-Pro/LearnRustTogether/blob/master/Toolbox.md) :wrench: by us
 
 <!-- xxx : qqq : discuss. use :clapper: for video -->
+
+## Learn Rust Together
+
+[![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
