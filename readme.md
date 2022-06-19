@@ -26,7 +26,6 @@ Here you can find:
 - :globe_with_meridians: [Still not enough](./collection_of_collections.md#other-collections-on-rust) : other collections on Rust
 
 ## Join
-Come join our friendly community!<br/>
 
 💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
 
