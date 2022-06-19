@@ -77,11 +77,13 @@ Come join our friendly community!
 📖 Resources we recommend are [here](https://github.com/rust-lang-ua/learn_rust_together). <br/>
 
 You may also follow us on these platforms:
-[Twitter](https://twitter.com/LearnTogetherP)  | [Facebook](https://www.facebook.com/learntogetherpro) |
+[Twitter](https://twitter.com/LearnTogetherP)  |
+[Facebook](https://www.facebook.com/learntogetherpro) |
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |
 [Telegram](https://t.me/rustlang_ua) |
+<br/>
 
 Let’s Learn Rust 🦀 Together!
