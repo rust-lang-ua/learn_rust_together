@@ -4,7 +4,7 @@
 
 Curated collection of resources to learn Rust.
 
-- [Tags legend](.#tags-legend) at the end of the page.
+:arrow_down: [Tags legend](./learn.md#tags-legend) at the end of the page.
 
 <!-- - []() by []() -->
 
