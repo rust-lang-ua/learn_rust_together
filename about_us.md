@@ -1,4 +1,4 @@
-# Ukrainian branch of Rust Community 💙💛
+# 🦀 Ukrainian branch of Rust Community 💙💛
 
 ![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)
 
@@ -27,7 +27,7 @@ As a member of  our community, you can:
 - get the latest news about Rust
 - have a good time in informal meetings for our members
 
-## FAQ
+## :question: FAQ
 <ins>*- Is the community for beginners only?*</ins><br/>
 No. Many of our members have many years of professional experience, and some have been studying Rust since its inception.
 

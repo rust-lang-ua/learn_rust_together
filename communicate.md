@@ -1,4 +1,4 @@
-# Rust Community
+# :speech_balloon: Rust Community
 
 Curated list of chats and forums about Rust. You may get help with Rust on those resources.
 

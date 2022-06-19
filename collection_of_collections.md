@@ -1,5 +1,5 @@
 
-## Projects catalogue
+## :label: Projects catalogue
 
 ( _collection_ ) ( _project_ )
 
@@ -10,7 +10,7 @@
 - [Lib.rs](https://lib.rs/)
 - [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 
-## Newspapers and working groups
+## :newspaper: Newspapers and working groups
 
 ( _collection_ ) ( _newspaper_ )
 
@@ -20,7 +20,7 @@
 - [Rust and WebAssembly](https://rustwasm.github.io/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
 
-## Other collections on Rust
+## :globe_with_meridians: Other collections on Rust
 
 ( _collection_ )
 
