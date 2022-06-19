@@ -13,8 +13,8 @@ This repostory contains nearly dozen curated collection: learning materials, too
 Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
-- :star: [Learn](./learn.md) : collection of materials to learn Rust.
-- :star: [Systemize](./ceatsheets.md) : collection of ceatsheets.
+- :heartbeat: [Learn](./learn.md) : collection of materials to learn Rust.
+- :sparkle: [Systemize](./ceatsheets.md) : collection of ceatsheets.
 - :speech_balloon: [Communicate](./communicate.md) : Collection of chats and forums
 - :question: [Get answer](./about_us.md#faq) : our FAQ and community rules.
 - :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
