@@ -1,4 +1,4 @@
-<!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
+<!-- ![Rust](./asset/img/logo/Logo2.jpg) -->
 
 # 🦀 Learn Rust Together 💙💛
 
