@@ -1,4 +1,4 @@
-# Unreferenced Types in Rust
+# Don't utter his name: unreferenced Types in Rust
 
 **Did you know that you cant name all types which exists in Rust?**
 
