@@ -221,6 +221,6 @@ pub fn map4() -> impl Iterator<Item = i32> {
 
 ## Credits
 
-Author or the article is [Kostiantyn W.](https://www.linkedin.com/in/kostiantynw/) @ Learn Together / @ Rust Ukraine / @ Out of the Box Systems / @ Motion Design School
-Based on thoughts of [Quine Dot](https://users.rust-lang.org/u/quinedot)
-Reviewed by [Paul Colomiets](https://github.com/tailhook)
+- Author or the article is [Kostiantyn W.](https://www.linkedin.com/in/kostiantynw/) @ Learn Together | @ Rust Ukraine | @ Out of the Box Systems | @ Motion Design School
+- Based on thoughts of [Quine Dot](https://users.rust-lang.org/u/quinedot)
+- Reviewed by [Paul Colomiets](https://github.com/tailhook)
