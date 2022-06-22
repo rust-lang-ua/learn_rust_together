@@ -16,7 +16,7 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 
 - [ Rust Beginners ](https://t.me/rust_beginners_ru) ( _telegram_ ) ( _non-eng_ )
 - [ Rust — русскоговорящее сообщество ](https://t.me/rustlang_ru) ( _telegram_ ) ( _non-eng_ )
-- [ Learn Rust with RustDevz ](https://t.me/rustdevs)
+- [ Learn Rust with RustDevz ](https://t.me/rustdevs) ( _telegram_ ) ( _non-eng_ )
 - [ Rust GameDev — русскоговорящее сообщество ](https://t.me/rust_gamedev_ru) ( _telegram_ ) ( _non-eng_ )
 - [ Embedded Lab ](https://t.me/embedded_lab) ( _telegram_ ) ( _non-eng_ )
 - [ Dimforge ](https://discord.gg/AQ434ubNSa) ( _discord_ )
@@ -40,7 +40,7 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - [Rust-analyzer ](https://twitter.com/rust_analyzer) 
 - [ Rust GameDev ](https://twitter.com/rust_gamedev) 
 
-### Website blogs
+### :globe_with_meridians: Website blogs
 ( _website_ ) ( _blog_ )
 - [ Rust Main Blog ](https://blog.rust-lang.org/) 
 - [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rust/index.html) 
@@ -69,4 +69,4 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - ( _discord_ ) -- on discord
 - ( _non-eng_ ) -- non-english language
 
-
+	:people_hugging:
