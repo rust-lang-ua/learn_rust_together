@@ -44,7 +44,7 @@ Notice:
 - you cant use `impl` because of restriction trait has.
 - you cant use `TAIT`, it is not stable yet.
 
-Each section has a link on playground, alternatively you can run this code locally:
+Each section has a link on playground, alternatively you can [clone] and run this code locally:
 ```
 git clone git@github.com:rust-lang-ua/learn_rust_together.git
 cd practice/you_cant_name_all_types
