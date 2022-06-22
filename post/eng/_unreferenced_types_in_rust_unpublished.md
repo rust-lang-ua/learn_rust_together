@@ -2,7 +2,7 @@
 
 **Did you know that you cant name all types which exists in Rust?**
 
-**Did you know that each closure has its own type?**.
+Did you know that each closure has its own type?
 
 And in situation [like this](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=ab322a29a815b8a12fa4ba0335490890) such type cant be referenced.
 How to overcome such kind of obstacles?
