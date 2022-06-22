@@ -8,21 +8,21 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - [ Chats ](#chats)
 - [ News streams ](#news-streams)
 
-## ‘Learn Rust Together’ Community
+## Learn Rust Together Community
  ( _ukraine_ )
 
-- [ Вивчаємо Rust Разом ](https://t.me/rustlang_ua) ( _telegram_ ) ( _non-eng_ )
+- [ Вивчаємо Rust Разом ](https://t.me/rustlang_ua) ( _telegram_ ) ( _non-eng_ ) ( _chat_ )
 - [ Канал Вивчаємо Rust Разом ](https://t.me/learn_rust_ukr)  ( _telegram_ ) ( _stream_ )  ( _non-eng_ ) 
 - [ English channel Learn Rust Together ](https://t.me/learn_rust)  ( _telegram_ ) ( _stream_ ) 
-- [ Чат Вивчаємо Rust Разом # Kyiv ](https://t.me/learn_rust_together_kyiv)  ( _telegram_ ) ( _non-eng_ )   
-- [ Чат Вивчаємо Rust Разом # Odesa ](https://t.me/learn_rust_together_odesa)  ( _telegram_ ) ( _non-eng_ ) 
-- [ Чат Вивчаємо Rust Разом # Lviv ](https://t.me/learn_rust_together_lviv)  ( _telegram_ ) ( _non-eng_ ) 
-- [ Ми як організація в LinkedIn ](https://www.linkedin.com/company/learn-together-pro)
-- [ Ми як організація на GitHub ](https://github.com/Learn-Together-Pro)
-- [ Канал у Twitter ] (https://twitter.com/LearnTogetherP) ( _twitter_ )
-- [ Сторінка на Facebook ](https://www.facebook.com/learntogetherpro) 
+- [ Чат Вивчаємо Rust Разом # Kyiv ](https://t.me/learn_rust_together_kyiv)  ( _telegram_ ) ( _chat_ ) ( _non-eng_ )    
+- [ Чат Вивчаємо Rust Разом # Odesa ](https://t.me/learn_rust_together_odesa)  ( _telegram_ ) ( _chat_ ) ( _non-eng_ ) 
+- [ Чат Вивчаємо Rust Разом # Lviv ](https://t.me/learn_rust_together_lviv)  ( _telegram_ ) ( _chat_ ) ( _non-eng_ ) 
+- [ Ми як організація в LinkedIn ](https://www.linkedin.com/company/learn-together-pro) ( _stream_ )
+- [ Ми як організація на GitHub ](https://github.com/rust-lang-ua)
+- [ Канал у Twitter ](https://twitter.com/LearnTogetherP) ( _twitter_ ) ( _stream_ )
+- [ Сторінка на Facebook ](https://www.facebook.com/learntogetherpro) ( _stream_ )
 - [ Сервер на Discord ](https://discord.com/invite/JVCZfTVf5A)  ( _discord_ )
-- [ Сторінка на reddit ](https://www.reddit.com/r/rustlang_ua/comments/vbxc7s/ukrainian_branch_of_rust_community/) 
+- [ Сторінка на reddit ](https://www.reddit.com/r/rustlang_ua/comments/vbxc7s/ukrainian_branch_of_rust_community/) ( _stream_ ) ( _chat_ )
 
 
 ## Chats
