@@ -48,5 +48,6 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - ( _chat_ ) -- chat or forum to comminicate with people
 - ( _stream_ ) -- stream of either news or announcements
 - ( _telegram_ ) -- on telegram
+- ( _twitter_ ) -- on twitter
 - ( _discord_ ) -- on discord
 - ( _non-eng_ ) -- non-english language
