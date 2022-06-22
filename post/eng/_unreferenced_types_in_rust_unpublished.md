@@ -41,8 +41,8 @@ impl Trait1 for Map1 /* I cant introduce parameters */ {
 ```
 
 Notice:
-- you cant use `impl` because of restriction trait has.
-- you cant use `TAIT`, it is not stable yet.
+- you cant use [impl](https://rust-lang.github.io/rfcs/2071-impl-trait-existential-types.html) because of restriction trait has.
+- you cant use [TAIT](https://rust-lang.github.io/rfcs/2515-type_alias_impl_trait.html), it is not stable yet.
 
 Each section has a link on playground, alternatively you can [clone](https://github.com/rust-lang-ua/learn_rust_together/tree/master/practice/unreferenced_types_in_rust) and run this code locally:
 ```
