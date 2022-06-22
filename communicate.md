@@ -27,19 +27,24 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 
 ## News streams
 
+
 - [ Канал Вивчаємо Rust Разом ](https://t.me/learn_rust_ukr)  ( _telegram_ )  ( _non-eng_ )  ( _ukraine_ )
 - [ English channel Learn Rust Together ](https://t.me/learn_rust)  ( _telegram_ ) ( _stream_ )  ( _ukraine_ )
-
-
 - [ pub ThisWeekInRust {} ](https://t.me/this_week_in_rust)  ( _telegram_ ) ( _stream_ )
-- [ This Week in Rust ](https://twitter.com/ThisWeekInRust) ( _twitter_ ) ( _stream_ ) ( _chat_ )
-- [ Rust Language ](https://twitter.com/rustlang) ( _twitter_ ) ( _blog_ )
-- [ Rust Trenging ](https://twitter.com/RustTrending) ( _twitter_ ) ( _blog_ )
-- [Rust-analyzer ](https://twitter.com/rust_analyzer) ( _twitter_ ) ( _blog_ )
-- [ Rust GameDev ](https://twitter.com/rust_gamedev) ( _twitter_ ) ( _blog_ )
-- [ Rust Main Blog ](https://blog.rust-lang.org/) ( _website_ ) ( _blog_ )
-- [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rust/index.html) ( _website_ ) ( _blog_ )
-- [ Rust GameDev WG ](https://gamedev.rs/) ( _website_ ) ( _blog_ )
+
+### Twitter blogs
+( _twitter_ ) ( _blog_ )
+- [ This Week in Rust ](https://twitter.com/ThisWeekInRust) 
+- [ Rust Language ](https://twitter.com/rustlang) 
+- [ Rust Trenging ](https://twitter.com/RustTrending) 
+- [Rust-analyzer ](https://twitter.com/rust_analyzer) 
+- [ Rust GameDev ](https://twitter.com/rust_gamedev) 
+
+### Website blogs
+( _website_ ) ( _blog_ )
+- [ Rust Main Blog ](https://blog.rust-lang.org/) 
+- [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rust/index.html) 
+- [ Rust GameDev WG ](https://gamedev.rs/)
 
 ## Forums
 
