@@ -50,7 +50,7 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 
 ( _forum_ )
 
-- [ Ask question on official Rust Forum ](https://users.rust-lang.org)
+- [ Official Rust Forum ](https://users.rust-lang.org)
  
 
 
