@@ -40,13 +40,13 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - [Rust-analyzer ](https://twitter.com/rust_analyzer) 
 - [ Rust GameDev ](https://twitter.com/rust_gamedev) 
 
-### :globe_with_meridians: Website blogs
+### Website blogs
 ( _website_ ) ( _blog_ )
 - [ Rust Main Blog ](https://blog.rust-lang.org/) 
 - [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rust/index.html) 
 - [ Rust GameDev WG ](https://gamedev.rs/)
 
-## Forums
+## :globe_with_meridians: Forums
 
 ( _forum_ )
 
