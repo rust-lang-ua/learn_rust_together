@@ -65,7 +65,6 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - ( _telegram_ ) -- on telegram
 - ( _twitter_ ) -- on twitter
 - ( _reddit_ ) -- on reddit
-- ( _facebook_ ) -- on facebook
 - ( _linkedin_ ) -- on linkedin
 - ( _discord_ ) -- on discord
 - ( _non-eng_ ) -- non-english language
