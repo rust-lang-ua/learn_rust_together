@@ -2,6 +2,7 @@
 
 Curated list of chats, news streams and forums about Rust. You may get help with Rust on those resources.
 
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 ## :speaking_head: Chats
 
@@ -55,7 +56,7 @@ Curated list of chats, news streams and forums about Rust. You may get help with
  
 
 
-## Markers legend
+## Tags legend
 
 - ( _forum_ ) -- forum to comminicate with people
 - ( _chat_ ) -- chat or forum to comminicate with people
