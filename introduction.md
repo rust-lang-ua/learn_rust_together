@@ -6,14 +6,14 @@ It is setup and step-by-step introduction into development on Rust.
 Rust is a multi-paradigm programming language designed for performance and safety. It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust is the most beloved programming language seven years in a row.
 
 ## Resources to use:
-There are some of the most popular general-purpose official resources for learning Rust:
+There are some of the most popular general-purpose official resources for learning Rust: <br/>
 ( _general_ ) ( _official_ ) ( _course_ )
 - [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ )
 - [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
 - [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
 
-We’d also recommend you such courses as:
+We’d also recommend you such courses as:<br/>
 ( _general_ ) ( _course_ )
 [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _video_ )
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ )
