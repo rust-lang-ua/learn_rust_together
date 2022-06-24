@@ -27,10 +27,11 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 
 ## :vibration_mode: News streams
 
-
-- [ Канал Вивчаємо Rust Разом ](https://t.me/learn_rust_ukr)  ( _telegram_ )  ( _non-eng_ )  ( _ukraine_ )
-- [ English channel Learn Rust Together ](https://t.me/learn_rust)  ( _telegram_ ) ( _stream_ )  ( _ukraine_ )
-- [ pub ThisWeekInRust {} ](https://t.me/this_week_in_rust)  ( _telegram_ ) ( _stream_ )
+### Telegram channels
+( _telegram_ )( _stream_ )
+- [ Канал Вивчаємо Rust Разом ](https://t.me/learn_rust_ukr) ( _non-eng_ )  ( _ukraine_ )
+- [ English channel Learn Rust Together ](https://t.me/learn_rust)  
+- [ pub ThisWeekInRust {} ](https://t.me/this_week_in_rust) 
 
 ### Twitter blogs
 ( _twitter_ ) ( _blog_ )
