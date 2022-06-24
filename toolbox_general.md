@@ -1,10 +1,9 @@
-<<<<<<< HEAD:Toolbox.md
 # Rust Developer's Toolbox
 test
 =======
 # :wrench: Rust Developer's Toolbox
 
->>>>>>> 46e96ddc39c4a821caa43bd5fbb29e6af2d11fd9:toolbox_general.md
+
 <!-- https://github.com/dherman -->
 <!-- - []() by []() : -->
 
