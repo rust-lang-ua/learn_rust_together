@@ -3,7 +3,7 @@
 Curated list of chats and forums about Rust. You may get help with Rust on those resources.
 
 
-## Chats
+## :people_holding_hands: Chats
 
 ( _chat_ )
 
@@ -25,7 +25,7 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - [ Rustacean Station ](https://discord.gg/aGfw68vhtB) ( _discord_ )
 
 
-## News streams
+## :vibration_mode: News streams
 
 
 - [ Канал Вивчаємо Rust Разом ](https://t.me/learn_rust_ukr)  ( _telegram_ )  ( _non-eng_ )  ( _ukraine_ )
