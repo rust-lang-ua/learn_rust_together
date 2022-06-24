@@ -3,7 +3,7 @@
 Curated list of chats and forums about Rust. You may get help with Rust on those resources.
 
 
-## :people_holding_hands: Chats
+## :speaking_head: Chats
 
 ( _chat_ )
 
