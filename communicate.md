@@ -1,6 +1,6 @@
 # :speech_balloon: Rust Community
 
-Curated list of chats and forums about Rust. You may get help with Rust on those resources.
+Curated list of chats, news streams and forums about Rust. You may get help with Rust on those resources.
 
 
 ## :speaking_head: Chats
