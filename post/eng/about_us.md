@@ -1,6 +1,6 @@
-# Ukrainian branch of Rust Community
+# Ukrainian branch of Rust Community 💙💛
 
-![learn rust together](https://github.com/ChapliaS/LearnRustTogether/blob/master/asset/logo/Collage_2.jpg)
+![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/b60b4f7155d7b00c58e1f8d8820f2bb23f82799e/asset/logo/Collage_2.jpg)
 
 ## Who are we?
 We are a Ukrainian branch of the Rust community.
@@ -11,26 +11,23 @@ Our goals are to popularize Rust in Ukraine, develop the community around it, la
 Rust is a multi-paradigm programming language designed for performance and safety. It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust is the most beloved programming language several times in a row. The Rust community is traditionally very friendly.
 
 ## What are our aims?
-We strive to provide all members with the space to build trusting professional relationships in an informal way by providing support and encouragement to develop professional skills..
+We strive to provide all members with the space to build trusting professional relationships in an informal way by providing support and encouragement to develop professional skills.
 These are the core values of our organization:
+- **mutual assistance**
+- **openness to** listen to alternative points of view
+- cultivation of **Open Source** culture
+- fostering a **friendly attitude** towards each other
 
-- passion to learn and share knowledge
-- openness to listen to alternative points of view
-- cultivation of Open Source culture
-- fostering a friendly attitude towards each other
-- promoting Rust in Ukraine
-
-What can we gain from joining your community?
+## What can we gain from joining your community?
 As a member of  our community, you can:
-participate in workshops on Rust projects
-
+- participate in workshops on Rust projects
 - engage in a friendly debate with other Rust enthusiasts in our chat
 - share ideas and experiences during our weekly Rust online meetings
 - find like-minded people and develop common interests together
 - get the latest news about Rust
 - have a good time in informal meetings for our members
 
-## FAQ
+## :question: FAQ
 <ins>*- Is the community for beginners only?*</ins><br/>
 No. Many of our members have many years of professional experience, and some have been studying Rust since its inception.
 
@@ -65,18 +62,19 @@ Just ask in the chat and someone will respond.
 It is better if you have the code in the [playground](https://play.rust-lang.org/). In this case, we don’t spend extra time recreating the problem.
 
 <ins>*- Where do I start learning?*</ins><br/>
-Please pay attention to manually-selected courses and [learning materials on Rust](https://github.com/Learn-Together-Pro/LearnRustTogether). You may start from “General-purpose courses” section. Starred resources are highly recommended.
+Please pay attention to manually-selected courses and [learning materials on Rust](https://github.com/rust-lang-ua/learn_rust_together). You may start from “General-purpose courses” section. Starred resources are highly recommended.
 
 <ins>*- Who do I contact for collaboration and feedback?*</ins><br/>
 Please contact [me](https://t.me/wandalen_me) on Telegram if you wish to: help with moderation, host an event, provide comments, or make any other contributions to the promotion of Rust in Ukraine.
 
-## Join
+<ins>*- What if I didn’t find an answer in the FAQ?*</ins><br/>
+Ask us on [chat](https://t.me/rustlang_ua).
 
+## Join
 Come join our friendly community!
 
-💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr).
-
-📖 Our collection of materials to master Rust are [here](https://github.com/Learn-Together-Pro/LearnRustTogether).
+💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
+📖 Resources we recommend are [here](https://github.com/rust-lang-ua/learn_rust_together). <br/>
 
 You may also follow us on these platforms:
 [Twitter](https://twitter.com/LearnTogetherP)  | [Facebook](https://www.facebook.com/learntogetherpro) |
