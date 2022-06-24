@@ -69,5 +69,3 @@ Curated list of chats and forums about Rust. You may get help with Rust on those
 - ( _linkedin_ ) -- on linkedin
 - ( _discord_ ) -- on discord
 - ( _non-eng_ ) -- non-english language
-
-	:people_hugging:
