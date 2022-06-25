@@ -30,7 +30,8 @@ Other interesting resources you can find in our [ Awesome Collection of Material
 ## Where to get help?:
 
 If you are Ukrainian, the best way to get help is to join our [Learn Rust Together](https://t.me/rustlang_ua) community, where you’ll be definitely heard and helped by more experienced members.
-There is also our [Communicate](https://github.com/ChapliaS/LearnRustTogether/blob/master/communicate.md) page, where you can find a lot of different Rust global local chats and news streams. 
+
+There is also our [Communicate](https://github.com/ChapliaS/LearnRustTogether/blob/master/communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
 
 ## How to ask questions?:
 
