@@ -22,7 +22,7 @@ We’d also recommend you such courses as:<br/>
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) 
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) 
   
-:zap:	Other interesting sources you can find in our [ Awesome Collection of Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust):mortar_board:
+:zap:	Other interesting sources you can find in our [ Awesome Collection of Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
 ## :gear: How to set up rust:
 
@@ -45,7 +45,7 @@ There is a short guide to do this:<br/>
 
 If you are Ukrainian, the best way to get help is to join our [Learn Rust Together](https://t.me/rustlang_ua) community, where you’ll be definitely heard and helped by more experienced members.
 
-:zap:	There is also our [:speech_balloon: Communicate](https://github.com/ChapliaS/LearnRustTogether/blob/master/communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
+:zap:	There is also our [Communicate](https://github.com/ChapliaS/LearnRustTogether/blob/master/communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
 
 ## :pushpin: How to ask questions?:
 
