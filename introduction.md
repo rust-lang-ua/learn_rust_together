@@ -35,6 +35,9 @@ There is also our [:speech_balloon: Communicate](https://github.com/ChapliaS/Lea
 
 ## :pushpin: How to ask questions?:
 
+The best way to ask questions is to share your code in the [playground](https://play.rust-lang.org/). In this case, other members don’t have to spend extra time recreating the problem.<br/>
+This is how it takes place in our community, but we’re convinced that it’ll be useful in any other. 
+
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
