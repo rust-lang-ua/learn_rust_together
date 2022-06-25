@@ -10,17 +10,17 @@ Rust is a multi-paradigm programming language designed for performance and safet
 
 ## Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
-( _general_ ) ( _official_ ) ( _course_ )
-- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ )
-- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
-- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
+( _general_ ) ( _official_ ) ( _course_ ) ( _reading_ )
+- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) 
+- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _non-eng_ )
+- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _non-eng_ )
 
 We’d also recommend you such courses as:<br/>
-( _general_ ) ( _course_ )
-- [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _video_ )
-- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ )
-- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _video_ )
+( _general_ ) ( _course_ ) ( _video_ )
+- [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) 
+- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) 
+- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) 
   
 Other interesting resources you can find in our [ Awesome Collection of Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust):mortar_board:
 
