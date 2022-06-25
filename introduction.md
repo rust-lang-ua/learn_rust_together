@@ -22,7 +22,7 @@ We’d also recommend you such courses as:<br/>
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ )
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _video_ )
   
-Other interesting resources you can find in our [collection of materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust):mortar_board:
+Other interesting resources you can find in our [ Awesome Collection of Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust):mortar_board:
 
 ## How to set up rust:
 
