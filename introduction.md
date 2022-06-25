@@ -35,7 +35,7 @@ There is a short guide to do this:<br/>
  3. After the rustup installation is complete you’ll also get the latest stable version of the Rust build tool and package manager  - `Cargo`, which will help you to build, run and test your projects.
  4. To ensure that Rust and Cargo are installed correctly - run `cargo --version` in your terminal of choice. 
 
-**Linux:**
+**Linux/Mac:**
 
 
 ## :question: Where to get help?:
