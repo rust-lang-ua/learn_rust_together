@@ -2,6 +2,8 @@
 
 It is setup and step-by-step introduction into development on Rust.
 
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+
 ## :crab: Intro
 
 [![](https://github.com/ChapliaS/LearnRustTogether/blob/master/asset/img/logo/rust-social-wide.jpg)](introduction.md)
