@@ -36,7 +36,10 @@ There is a short guide to do this:<br/>
  4. To ensure that Rust and Cargo are installed correctly - run `cargo --version` in your terminal of choice. 
 
 **Linux/Mac:**
+1. To install rustup on Linux or macOS, open a terminal and enter the following command.    `curl https://sh.rustup.rs -sSf | sh`
+2. Once the Rust installation is complete, the Cargo’s bin directory (`~/.cargo/bin` – where all tools are installed) will be added in your PATH environment variable, in `~/.profile`.
 
+To get a more detailed description or other methods of setting up Rust environment go to our [list of setup materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#setup). 
 
 ## :question: Where to get help?:
 
@@ -56,3 +59,4 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 - ( _non-eng_ ) - non-english language
 - ( _course_ ) - consists of series of text/video articles trying to give to a reader solid foundation
 - ( _book_ ) - a bookl
+- ( video ) - material to watch
