@@ -28,10 +28,11 @@ Other interesting sources you can find in our [ Awesome Collection of Materials]
 
 To get started with Rust you obviously have to set up your environment.<br/> 
 There is a short guide to do this:<br/>
+
 **Windows:**
  1. First of all, you need to install [rustup](https://github.com/rust-lang/rustup.rs), which is a Rust installer and version management tool.
  2. You may also need to install the [Visual Studio C++ Build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) if you don’t have one, cause it’s mandatory to run the Rust program on windows.
- 3. After the rustup installation is complete you’ll also get the latest stable version of the Rust build tool and package manager  - Cargo, which will help you to     build,run and test your projects.
+ 3. After the rustup installation is complete you’ll also get the latest stable version of the Rust build tool and package manager  - `Cargo`, which will help you to build, run and test your projects.
  4. To ensure that Rust and Cargo are installed correctly - run `cargo --version` in your terminal of choice. 
 
 
