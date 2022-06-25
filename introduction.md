@@ -39,7 +39,7 @@ There is a short guide to do this:<br/>
 1. To install rustup on Linux or macOS, open a terminal and enter the following command.    `curl https://sh.rustup.rs -sSf | sh`
 2. Once the Rust installation is complete, the Cargo’s bin directory (`~/.cargo/bin` – where all tools are installed) will be added in your PATH environment variable, in `~/.profile`.
 
-To get a more detailed description or other methods of setting up Rust environment go to our [list of setup materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#setup). 
+To get a more detailed description or other methods of setting up Rust environment - go to our [list of setup materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#setup). 
 
 ## :question: Where to get help?:
 
