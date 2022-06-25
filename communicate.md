@@ -28,7 +28,7 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 ### Blockchain
 ( _blockchain_ )
 - [SolanaUkr](https://t.me/solanaUkr) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
-- [Near Protocol UA 🇺🇦 - Вивчаємо Near разом](https://t.me/nearprotocolua) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
+- [Near Protocol UA - Вивчаємо Near разом](https://t.me/nearprotocolua) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
 
 ## :vibration_mode: News streams
 
