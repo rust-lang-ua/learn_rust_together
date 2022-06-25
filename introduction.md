@@ -4,7 +4,7 @@ It is setup and step-by-step introduction into development on Rust.
 
 ## Intro
 
-[![](https://github.com/ChapliaS/LearnRustTogether/blob/master/asset/img/logo/rust-social-wide.jpg | width=100px](introduction.md)
+[![](https://github.com/ChapliaS/LearnRustTogether/blob/master/asset/img/logo/rust-social-wide.jpg | width=100px)](introduction.md)
 
 Rust is a multi-paradigm programming language designed for performance and safety.<br/> It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust is the most beloved programming language seven years in a row.The Rust community is traditionally very friendly.
 
