@@ -25,6 +25,10 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 - [ Rust community ](https://discord.gg/rust-lang-community) ( _discord_ )
 - [ Rustacean Station ](https://discord.gg/aGfw68vhtB) ( _discord_ )
 
+### Blockchain
+( _blockchain_ )
+- [SolanaUkr](https://t.me/solanaUkr) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
+- [Near Protocol UA 🇺🇦 - Вивчаємо Near разом](https://t.me/nearprotocolua) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
 
 ## :vibration_mode: News streams
 
@@ -68,4 +72,5 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 - ( _reddit_ ) -- on reddit
 - ( _linkedin_ ) -- on linkedin
 - ( _discord_ ) -- on discord
+- ( _blockchain_ ) -- about blockchain
 - ( _non-eng_ ) -- non-english language
