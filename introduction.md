@@ -2,7 +2,7 @@
 
 It is setup and step-by-step introduction into development on Rust.
 
-[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+<!-- // [:arrow_down: Tags legend](#tags-legend) at the end of the page. -->
 
 ## :crab: Intro
 
