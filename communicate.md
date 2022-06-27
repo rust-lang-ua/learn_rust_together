@@ -14,7 +14,6 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 - [ Вивчаємо Rust Разом # Lviv ](https://t.me/learn_rust_together_lviv)  ( _telegram_ ) ( _non-eng_ )  ( _ukraine_ )
 - [ Вивчаємо Rust Разом ](https://discord.com/invite/JVCZfTVf5A) ( _discord_ )   ( _non-eng_ ) ( _ukraine_ )
 - [ Вивчаємо Rust Разом  ](https://www.reddit.com/r/rustlang_ua/comments/vbxc7s/ukrainian_branch_of_rust_community/) ( _reddit_ ) ( _non-eng_ )  ( _ukraine_ )
-
 - [ Rust Beginners ](https://t.me/rust_beginners_ru) ( _telegram_ ) ( _non-eng_ )
 - [ Rust — русскоговорящее сообщество ](https://t.me/rustlang_ru) ( _telegram_ ) ( _non-eng_ )
 - [ Learn Rust with RustDevz ](https://t.me/rustdevs) ( _telegram_ ) ( _non-eng_ )

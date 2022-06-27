@@ -6,7 +6,7 @@ You might also be interested in other tooboxes:
 
 - :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
 - :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.

@@ -6,7 +6,7 @@ You might also be interested in other tooboxes:
 
 - :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
 - :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](./toolbox_science.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
@@ -77,6 +77,13 @@ You might also be interested in other tooboxes:
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
 
+## HPC
+
+( _hpc_ )
+
+- [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
+- [opencv](https://github.com/twistedfall/opencv-rust) by [twistedfall](https://github.com/twistedfall) : bindings for OpenCV 3 & 4
+
 ## Tags legend
 
 - ( _general_ ) - general-purpose
@@ -86,5 +93,6 @@ You might also be interested in other tooboxes:
 - ( _meta_ ) - meta
 - ( _physics_ ) - physics
 - ( _dsp_ ) - digital signals processing
+- ( _hpc_ ) - high performance computing
 
 <!-- qqq : improve tags descriptions -->
