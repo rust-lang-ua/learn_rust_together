@@ -16,7 +16,7 @@ Here you can find:
 - :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
 - :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
 - :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
-- :question: [Get answer](https://github.com/rust-lang-ua/learn_rust_together/blob/master/about_us.md#question-faq) : our FAQ and community rules.
+- :question: [Get answer](https://github.com/rust-lang-ua/learn_rust_together/blob/master/about_us.md#question-FAQ) : our FAQ and community rules.
 - :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
 - :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
 - :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
