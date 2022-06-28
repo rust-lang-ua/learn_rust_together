@@ -1,9 +1,9 @@
 # 🦀 Ukrainian branch of Rust Community 💙💛
 
-![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)
+![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/b60b4f7155d7b00c58e1f8d8820f2bb23f82799e/asset/logo/Collage_2.jpg)
 
 ## Who are we?
-We are a Ukrainian branch of the Rust community.
+We are a Ukrainian branch of the community of Rust enthusiasts.
 
 Our goals are to popularize Rust in Ukraine, develop the community around it, launch and support such Ukrainian mentoring and educational programs, and attract Rust projects and related investments in Ukraine.
 

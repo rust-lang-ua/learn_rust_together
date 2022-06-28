@@ -1,9 +1,10 @@
-# Українська гілка Rust Спільноти 💙💛
+# 🦀 Українська гілка Rust Спільноти 💙💛
 
 ![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/b60b4f7155d7b00c58e1f8d8820f2bb23f82799e/asset/logo/Collage_2.jpg)
 
 ## Хто ми?
-Ми українська гілка Раст спільноти.
+Привіт, ми Українська гілка спільноти Rust ентузіастів.
+
 Нашою метою є популяризація Rust в Україні та розвиток ком’юніті навколо нього, запуск або сприяння розвитку всеукраїнських менторських та освітніх програм, залучення проєктів на Rust та пов’язаних з ними інвестицій в Україну.
 
 ## Чому Раст?
@@ -76,10 +77,12 @@ Rust - мультипарадигмова мова, головними пере�
 📖 Ресурси які ми рекомендуємо [тут](https://github.com/rust-lang-ua/learn_rust_together). <br/>
 
 Також шукай нас на платформах:
-[Twitter](https://twitter.com/LearnTogetherP)  | [Facebook](https://www.facebook.com/learntogetherpro) |
+[Twitter](https://twitter.com/LearnTogetherP)  |
+[Facebook](https://www.facebook.com/learntogetherpro) |
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |
+<br/>
 
-Let’s Learn Rust 🦀 Together
+Вивчаємо Rust 🦀 Разом!

@@ -5,7 +5,7 @@
 [![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
 ## Who are we?
-We are a Ukrainian branch of the Rust community. More [about us](about_us.md).
+We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
 
 ## What is this about?
 This repostory contains nearly dozen curated collection: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you Rust Developer.
