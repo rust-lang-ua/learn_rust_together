@@ -21,9 +21,9 @@ Here you can find:
 - :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
 - :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
-- :label: [Search](https://github.com/rust-lang-ua/learn_rust_together/blob/master/collection_of_collections.md#label-projects-catalogue) : Projects catalogue
-- :newspaper: [Stay competent](https://github.com/rust-lang-ua/learn_rust_together/blob/master/collection_of_collections.md#newspaper-newspapers-and-working-groups) : Newspapers and working groups
-- :globe_with_meridians: [Still not enough](https://github.com/rust-lang-ua/learn_rust_together/blob/master/collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : other collections on Rust
+- :label: [Search](.collection_of_collections.md#label-projects-catalogue) : Projects catalogue
+- :newspaper: [Stay competent](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : Newspapers and working groups
+- :globe_with_meridians: [Still not enough](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : other collections on Rust
 
 ## Join
 
