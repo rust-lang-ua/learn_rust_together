@@ -98,7 +98,7 @@ Curated collection of resources to learn Rust.
 
 ( _algo_ )
 
-- [Rust Gym](https://github.com/warycat/rustgym) by [Larry Fantasy](https://github.com/warycat)
+- [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) by [Larry Fantasy](https://github.com/warycat)
 
 ## Educational projects
 
