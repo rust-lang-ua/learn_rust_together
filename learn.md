@@ -80,11 +80,12 @@ Curated collection of resources to learn Rust.
 
 ( _interactive_ )
 
+- [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ )
+- [Rust by Exercism](https://exercism.io/tracks/rust)
+- [Rust by practice](https://github.com/rust-lang-ua/rust_by_practice_eng) by [Sunface](https://github.com/sunface)
 - [Rust playground](https://play.rust-lang.org/) ( _official_ )
 - [Rust explaine](https://jrvidal.github.io/explaine.rs/)
-- [Rustlings](https://github.com/rust-lang/rustlings)
 - [Tour of Rust](https://tourofrust.com/index.html)
-- [Rust by Exercism](https://exercism.io/tracks/rust)
 
 ## Cheat sheets
 
