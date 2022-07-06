@@ -219,7 +219,7 @@ Curated collection of resources to learn Rust.
 
 ( _teachings_material_ )
 
-- [Teaching Material](https://github.com/ferrous-systems/teaching-material) by [Ferrous](https://github.com/ferrous-systems)
+- [Teaching Material](https://github.com/rust-lang-ua/teaching_material_eng) by [Ferrous](https://github.com/ferrous-systems)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:concurrency_ )
 
 ## Tags legend
