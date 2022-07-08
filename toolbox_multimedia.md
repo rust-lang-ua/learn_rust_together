@@ -18,6 +18,7 @@ You might also be interested in other tooboxes:
 ( _renderer_ )
 
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
+- [skia-bindings](https://github.com/rust-skia/rust-skia) by [Long Yinan](https://github.com/Brooooooklyn) : binding of skia
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
 - [glutin](https://github.com/rust-windowing/glutin) by [Rust Windowing](https://github.com/rust-windowing) : OpenGL context
 - [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
