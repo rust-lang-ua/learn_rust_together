@@ -36,6 +36,7 @@ Curated collection of resources to learn Rust.
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
+- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
 
 ## Advanced
 
@@ -80,7 +81,7 @@ Curated collection of resources to learn Rust.
 
 ( _interactive_ )
 
-- [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ )
+- [Rustlings](https://github.com/rust-lang-ua/rustlings_eng) ( _official_ )
 - [Rust by Exercism](https://exercism.io/tracks/rust)
 - [Rust by practice](https://github.com/rust-lang-ua/rust_by_practice_eng) by [Sunface](https://github.com/sunface)
 - [Rust playground](https://play.rust-lang.org/) ( _official_ )
@@ -97,7 +98,7 @@ Curated collection of resources to learn Rust.
 
 ( _algo_ )
 
-- [Rust Gym](https://github.com/warycat/rustgym) by [Larry Fantasy](https://github.com/warycat)
+- [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) by [Larry Fantasy](https://github.com/warycat)
 
 ## Educational projects
 
@@ -219,7 +220,7 @@ Curated collection of resources to learn Rust.
 
 ( _teachings_material_ )
 
-- [Teaching Material](https://github.com/ferrous-systems/teaching-material) by [Ferrous](https://github.com/ferrous-systems)
+- [Teaching Material](https://github.com/rust-lang-ua/teaching_material_eng) by [Ferrous](https://github.com/ferrous-systems)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:concurrency_ )
 
 ## Tags legend
