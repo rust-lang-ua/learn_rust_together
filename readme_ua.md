@@ -2,34 +2,35 @@
 
 # 🦀 Learn Rust Together 💙💛
 
-[![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
+[![Вивчаємо Rust Разом](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
-## Who are we?
-We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
+## Хто ми?
+Ми - українська гілка спільноти Rust ентузіастів. Читайте більше [про нас](about_us.md) та наші цінності.
 
-## What is this about?
-This repostory contains nearly dozen curated collection: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you Rust Developer.
+## Що це?
+Цей репозиторій містить близько десятка підібраних колекцій: навчальні матеріали, набір інструментів, новинні джерела, робочі групи, колекції інших колекцій. Тобто все, що буде  вам корисне, якщо ви Rust розробник.
 
-Here you can find:
 
-- :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
-- :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
-- :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
-- :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
-- :question: [Get answer](./about_us.md#question-faq) : our FAQ and community rules.
-- :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
-- :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
-- :label: [Search](./collection_of_collections.md#label-projects-catalogue) : Projects catalogue
-- :newspaper: [Stay competent](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : Newspapers and working groups
-- :globe_with_meridians: [Still not enough](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : other collections on Rust
+Тут ви можете знайти:
 
-## Join
+- :footprints:️ [Розпочни](./introduction.md) : налаштування та покроковий вступ у програмування на Rust.
+- :mortar_board: [Вивчай](./learn.md) : колекція навчальних матеріалів для Rust.
+- :chart_with_upwards_trend: [Систематизуй](./cheat_sheets.md) : колекція шпаргалок
+- :speech_balloon: [Комунікуй](./communicate.md) : колекція чатів та форумів
+- :question: [Запитуй](./about_us.md#question-faq) : наші FAQ та правила спільноти
+- :wrench: [Досліджуй](./toolbox_general.md) : загальний набір інструментів із колекцією крейтів
+- :video_game: [Досліджуй](./toolbox_multimedia.md) : мультимедійний набір інструментів із колекцією крейтів для ГеймДеву, Графіки,Відео та Аудіо.
+- :infinity: [Досліджуй](./toolbox_scientific.md) : інженерний набір існтрументів із колекцією крейтів для Математики, Фізики, Лінійної Алгебри, Машинного Навчання, Цифрової Обробки Сигналів.
+- :package: [Досліджуй](./toolbox_distros.md) : дистрибутивний набір інструментів із колекцією утиліт, написаних на Rust для використання поза екосистемою Rust.  
+- :label: [Шукай](./collection_of_collections.md#label-projects-catalogue) : каталог проектів
+- :newspaper: [Будь в курсі](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : новинні джерела та робочі групи
+- :globe_with_meridians: [Все ще не достатньо](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : інші Rust колекції
 
-💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
+## Долучайся
 
-You may also follow us on these platforms:
+💬 Приєднуйся до нашого [Телеграм-Чату](https://t.me/rustlang_ua) і [Телеграм-Каналу](https://t.me/learn_rust_ukr). <br/>
+
+Ти можеш також слідкувати за нами на цих платформах:
 [Twitter](https://twitter.com/LearnTogetherP)  |
 [Facebook](https://www.facebook.com/learntogetherpro) |
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
@@ -39,4 +40,4 @@ You may also follow us on these platforms:
 [Telegram](https://t.me/rustlang_ua) |
 <br/>
 
-Let’s Learn Rust 🦀 Together!
+Вивчаймо Rust 🦀 Разом!
