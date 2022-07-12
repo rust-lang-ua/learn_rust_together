@@ -13,15 +13,15 @@
 
 Тут ти можеш знайти:
 
-- :footprints:️ [Розпочни](./introduction.md) : налаштування та покроковий вступ у програмування на Rust.
-- :mortar_board: [Вивчай](./learn.md) : колекція навчальних матеріалів для Rust.
+- :footprints:️ [Розпочни](./introduction.md) : налаштування та покроковий вступ у програмування на Rust
+- :mortar_board: [Вивчай](./learn.md) : колекція навчальних матеріалів для Rust
 - :chart_with_upwards_trend: [Систематизуй](./cheat_sheets.md) : колекція шпаргалок
 - :speech_balloon: [Комунікуй](./communicate.md) : колекція чатів та форумів
 - :question: [Запитуй](./about_us.md#question-faq) : наші FAQ та правила спільноти
 - :wrench: [Досліджуй](./toolbox_general.md) : загальний набір інструментів із колекцією крейтів
-- :video_game: [Досліджуй](./toolbox_multimedia.md) : мультимедійний набір інструментів із колекцією крейтів для ГеймДеву, Графіки,Відео та Аудіо.
-- :infinity: [Досліджуй](./toolbox_scientific.md) : інженерний набір існтрументів із колекцією крейтів для Математики, Фізики, Лінійної Алгебри, Машинного Навчання, Цифрової Обробки Сигналів.
-- :package: [Досліджуй](./toolbox_distros.md) : дистрибутивний набір інструментів із колекцією утиліт, написаних на Rust для використання поза екосистемою Rust.  
+- :video_game: [Досліджуй](./toolbox_multimedia.md) : мультимедійний набір інструментів із колекцією крейтів для ГеймДеву, Графіки,Відео та Аудіо
+- :infinity: [Досліджуй](./toolbox_scientific.md) : інженерний набір існтрументів із колекцією крейтів для Математики, Фізики, Лінійної Алгебри, Машинного Навчання, Цифрової Обробки Сигналів
+- :package: [Досліджуй](./toolbox_distros.md) : дистрибутивний набір інструментів із колекцією утиліт, написаних на Rust для використання поза екосистемою Rust  
 - :label: [Шукай](./collection_of_collections.md#label-projects-catalogue) : каталог проектів
 - :newspaper: [Будь в курсі](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : новинні джерела та робочі групи
 - :globe_with_meridians: [Все ще не достатньо](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : інші Rust колекції
