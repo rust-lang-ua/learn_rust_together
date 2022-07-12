@@ -1,6 +1,6 @@
 <!-- ![Rust](./asset/img/logo/Logo2.jpg) -->
 
-# 🦀 Learn Rust Together 💙💛
+# 🦀 Learn Rust Together [💙💛](./readme_ua.md#-вивчаємо-rust-разом-)
 
 [![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
