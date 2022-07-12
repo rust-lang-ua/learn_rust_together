@@ -22,7 +22,7 @@
 - :video_game: [Досліджуй](./toolbox_multimedia.md) : мультимедійний набір інструментів із колекцією крейтів для ГеймДеву, Графіки,Відео та Аудіо
 - :infinity: [Досліджуй](./toolbox_scientific.md) : інженерний набір існтрументів із колекцією крейтів для Математики, Фізики, Лінійної Алгебри, Машинного Навчання, Цифрової Обробки Сигналів
 - :package: [Досліджуй](./toolbox_distros.md) : дистрибутивний набір інструментів із колекцією утиліт, написаних на Rust для використання поза екосистемою Rust  
-- :label: [Шукай](./collection_of_collections.md#label-projects-catalogue) : каталог проектів
+- :label: [Шукай](./collection_of_collections.md#label-projects-catalogue) : каталог проєктів
 - :newspaper: [Будь в курсі](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : новинні джерела та робочі групи
 - :globe_with_meridians: [Все ще не достатньо](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : інші Rust колекції
 
