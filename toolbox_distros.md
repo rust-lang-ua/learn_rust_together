@@ -49,6 +49,8 @@ You might also be interested in other tooboxes:
 ## Network
 
 - [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket
+- [netop](https://github.com/ZingerLittleBee/netop) by [ZingerLittleBee](https://github.com/ZingerLittleBee) : network activity monitoring
+- [niping](https://github.com/zhiburt/niping) by [Maxim Zhiburt](https://github.com/zhiburt) : ping
 
 ## Administration
 
@@ -70,6 +72,13 @@ You might also be interested in other tooboxes:
 ( _vcs_ )
 
 - [gitui](https://github.com/extrawurst/gitui) by [Stephan Dilly](https://github.com/extrawurst) : terminal-ui for git
+- [git-grab](https://github.com/wezm/git-grab) by [Wesley Moore](https://github.com/wezm) : clone a git repository into a standard location organised by domain and path
+
+## Data streams aggregation
+
+( _dsa_ )
+
+- [rsspls](https://github.com/wezm/rsspls) by [Wesley Moore](https://github.com/wezm) : generate RSS feeds from websites
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
@@ -83,3 +92,4 @@ You might also be interested in other tooboxes:
 - ( _processors_ ) - data processors
 - ( _fs_ ) - file system
 - ( _vcs_ ) - versions controls systems
+- ( _dsa_ ) - data streams aggregation

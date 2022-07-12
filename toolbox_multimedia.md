@@ -18,6 +18,7 @@ You might also be interested in other tooboxes:
 ( _renderer_ )
 
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
+- [skia-bindings](https://github.com/rust-skia/rust-skia) by [Long Yinan](https://github.com/Brooooooklyn) : binding of skia
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
 - [glutin](https://github.com/rust-windowing/glutin) by [Rust Windowing](https://github.com/rust-windowing) : OpenGL context
 - [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
@@ -141,6 +142,27 @@ You might also be interested in other tooboxes:
 
 - [russimp](https://github.com/jkvargas/russimp) by [Jhonny Vargas](https://github.com/jkvargas) : binding of assimp
 - [bvh_anim](https://github.com/burtonageo/bvh_anim) by [George Burton](https://github.com/burtonageo) : loader for bvh animation files
+<!-- GLTF -->
+- [gltf](https://crates.io/crates/gltf) by [gltf-rs](https://github.com/gltf-rs) : loader for glTF 2.0.
+- [mugltf](https://crates.io/crates/mugltf) by [Andy K. S. Wong](https://github.com/andykswong) : minimal glTF 2.0 asset model loader.
+- [easy-gltf](https://crates.io/crates/easy-gltf) by [Florian Amsallem](https://github.com/flomonster) : loader for glTF 2.0.
+<!-- DAE -->
+- [dae-parser](https://crates.io/crates/dae-parser) by [Mario Carneiro](https://github.com/digama0) : parser for the Collada (.dae) format.
+- [collada](https://crates.io/crates/collada) by [PistonDevelopers](https://github.com/PistonDevelopers) : parsing Collada files.
+<!-- OBJ -->
+- [obj](https://crates.io/crates/obj) by [Dzmitry Malyshau](https://github.com/kvark) : basic Wavefront OBJ importer and exporter.
+- [obj-rs](https://crates.io/crates/obj-rs) by [Hyeon Kim](https://github.com/simnalamburt) : Wavefront .obj parser, handles both .obj and .mtl formats.
+- [tobj](https://crates.io/crates/tobj) by [Will Usher](https://github.com/Twinklebear) : simple and lightweight option for loading OBJ files.
+<!-- STL -->
+- [stl](https://crates.io/crates/stl) by [Eric Holk](https://github.com/eholk) : library for reading Stereo Lithography (STL) files.
+- [stl_io](https://crates.io/crates/stl_io) by [Henning Meyer](https://github.com/hmeyer) : reading and writing STL (STereoLithography) files.
+- [nom_stl](https://crates.io/crates/nom_stl) by [Clark Kampfe](https://github.com/ckampfe) : binary and ASCII STL parser.
+<!-- STEP -->
+- [iso-10303-parts](https://crates.io/crates/iso-10303-parts) by [Junfeng Liu](https://github.com/J-F-Liu) : generated reader code for ISO 10303 parts.
+- [iso-10303](https://crates.io/crates/iso-10303) by [Junfeng Liu](https://github.com/J-F-Liu) : reading STP/STEP CAD files.
+<!-- 3DS -->
+- [fs3ds](https://crates.io/crates/fs3ds) by [marius851000](https://github.com/marius851000) : access the romfs of an unencrypted romfs.
+- [bevy_3ds](https://crates.io/crates/bevy_3ds) by [Ian Chamberlain](https://github.com/ian-h-chamberlain) : using Bevy on the 3DS.
 
 ## Line
 

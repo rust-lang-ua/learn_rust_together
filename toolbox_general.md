@@ -101,9 +101,11 @@ You might also be interested in other tooboxes:
 - [egui](https://github.com/emilk/egui) by [Emil Ernerfeldt](https://github.com/emilk) : an immediate mode GUI
 - [imgui](https://github.com/imgui-rs/imgui-rs) by [Joonas Javanainen](https://github.com/Gekkio) : an immediate mode GUI
 - [iced](https://github.com/iced-rs/iced) by [Héctor Ramón](https://github.com/hecrj) : cross-platform GUI inspired by Elm
+- [relm4](https://github.com/Relm4/relm4) by [Aaron Erhardt](https://github.com/AaronErhardt) : inspired by Elm and based on gtk4-rs
 - [pw-viz](https://github.com/Ax9D/pw-viz) by [Ax9D](https://github.com/Ax9D) : graph editor
 - [kayak_ui](https://github.com/StarArawn/kayak_ui) by [John Mitchell](https://github.com/StarArawn) : game UI
 - [eww](https://github.com/elkowar/eww) by [ElKowar](https://github.com/elkowar) : drop-down widgets
+- [unixbar](https://github.com/unrelentingtech/unixbar) by [Greg V](https://github.com/unrelentingtech) : UNIX-style desktop bar
 
 ## Command user interface input / output
 
@@ -165,7 +167,7 @@ You might also be interested in other tooboxes:
 - [just](https://github.com/casey/just) by [Casey Rodarmor](https://github.com/casey) ( _utility_ ) : make-like utility
 - [cargo-bundle](https://github.com/burtonageo/cargo-bundle) by [George Burton](https://github.com/burtonageo) : cross-platform bundling
 - [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Devon Govett](https://github.com/devongovett) ( _parser_ ) : CSS parser, transformer, and minifier
-- [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) : HTML minifier
+- [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) ( _html_ ) : HTML minifier
 - [tauri](https://github.com/tauri-apps/tauri) by [Razvan Stoenescu](https://github.com/rstoenescu) : desktop applications with a web frontend
 - [built](https://github.com/lukaslueg/built) by [Lukas Lueg](https://github.com/lukaslueg) : information when and how it was built
 
@@ -232,6 +234,23 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [winit](https://github.com/rust-windowing/winit) by [Pierre Krieger](https://github.com/tomaka) : cross-platform window creation and management
 - [web-view](https://github.com/Boscop/web-view) by [Boscop](https://github.com/Boscop) : bindings for webview, a tiny cross-platform library
 
+## Data streams aggregation
+
+( _dsa_ )
+
+- [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _html_ ) : auto-discovery of feeds in HTML
+
+## HTML generating / parsing / transformation
+
+( _html_ )
+
+- [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _dsa_ ) : auto-discovery of feeds in HTML
+- [markup](https://github.com/utkarshkukreti/markup.rs) by [Utkarsh Kukreti](https://github.com/utkarshkukreti) : template engine to generate HTML
+- [kuchiki](https://github.com/kuchiki-rs/kuchiki) by [Simon Sapin](https://github.com/SimonSapin) : HTML/XML tree manipulation
+- [html5ever](https://github.com/servo/html5ever) by [Keegan McAllister](https://github.com/kmcallister) : high-performance HTML5 parser
+- [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) ( _build_ ) : HTML minifier
+- [comrak](https://github.com/kivikakk/comrak) by [Asherah Connor](https://github.com/kivikakk) : GFM compatible Markdown parser and renderer
+
 ## Web DOM
 
 ( _web_frontend_ ) ( _dom_ )
@@ -241,6 +260,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [web-log](https://github.com/DoumanAsh/web-log) by [Douman](https://github.com/DoumanAsh) : minimal wrapper over browser console
 - [web-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) by [Nick Fitzgerald](https://github.com/fitzgen) : Raw wasm-bindgen imports for all of the Web's APIsDescription
 - [js-sys](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys) by [Alex Crichton](https://github.com/alexcrichton) ( _bindings_ ) : Raw bindings to JS global APIs for projects using wasm-bindgen
+- [gloo](https://github.com/rustwasm/gloo) by [Nick Fitzgerald](https://github.com/fitzgen) : alternative of web-sys
 - [wasm-bindgen-futures](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/futures) by [Alex Crichton](https://github.com/alexcrichton) ( _concurrency_ ) : bridges the gap between a Rust Future and a JavaScript Promise
 
 ## Web Frontend
@@ -256,6 +276,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _web_backend_ )
 
+- [rocket](https://github.com/SergioBenitez/Rocket) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
+- [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
+- [axum](https://github.com/tokio-rs/axum) by [David Pedersen](https://github.com/davidpdrsn) : tokio-based web backend framework
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : a simple static HTTP server, for learning and local development
 - [penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a static server
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
@@ -263,6 +286,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [headers](https://github.com/hyperium/headers) by [Jonathan Reem](https://github.com/reem) : HTTP Headers for hyper
 - [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
 - [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
+- [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -274,6 +298,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [r2d2](https://github.com/sfackler/r2d2) by [Steven Fackler](https://github.com/sfackler) : agnostic connection pool
 - [pcap](https://github.com/rust-pcap/pcap) by [Sean Bowe](https://github.com/ebfull) : packet sniffing
 - [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket ( _cui_ )
+- [netraffic](https://github.com/ZingerLittleBee/netraffic) by [ZingerLittleBee](https://github.com/ZingerLittleBee) : statistics network traffic
 
 ## Database
 
@@ -325,6 +350,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _concurrency_ ) ( _primitive_ )
 
 - [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
+- [state](https://github.com/SergioBenitez/state) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 - [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
 - [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
 - [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
@@ -394,7 +420,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [lexical](https://github.com/Alexhuszagh/rust-lexical) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : numeric to and from string conversion
 - [lexical-core](https://github.com/Alexhuszagh/rust-lexical/tree/main/lexical-core) by [Alexander Huszagh](https://github.com/Alexhuszagh) ( _parser_ ) : minimal implementation of lexical
 - [humansize](https://github.com/LeopoldArkham/humansize) by [Leopold Arkham](https://github.com/LeopoldArkham) : file size formatting
+- [ubyte](https://github.com/SergioBenitez/ubyte) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : byte units
 - [num-format](https://github.com/bcmyers/num-format) by [Brian Myers](https://github.com/bcmyers) : formatting of numbers
+- [tabled](https://github.com/zhiburt/tabled) by [Maxim Zhiburt](https://github.com/zhiburt) : textual tables formatting
 
 ## Parser generators / combinators
 
@@ -435,6 +463,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rand](https://github.com/rust-random/rand) by [Roy Frostig](https://github.com/froystig) : random number generation front-end
 - [fastrand](https://github.com/smol-rs/fastrand) by [Stjepan Glavina](https://github.com/smol-rs) : fast random number generator
 - [uuid](https://github.com/uuid-rs/uuid) by [Biru Mohanathas](https://github.com/poiru) : generate and parse UUIDs
+- [rusty_ulid](https://github.com/huxi/rusty_ulid) by [Jörn Huxhorn](https://github.com/huxi) : generate and parse ULIDs, alternative of UUIDs
 
 ## Abstract Data types
 
@@ -483,6 +512,15 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 - [sharded-slab](https://github.com/hawkw/sharded-slab) by [Eliza Weisman](https://github.com/hawkw) ( _concurrency_ ) : lock-free concurrent slab
 
+## Character encoding
+
+( _string_ ) ( _character_encoding_ )
+
+- [deunicode](https://github.com/kornelski/deunicode) by [Kornel](https://github.com/kornelski) : transliterates Unicode strings into ASCII
+- [widestring](https://github.com/starkat99/widestring-rs) by [Kathryn Long](https://github.com/starkat99) : a wide string Rust library for converting to and from wide Unicode strings
+- [unicode-width](https://github.com/unicode-rs/unicode-width) by [Riad S. Wahby](https://github.com/kwantam) : displayed width
+- [unicode-segmentation](https://github.com/unicode-rs/unicode-segmentation) by [Riad S. Wahby](https://github.com/kwantam) : iterate graphemes of unicode string
+
 ## String and slice data structures and algorithms
 
 ( _data_structure_ ) ( _string_ )
@@ -494,11 +532,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [aho-corasick](https://github.com/BurntSushi/aho-corasick) by [Andrew Gallant](https://github.com/BurntSushi) : finding occurrences of many patterns at once
 - [suffix](https://github.com/BurntSushi/suffix) by [Andrew Gallant](https://github.com/BurntSushi) : finding several occurrences of the same pattern in a long text
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _fs_ ) : glob matching
-- [widestring](https://github.com/starkat99/widestring-rs) by [Kathryn Long](https://github.com/starkat99) : a wide string Rust library for converting to and from wide Unicode strings
 - [heck](https://github.com/withoutboats/heck) by [Saoirse Shipwreckt](https://github.com/withoutboats) : case conversion
 - [convert-case](https://github.com/rutrum/convert-case) by [Dave Purdum](https://github.com/rutrum) : case conversion
 - [slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) by [Christopher Durham](https://github.com/CAD97) : slice-based DST allocation
-- [unicode-width](https://github.com/unicode-rs/unicode-width) by [Riad S. Wahby](https://github.com/kwantam) : displayed width
 
 ## Stack-based data structures
 
@@ -561,6 +597,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [Cupcake](https://github.com/facebookresearch/Cupcake) by [Hao Chen](https://github.com/haochenuw) : lattice-based additive homomorphic encryption
 - [elgamal-curve25519](https://github.com/chritchens/elgamal-curve25519) by [Christian Nyumbayire](https://github.com/chritchens) : ElGamal homomorphic encryption on Curve25519
 - [argonautica](https://github.com/bcmyers/argonautica) by [Brian Myers](https://github.com/bcmyers) : password hashing
+- [rust-argon2](https://github.com/sru-systems/rust-argon2) by [Martijn Rijkeboer](https://github.com/mrijkeboer) :  password hashing
 
 ## Compression
 
@@ -638,7 +675,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [winapi-util](https://github.com/BurntSushi/winapi-util) by [Andrew Gallant](https://github.com/BurntSushi) : middleware above
 - [rio](https://github.com/spacejam/rio) by [Tyler Neely](https://github.com/spacejam) : io_uring
 - [telefork](https://github.com/trishume/telefork) by [Tristan Hume](https://github.com/trishume) : remote fork()
+- [expectrl](https://github.com/zhiburt/expectrl) by [Maxim Zhiburt](https://github.com/zhiburt) : controlling input/output of interactive programs
 - [nix](https://github.com/nix-rust/nix) by [Carl Lerche](https://github.com/carllerche) : nix APIs
+- [systemstat](https://github.com/unrelentingtech/systemstat) by [Greg V](https://github.com/unrelentingtech) : system information
 
 ## Operation Systems - kernel
 
@@ -766,6 +805,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _build_ ) - toolchains to build your project
 - ( _wasm_ ) - WebAssembly-related
 - ( _windowing_ ) - windows creating, manipulating OS GUI
+- ( _dsa_ ) - data streams aggregation
+- ( _html_ ) - HTML generating / parsing / transformation
 - ( _dom_ ) - web DOM
 - ( _web_frontend_ ) - web frontend
 - ( _web_backend_ ) - web backend
@@ -784,6 +825,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _parser_generator_ ) - parser generators / combinators
 - ( _parser_ ) - parser of a specific language
 - ( _statistics_ ) - random generators, distributions and statistics-related things
+- ( _character_encoding_ ) - character encoding
 - ( _adt_ ) - abstract data types
 - ( _algo_ ) - algorithms
 - ( _data_structure_ ) - data structures and algorithms
