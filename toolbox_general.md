@@ -161,7 +161,7 @@ You might also be interested in other tooboxes:
 ( _build_ )
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _wasm_ ) : WebAssembly web application bundler
-- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _cross_compile_ ) : cross-compilation and cross-testing
+- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _build_ ) ( _cross_compile_ ) ( _testing_ ) : cross-compilation and cross-testing
 - [duckscript](https://github.com/sagiegurari/duckscript) by [Sagie Gur-Ari](https://github.com/sagiegurari) : utility to be cross-platform shell.
 - [cargo-make](https://github.com/sagiegurari/cargo-make) by [Sagie Gur-Ari](https://github.com/sagiegurari) ( _utility_ ) : make-like utility
 - [just](https://github.com/casey/just) by [Casey Rodarmor](https://github.com/casey) ( _utility_ ) : make-like utility
@@ -175,7 +175,7 @@ You might also be interested in other tooboxes:
 
 ( _cross_compile_ )
 
-- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _build_ ) : cross-compilation and cross-testing
+- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _build_ ) ( _cross_compile_ ) ( _testing_ ) : cross-compilation and cross-testing
 - [osxcross](https://github.com/tpoechtrager/osxcross) by [Thomas Pöchtrager](https://github.com/tpoechtrager) : cross toolchain for Linux and *BSD
 
 ## Cargo extension
@@ -202,6 +202,7 @@ You might also be interested in other tooboxes:
 
 ( _testing_ )
 
+- [cross](https://github.com/rust-embedded/cross) by [Jorge Aparicio](https://github.com/japaric) ( _build_ ) ( _cross_compile_ ) ( _testing_ ) : cross-compilation and cross-testing
 - [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Alex Crichton](https://github.com/alexcrichton) ( _wasm_ ) : run tests of wasm-based application in browser
 - [trybuild](https://github.com/dtolnay/trybuild) by [David Tolnay](https://github.com/dtolnay) : negative testing, when error during compilation is expected result.
 
