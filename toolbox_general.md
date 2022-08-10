@@ -428,11 +428,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _parser_generator_ )
 
-- [Chumsky](https://github.com/zesterer/chumsky) by [Joshua Barretto](https://github.com/zesterer) : parser combinator
+- [chumsky](https://github.com/zesterer/chumsky) by [Joshua Barretto](https://github.com/zesterer) : parser combinator
 - [nom](https://github.com/Geal/nom) by [Geoffroy Couprie](https://github.com/Geal) : parser combinator framework
 - [combine](https://github.com/Marwes/combine) by [Markus Westerlind](https://github.com/Marwes) : parser combinators
 - [combine-language](https://github.com/Marwes/combine-language) by [Markus Westerlind](https://github.com/Marwes) : extension of combine to generate parsers of programming languages
 - [lalrpop](https://github.com/lalrpop/lalrpop) by [Niko Matsakis](https://github.com/nikomatsakis) : LR(1) parser generator
+- [peg](https://github.com/kevinmehall/rust-peg) by [Kevin Mehall](https://github.com/kevinmehall) : PEG parser generator
 - [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
 ## Parser of a specific language

@@ -136,6 +136,23 @@ You might also be interested in other tooboxes:
 - [railroad](https://github.com/lukaslueg/railroad) by [Lukas Lueg](https://github.com/lukaslueg) : produce syntax diagrams as SVG
 - [railroad_dsl](https://github.com/lukaslueg/railroad_dsl) by [Lukas Lueg](https://github.com/lukaslueg) : a language to produce syntax diagrams as SVG
 
+## GIF
+
+( _gif_ )
+
+- [gifski](https://crates.io/crates/gifski) by [ImageOptim](https://github.com/ImageOptim) : highest-quality GIF encoder based on pngquant.
+- [gif](https://crates.io/crates/gif) by [image-rs](https://github.com/image-rs) : GIF en- and decoder written in Rust.
+- [webp-animation](https://crates.io/crates/webp-animation) by [Mika](https://github.com/blaind) : a high-level Rust wrapper for decoding and encoding WebP animations.
+
+## Animation
+
+( _animation_ )
+
+- [rust-animation](https://crates.io/crates/rust-animation) by [Joone Hur](https://github.com/joone) : designed to implement a simple animated UI for embedded devices.
+- [anim](https://crates.io/crates/anim) by [joylei](https://github.com/Joylei) : a framework independent animation library for rust.
+- [silver_animation](https://crates.io/crates/silver_animation) by [lenscas](https://github.com/lenscas) : simple and basic animation system for quicksilver.
+- [skeletal_animation](https://crates.io/crates/skeletal_animation) by [Sven Nilsen](https://github.com/bvssvni) : a Rust library for data-driven skeletal animation.
+
 ## 3D assets
 
 ( _assets_3d_ )
@@ -178,8 +195,8 @@ You might also be interested in other tooboxes:
 
 ( _plotting_ )
 
-- [`plotlib` - generic data visualisation and plotting library for Rust](https://github.com/milliams/plotlib) by [Matt Williams](https://github.com/milliams) ( _rust_ )
-- [`plotly` - a plotting library for Rust powered by Plotly.js](https://github.com/igiagkiozis/plotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) ( _rust_ )
+- [`plotlib`](https://github.com/milliams/plotlib) by [Matt Williams](https://github.com/milliams) : generic data visualisation and plotting library for Rust.
+- [`plotly`](https://github.com/igiagkiozis/plotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) a plotting library for Rust powered by Plotly.js.
 
 ## Tesselation
 
@@ -210,6 +227,14 @@ You might also be interested in other tooboxes:
 ( _sdk_ )
 
 - [steamworks](https://github.com/Noxime/steamworks-rs) by [Aaro Perämaa](https://github.com/Noxime) : bindings to the SteamWorks SDK
+
+## Codecs and video processing
+
+( _codec_ )
+
+- [ac-ffmpeg](https://crates.io/crates/ac-ffmpeg) by [Angelcam](https://github.com/angelcam) : rust wrapper for FFmpeg libraries.
+- [ffmpeg-next](https://crates.io/crates/ffmpeg-next) by [Zhiming Wang](https://github.com/zmwangx) : safe FFmpeg wrapper (FFmpeg 4 compatible fork of the ffmpeg crate).
+- [syeve](https://crates.io/crates/syeve) by [ZettaScript](https://framagit.org/ZettaScript) : simple yet efficient video encoding (lossless streaming codec).
 
 ## Sound
 
@@ -329,8 +354,11 @@ You might also be interested in other tooboxes:
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
 - ( _svg_ ) - SVG related
+- ( _gif_ ) - GIF related
+- ( _animation_ ) - animating of drawing primitives
 - ( _img_ ) - image processing related
 - ( _assets_3d_ ) - 3D assets loading/saving
+- ( _codec_ ) - codecs and video processing
 - ( _sound_ ) - sound-related
 - ( _vst_ ) - virtual studio technology
 - ( _midi_ ) - MIDI related
