@@ -24,13 +24,21 @@
 
 ( _collection_ )
 
+- :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust
+- :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
+- :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
+- :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
+- :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
+- :question: [Get answer](./about_us.md#question-faq) : our FAQ and community rules.
+- :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
+- :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
+- :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
+- :infinity: [Math toolbox](./ToolboxMath.md) with collection of crates for Math, Lienar Algebra, Machine Learnign, DSP.
+- :package: [Distros toolbox](./ToolboxDistros.md) with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 - [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
-- [Rust Books](https://github.com/sger/RustBooks) :blue_book: by [Spiros Gerokostas](https://github.com/sger)  ( _book_ )
+- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
+- [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) : language development toolbox
 - [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly)  by [rustwasm](https://github.com/rustwasm)
-- :speech_balloon: [Collection of chats and forums](./Communities.md)
-- :wrench: [General-purpose toolbox](./ToolboxGeneral.md) with collection of crates.
-- :video_game: [Multimedia toolbox](./ToolboxMultimedia.md) with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Math toolbox](./ToolboxMath.md) with collection of crates for Math, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Distros toolbox](./ToolboxDistros.md) with collection of utilities written in Rust to been distributed outside of Rust ecosystem.

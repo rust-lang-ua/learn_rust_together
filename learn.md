@@ -25,13 +25,13 @@ Curated collection of resources to learn Rust.
 
 ( _general_ ) ( _course_ )
 
-- :star: [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _video_ )
-- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ )
-- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _video_ )
-- [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _video_ )
-- [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _video_ )
+- :star: [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _:movie_camera:_ )
+- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _:movie_camera:_ )
+- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _:movie_camera:_ )
+- [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _:movie_camera:_ )
+- [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _:movie_camera:_ )
 - [Easy Rust](https://github.com/Dhghomon/easy_rust) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
-- [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
+- [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _:movie_camera:_ ) ( _non-eng_ )
 - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
@@ -42,7 +42,7 @@ Curated collection of resources to learn Rust.
 
 ( _course_ ) ( _advanced_ )
 
-- :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ ) ( _general_ )
+- :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _:movie_camera:_ ) ( _general_ )
 
 ## Additional
 
@@ -107,7 +107,7 @@ Curated collection of resources to learn Rust.
 - [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
 - [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _course_ )
 - [Building a runtime reflection system for Rust](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/)
-- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _video_ ) ( _course_ )
+- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _:movie_camera:_ ) ( _course_ )
 
 ## Domain-specific topics
 
@@ -122,8 +122,8 @@ Curated collection of resources to learn Rust.
 
 - [Install Rust](https://www.rust-lang.org/tools/install) ( _official_ )
 - [Rustup book](https://rust-lang.github.io/rustup/) ( _official_ ) ( _reading_ ) ( _course_ )
-- [How to install debugger on Windows](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
-- [How to install debugger on Linux](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
+- [How to install debugger on Windows](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _:movie_camera:_ ) ( _article_ )
+- [How to install debugger on Linux](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _:movie_camera:_ ) ( _article_ )
 
 ## Cross-compile
 
@@ -148,7 +148,7 @@ Curated collection of resources to learn Rust.
 
 ( _about:mem_ )
 
-- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _video_ ) ( _article_ ) : all about memory layout
+- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _:movie_camera:_ ) ( _article_ ) : all about memory layout
 - [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
 - [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
 - [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
@@ -190,15 +190,15 @@ Curated collection of resources to learn Rust.
 ( _about:web_ )
 
 - [Validating JSON input](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/) by [Evaldas Buinauskas](https://github.com/buinauskas) ( _reading_ ) ( _article_ )
-- [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
+- [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _:movie_camera:_ ) ( _course_ )
 
 ## Web development
 
 ( _about:web_ ) ( _about:web_frontend_ )
 
-- [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
-- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo) : ( _video_ )
-- [Overview of Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j) : ( _video_ )
+- [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _:movie_camera:_ ) ( _article_ )
+- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo) : ( _:movie_camera:_ )
+- [Overview of Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j) : ( _:movie_camera:_ )
 
 ## Graphics
 
@@ -213,8 +213,8 @@ Curated collection of resources to learn Rust.
 
 ( _predictions_ )
 
-- [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( _video_ ) ( _playlist_ )
-- [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( _video_ )
+- [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( _:movie_camera:_ ) ( _playlist_ )
+- [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( _:movie_camera:_ )
 
 ## Teaching materials and Workshops
 
@@ -239,7 +239,7 @@ Curated collection of resources to learn Rust.
 - ( _not-finished_ ) - not finished, too little to learn
 - ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _reading_ ) - material to read
-- ( _video_ ) - material to watch
+- ( _:movie_camera:_ ) - material to watch
 - ( _audio_ ) - material to listen
 - ( _collection_ ) - list of resources
 - ( _newspaper_ ) - regularly updating list of articles
