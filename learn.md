@@ -38,7 +38,7 @@ Curated collection of resources to learn Rust.
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
 
-## Introduction ti Rust
+## Introduction to Rust
 
 - [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( _video_ )
 - [Rust Tutorial](https://www.youtube.com/watch?v=ygL_xcavzQ4) by [Derek Banas](https://www.youtube.com/c/derekbanas) ( _video_ )
