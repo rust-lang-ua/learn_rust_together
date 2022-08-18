@@ -176,6 +176,7 @@ You might also be interested in other tooboxes:
 - [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) ( _html_ ) : HTML minifier
 - [tauri](https://github.com/tauri-apps/tauri) by [Razvan Stoenescu](https://github.com/rstoenescu) : desktop applications with a web frontend
 - [built](https://github.com/lukaslueg/built) by [Lukas Lueg](https://github.com/lukaslueg) : information when and how it was built
+- [cargo-pgo](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ ) : profile guided optimzation
 
 ## Cross-compile
 
@@ -212,6 +213,11 @@ You might also be interested in other tooboxes:
 - [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Alex Crichton](https://github.com/alexcrichton) ( _wasm_ ) : run tests of wasm-based application in browser
 - [trybuild](https://github.com/dtolnay/trybuild) by [David Tolnay](https://github.com/dtolnay) : negative testing, when error during compilation is expected result.
 - [expectrl](https://github.com/zhiburt/expectrl) by [Maxim Zhiburt](https://github.com/zhiburt) ( _ui_ ) ( _tui_ ) ( _os_ ) : controlling input/output of interactive programs
+- [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
+- [test-case](https://github.com/frondeus/test-case) by [Wojciech Polak](https://github.com/frondeus) : procedural macro attribute for adding test cases
+- [cucumber](https://github.com/cucumber-rs/cucumber) by [Brendan Molloy](https://github.com/bbqsrc) : BBD
+- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
+- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
 
 ## WebAssembly
 
@@ -307,6 +313,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [pcap](https://github.com/rust-pcap/pcap) by [Sean Bowe](https://github.com/ebfull) : packet sniffing
 - [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket ( _cui_ )
 - [netraffic](https://github.com/ZingerLittleBee/netraffic) by [ZingerLittleBee](https://github.com/ZingerLittleBee) : statistics network traffic
+- [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
+- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) : HTTP load testing application
 
 ## Database
 
@@ -830,6 +838,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _cloud_api_ ) - remote APIs, mostly REST
 - ( _cross_compile_ ) - build from one platform to another one
 - ( _build_ ) - toolchains to build your project
+- ( _performance_testing_ ) - performance testing
 - ( _wasm_ ) - WebAssembly-related
 - ( _windowing_ ) - windows creating, manipulating OS GUI
 - ( _dsa_ ) - data streams aggregation

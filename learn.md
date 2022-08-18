@@ -134,15 +134,21 @@ Curated collection of resources to learn Rust.
 - [Cross compiling Rust from Linux to macOS](https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html) by [James Waples](https://wapl.es) ( _reading_ ) ( _article_ )
 - [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/) by [Jake Shadle](https://github.com/Jake-Shadle) ( _reading_ ) ( _article_ )
 
-## Size of binaries
+## Size optimization
 
-( _about:bin_size_ )
+( _about:size_optimization_ )
 
 - [How to optimize size of binary executable](https://github.com/johnthagen/min-sized-rust) by [johnthagen](https://github.com/johnthagen) ( _reading_ ) ( _article_ )
 - [How to optimize size of binary executable](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
 - [How to optimize size of WebAssembly binary executable](http://cliffle.com/blog/bare-metal-wasm/#help-i-need-trig-importing-functions-from-javascript) ( _reading_ ) ( _article_ )
 - [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/) by [Paul Delafosse](https://oknozor.github.io/blog/) ( _reading_ ) ( _article_ )
 - [Shrinking .wasm Code Size](https://rustwasm.github.io/docs/book/reference/code-size.html) by [Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html) ( _reading_ ) ( _article_ )
+
+## Performance optimization
+
+( _about:size_optimization_ )
+
+- [Profile guided optimzation](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ )
 
 ## Memory
 
@@ -252,7 +258,7 @@ Curated collection of resources to learn Rust.
 - ( _about:setup_ ) - how to install rust and setup your development environment
 - ( _about:cross_compile_ ) - how to build from one platform to another one
 - ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
-- ( _about:bin_size_ ) - about size of target application
+- ( _about:size_optimization_ ) - size optimization
 - ( _about:concurrency_ ) - about asynchronous programming
 - ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
 - ( _about:closure_ ) - about closures
