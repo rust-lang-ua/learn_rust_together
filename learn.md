@@ -172,8 +172,8 @@ Curated collection of resources to learn Rust.
 
 - [Deref vs AsRef vs Borrow vs Cow](https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6) by [Alex](https://dev.to/zhanghandong)
 - [Understanding lifetimes in Rust](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
-
 - [Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) by [pretzelhammer](https://github.com/pretzelhammer) :
+- [Rust lifetimes book](https://okryvyts.github.io/lifetimes-book/) by [okryvyts](https://github.com/okryvyts)
 
 ## Memory
 
