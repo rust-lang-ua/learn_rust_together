@@ -184,6 +184,8 @@ Curated collection of resources to learn Rust.
 
 - [Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) by [pretzelhammer](https://github.com/pretzelhammer) :
 
+- [Rust lifetimes book](https://okryvyts.github.io/lifetimes-book/) by [okryvyts](https://github.com/okryvyts)
+
 ## Closures
 
 ( _about:closure_ )
