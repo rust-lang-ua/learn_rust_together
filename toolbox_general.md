@@ -698,7 +698,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
 
-
 ## Operation Systems - userland
 
 ( _os_ )

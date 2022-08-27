@@ -156,15 +156,6 @@ Curated collection of resources to learn Rust.
 
 - [Profile guided optimzation](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ )
 
-## Memory
-
-( _about:mem_ )
-
-- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _:movie_camera:_ ) ( _article_ ) : all about memory layout
-- [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
-- [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
-- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
-
 ## Asynchronous
 
 ( _about:concurrency_ )
@@ -184,18 +175,31 @@ Curated collection of resources to learn Rust.
 
 - [Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) by [pretzelhammer](https://github.com/pretzelhammer) :
 
-## Closures
+## Memory
 
-( _about:closure_ )
+( _about:mem_ )
 
-- [Finding Closure](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/) by [Huon Wilson](https://huonw.github.io/about/)  ( _reading_ ) ( _article_ )
-- [Understanding Closures](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759) by [Andrew Pritchard](https://andrewjpritchard.medium.com/) ( _reading_ ) ( _article_ )
+- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _:movie_camera:_ ) ( _article_ ) : all about memory layout
+- [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
+- [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
+- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
+- [Pointers Are Complicated](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
+- [Pointers Are Complicated II, or: We need better language specs](https://www.ralfj.de/blog/2020/12/14/provenance.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
+- [Pointers Are Complicated III, or: Pointer-integer casts exposed](https://www.ralfj.de/blog/2022/04/11/provenance-exposed.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
 
 ## Self-referential structures
 
 ( _about:self_ref_ )
 
 - [Self-referential structs](https://www.youtube.com/watch?v=xNrglKGi-7o) by [Amos](https://www.youtube.com/channel/UCs4fQRyl1TJvoeOdekW6lYA) :
+- [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+
+## Closures
+
+( _about:closure_ )
+
+- [Finding Closure](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/) by [Huon Wilson](https://huonw.github.io/about/)  ( _reading_ ) ( _article_ )
+- [Understanding Closures](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759) by [Andrew Pritchard](https://andrewjpritchard.medium.com/) ( _reading_ ) ( _article_ )
 
 ## Web development
 
@@ -211,6 +215,12 @@ Curated collection of resources to learn Rust.
 - [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _:movie_camera:_ ) ( _article_ )
 - [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo) : ( _:movie_camera:_ )
 - [Overview of Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j) : ( _:movie_camera:_ )
+
+## Proper error handling
+
+( _about:errors_handling_ )
+
+- [Error handling](https://www.lpalmieri.com/posts/error-handling-rust/) by [Zero to Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60)
 
 ## Graphics
 
@@ -273,6 +283,7 @@ Curated collection of resources to learn Rust.
 - ( _about:webasm_ ) - about WebAssembly
 - ( _about:web_ ) - web development
 - ( _about:graphics_ ) - graphics
+- ( _about:errors_handling_ ) - proper error handling
 
 <!-- ## Learn Rust Together
 
