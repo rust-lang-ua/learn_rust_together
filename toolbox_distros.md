@@ -42,7 +42,6 @@ You might also be interested in other tooboxes:
 - [rust-highlight](https://github.com/KokaKiwi/rust-highlight) by [extrawurst](https://github.com/KokaKiwi) : export Rust code as HTML
 - [bottom](https://github.com/ClementTsang/bottom) by [Clement Tsang](https://github.com/ClementTsang) : cross-platform graphical process/system monitor
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
-- [alacritty](https://github.com/alacritty/alacritty) by [Joe Wilm](https://github.com/jwilm) : cross-platform, OpenGL terminal emulator
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
 
@@ -58,6 +57,7 @@ You might also be interested in other tooboxes:
 
 - [pipr](https://github.com/elkowar/pipr) by [ElKowar](https://github.com/elkowar) : interactively write shell pipelines
 - [wezterm](https://github.com/wez/wezterm) by [Wez Furlong](https://github.com/wez) : GPU-accelerated cross-platform terminal emulator
+- [alacritty](https://github.com/alacritty/alacritty) by [Joe Wilm](https://github.com/jwilm) : cross-platform, OpenGL terminal emulator
 - [log-analyzer-pro](https://github.com/MrCasCode/log-analyzer-pro) by [Mario Casals](https://github.com/MrCasCode) : log analyzer
 
 ## File system distros
@@ -80,6 +80,23 @@ You might also be interested in other tooboxes:
 
 - [rsspls](https://github.com/wezm/rsspls) by [Wesley Moore](https://github.com/wezm) : generate RSS feeds from websites
 
+## System / CPU info
+
+( _sys_info_ )
+
+- [Acpi](https://github.com/rust-osdev/acpi) by [Rust OSDev](https://github.com/rust-osdev) : a library to parse ACPI tables and AML
+- [pcics](https://github.com/pepyaka/pcics) by [Mikhail Bratchikov](https://github.com/pepyaka) : PCI configuration space
+- [sysinfo](https://github.com/GuillaumeGomez/sysinfo) by [Guillaume Gomez](https://github.com/GuillaumeGomez) : a crate used to get a system's information
+- [nixinfo](https://github.com/Phate6660/nixinfo) by [Cpt.Howdy](https://github.com/Phate6660) : a lib crate for gathering system info such as cpu, distro, environment, kernel, etc
+- [sys-info-rs](https://github.com/FillZpp/sys-info-rs) by [Siyu Wang](https://github.com/FillZpp) : get system information in Rust
+- [systemstat](https://github.com/unrelentingtech/systemstat) by [unrelentingtech](https://github.com/unrelentingtech) : a Rust library for getting system information/statistics
+
+( _cpu_info_ )
+
+- [Cupid](https://github.com/FillZpp) by [Jake Goulding](https://github.com/shepmaster) : native Rust access to the x86 and x86_64 CPUID instruction
+- [cpuid](https://github.com/gz/rust-cpuid) by [Gerd Zellweger](https://github.com/gz) : a library to parse the x86 CPUID instruction, written in rust with no external dependencies
+- [cpufeatures](https://github.com/rustcrypto/utils/tree/HEAD/cpufeatures) by [cpuid](https://github.com/RustCrypto) : lightweight and efficient runtime CPU feature detection for aarch64 and x86/x86_64 targets
+
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
 <!-- qqq : emoji instead of tags? -->
@@ -93,3 +110,5 @@ You might also be interested in other tooboxes:
 - ( _fs_ ) - file system
 - ( _vcs_ ) - versions controls systems
 - ( _dsa_ ) - data streams aggregation
+- ( _sys_info_ ) - get system information
+- ( _cpu_info_ ) - get CPU information
