@@ -12,7 +12,7 @@ Curated collection of resources to learn Rust.
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:	](https://doc.rust-lang.ru/book/) ( _reading_ )
+- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) :uk: [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:	](https://doc.rust-lang.ru/book/) ( _reading_ )
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ )
 - [Rust на примерах](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
