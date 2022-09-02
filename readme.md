@@ -14,6 +14,7 @@ Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
 - :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
+- :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust
 - :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
 - :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
 - :question: [Get answer](./about_us.md#question-faq) : our FAQ and community rules.

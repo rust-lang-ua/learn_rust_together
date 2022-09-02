@@ -19,7 +19,7 @@ There are some of the most popular general-purpose official resources for learni
 - [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _non-eng_ )
 
 We’d also recommend you such courses as:<br/>
-( _general_ ) ( _course_ ) ( _video_ )
+( _general_ ) ( _course_ ) ( _:movie_camera:_ )
 - [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) 
 <!-- - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)  -->
 <!-- - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)  -->
