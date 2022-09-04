@@ -80,7 +80,7 @@ You might also be interested in other tooboxes:
 
 - [rsspls](https://github.com/wezm/rsspls) by [Wesley Moore](https://github.com/wezm) : generate RSS feeds from websites
 
-## System / CPU info
+<!-- ## System / CPU info
 
 ( _sys_info_ )
 
@@ -124,7 +124,7 @@ You might also be interested in other tooboxes:
 - [criterion-cuda](https://github.com/theHamsta/criterion-cuda) by [Stephan Seitz](https://github.com/theHamsta) : crate provides the Measurement CudaTime for benchmarking CUDA kernels using criterion-rs
 - [rustGPU](https://github.com/eholk/RustGPU) by [Eric Holk](https://github.com/eholk) : a proof of concept for writing GPU kernels in Rust
 - [opencl3](https://github.com/kenba/opencl3) by [Ken Barker](https://github.com/kenba) : implementation of the Khronos OpenCL API
-- [rust-aes-proofs](https://github.com/subspace/rust-aes-proofs) by [subspace](https://github.com/subspace) : various AES-based Proof-of-Replication and Proof-of-Time implementations and benchmarks
+- [rust-aes-proofs](https://github.com/subspace/rust-aes-proofs) by [subspace](https://github.com/subspace) : various AES-based Proof-of-Replication and Proof-of-Time implementations and benchmarks -->
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->

@@ -79,6 +79,7 @@ You might also be interested in other tooboxes:
 - [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
 - [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
 - [reinda](https://github.com/LukasKalbertodt/reinda) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : embed assets
+- [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
 
 ## Global
 
@@ -740,6 +741,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [num_cpus](https://github.com/seanmonstar/num_cpus) by [Sean McArthur](https://github.com/seanmonstar) : number of CPUs
 - [generic-simd](https://github.com/calebzulawski/generic-simd) by [Caleb Zulawski](https://github.com/calebzulawski) : SIMD instructions
 - [multiversion](https://github.com/calebzulawski/multiversion) by [Caleb Zulawski](https://github.com/calebzulawski) : tool to write multiversioned architecture-specific implementations of functions
+- [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
 
 ## Embedded
 

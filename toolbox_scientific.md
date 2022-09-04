@@ -77,7 +77,7 @@ You might also be interested in other tooboxes:
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
 
-## GDPR and data safety
+<!-- ## GDPR and data safety
 
 ( _safety_ )
 
@@ -92,7 +92,7 @@ You might also be interested in other tooboxes:
 - [fakepii](https://github.com/feynmanium/fakepii) by [Jerry Wartak](https://github.com/feynmanium) : a program for generating fake "personally identifiable information" (PII) for tests and examples.
 - [ApacheLogAnonymizer](https://github.com/br-olf/ApacheLogAnonymizer) by [Olaf Pichler](https://github.com/br-olf) : a small Rust programm to anonymize webserver logs.
 - [noname](https://github.com/antonKalinin/noname) by [Anton Kalinin](https://github.com/antonKalinin) : a CLI tool to help remove personally identifiable information from screenshots.
-- [clean-pii](https://github.com/grass-roots-ultimate/clean-pii) by [Anton Kalinin](https://github.com/antonKalinin) : A Rust executable to work with PII in Ultimate Central data exports.
+- [clean-pii](https://github.com/grass-roots-ultimate/clean-pii) by [Anton Kalinin](https://github.com/antonKalinin) : A Rust executable to work with PII in Ultimate Central data exports. -->
 
 ## HPC
 
