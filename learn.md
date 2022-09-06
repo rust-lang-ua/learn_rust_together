@@ -158,8 +158,7 @@ Curated collection of resources to learn Rust.
 ( _about:concurrency_ )
 
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
+- Asynchronous Programming in Rust [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) ( _reading_ ) ( _advanced_ ) by [Amos](https://fasterthanli.me/)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _teaching_materials_ )
 
