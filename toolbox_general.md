@@ -635,6 +635,23 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [argonautica](https://github.com/bcmyers/argonautica) by [Brian Myers](https://github.com/bcmyers) : password hashing
 - [rust-argon2](https://github.com/sru-systems/rust-argon2) by [Martijn Rijkeboer](https://github.com/mrijkeboer) :  password hashing
 
+## GDPR and data safety
+
+( _safety_ )
+
+- [oca-rust](https://github.com/THCLab/oca-rust) by [The Human Colossus Lab](https://github.com/THCLab) : Rust implementation of Overlays Capture architecture.
+- [gdpr_consent](https://github.com/cirla/gdpr_consent) by [Tim Cheeseman](https://github.com/cirla) : GDPR Transparency and Consent Framework SDK Rust.
+- [gdpr_consent_string](https://github.com/mdsherry/gdpr_consent_string) by [mdsherry](https://github.com/mdsherry) : mask GDPR strings.
+- [gdpr-extractor](https://github.com/oshas/gdpr-extractor) by [oshas](https://github.com/oshas) : extract GDPR data.
+- [safelog](https://gitlab.torproject.org/tpo/core/arti/-/tree/main/crates/safelog) by [The Tor Project](https://gitlab.torproject.org/tpo) : mark data as sensitive for logging purposes.
+- [secrecy](https://github.com/iqlusioninc/crates/tree/main/secrecy) by [iqlusion](https://github.com/iqlusioninc) : a simple secret-keeping library for Rust.
+- [secstr](https://github.com/Riateche/secstr) by [Pavel Strakhov](https://github.com/Riateche) : a Rust library that implements a data type (wrapper around Vec<u8>) suitable for storing sensitive information such as passwords and private keys in memory.
+- [secret-value](https://crates.io/crates/secret-value) by [Pavel Strakhov](https://github.com/Riateche) : is a minimalistic crate for ensuring that no secret value was displayed or logged.
+- [fakepii](https://github.com/feynmanium/fakepii) by [Jerry Wartak](https://github.com/feynmanium) : a program for generating fake "personally identifiable information" (PII) for tests and examples.
+- [ApacheLogAnonymizer](https://github.com/br-olf/ApacheLogAnonymizer) by [Olaf Pichler](https://github.com/br-olf) : a small Rust programm to anonymize webserver logs.
+- [noname](https://github.com/antonKalinin/noname) by [Anton Kalinin](https://github.com/antonKalinin) : a CLI tool to help remove personally identifiable information from screenshots.
+- [clean-pii](https://github.com/grass-roots-ultimate/clean-pii) by [Anton Kalinin](https://github.com/antonKalinin) : A Rust executable to work with PII in Ultimate Central data exports.
+
 ## Compression
 
 ( _compression_ )
@@ -737,12 +754,39 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _hardware_ )
 
-- [cpuid](https://github.com/gz/rust-cpuid) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
-- [cupid](https://github.com/shepmaster/cupid) by [Jake Goulding](https://github.com/shepmaster) : x86 CPUID instruction
 - [num_cpus](https://github.com/seanmonstar/num_cpus) by [Sean McArthur](https://github.com/seanmonstar) : number of CPUs
 - [generic-simd](https://github.com/calebzulawski/generic-simd) by [Caleb Zulawski](https://github.com/calebzulawski) : SIMD instructions
 - [multiversion](https://github.com/calebzulawski/multiversion) by [Caleb Zulawski](https://github.com/calebzulawski) : tool to write multiversioned architecture-specific implementations of functions
-- [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
+- [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _compile_time_ ) compile-time constants about process of compilation
+- [Acpi](https://github.com/rust-osdev/acpi) by [Rust OSDev](https://github.com/rust-osdev) : a library to parse ACPI tables and AML
+- [pcics](https://github.com/pepyaka/pcics) by [Mikhail Bratchikov](https://github.com/pepyaka) : PCI configuration space
+- [sysinfo](https://github.com/GuillaumeGomez/sysinfo) by [Guillaume Gomez](https://github.com/GuillaumeGomez) : a crate used to get a system's information
+- [nixinfo](https://github.com/Phate6660/nixinfo) by [Cpt.Howdy](https://github.com/Phate6660) : a lib crate for gathering system info such as cpu, distro, environment, kernel, etc
+- [sys-info-rs](https://github.com/FillZpp/sys-info-rs) by [Siyu Wang](https://github.com/FillZpp) : get system information in Rust
+- [systemstat](https://github.com/unrelentingtech/systemstat) by [unrelentingtech](https://github.com/unrelentingtech) : a Rust library for getting system information/statistics
+- [rtop](https://github.com/narendasan/rtop) by [Naren Dasan](https://github.com/narendasan) : a system montior inspired by gtop implemented in Rust
+- [cpuid](https://github.com/gz/rust-cpuid) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
+- [cupid](https://github.com/shepmaster/cupid) by [Jake Goulding](https://github.com/shepmaster) : x86 CPUID instruction
+- [Cupid](https://github.com/FillZpp) by [Jake Goulding](https://github.com/shepmaster) : native Rust access to the x86 and x86_64 CPUID instruction
+- [cpufeatures](https://github.com/rustcrypto/utils/tree/HEAD/cpufeatures) by [cpuid](https://github.com/RustCrypto) : lightweight and efficient runtime CPU feature detection for aarch64 and x86/x86_64 targets
+- [gpuinfo](https://github.com/BDHU/gpuinfo) by [Edward Hu](https://github.com/BDHU) : a small command-line tool used to query and monitor GPU status
+- [gpu-info](https://crates.io/crates/gpu-info) : a minimal command-line utility for querying GPU status
+
+## Benchmark
+
+( _benchmark_ )
+
+- [hyperfine](https://github.com/sharkdp/hyperfine) by [David Peter](https://github.com/sharkdp) : a command-line benchmarking tool
+- [glassbench](https://github.com/Canop/glassbench) by [Denys Séguret](https://github.com/Canop) : a micro-benchmark library with memory, to use with cargo bench
+- [Criterion.rs](https://github.com/bheisler/criterion.rs) by [Brook Heisler](https://github.com/bheisler) : statistics-driven Microbenchmarking
+- [ulid-rs](https://github.com/suyash/ulid-rs) by [Suyash](https://github.com/suyash) : Rust implementation of "Universally Unique Lexicographically Sortable Identifier" algorithm
+- [Iai](https://github.com/bheisler/iai) by [Brook Heisler](https://github.com/bheisler) : experimental One-shot Benchmark Framework
+- [Shumai](https://github.com/XiangpengHao/shumai) by [Xiangpeng Hao](https://github.com/XiangpengHao) : a multi-thread benchmarking framework that produces accurate and reproducible results
+- [gemm-benchmark](https://github.com/danieldk/gemm-benchmark) by [Daniël de Kok](https://github.com/danieldk) : a small [sd]gemm benchmark based, similar to ACES DGEMM
+- [criterion-cuda](https://github.com/theHamsta/criterion-cuda) by [Stephan Seitz](https://github.com/theHamsta) : crate provides the Measurement CudaTime for benchmarking CUDA kernels using criterion-rs
+- [rustGPU](https://github.com/eholk/RustGPU) by [Eric Holk](https://github.com/eholk) : a proof of concept for writing GPU kernels in Rust
+- [opencl3](https://github.com/kenba/opencl3) by [Ken Barker](https://github.com/kenba) : implementation of the Khronos OpenCL API
+- [rust-aes-proofs](https://github.com/subspace/rust-aes-proofs) by [subspace](https://github.com/subspace) : various AES-based Proof-of-Replication and Proof-of-Time implementations and benchmarks -->
 
 ## Embedded
 
@@ -877,6 +921,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _graphs_ ) - graphs data structures and algorithms
 - ( _hashing_ ) - hashing algorithms
 - ( _cryptography_ ) - cryptographic
+- ( _safety_ ) - GDPR and data safety
 - ( _compression_ ) - compression, archiving
 - ( _encoding_ ) - encoding / decoding
 - ( _gdf_ ) - general data format, genera-purpose formats to exchange data
@@ -888,6 +933,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _:movie_camera:_ ) - video-processing, capturing
 - ( _asm_ ) - machine code, byte code, interpreters, assembler
 - ( _hardware_ ) - reading / writing hardware
+- ( _benchmark_ ) - benchmarking tools and libraries
 - ( _embed_ ) - embedded
 - ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
 - ( _self_ref_ ) - self referential structures
