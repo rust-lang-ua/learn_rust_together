@@ -52,8 +52,7 @@ Curated collection of resources to learn Rust.
 ( _course_ ) ( _advanced_ )
 
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:concurrency_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:concurrency_ ) ( _non-eng_ )
+- Asynchronous Programming in Rust [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _about:concurrency_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
