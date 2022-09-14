@@ -23,6 +23,7 @@ You might also be interested in other tooboxes:
 - [glutin](https://github.com/rust-windowing/glutin) by [Rust Windowing](https://github.com/rust-windowing) : OpenGL context
 - [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
 - [limelight](https://crates.io/crates/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper with a renderer
+- [rend3](https://github.com/BVE-Reborn/rend3) by [BVE-Reborn Train Simulator](https://github.com/BVE-Reborn) : easy to use, customizable, efficient 3D renderer library built on wgpu
 
 ## Rendering Middleware
 
@@ -42,13 +43,19 @@ You might also be interested in other tooboxes:
 ( _engine_ )
 
 - [Bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _bevy_ ) : popular wgpu-based game engine
-- [Piston](https://github.com/PistonDevelopers/piston) : the oldest game engine on Rust
-- [RG3D](https://github.com/rg3dengine/rg3d)
-- [Amethyst](https://github.com/amethyst/amethyst)
+- [Piston](https://github.com/PistonDevelopers/piston) by [PistonDevelopers](https://github.com/PistonDevelopers) : a modular game engine written in Rust
+- [Fyrox](https://github.com/FyroxEngine/Fyrox) by [Fyrox Engine](https://github.com/FyroxEngine) : a modern Rust game engine
+- [Amethyst](https://github.com/amethyst/amethyst) by [Amethyst Foundation](https://github.com/amethyst) : a data-driven and data-oriented game engine aiming to be fast and as configurable as possible
 - [emerald](https://github.com/Bombfuse/emerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
 - [tetra](https://github.com/17cupsofcoffee/tetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
 - [macroquad](https://github.com/not-fl3/macroquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform game engine
 - [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _physics_ ) : godot engine binding
+
+## Web engine
+
+( _engine_ )
+
+- [Notan](https://github.com/Nazariglez/notan) by [Nazarí González](https://github.com/Nazariglez) : portable multimedia layer ( web oriented )
 
 ## Human interface device
 
@@ -336,7 +343,7 @@ You might also be interested in other tooboxes:
 
 - ( _renderer_ ) - renderers
 - ( _middleware_ ) - software of middle layer to leverage low-level functionality
-- ( _engine_ ) - game engines
+- ( _engine_ ) - game and web engines
 - ( _hid_ ) - human interface device
 - ( _shader_ ) - shader related
 - ( _geometry_ ) - geometry / mesh generation

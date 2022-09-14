@@ -77,6 +77,23 @@ You might also be interested in other tooboxes:
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
 
+<!-- ## GDPR and data safety
+
+( _safety_ )
+
+- [oca-rust](https://github.com/THCLab/oca-rust) by [The Human Colossus Lab](https://github.com/THCLab) : Rust implementation of Overlays Capture architecture.
+- [gdpr_consent](https://github.com/cirla/gdpr_consent) by [Tim Cheeseman](https://github.com/cirla) : GDPR Transparency and Consent Framework SDK Rust.
+- [gdpr_consent_string](https://github.com/mdsherry/gdpr_consent_string) by [mdsherry](https://github.com/mdsherry) : mask GDPR strings.
+- [gdpr-extractor](https://github.com/oshas/gdpr-extractor) by [oshas](https://github.com/oshas) : extract GDPR data.
+- [safelog](https://gitlab.torproject.org/tpo/core/arti/-/tree/main/crates/safelog) by [The Tor Project](https://gitlab.torproject.org/tpo) : mark data as sensitive for logging purposes.
+- [secrecy](https://github.com/iqlusioninc/crates/tree/main/secrecy) by [iqlusion](https://github.com/iqlusioninc) : a simple secret-keeping library for Rust.
+- [secstr](https://github.com/Riateche/secstr) by [Pavel Strakhov](https://github.com/Riateche) : a Rust library that implements a data type (wrapper around Vec<u8>) suitable for storing sensitive information such as passwords and private keys in memory.
+- [secret-value](https://crates.io/crates/secret-value) by [Pavel Strakhov](https://github.com/Riateche) : is a minimalistic crate for ensuring that no secret value was displayed or logged.
+- [fakepii](https://github.com/feynmanium/fakepii) by [Jerry Wartak](https://github.com/feynmanium) : a program for generating fake "personally identifiable information" (PII) for tests and examples.
+- [ApacheLogAnonymizer](https://github.com/br-olf/ApacheLogAnonymizer) by [Olaf Pichler](https://github.com/br-olf) : a small Rust programm to anonymize webserver logs.
+- [noname](https://github.com/antonKalinin/noname) by [Anton Kalinin](https://github.com/antonKalinin) : a CLI tool to help remove personally identifiable information from screenshots.
+- [clean-pii](https://github.com/grass-roots-ultimate/clean-pii) by [Anton Kalinin](https://github.com/antonKalinin) : A Rust executable to work with PII in Ultimate Central data exports. -->
+
 ## HPC
 
 ( _hpc_ )
@@ -93,6 +110,7 @@ You might also be interested in other tooboxes:
 - ( _meta_ ) - meta
 - ( _physics_ ) - physics
 - ( _dsp_ ) - digital signals processing
+- ( _safety_ ) - GDPR and data safety
 - ( _hpc_ ) - high performance computing
 
 <!-- qqq : improve tags descriptions -->
