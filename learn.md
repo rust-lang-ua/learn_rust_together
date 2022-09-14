@@ -9,7 +9,7 @@ Curated collection of resources to learn Rust.
 <!-- - []() by []() -->
 
 ## General-purpose official resources
-> [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. all Russian-language materials are published for educational purposes.
+> [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. All Russian-language materials are published for educational purposes.
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
