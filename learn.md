@@ -222,6 +222,12 @@ Curated collection of resources to learn Rust.
 
 - [Error handling](https://www.lpalmieri.com/posts/error-handling-rust/) by [Zero to Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60)
 
+## Testing
+
+( _about:testing_ )
+
+- [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
+
 ## Graphics
 
 ( _about:graphics_ )
