@@ -766,6 +766,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [log](https://github.com/rust-lang/log) by [Alex Crichton](https://github.com/alexcrichton) : lightweight logging
 - [log4rs](https://github.com/estk/log4rs) by [estk](https://github.com/estk) : configurable logging
 - [simplelog](https://github.com/Drakulix/simplelog.rs) by [Victoria Brekenfeld](https://github.com/Drakulix) : simple logging
+- [tracing](https://github.com/tokio-rs/tracing) by [Eliza Weisman](https://github.com/hawkw) :
+- [fregate](https://github.com/elefant-dev/fregate-rs) by [Petr Makagon](https://github.com/elefant-dev) : metrics, logging, environment all-in-one
 
 ## Config
 
