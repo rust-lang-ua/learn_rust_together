@@ -1,3 +1,6 @@
+> [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. All Russian-language materials are published for educational purposes only.
+## General-purpose official resources
+
 <!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
 
 # :mortar_board: Our Awesome Collection of Materials to Learn Rust
@@ -8,49 +11,49 @@ Curated collection of resources to learn Rust.
 
 <!-- - []() by []() -->
 
-## General-purpose official resources
-
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ )
-- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _non-eng_ )
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) ( _reading_ )
-- [Rust на примерах](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _non-eng_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)( _reading_ )
-- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _non-eng_ )
-- [The Rust Programming Reference](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
-- [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
+- The Rust Programming Language [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- Rust by Example [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
+- Rust cookbook [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
+- The Rust Programming Reference [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
+- Codebase Reference [:uk:](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 
 ## :star: General-purpose courses
 
 ( _general_ ) ( _course_ )
 
-- :star: [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _video_ )
-- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ )
-- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _video_ )
-- [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _video_ )
-- [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _video_ )
+- :star: [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( _:movie_camera:_ )
+- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _:movie_camera:_ )
+- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _:movie_camera:_ )
+- [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _:movie_camera:_ )
+- [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _:movie_camera:_ )
 - [Easy Rust](https://github.com/Dhghomon/easy_rust) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
-- [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _video_ ) ( _non-eng_ )
+- [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _:movie_camera:_ ) ( _non-eng_ )
 - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
+- [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( _video_ )
+
+## Introduction to Rust
+
+- [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( _video_ )
+- [Rust Tutorial](https://www.youtube.com/watch?v=ygL_xcavzQ4) by [Derek Banas](https://www.youtube.com/c/derekbanas) ( _video_ )
 
 ## Advanced
 
 ( _course_ ) ( _advanced_ )
 
-- :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _video_ ) ( _general_ )
+- :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _:movie_camera:_ ) ( _general_ )
 
 ## Additional
 
 ( _course_ ) ( _advanced_ )
 
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _about:concurrency_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _about:concurrency_ ) ( _non-eng_ )
+- Asynchronous Programming in Rust [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _about:concurrency_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
@@ -107,7 +110,7 @@ Curated collection of resources to learn Rust.
 - [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
 - [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _course_ )
 - [Building a runtime reflection system for Rust](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/)
-- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _video_ ) ( _course_ )
+- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _:movie_camera:_ ) ( _course_ )
 
 ## Domain-specific topics
 
@@ -122,8 +125,8 @@ Curated collection of resources to learn Rust.
 
 - [Install Rust](https://www.rust-lang.org/tools/install) ( _official_ )
 - [Rustup book](https://rust-lang.github.io/rustup/) ( _official_ ) ( _reading_ ) ( _course_ )
-- [How to install debugger on Windows](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _video_ ) ( _article_ )
-- [How to install debugger on Linux](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _video_ ) ( _article_ )
+- [How to install debugger on Windows](https://www.youtube.com/watch?v=f6tizikEMTk) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( _:movie_camera:_ ) ( _article_ )
+- [How to install debugger on Linux](https://www.youtube.com/watch?v=rarFePIdNoc) by [DevbaseMedia](https://www.youtube.com/channel/UCx6M2DGOBSOwj6-e-ToPPGw) ( _:movie_camera:_ ) ( _article_ )
 
 ## Cross-compile
 
@@ -134,9 +137,9 @@ Curated collection of resources to learn Rust.
 - [Cross compiling Rust from Linux to macOS](https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html) by [James Waples](https://wapl.es) ( _reading_ ) ( _article_ )
 - [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/) by [Jake Shadle](https://github.com/Jake-Shadle) ( _reading_ ) ( _article_ )
 
-## Size of binaries
+## Size optimization
 
-( _about:bin_size_ )
+( _about:size_optimization_ )
 
 - [How to optimize size of binary executable](https://github.com/johnthagen/min-sized-rust) by [johnthagen](https://github.com/johnthagen) ( _reading_ ) ( _article_ )
 - [How to optimize size of binary executable](https://users.rust-lang.org/t/size-of-the-executable-binary-file-of-an-application/62160/7) ( _reading_ ) ( _article_ )
@@ -144,22 +147,18 @@ Curated collection of resources to learn Rust.
 - [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/) by [Paul Delafosse](https://oknozor.github.io/blog/) ( _reading_ ) ( _article_ )
 - [Shrinking .wasm Code Size](https://rustwasm.github.io/docs/book/reference/code-size.html) by [Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html) ( _reading_ ) ( _article_ )
 
-## Memory
+## Performance optimization
 
-( _about:mem_ )
+( _about:size_optimization_ )
 
-- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _video_ ) ( _article_ ) : all about memory layout
-- [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
-- [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
-- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
+- [Profile guided optimzation](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ )
 
 ## Asynchronous
 
 ( _about:concurrency_ )
 
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
-- [Асинхронное программирование на Rust](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _non-eng_ )
+- Asynchronous Programming in Rust [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) ( _reading_ ) ( _advanced_ ) by [Amos](https://fasterthanli.me/)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _teaching_materials_ )
 
@@ -169,8 +168,27 @@ Curated collection of resources to learn Rust.
 
 - [Deref vs AsRef vs Borrow vs Cow](https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6) by [Alex](https://dev.to/zhanghandong)
 - [Understanding lifetimes in Rust](https://blog.logrocket.com/understanding-lifetimes-in-rust/) by [Thomas Heartman](https://blog.logrocket.com/author/thomasheartman/) ( _reading_ ) ( _article_ )
-
 - [Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) by [pretzelhammer](https://github.com/pretzelhammer) :
+- [Rust lifetimes book](https://okryvyts.github.io/lifetimes-book/) by [okryvyts](https://github.com/okryvyts)
+
+## Memory
+
+( _about:mem_ )
+
+- [:star: Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg) by [Sreekanth](https://www.youtube.com/channel/UCjRVKSokBHlljocLdnUD9pg) ( _:movie_camera:_ ) ( _article_ ) : all about memory layout
+- [Refactoring to Rust](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c) by [Lily Mara](https://bes.github.io/) ( _reading_ ) ( _article_ )
+- [Strings in Rust](https://bes.github.io/blog/rust-strings/) by [Erik Zivkovic](https://dev.to/ender_minyard) ( _reading_ ) ( _article_ )
+- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
+- [Pointers Are Complicated](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
+- [Pointers Are Complicated II, or: We need better language specs](https://www.ralfj.de/blog/2020/12/14/provenance.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
+- [Pointers Are Complicated III, or: Pointer-integer casts exposed](https://www.ralfj.de/blog/2022/04/11/provenance-exposed.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
+
+## Self-referential structures
+
+( _about:self_ref_ )
+
+- [Self-referential structs](https://www.youtube.com/watch?v=xNrglKGi-7o) by [Amos](https://www.youtube.com/channel/UCs4fQRyl1TJvoeOdekW6lYA) :
+- [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 
 ## Closures
 
@@ -179,26 +197,32 @@ Curated collection of resources to learn Rust.
 - [Finding Closure](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/) by [Huon Wilson](https://huonw.github.io/about/)  ( _reading_ ) ( _article_ )
 - [Understanding Closures](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759) by [Andrew Pritchard](https://andrewjpritchard.medium.com/) ( _reading_ ) ( _article_ )
 
-## Self-referential structures
-
-( _about:self_ref_ )
-
-- [Self-referential structs](https://www.youtube.com/watch?v=xNrglKGi-7o) by [Amos](https://www.youtube.com/channel/UCs4fQRyl1TJvoeOdekW6lYA) :
-
 ## Web development
 
 ( _about:web_ )
 
 - [Validating JSON input](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/) by [Evaldas Buinauskas](https://github.com/buinauskas) ( _reading_ ) ( _article_ )
-- [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _video_ ) ( _course_ )
+- [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _:movie_camera:_ ) ( _course_ )
 
 ## Web development
 
 ( _about:web_ ) ( _about:web_frontend_ )
 
-- [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _video_ ) ( _article_ )
-- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo) : ( _video_ )
-- [Overview of Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j) : ( _video_ )
+- [Yew Crash Course](https://www.youtube.com/watch?v=lmLiMozWNGA) by [Jeff No Zhao](https://www.youtube.com/channel/UC6NPLaq5poP-CoLo3DPCC8w) ( _:movie_camera:_ ) ( _article_ )
+- [Rust + Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCju0IPc3_nB_zQVJqDIibUbo) : ( _:movie_camera:_ )
+- [Overview of Elm](https://www.youtube.com/playlist?list=PLI7Ebs6ANCjtnsXkxFJsUO1U3o3goVd6j) : ( _:movie_camera:_ )
+
+## Proper error handling
+
+( _about:errors_handling_ )
+
+- [Error handling](https://www.lpalmieri.com/posts/error-handling-rust/) by [Zero to Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60)
+
+## Testing
+
+( _about:testing_ )
+
+- [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
 
 ## Graphics
 
@@ -213,8 +237,8 @@ Curated collection of resources to learn Rust.
 
 ( _predictions_ )
 
-- [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( _video_ ) ( _playlist_ )
-- [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( _video_ )
+- [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( _:movie_camera:_ ) ( _playlist_ )
+- [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( _:movie_camera:_ )
 
 ## Teaching materials and Workshops
 
@@ -239,7 +263,7 @@ Curated collection of resources to learn Rust.
 - ( _not-finished_ ) - not finished, too little to learn
 - ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _reading_ ) - material to read
-- ( _video_ ) - material to watch
+- ( _:movie_camera:_ ) - material to watch
 - ( _audio_ ) - material to listen
 - ( _collection_ ) - list of resources
 - ( _newspaper_ ) - regularly updating list of articles
@@ -252,7 +276,7 @@ Curated collection of resources to learn Rust.
 - ( _about:setup_ ) - how to install rust and setup your development environment
 - ( _about:cross_compile_ ) - how to build from one platform to another one
 - ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
-- ( _about:bin_size_ ) - about size of target application
+- ( _about:size_optimization_ ) - size optimization
 - ( _about:concurrency_ ) - about asynchronous programming
 - ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
 - ( _about:closure_ ) - about closures
@@ -261,6 +285,7 @@ Curated collection of resources to learn Rust.
 - ( _about:webasm_ ) - about WebAssembly
 - ( _about:web_ ) - web development
 - ( _about:graphics_ ) - graphics
+- ( _about:errors_handling_ ) - proper error handling
 
 <!-- ## Learn Rust Together
 

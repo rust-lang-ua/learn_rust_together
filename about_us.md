@@ -14,7 +14,7 @@ Rust is a multi-paradigm programming language designed for performance and safet
 We strive to provide all members with the space to build trusting professional relationships in an informal way by providing support and encouragement to develop professional skills.
 These are the core values of our organization:
 - **mutual assistance**
-- **openness to** listen to alternative points of view
+- **openness** to listen to alternative points of view
 - cultivation of **Open Source** culture
 - fostering a **friendly attitude** towards each other
 

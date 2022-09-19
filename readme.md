@@ -4,6 +4,10 @@
 
 [![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
+> [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. 
+
+## General-purpose official resources
+
 ## Who are we?
 We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
 
@@ -14,6 +18,7 @@ Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
 - :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
+- :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust
 - :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
 - :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
 - :question: [Get answer](./about_us.md#question-faq) : our FAQ and community rules.
