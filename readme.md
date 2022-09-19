@@ -8,7 +8,7 @@
 We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
 
 ## What is this about?
-This repostory contains nearly dozen curated collection: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you Rust Developer.
+This repostory contains nearly dozen curated collections: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you are interested in Development in Rust.
 
 Here you can find:
 
@@ -21,8 +21,8 @@ Here you can find:
 - :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
 - :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
-- :label: [Search](./collection_of_collections.md#label-projects-catalogue) : Projects catalogue
-- :newspaper: [Stay competent](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : Newspapers and working groups
+- :label: [Search](./collection_of_collections.md#label-projects-catalogue) : projects catalogue
+- :newspaper: [Stay competent](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : newspapers and working groups
 - :globe_with_meridians: [Still not enough](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : other collections on Rust
 
 ## Join
