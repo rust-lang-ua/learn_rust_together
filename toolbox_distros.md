@@ -31,7 +31,6 @@ You might also be interested in other tooboxes:
 
 ( _general_purpose_ )
 
-- [broot](https://github.com/Canop/broot) by [Denys Séguret](https://github.com/Canop) : CUI for files navigation
 - [bartib](https://github.com/nikolassv/bartib) by [Nikolas Schmidt-Voigt](https://github.com/nikolassv) : CUI for time tracking
 - [gix](https://github.com/Byron/gitoxide) by [Sebastian Thiel](https://github.com/Byron) : CUI for alternative implementation of Git
 - [xsv](https://github.com/BurntSushi/xsv) by [Andrew Gallant](https://github.com/BurntSushi) : CUI to read read CSV
@@ -41,9 +40,10 @@ You might also be interested in other tooboxes:
 - [silicon](https://github.com/Aloxaf/silicon) by [Aloxaf](https://github.com/Aloxaf) : CUI to image of your source code
 - [rust-highlight](https://github.com/KokaKiwi/rust-highlight) by [extrawurst](https://github.com/KokaKiwi) : export Rust code as HTML
 - [bottom](https://github.com/ClementTsang/bottom) by [Clement Tsang](https://github.com/ClementTsang) : cross-platform graphical process/system monitor
-- [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
+<!-- - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator -->
+<!-- xxx : move to backend -->
 
 ## Network
 
@@ -66,6 +66,7 @@ You might also be interested in other tooboxes:
 
 - [dua-cli](https://github.com/Byron/dua-cli) by [Sebastian Thiel](https://github.com/Byron) : CUI to view disk space usage and delete unwanted data
 - [watchexec](https://github.com/watchexec/watchexec) by [Matt Green](https://github.com/mattgreen) : executes commands in response to file modifications
+- [broot](https://github.com/Canop/broot) by [Denys Séguret](https://github.com/Canop) : CUI for files navigation
 
 ## Versions Control Systems
 

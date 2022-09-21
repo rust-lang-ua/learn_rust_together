@@ -1,3 +1,6 @@
+> [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. All Russian-language materials are published for educational purposes only.
+## General-purpose official resources
+
 <!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
 
 # :mortar_board: Our Awesome Collection of Materials to Learn Rust
@@ -7,8 +10,6 @@ Curated collection of resources to learn Rust.
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 <!-- - []() by []() -->
-
-## General-purpose official resources
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
@@ -216,6 +217,12 @@ Curated collection of resources to learn Rust.
 ( _about:errors_handling_ )
 
 - [Error handling](https://www.lpalmieri.com/posts/error-handling-rust/) by [Zero to Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60)
+
+## Testing
+
+( _about:testing_ )
+
+- [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
 
 ## Graphics
 
