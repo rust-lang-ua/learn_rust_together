@@ -13,10 +13,8 @@ Rust is a multi-paradigm programming language designed for performance and safet
 ## :books: Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
 ( _general_ ) ( _official_ ) ( _course_ ) ( _reading_ )
-- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) 
-- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _non-eng_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
-- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _non-eng_ )
+- The Rust Programming Language [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- Rust cookbook [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 
 We’d also recommend you such courses as:<br/>
 ( _general_ ) ( _course_ ) ( _:movie_camera:_ )
