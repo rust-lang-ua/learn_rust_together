@@ -57,7 +57,7 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 **1) Practice, interactive, feedback**
 - [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is the project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying given code. It’d really help you to get an understanding of how the compiler works and what are the most common code issues. 
 - [Exercism](https://exercism.org/tracks/rust/concepts) - open-source, free-coding platform which offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts.
-[.](./asset/img/introduction_page/exercism.png)
+[![.](./asset/img/introduction_page/exercism.png)]
 - [Rust Gym]()
 
 **2) Reading books**
