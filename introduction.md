@@ -54,16 +54,16 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 
 ## :books: Altarnative ways to learn Rust
 
-**1) Practice, interactive, feedback **
+**1) Practice, interactive, feedback**
 - [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) 
 - [Exercism](https://exercism.org/tracks/rust/concepts)
 - [Rust Gym]()
 
-**2) Reading books **
+**2) Reading books**
 
-**3) Watch video courses **
+**3) Watch video courses**
 
-**4) Use Cheatsheets **
+**4) Use Cheatsheets**
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
