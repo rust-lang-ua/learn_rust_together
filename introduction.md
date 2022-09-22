@@ -45,7 +45,7 @@ There is a short guide to do this:<br/>
 
 If you are Ukrainian, the best way to get help is to join our [Learn Rust Together](https://t.me/rustlang_ua) community, where you’ll be definitely heard and helped by more experienced members.
 
-:zap:	There is also our [Communicate](https://github.com/ChapliaS/LearnRustTogether/blob/master/communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
+:zap:	There is also our [Communicate](./communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
 
 ## :pushpin: How to ask questions?:
 
@@ -55,15 +55,20 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 ## :books: Altarnative ways to learn Rust
 
 **1) Practice, interactive, feedback**
-- [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) 
-- [Exercism](https://exercism.org/tracks/rust/concepts)
+- [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is the project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying given code. It’d really help you to get an understanding of how the compiler works and what are the most common code issues. 
+- [Exercism](https://exercism.org/tracks/rust/concepts) - open-source, free-coding platform which offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts.
 - [Rust Gym]()
 
 **2) Reading books**
+If you are the beginner in Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) 
+As the 
+If you only start your journey in Rust we'd highly reccomend you to 
+[RustBook](https://doc.rust-lang.org/book/)
+[Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf)
 
-**3) Watch video courses**
+**3) Watching videos**
 
-**4) Use Cheatsheets**
+**4) Using Cheatsheets**
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
