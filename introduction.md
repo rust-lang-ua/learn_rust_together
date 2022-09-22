@@ -10,7 +10,7 @@ It is setup and step-by-step introduction into development on Rust.
 
 Rust is a multi-paradigm programming language designed for performance and safety.<br/> It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust is the most beloved programming language seven years in a row.The Rust community is traditionally very friendly.
 
-## :books: Resources to use:
+## :book:	 Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
 ( _general_ ) ( _official_ ) ( _course_ ) ( _reading_ )
 - The Rust Programming Language [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
@@ -52,6 +52,18 @@ If you are Ukrainian, the best way to get help is to join our [Learn Rust Togeth
 The best way to ask questions is to share your code in the [playground](https://play.rust-lang.org/). In this case, other members don’t have to spend extra time recreating the problem.<br/>
 This is how it takes place in our community, but we’re convinced that it’ll be useful in any other. 
 
+## :books: Altarnative ways to learn Rust
+
+**1) Practice, interactive, feedback **
+- [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) 
+- [Exercism](https://exercism.org/tracks/rust/concepts)
+- [Rust Gym]()
+
+**2) Reading books **
+
+**3) Watch video courses **
+
+**4) Use Cheatsheets **
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
