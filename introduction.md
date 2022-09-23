@@ -72,8 +72,9 @@ If you only start your journey in Rust we'd highly reccomend you to
 **3) Watching videos**
 
 **4) Using Cheatsheets**
-
-![](./asset/img/introduction_page/cheatsheet.png)
+<p align="center">
+<img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
+</p>
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
