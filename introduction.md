@@ -10,13 +10,11 @@ It is setup and step-by-step introduction into development on Rust.
 
 Rust is a multi-paradigm programming language designed for performance and safety.<br/> It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust is the most beloved programming language seven years in a row.The Rust community is traditionally very friendly.
 
-## :books: Resources to use:
+## :book:	 Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
 ( _general_ ) ( _official_ ) ( _course_ ) ( _reading_ )
-- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) 
-- [Язык программирования Rust](https://doc.rust-lang.ru/book/) ( _non-eng_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
-- [Rust. Сборник рецептов](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _non-eng_ )
+- The Rust Programming Language [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- Rust cookbook [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 
 We’d also recommend you such courses as:<br/>
 ( _general_ ) ( _course_ ) ( _:movie_camera:_ )
@@ -38,7 +36,7 @@ There is a short guide to do this:<br/>
  4. To ensure that Rust and Cargo are installed correctly - run `cargo --version` in your terminal of choice. 
 
 **Linux/Mac:**
-1. To install rustup on Linux or macOS, open a terminal and enter the following command.    `curl https://sh.rustup.rs -sSf | sh`
+1. To install rustup on Linux or macOS, open a terminal and enter the following command    `curl https://sh.rustup.rs -sSf | sh`
 2. Once the Rust installation is complete, the Cargo’s bin directory (`~/.cargo/bin` – where all tools are installed) will be added in your PATH environment variable, in `~/.profile`.
 
 :zap:	To get a more detailed description or other methods of setting up Rust environment - go to our [list of setup materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#setup). 
@@ -47,13 +45,36 @@ There is a short guide to do this:<br/>
 
 If you are Ukrainian, the best way to get help is to join our [Learn Rust Together](https://t.me/rustlang_ua) community, where you’ll be definitely heard and helped by more experienced members.
 
-:zap:	There is also our [Communicate](https://github.com/ChapliaS/LearnRustTogether/blob/master/communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
+:zap:	There is also our [Communicate](./communicate.md) page, where you can find a lot of different Rust global or local chats and news streams. 
 
 ## :pushpin: How to ask questions?:
 
 The best way to ask questions is to share your code in the [playground](https://play.rust-lang.org/). In this case, other members don’t have to spend extra time recreating the problem.<br/>
 This is how it takes place in our community, but we’re convinced that it’ll be useful in any other. 
 
+## :books: Altarnative ways to learn Rust
+
+**1) Practice, interactive, feedback**
+- [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is the project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying given code. It’d really help you to get an understanding of how the compiler works and what are the most common code issues. 
+- [Exercism](https://exercism.org/tracks/rust/concepts) - open-source, free-coding platform which offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts.
+<p align="center">
+<img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
+</p>
+- [Rust Gym]()
+
+**2) Reading books**
+If you are the beginner in Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) 
+As the 
+If you only start your journey in Rust we'd highly reccomend you to 
+[RustBook](https://doc.rust-lang.org/book/)
+[Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf)
+
+**3) Watching videos**
+
+**4) Using Cheatsheets**
+<p align="center">
+<img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
+</p>
 
 ## Tags legend
 - ( _general_ ) - general-purpose material

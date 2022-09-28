@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: Cheet sheats
+# :chart_with_upwards_trend: Cheat sheats
 
 Collection of cheat sheets.
 
