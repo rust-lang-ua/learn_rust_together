@@ -306,6 +306,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
 - [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
 - [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
+- [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -824,6 +825,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 <!-- qqq : emoji instead of tags? -->
 <!-- qqq : replace rust-windowing by a person -->
 <!-- qqq : replace orgs by persons, add missing authors -->
+<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md -->
 
 ## Tags legend
 
@@ -911,5 +913,3 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _example_ ) - example project
 - ( _templating_ ) - tools to generate text using template
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
-
-<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md -->
