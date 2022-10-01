@@ -80,6 +80,7 @@ You might also be interested in other tooboxes:
 - [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
 - [reinda](https://github.com/LukasKalbertodt/reinda) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : embed assets
 - [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
+- [rust-embed](https://github.com/pyrossh/rust-embed) by [](https://github.com/pyrossh) : embed files into the rust binary at compile time during release and loads the file from the fs during dev
 
 ## Global
 
@@ -535,7 +536,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [indexmap](https://github.com/bluss/indexmap) by [bluss](https://github.com/bluss) : hash table which preserves insertion order
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
-- [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys.
+- [rustc-hash](https://github.com/rust-lang/rustc-hash) by [Niko Matsakis](https://github.com/nikomatsakis) : fast non-cryptographic hashmap and hashset
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
 - [thingbuf](https://github.com/hawkw/thingbuf) by [Eliza Weisman](https://github.com/hawkw) : in-place allocation-reusing queues
 - [bitvec](https://github.com/bitvecto-rs/bitvec) by [Alexander Payne](https://github.com/myrrlyn) : bitfields
@@ -548,6 +549,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _concurrency_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 - [sharded-slab](https://github.com/hawkw/sharded-slab) by [Eliza Weisman](https://github.com/hawkw) ( _concurrency_ ) : lock-free concurrent slab
+<!-- - [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys. -->
 
 ## Character encoding
 
