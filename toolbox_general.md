@@ -220,6 +220,7 @@ You might also be interested in other tooboxes:
 - [cucumber](https://github.com/cucumber-rs/cucumber) by [Brendan Molloy](https://github.com/bbqsrc) : BBD
 - [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
 - [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
+- [pprof](https://github.com/tikv/pprof-rs) by [YangKeao](https://github.com/YangKeao) : CPU profiler
 - [compiletest](https://github.com/Manishearth/compiletest-rs) by [Manish Goregaokar](https://github.com/Manishearth) : an extraction of the compiletest utility from the Rust compiler
 - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) by [Manish Goregaokar](https://github.com/Manishearth) : testing framework for fuzzy testing
 
