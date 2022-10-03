@@ -83,6 +83,7 @@ One more way to learn Rust, but throught the schemes, tables and images - the [R
 <img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
 </p>
 Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
+
 ## Tags legend
 - ( _general_ ) - general-purpose material
 - ( _official_ ) - official Rust material
