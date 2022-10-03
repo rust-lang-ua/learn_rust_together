@@ -60,7 +60,7 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 <p align="center">
 <img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
-- [Rust Gym]()
+- [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) - the project, which will demonstrate you how to create Data Structures and to implement Algorithms using programming language Rust. 
 
 **2) Reading books**
 
