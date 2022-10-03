@@ -77,10 +77,12 @@ Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/)
 <!-- - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)  -->
 
 **4) Using Cheatsheets**
-One more way to learn Rust, but throught the schemes, tables and images - [Rust CheaT Sheet](https://cheats.rs/).
+
+One more way to learn Rust, but throught the schemes, tables and images - the [Rust Cheat Sheet](https://cheats.rs/).
 <p align="center">
 <img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
 </p>
+Our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats) will always be usefull while writing code.
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
