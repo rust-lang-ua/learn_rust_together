@@ -80,6 +80,7 @@ You might also be interested in other tooboxes:
 - [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
 - [reinda](https://github.com/LukasKalbertodt/reinda) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : embed assets
 - [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
+- [rust-embed](https://github.com/pyrossh/rust-embed) by [](https://github.com/pyrossh) : embed files into the rust binary at compile time during release and loads the file from the fs during dev
 
 ## Global
 
@@ -305,6 +306,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
 - [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
 - [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
+- [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -536,7 +538,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [indexmap](https://github.com/bluss/indexmap) by [bluss](https://github.com/bluss) : hash table which preserves insertion order
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
-- [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys.
+- [rustc-hash](https://github.com/rust-lang/rustc-hash) by [Niko Matsakis](https://github.com/nikomatsakis) : fast non-cryptographic hashmap and hashset
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
 - [thingbuf](https://github.com/hawkw/thingbuf) by [Eliza Weisman](https://github.com/hawkw) : in-place allocation-reusing queues
 - [bitvec](https://github.com/bitvecto-rs/bitvec) by [Alexander Payne](https://github.com/myrrlyn) : bitfields
@@ -549,6 +551,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _concurrency_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 - [sharded-slab](https://github.com/hawkw/sharded-slab) by [Eliza Weisman](https://github.com/hawkw) ( _concurrency_ ) : lock-free concurrent slab
+<!-- - [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys. -->
 
 ## Character encoding
 
@@ -822,6 +825,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 <!-- qqq : emoji instead of tags? -->
 <!-- qqq : replace rust-windowing by a person -->
 <!-- qqq : replace orgs by persons, add missing authors -->
+<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md -->
 
 ## Tags legend
 
@@ -909,5 +913,3 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _example_ ) - example project
 - ( _templating_ ) - tools to generate text using template
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
-
-<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md -->

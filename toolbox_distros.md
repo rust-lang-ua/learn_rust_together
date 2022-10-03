@@ -18,8 +18,8 @@ You might also be interested in other tooboxes:
 ( _site_generation_ )
 
 - [mdbook](https://github.com/rust-lang/mdBook) : [documentation](http://rust-lang.github.io/mdBook/index.html)
-- [Zola](https://www.getzola.org/)
 - [mkdocs-material](https://github.com/squidfunk/mkdocs-material) by [Martin Donath](https://github.com/squidfunk) : [site](https://squidfunk.github.io/mkdocs-material/)
+- [zola](https://github.com/getzola/zola) by [Vincent Prouillet](https://github.com/Keats) : static site generator in a single binary
 
 ## Data Processors
 
