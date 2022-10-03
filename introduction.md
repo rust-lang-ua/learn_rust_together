@@ -81,7 +81,7 @@ Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/)
 One more way to learn Rust, but throught the schemes, tables and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathers in the one big page will always be usefull while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
 <p align="center">
 <img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
-</p>
+</p> <br/>
 Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
 
 ## Tags legend
