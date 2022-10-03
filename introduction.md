@@ -63,13 +63,12 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 - [Rust Gym]()
 
 **2) Reading books**
-If you are the beginner in Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) 
-As the 
-If you only start your journey in Rust we'd highly reccomend you to 
-[RustBook](https://doc.rust-lang.org/book/)
-[Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf)
+
+If you are the beginner in your Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) <br/> 
+Then you can also go to the [RustBook](https://doc.rust-lang.org/book/) or the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which are ones of the most common books.
 
 **3) Watching videos**
+
 
 **4) Using Cheatsheets**
 <p align="center">
