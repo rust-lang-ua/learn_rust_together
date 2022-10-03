@@ -71,11 +71,12 @@ Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/)
 
 
 **3) Watching videos**
-If you just want to 
-Just to dive in the basics of Rust - watch 
+
+If you are a newcomer and just want to get to know what is Rust - watch [Rust in 100 seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek). <br/>
+To dive in the basics of Rust - take a [Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw) <br/>
+We'd also recommend such courses as:
 - [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) 
-<!-- - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)  -->
-<!-- - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)  -->
+- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)  - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) 
 
 **4) Using Cheatsheets**
 
