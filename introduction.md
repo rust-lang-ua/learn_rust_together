@@ -65,13 +65,14 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 **2) Reading books**
 
 If you are the beginner in your Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) <br/> 
-Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/),where you can find all the necessary information about Rust or the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
+Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/),where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
 
 :zap:	Other interesting books you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
 
 **3) Watching videos**
-
+If you just want to 
+Just to dive in the basics of Rust - watch 
 - [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) 
 <!-- - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)  -->
 <!-- - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)  -->
