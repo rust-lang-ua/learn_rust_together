@@ -824,11 +824,11 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _development_ )( _utility_ )
 
-- [clippy](https://github.com/rust-lang/rust-clippy) by [Rust-lang](https://github.com/rust-lang) : A collection of lints to catch common mistakes and improve your Rust code
-- [audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit) by [RustSec](https://github.com/rustsec) : Audit Cargo.lock files for crates with security vulnerabilities reported to the RustSec Advisory Database
-- [miri](https://github.com/rust-lang/miri) by [Rust-lang](https://github.com/rust-lang) : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior
-- [udeps](https://github.com/est31/cargo-udeps) by [est31](https://github.com/est31) : Find unused dependencies in Cargo.toml
-- [checkmate](https://github.com/cargo-checkmate/cargo-checkmate) by [cargo-checkmate](https://github.com/cargo-checkmate) : Perform a series of useful checks out of the box.
+- [cargo-clippy](https://github.com/rust-lang/rust-clippy) by [Manishearth](https://github.com/Manishearth) : A collection of lints to catch common mistakes and improve your Rust code
+- [cargo-audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit) by [Tony Arcieri](https://github.com/tarcieri) : Audit Cargo.lock files for crates with security vulnerabilities reported to the RustSec Advisory Database
+- [cargo-miri](https://github.com/rust-lang/miri) by [Scott Olson](https://github.com/solson) : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior
+- [cargo-udeps](https://github.com/est31/cargo-udeps) by [est31](https://github.com/est31) : Find unused dependencies in Cargo.toml
+- [cargo-checkmate](https://github.com/cargo-checkmate/cargo-checkmate) by [Nathan Wilcox](https://github.com/nathan-at-least) : Perform a series of useful checks out of the box.
 
 
 <!-- qqq : add tag::utility for each utility -->
