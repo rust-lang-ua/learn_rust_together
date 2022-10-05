@@ -821,6 +821,23 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _cargo_ ) ( _build_ )
 - [ramhorns](https://github.com/maciejhirsz/ramhorns) by [Maciej Hirsz](https://github.com/maciejhirsz) : Mustache template engine
 
+## Utilities for development
+
+( _development_ )( _utility_ )
+
+- [cargo-clippy](https://github.com/rust-lang/rust-clippy) by [Manishearth](https://github.com/Manishearth) : A collection of lints to catch common mistakes and improve your Rust code
+- [cargo-audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit) by [Tony Arcieri](https://github.com/tarcieri) : Audit Cargo.lock files for crates with security vulnerabilities reported to the RustSec Advisory Database
+- [cargo-udeps](https://github.com/est31/cargo-udeps) by [est31](https://github.com/est31) : Find unused dependencies in Cargo.toml
+- [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) : Utility to watch over your project's source for changes
+- [cargo-checkmate](https://github.com/cargo-checkmate/cargo-checkmate) by [Nathan Wilcox](https://github.com/nathan-at-least) : Perform a series of useful checks out of the box.
+- [cargo-about](https://github.com/EmbarkStudios/cargo-about) by [Jake Shadle](https://github.com/Jake-Shadle) : Cargo plugin for generating a license listing for all dependencies of a crate
+- [cargo-hack](https://github.com/taiki-e/cargo-hack) by [Taiki Endo](https://github.com/taiki-e) : Cargo subcommand to provide various options useful for testing and continuous integration
+- [cargo-outdated](https://github.com/kbknapp/cargo-outdated) by [Kevin K.](https://github.com/kbknapp) : A cargo subcommand for displaying when Rust dependencies are out of date
+- [cargo-miri](https://github.com/rust-lang/miri) by [Scott Olson](https://github.com/solson) : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior
+- [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : Extension for cargo to expand macros
+- [cargo-llvm-lines](https://github.com/dtolnay/cargo-llvm-lines) by [David Tolnay](https://github.com/dtolnay) : Count the number of lines of LLVM IR across all instantiations of a generic function
+
+
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
 <!-- qqq : emoji instead of tags? -->
@@ -914,3 +931,4 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _example_ ) - example project
 - ( _templating_ ) - tools to generate text using template
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
+- ( _development_ ) - helps the developer to develop
