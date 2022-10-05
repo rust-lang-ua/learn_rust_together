@@ -22,7 +22,7 @@ We’d also recommend you such courses as:<br/>
 <!-- - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)  -->
 <!-- - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)  -->
   
-:zap:	Other interesting sources you can find in our [ Awesome Collection of Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
+:zap:	Other interesting sources you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
 ## :gear: How to set up rust:
 
@@ -60,26 +60,35 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 <p align="center">
 <img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
-- [Rust Gym]()
+- [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) - the project, which will demonstrate you how to create Data Structures and to implement Algorithms using programming language Rust. 
 
 **2) Reading books**
-If you are the beginner in Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) 
-As the 
-If you only start your journey in Rust we'd highly reccomend you to 
-[RustBook](https://doc.rust-lang.org/book/)
-[Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf)
+
+If you are the beginner in your Rust learning journey we'd highly reccomend you to start with [general-perposed books.](./learn.md#star-general-purpose-courses) <br/> 
+Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/),where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
+
+:zap:	Other interesting books you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
+
 
 **3) Watching videos**
 
+If you are a newcomer and just want to get to know what is Rust - watch [Rust in 100 seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek). To dive in the basics of Rust - take a [Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw) <br/>
+To learn the syntax of Rust deeply and get familiar with Rust code we'd also recommend you such courses as:
+- [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) 
+- [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)
+- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) 
+
 **4) Using Cheatsheets**
+
+One more way to learn Rust, but throught the schemes, tables and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathered in the one big page will always be usefull while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
 <p align="center">
 <img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
-</p>
+</p> 
 
 ## Tags legend
 - ( _general_ ) - general-purpose material
-- ( _official_ ) - official Rust materia
+- ( _official_ ) - official Rust material
 - ( _non-eng_ ) - non-english language
 - ( _course_ ) - consists of series of text/video articles trying to give to a reader solid foundation
-- ( _book_ ) - a bookl
+- ( _book_ ) - a book
 - ( video ) - material to watch

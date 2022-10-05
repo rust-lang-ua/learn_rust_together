@@ -40,9 +40,8 @@ Yes, you can. Most participants develop in several languages. Many members write
 <ins>*- May I look for employees here?*</ins><br/>
 Yes, but please keep your description concise and move the conversation to private after finding a candidate.
 
-<ins>*- What actions can get members  banned?*</ins><br/>
-Members can get banned for disrespecting other members of the community, for promoting aggressive propaganda against Ukraine, and for a systematic violation of rules.
-
+<ins>*- What actions can get members banned?*</ins><br/>
+Members will be banned for systematic violation of the rules, namely: 1) contemptuous attitude towards other participants, insults, threats; 2) propaganda of aggression against Ukraine; 3) Discussion of topics not related to the chat topic (the entire offtop takes place in the [Rust Tereveni](https://t.me/rust_tereveni)).
 <ins>*- Do you have other social media accounts?*</ins><br/> 
 Yes, you can also find us on Twitter, Facebook, Discord, Patreon, Reddit, and LinkedIn. Links to our other social media networks are [here](https://t.me/rustlang_ua/2383)   
 
