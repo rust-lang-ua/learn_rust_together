@@ -89,7 +89,7 @@ Curated collection of resources to learn Rust.
 - [Rust by practice](https://github.com/rust-lang-ua/rust_by_practice_eng) by [Sunface](https://github.com/sunface)
 - [Rust playground](https://play.rust-lang.org/) ( _official_ )
 - [Rust explaine](https://jrvidal.github.io/explaine.rs/)
-- [Tour of Rust](https://tourofrust.com/index.html)
+- Tour of Rust [:ua:](https://tourofrust.com/00_ua.html) [:uk:](https://tourofrust.com/index.html)
 
 ## Cheat sheets
 
