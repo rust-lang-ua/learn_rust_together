@@ -96,6 +96,7 @@ Curated collection of resources to learn Rust.
 - [Rust Language Cheat Sheet](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
 - [Memoty Layout](./cheat_sheets.md#memory-layout) by Raph Levien
 - [Cheat Sheet](https://github.com/donbright/rust-lang-cheat-sheet) by [don bright](https://github.com/donbright) : basics
+- [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene)
 
 ## Algorithmic problems and solutions in Rust
 
