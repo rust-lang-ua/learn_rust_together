@@ -53,7 +53,7 @@ Curated collection of resources to learn Rust.
 ( _course_ ) ( _advanced_ )
 
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
-- Asynchronous Programming in Rust [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ ) ( _about:concurrency_ )
+- [Asynchronous Programming in Rust]((https://rust-lang.github.io/async-book/)) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
@@ -156,10 +156,13 @@ Curated collection of resources to learn Rust.
 
 ## Asynchronous
 
-( _about:concurrency_ )
+( _about:async_ )
 
+- [Asynchronous Programming in Rust]((https://rust-lang.github.io/async-book/)) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
+- [Async/await](https://www.youtube.com/watch?v=ThjvMReOXYM) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( _video_ ) : introduction into async/await
+- [Introduction into tokio](https://tokio.rs/tokio/tutorial) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _course_ ) ( _introductory_ )
+- [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene) ( _cheatsheet_ ) : cheat sheet on concurrency and async
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
-- Asynchronous Programming in Rust [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _advanced_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) ( _reading_ ) ( _advanced_ ) by [Amos](https://fasterthanli.me/)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _teaching_materials_ )
 
@@ -246,7 +249,7 @@ Curated collection of resources to learn Rust.
 ( _teachings_material_ )
 
 - [Teaching Material](https://github.com/rust-lang-ua/teaching_material_eng) by [Ferrous](https://github.com/ferrous-systems)
-- [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:concurrency_ )
+- [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:async_ )
 
 ## Tags legend
 
@@ -268,6 +271,7 @@ Curated collection of resources to learn Rust.
 - ( _audio_ ) - material to listen
 - ( _collection_ ) - list of resources
 - ( _newspaper_ ) - regularly updating list of articles
+- ( _cheatsheet_ ) - cheat sheet
 - ( _project_ ) - project
 - ( _algo_ ) - algorithmic problems and solutions
 - ( _toy_ ) - educational toy projects
@@ -278,7 +282,8 @@ Curated collection of resources to learn Rust.
 - ( _about:cross_compile_ ) - how to build from one platform to another one
 - ( _about:mem_ ) - about memory management in Rust, the difference between heap, stack, code segments, etc
 - ( _about:size_optimization_ ) - size optimization
-- ( _about:concurrency_ ) - about asynchronous programming
+- ( _about:concurrency_ ) - about concurrency
+- ( _about:async_ ) - about asynchronous programming
 - ( _about:ownership_semantics_ ) - about owning/borrowing/lifetimes
 - ( _about:closure_ ) - about closures
 - ( _about:self_ref_ ) - about self-referential structures
