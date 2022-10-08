@@ -13,11 +13,11 @@ Curated collection of resources to learn Rust.
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- The Rust Programming Language [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
-- Rust by Example [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
-- Rust cookbook [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
-- The Rust Programming Reference [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
-- Codebase Reference [:uk:](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
+- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
+- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
+- [The Rust Programming Reference](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
+- [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 
 ## :star: General-purpose courses
 
@@ -89,7 +89,7 @@ Curated collection of resources to learn Rust.
 - [Rust by practice](https://github.com/rust-lang-ua/rust_by_practice_eng) by [Sunface](https://github.com/sunface)
 - [Rust playground](https://play.rust-lang.org/) ( _official_ )
 - [Rust explaine](https://jrvidal.github.io/explaine.rs/)
-- [Tour of Rust](https://tourofrust.com/index.html)
+- [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html)
 
 ## Cheat sheets
 
