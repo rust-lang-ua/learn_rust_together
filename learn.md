@@ -160,6 +160,7 @@ Curated collection of resources to learn Rust.
 
 - [Asynchronous Programming in Rust]((https://rust-lang.github.io/async-book/)) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
 - [Async/await](https://www.youtube.com/watch?v=ThjvMReOXYM) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( _video_ ) : introduction into async/await
+- [The Why, What, and How of Pinning in Rust](https://www.youtube.com/watch?v=DkMwYxfSYNQ) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( _video_ )
 - [Introduction into tokio](https://tokio.rs/tokio/tutorial) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _course_ ) ( _introductory_ )
 - [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene) ( _cheatsheet_ ) : cheat sheet on concurrency and async
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
