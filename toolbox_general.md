@@ -218,11 +218,17 @@ You might also be interested in other tooboxes:
 - [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
 - [test-case](https://github.com/frondeus/test-case) by [Wojciech Polak](https://github.com/frondeus) : procedural macro attribute for adding test cases
 - [cucumber](https://github.com/cucumber-rs/cucumber) by [Brendan Molloy](https://github.com/bbqsrc) : BBD
-- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
-- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
 - [pprof](https://github.com/tikv/pprof-rs) by [YangKeao](https://github.com/YangKeao) : CPU profiler
 - [compiletest](https://github.com/Manishearth/compiletest-rs) by [Manish Goregaokar](https://github.com/Manishearth) : an extraction of the compiletest utility from the Rust compiler
 - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) by [Manish Goregaokar](https://github.com/Manishearth) : testing framework for fuzzy testing
+
+## Performance benchmarking
+
+( _perf_benchmark_ )
+
+- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _perf_benchmark_ ) : HTTP load testing
+- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _perf_benchmark_ ) : HTTP load testing
+- [loom](https://github.com/tokio-rs/loom) by [Carl Lerche](https://github.com/carllerche) : ( _perf_benchmark_ ) concurrency permutation testing
 
 ## WebAssembly
 
@@ -881,7 +887,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _cloud_api_ ) - remote APIs, mostly REST
 - ( _cross_compile_ ) - build from one platform to another one
 - ( _build_ ) - toolchains to build your project
-- ( _performance_testing_ ) - performance testing
+- ( _perf_benchmark_ ) - performance benchmarking
 - ( _wasm_ ) - WebAssembly-related
 - ( _windowing_ ) - windows creating, manipulating OS GUI
 - ( _dsa_ ) - data streams aggregation
