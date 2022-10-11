@@ -218,11 +218,17 @@ You might also be interested in other tooboxes:
 - [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
 - [test-case](https://github.com/frondeus/test-case) by [Wojciech Polak](https://github.com/frondeus) : procedural macro attribute for adding test cases
 - [cucumber](https://github.com/cucumber-rs/cucumber) by [Brendan Molloy](https://github.com/bbqsrc) : BBD
-- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
-- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
 - [pprof](https://github.com/tikv/pprof-rs) by [YangKeao](https://github.com/YangKeao) : CPU profiler
 - [compiletest](https://github.com/Manishearth/compiletest-rs) by [Manish Goregaokar](https://github.com/Manishearth) : an extraction of the compiletest utility from the Rust compiler
 - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) by [Manish Goregaokar](https://github.com/Manishearth) : testing framework for fuzzy testing
+
+## Performance benchmarking
+
+( _perf_benchmark_ )
+
+- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _perf_benchmark_ ) : HTTP load testing
+- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _perf_benchmark_ ) : HTTP load testing
+- [loom](https://github.com/tokio-rs/loom) by [Carl Lerche](https://github.com/carllerche) : ( _perf_benchmark_ ) concurrency permutation testing
 
 ## WebAssembly
 
@@ -362,18 +368,35 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [shiplift](https://github.com/softprops/shiplift) by [Doug Tangren](https://github.com/softprops) : maneuvering docker containers
 - [unshare](https://github.com/tailhook/unshare) by [Paul Colomiets](https://github.com/tailhook) : low-level linux containers
 
+## Async
+
+( _async_ )
+
+- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
+- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
+- [blocking](https://github.com/smol-rs/blocking) by Stjepan Glavina : a thread pool for isolating blocking I/O in async environment
+- [async-compat](https://github.com/smol-rs/async-compat) by [Taiki Endo](https://github.com/taiki-e) : compatibility adapter between tokio and futures
+- [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
+- [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : async interfaces
+
+## Async Runtimes
+
+( _async_ ) ( _async_runtime_ )
+
+- [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
+- [async-std](https://github.com/async-rs/async-std) by [Florian Gilcher](https://github.com/skade) : async version of std
+- [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
+- [smol](https://github.com/smol-rs/smol) by Stjepan Glavina : a small and fast async runtime for Rust
+
 ## Concurrency
 
 ( _concurrency_ )
 
 - [radium](https://github.com/bitvecto-rs/radium) by [Nika Layzell ](https://github.com/mystor) : atomic instructions fallback
-- [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
-- [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : tools around futures
 - [rayon](https://github.com/rayon-rs/rayon) by [Niko Matsakis](https://github.com/nikomatsakis) : data-parallelism
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
 - [scoped_threadpool](https://github.com/Kimundi/scoped-threadpool-rs) by [Marvin Löbel](https://github.com/Kimundi) : scoped and cached threadpools
-- [async-std](https://github.com/async-rs/async-std) by [Florian Gilcher](https://github.com/skade) : async version of std
 
 ## Concurrency primitives
 
@@ -382,9 +405,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
 - [state](https://github.com/SergioBenitez/state) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 - [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
-- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
-- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
-- [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
 - [flume](https://github.com/zesterer/flume) by [Joshua Barretto](https://github.com/zesterer) : multi-producer, multi-consumer channel
 - [bounded-spsc-queue](https://github.com/polyfractal/bounded-spsc-queue) by [Zachary Tong](https://github.com/polyfractal) : bounded, Single-producer Single-consumer queue (SPSC)
 - [bus](https://github.com/jonhoo/bus) by [Jon Gjengset](https://github.com/jonhoo) : lock-free, bounded, single-producer, multi-consumer, broadcast channel
@@ -867,7 +887,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _cloud_api_ ) - remote APIs, mostly REST
 - ( _cross_compile_ ) - build from one platform to another one
 - ( _build_ ) - toolchains to build your project
-- ( _performance_testing_ ) - performance testing
+- ( _perf_benchmark_ ) - performance benchmarking
 - ( _wasm_ ) - WebAssembly-related
 - ( _windowing_ ) - windows creating, manipulating OS GUI
 - ( _dsa_ ) - data streams aggregation
@@ -880,7 +900,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _data_science_ ) - data science, data mining, data minding, machine learning
 - ( _functional_ ) - functional programming
 - ( _virtualisation_ ) - virtualisation-related, docker-related
-- ( _concurrency_ ) - concurrency and asynchronous programming
+- ( _concurrency_ ) - concurrency programming
+- ( _async_ ) - asynchronous programming
+- ( _async_runtime_ ) - asynchronous runtimes and executors
 - ( _persistence_ ) - persistence and delayed execution
 - ( _communication_ ) - either inter-process or inter-thread communication
 - ( _streams_ ) - read/write streams
