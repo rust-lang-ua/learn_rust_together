@@ -379,6 +379,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [async-compat](https://github.com/smol-rs/async-compat) by [Taiki Endo](https://github.com/taiki-e) : compatibility adapter between tokio and futures
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : async interfaces
+- [waker-fn](https://github.com/smol-rs/waker-fn) by Stjepan Glavina : convert closures into waker
 
 ## Async Runtimes
 
