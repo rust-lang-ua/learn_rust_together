@@ -11,6 +11,8 @@ Curated collection of resources to learn Rust.
 
 <!-- - []() by []() -->
 
+## Introduction
+
 ( _general_ ) ( _official_ ) ( _course_ )
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
