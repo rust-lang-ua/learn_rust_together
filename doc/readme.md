@@ -1,4 +1,3 @@
-
 ## Community description
 
 ### About us
