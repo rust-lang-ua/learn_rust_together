@@ -86,7 +86,7 @@ You might also be interested in other tooboxes:
 
 ( _global_ )
 
-- ( :earth_africa: ) [once_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros, the most popular
+- :earth_africa: [once_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros, the most popular
 - [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) by [Marvin Löbel](https://github.com/Kimundi) : macro for defining lazy evaluated static variables
 
 ## UI
@@ -120,7 +120,7 @@ You might also be interested in other tooboxes:
 
 ( _ui_ ) ( _tui_ )
 
-- ( :earth_africa: ) [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : the most popular TUI framework
+- :earth_africa: [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : the most popular TUI framework
 - [cursive](https://github.com/gyscos/Cursive) by [Alexandre Bury](https://github.com/gyscos) : TUI framework
 - [expectrl](https://github.com/zhiburt/expectrl) by [Maxim Zhiburt](https://github.com/zhiburt) ( _testing_ ) ( _os_ ) : controlling input/output of interactive programs
 
@@ -128,7 +128,7 @@ You might also be interested in other tooboxes:
 
 ( _ui_ ) ( _cui_ ) ( _cui_parsing_ )
 
-- ( :earth_africa: ) [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) : the most popular CUI parsing
+- :earth_africa: [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) : the most popular CUI parsing
 - [structopt](https://github.com/TeXitoi/structopt) by [Guillaume P.](https://github.com/TeXitoi) : CUI parsing with a structure
 - [pico-args](https://github.com/RazrFalcon/pico-args) by [Yevhenii Reizner](https://github.com/RazrFalcon) : smallest one CUI tool
 
@@ -136,7 +136,7 @@ You might also be interested in other tooboxes:
 
 ( _terminal_ )
 
-- ( :earth_africa: ) [console](https://github.com/mitsuhiko/console) by [Armin Ronacher](https://github.com/mitsuhiko) : the most popular module to manipulate terminal
+- :earth_africa: [console](https://github.com/mitsuhiko/console) by [Armin Ronacher](https://github.com/mitsuhiko) : the most popular module to manipulate terminal
 - [termion](https://gitlab.redox-os.org/redox-os/termion) by [Ticki](https://github.com/ticki) : low-level handling, manipulating and reading information about terminals
 - [crossterm](https://github.com/crossterm-rs/crossterm) by [Timon](https://github.com/TimonPost) : cross platform terminal
 - [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : check is it a tty
@@ -203,7 +203,7 @@ You might also be interested in other tooboxes:
 
 ## Video
 
-( _:movie_camera:_ )
+:movie_camera:
 
 - [camera_capture](https://github.com/oli-obk/camera_capture) by [Oli Scherer](https://github.com/oli-obk) : webcam screenshot
 
@@ -301,8 +301,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _web_backend_ )
 
-- ( :earth_africa: ) [rocket](https://github.com/SergioBenitez/Rocket) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
-- ( :earth_africa: ) [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
+- :earth_africa: [rocket](https://github.com/SergioBenitez/Rocket) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
+- :earth_africa: [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
 - [axum](https://github.com/tokio-rs/axum) by [David Pedersen](https://github.com/davidpdrsn) : tokio-based web backend framework
 - [axum-yew-setup](https://github.com/rksm/axum-yew-setup) by [Robert Krahn](https://github.com/rksm) : starter project that sets up axum and yew for full stack
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : a simple static HTTP server, for learning and local development
@@ -457,7 +457,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [restruct](https://github.com/lukaslueg/restruct) by [Lukas Lueg](https://github.com/lukaslueg) : serializing and deserializing of a tuple
 - [bincode](https://github.com/bincode-org/bincode) by [Nathan McCarty](https://github.com/nmccarty) : a binary encoder / decoder implementation
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _gdf_ ) : readable data serialization format
-- ( :earth_africa: ) [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
+- :earth_africa: [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
 - [serde-hjson](https://github.com/hjson/hjson-rust) by [Christian Zangl](https://github.com/laktak) : serde plugin to parse JSON with comments
 - [nanoserde](https://github.com/not-fl3/nanoserde) by [Fedor Logachev](https://github.com/not-fl3) : minimal serialization library with zero dependencies
 - [speedy](https://github.com/koute/speedy) by [Koute](https://github.com/koute) : another serialization alternative
@@ -491,7 +491,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _lexer_generator_ )
 
-- ( :earth_africa: ) [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer, the most popular
+- :earth_africa: [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer, the most popular
 - [lexgen](https://github.com/osa1/lexgen) by [Ömer Sinan Ağacan](https://github.com/osa1) : lexer generator, as a procedural macro
 - [lrlex](https://github.com/softdevteam/grmtools/tree/master/lrlex) by [Lukas Diekmann](https://github.com/ptersilie) : lex/flex inspired lexer
 
@@ -504,7 +504,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [csv](https://github.com/BurntSushi/rust-csv) by [Andrew Gallant](https://github.com/BurntSushi) : CSV parser
 - [toml](https://github.com/alexcrichton/toml-rs) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
 - [toml_edit](https://github.com/ordian/toml_edit) by [Andronik Ordian](https://github.com/ordian) : format-preserving TOML parser
-- ( :earth_africa: ) [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
+- :earth_africa: [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
 - [ress](https://github.com/rusty-ecma/RESS) by [Robert Masen](https://github.com/FreeMasen) : tokenizer of JS
 - [ressa](https://github.com/rusty-ecma/RESSA) by [Robert Masen](https://github.com/FreeMasen) : parser of JS
 - [syntect](https://github.com/trishume/syntect) by [Tristan Hume](https://github.com/trishume) : syntax highlighting using Sublime text syntax definitions
@@ -515,7 +515,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _time_ )
 
-- ( :earth_africa: ) [time](https://github.com/time-rs/time) by [Jacob Pratt](https://github.com/jhpratt) : the most popular date and time module
+- :earth_africa: [time](https://github.com/time-rs/time) by [Jacob Pratt](https://github.com/jhpratt) : the most popular date and time module
 - [chrono](https://github.com/chronotope/chrono) by [Kang Seonghoon](https://github.com/lifthrasiir) : date and time module, maintained poorly
 - [chrono-humanize](https://gitlab.com/imp/chrono-humanize-rs) by [Cyril Plisko](https://gitlab.com/imp) : human-friendly time expressions
 
@@ -870,7 +870,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Tags legend
 
-- ( :earth_africa: ) - the most popular module in its category
+- :earth_africa: - the most popular module in its category
 - ( _error_ ) - errors handling
 - ( _macro_ ) - writing macros
 - ( _meta_ ) - meta programming : reflection, introspection and such things
@@ -936,7 +936,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
 - ( _kernel_ ) - kernel of operation system
 - ( _cargo_ ) - extension of cargo
-- ( _:movie_camera:_ ) - video-processing, capturing
+- :movie_camera: - video-processing, capturing
 - ( _asm_ ) - machine code, byte code, interpreters, assembler
 - ( _hardware_ ) - reading / writing hardware
 - ( _embed_ ) - embedded
