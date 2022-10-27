@@ -21,6 +21,20 @@ Curated collection of resources to learn Rust.
 - [The Rust Programming Reference](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 
+## Standard materials
+
+( _general_ ) ( _official_ ) 
+
+- [Comprehensive guide to the Rust standard library APIs](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
+- [Guide to the Rust editions](https://doc.rust-lang.org/edition-guide/index.html) ( _reading_ )
+- [A book on Rust’s package manager and build system](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
+- [Learn how to make awesome documentation for your crate](https://doc.rust-lang.org/rustdoc/index.html) ( _reading_ )
+- [Familiarize yourself with the knobs available in the Rust compiler](https://doc.rust-lang.org/rustc/index.html) ( _reading_ )
+- [In-depth explanations of the errors you may see from the Rust compiler](https://doc.rust-lang.org/error-index.html) ( _reading_ )
+- [Learn how to build effective command line applications in Rust](https://rust-cli.github.io/book/index.html) ( _reading_ )
+- [Use Rust to build browser-native libraries through WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
+- [Become proficient with Rust for Microcontrollers and other embedded systems](https://doc.rust-lang.org/stable/embedded-book/) ( _reading_ )
+
 ## :star: General-purpose courses
 
 ( _general_ ) ( _course_ )
