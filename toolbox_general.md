@@ -333,8 +333,10 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _db_ )
 
-- [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
-- [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
+- :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
+- :earth_africa: [deadpool-postgres](https://github.com/bikeshedder/deadpool) by [Michael P. Jung](https://github.com/bikeshedder) : async pool for PostgreSQL
+- :earth_africa: [tokio_postgres](https://github.com/sfackler/rust-postgres) by [Steven Fackler](https://github.com/sfackler) : PostgreSQL driver
+- :earth_africa: [sqlx](https://github.com/launchbadge/sqlx) by [Ryan Leckey](https://github.com/mehcode) : SQL DBMS driver
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
@@ -342,6 +344,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [monger](https://github.com/mongodb/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
 - [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
 - [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
+- [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
 
 ## Data science
 
