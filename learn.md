@@ -105,6 +105,7 @@ Curated collection of resources to learn Rust.
 ( _algo_ )
 
 - [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) by [Larry Fantasy](https://github.com/warycat)
+- [Design Patterns in Rust](https://github.com/fadeevab/design-patterns-rust) by [Alexander Fadeev](https://github.com/fadeevab)
 
 ## Educational projects
 
