@@ -64,6 +64,7 @@ Curated collection of resources to learn Rust.
 - [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
 - [API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
 - [Command Line Applications](https://rust-cli.github.io/book/in-depth/signals.html) ( _reading_ )
+- [Rusts Module System Explained](https://aloso.github.io/2021/03/28/module-system.html) by [Ludwig Stecher](https://github.com/Aloso) ( _reading_ ) ( _article_ )
 
 ## Macros
 
