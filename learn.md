@@ -20,6 +20,7 @@ Curated collection of resources to learn Rust.
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 - [The Rust Programming Reference](https://doc.rust-lang.org/book/ch00-00-introduction.html) ( _reading_ ) ( _reference_ )
 - [Codebase Reference](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
+- Shell commands - rustup docs; rustup docs --book ( _reading_ )
 
 ## :star: General-purpose courses
 
