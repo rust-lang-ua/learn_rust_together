@@ -64,6 +64,7 @@ Curated collection of resources to learn Rust.
 - [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
 - [API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
 - [Command Line Applications](https://rust-cli.github.io/book/in-depth/signals.html) ( _reading_ )
+- [The UniFFI user guide](https://mozilla.github.io/uniffi-rs/Overview.html) ( _reading_ )
 
 ## Macros
 
