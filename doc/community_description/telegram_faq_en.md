@@ -1,4 +1,4 @@
-FAQ
+❓ **FAQ**
 
 __- Is the community for beginners only?__
 No. Many of our members have many years of professional experience, and some have been studying Rust since its inception.
