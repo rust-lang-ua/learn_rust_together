@@ -16,9 +16,7 @@ When the reviewer checks and approves your pull request, you can merge it into t
 
 **NOTE** Don't forget to give the reviewer access to your repo.
 
-## Useful Links
-
-### Learn Rust
+## Learning materials
 
 - [Step-by-step introduction and Rust Setup](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
 - [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
