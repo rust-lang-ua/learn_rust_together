@@ -21,3 +21,4 @@ When the reviewer checks and approves your pull request, you can merge it into t
 - [Step-by-step introduction and Rust Setup](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
 - [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
 - [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
+- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng)
