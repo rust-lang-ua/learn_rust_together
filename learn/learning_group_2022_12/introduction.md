@@ -20,11 +20,6 @@ When the reviewer checks and approves your pull request, you can merge it into t
 
 ### Learn Rust
 
-[Step-by-step introduction and rust setup](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
-
-[Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
-
-
-### Learn Git
-
-[Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
+- [Step-by-step introduction and Rust Setup](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
+- [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
+- [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
