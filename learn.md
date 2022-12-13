@@ -20,9 +20,9 @@ Curated collection of resources to learn Rust.
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 - [The Rust Reference](https://doc.rust-lang.org/reference/introduction.html) ( _reading_ ) ( _reference_ )
 
-## Standard materials
+<!-- ## Standard materials
 
-( _general_ ) ( _official_ ) 
+( _general_ ) ( _official_ )
 
 - [Comprehensive guide to the Rust standard library APIs](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ )
 - [Guide to the Rust editions](https://doc.rust-lang.org/edition-guide/index.html) ( _reading_ )
@@ -32,7 +32,7 @@ Curated collection of resources to learn Rust.
 - [In-depth explanations of the errors you may see from the Rust compiler](https://doc.rust-lang.org/error-index.html) ( _reading_ )
 - [Learn how to build effective command line applications in Rust](https://rust-cli.github.io/book/index.html) ( _reading_ )
 - [Use Rust to build browser-native libraries through WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
-- [Become proficient with Rust for Microcontrollers and other embedded systems](https://doc.rust-lang.org/stable/embedded-book/) ( _reading_ )
+- [Become proficient with Rust for Microcontrollers and other embedded systems](https://doc.rust-lang.org/stable/embedded-book/) ( _reading_ ) -->
 
 ## :star: General-purpose courses
 
