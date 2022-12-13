@@ -66,11 +66,11 @@ Course Curriculum may change.
 
 ## Learning materials
 
-- :footprints:️ [Step-by-step Introduction](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
-- :mortar_board: [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
-- :file_folder: [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
-- :rocket: [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng)
-- :blue_book: [The Rust Book](https://doc.rust-lang.org/book/)
+- :footprints:️ [Step-by-step Introduction](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md) - introduction
+- :file_folder: [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether) - must have
+- :blue_book: [The Rust Book](https://doc.rust-lang.org/book/) - must have
+- :mortar_board: [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together) - best materials
+- :rocket: [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) - skeleton of our curriculum
 - :globe_with_meridians: [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - back-end focused
 
 
