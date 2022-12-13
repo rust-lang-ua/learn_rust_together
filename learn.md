@@ -63,6 +63,8 @@ Curated collection of resources to learn Rust.
 - [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ )
 - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
 - [Command Line Applications in Rust](https://rust-cli.github.io/book/in-depth/signals.html) ( _reading_ )
+- [Rusts Module System Explained](https://aloso.github.io/2021/03/28/module-system.html) by [Ludwig Stecher](https://github.com/Aloso) ( _reading_ ) ( _article_ )
+- [The UniFFI user guide](https://mozilla.github.io/uniffi-rs/Overview.html) ( _reading_ )
 
 ## Macros
 
@@ -107,6 +109,7 @@ Curated collection of resources to learn Rust.
 - [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) by [Larry Fantasy](https://github.com/warycat)
 - [All Algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust) by [The Algorithms](https://github.com/TheAlgorithms)
 - [Rosetta Code: Rust](https://github.com/rust-rosetta/rust-rosetta) by [rust-rosetta](https://github.com/rust-rosetta)
+- [Design Patterns in Rust](https://github.com/fadeevab/design-patterns-rust) by [Alexander Fadeev](https://github.com/fadeevab)
 
 ## Educational projects
 
@@ -213,6 +216,7 @@ Curated collection of resources to learn Rust.
 
 - [Validating JSON input](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/) by [Evaldas Buinauskas](https://github.com/buinauskas) ( _reading_ ) ( _article_ )
 - [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _:movie_camera:_ ) ( _course_ )
+- [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md)
 
 ## Web development
 
