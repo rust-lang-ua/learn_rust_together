@@ -71,7 +71,7 @@ Course Curriculum may change.
 - :file_folder: [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
 - :rocket: [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng)
 - :blue_book: [The Rust Book](https://doc.rust-lang.org/book/)
-- :globe_with_meridians: [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - the ideal starting point for your journey as a Rust backend developer
+- :globe_with_meridians: [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - back-end focused
 
 
   <!-- - https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/
