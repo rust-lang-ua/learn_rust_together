@@ -58,21 +58,19 @@ You'll have to do a final test at the end of the course. If you pass, you'll rec
     - 3.11. Async I/O, futures and actors
     - 3.12. Web frameworks, databases, connection pools and ORMs
 4. Zero To Production
-    - 4.1. Building an email newsletter
-    - 4.2. Sign up
-    - 4.3. Telemetry
-    - 4.4. Going live
-    - 4.5. Reject invalid subscribers
+    - 4.1. Building an REST API
+    - 4.2. Telemetry
+    - 4.3. Deployment with Docker
+    - 4.4. Type-Driven Development
+    - 4.5. Writing tests
     - 4.6. Error handling
-    - 4.7. Naive newsletter delivery
-    - 4.8. Securing our API
-    - 4.9. Fault tolerant workflows
+    - 4.7. API Authorization
 
 ## Learning materials
 
-- [Step-by-step introduction and Rust Setup](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
-- [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
-- [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
-- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng)
+- 🏗️ [Step-by-step introduction and Rust Setup](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md)
+- ✨ [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together)
+- 👩‍🎓 [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether)
+- 💪 [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng)
 - 🔰 [The Rust Book](https://doc.rust-lang.org/book/)
 - 🌐 [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - the ideal starting point for your journey as a Rust backend developer
