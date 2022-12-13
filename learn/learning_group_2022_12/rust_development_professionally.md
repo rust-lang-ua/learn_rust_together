@@ -1,24 +1,24 @@
 # Rust Development Professionally
 
-In this learning group you will be do [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) -
-a hard-way step-by-step Rust learning course to reveal the full potential fo you as Rust Backend Developer.
+In this learning group, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) -
+a hard-way step-by-step Rust learning course to reveal your full potential as a Rust Backend Developer.
 
 ## Pre-requirements
 
 Before you start the course, you need to have basic but confident knowledge of Rust and Git/GitHub.
-The Rust Book is must. Nice if you did rustlings, exercism and had some practice. If you are switcher this course is also will be useful for you.
+The Rust Book is a must. Nice if you did rustlings and exercism and had some practice. If you are a switcher, this course is also will be useful for you.
 
 ## Organization and certification
 
-Members of the course will be divided into few small groups. There will be meetings every day, but weekends. During each meeting  we will discuss what has been done and what you're planning to do next. Learning process is build on top of your everyday work on improving your skills using the best learning materials we will advice.
+Members of the course will be divided into a few small groups. There will be meetings every day but on weekends. During each meeting, we will discuss what has been done and what you're planning to do next. The learning process is built on top of your everyday work on improving your skills using the best learning materials we will advise.
 
-You'll track your progress in an interactive spreadsheet. You'll have to do a final assessment at the end of the course. If you pass, you'll receive a certificate. Your employer is going to love you much for using best practices and writing idiomatic code.
+You'll track your progress in an interactive spreadsheet. You'll have to do a final assessment at the end of the course. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
 
 ## How to do exercises?
 
 Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) into a **private** repo.
 For each exercise, you'll need to create separate pull requests.
-When the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
+Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 
 **NOTE** Don't forget to give the reviewer access to your repo.
 
@@ -26,11 +26,11 @@ When the reviewer checks and approves your pull request, you can merge it into t
 
 0. Become familiar with Rust basics
 1. Concepts
-    - 1.1. Default values, cloning and copying
+    - 1.1. Default values, cloning, and copying
     - 1.2. Boxing and pinning
     - 1.3. Shared ownership and interior mutability
     - 1.4. Clone-on-write
-    - 1.5. Conversions, casting and dereferencing
+    - 1.5. Conversions, casting, and dereferencing
     - 1.6. Static and dynamic dispatch
     - 1.7. `Sized` and `?Sized` types
     - 1.8. Thread safety
