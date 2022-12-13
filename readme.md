@@ -12,23 +12,23 @@
 We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
 
 ## What is this about?
-This repostory contains nearly dozen curated collections: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you are interested in Development in Rust.
+This repostory contains nearly a dozen curated collections: learning materials, toolboxes, newspapers, working groups and a collection of other collections. Everything you may find useful if you are interested in Development in Rust.
 
 Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
 - :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
-- :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust
+- :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust.
 - :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
-- :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums
+- :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums.
 - :question: [Get answer](./about_us.md#question-faq) : our FAQ and community rules.
 - :wrench: [Explore](./toolbox_general.md) : general-purpose toolbox with collection of crates.
 - :video_game: [Explore](./toolbox_multimedia.md) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
-- :label: [Search](./collection_of_collections.md#label-projects-catalogue) : projects catalogue
-- :newspaper: [Stay competent](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : newspapers and working groups
-- :globe_with_meridians: [Still not enough](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : other collections on Rust
+- :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physics, Linear Algebra, Machine Learning, DSP.
+- :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust that are distributed and used outside of Rust's ecosystem.
+- :label: [Search](./collection_of_collections.md#label-projects-catalogue) : projects catalogue.
+- :newspaper: [Stay competent](./collection_of_collections.md#newspaper-newspapers-and-working-groups) : newspapers and working groups.
+- :globe_with_meridians: [Still not enough](./collection_of_collections.md#globe_with_meridians-other-collections-on-rust) : other collections on Rust.
 
 ## Join
 

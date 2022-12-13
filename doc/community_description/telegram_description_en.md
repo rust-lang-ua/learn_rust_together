@@ -32,7 +32,7 @@ The Rust communities have always been distinguished by those values and that’s
 
 ✨You may also be interested in:
 
-- ❓ Our [FAQ](https://t.me/rustlang_ua/7046)
+- ❓ Our [FAQ](https://t.me/rustlang_ua/2344)
 - 📅 [Calendar of events](https://t.me/rustlang_ua/2350) 
 - 📖 Our collection of materials to master Rust is [here](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md).
   - Chat [Rust Peerlab](https://t.me/peerlab_kharkiv_rust) in Kharkiv

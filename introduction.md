@@ -24,22 +24,9 @@ We’d also recommend you such courses as:<br/>
 
 :zap:	Other interesting sources you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
-## :gear: How to set up rust:
+## :gear: How to set up rust
 
-To get started with Rust you obviously have to set up your environment.<br/>
-There is a short guide to do this:<br/>
-
-**Windows:**
- 1. First of all, you need to install [rustup](https://github.com/rust-lang/rustup.rs), which is a Rust installer and version management tool.
- 2. You may also need to install the [Visual Studio C++ Build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) if you don’t have one, cause it’s mandatory for running the Rust program on Windows.
- 3. After the rustup installation is complete you’ll also get the latest stable version of the Rust build tool and package manager  - `Cargo`, which will help you to build, run and test your projects.
- 4. To ensure that Rust and Cargo are installed correctly - run `cargo --version` in your terminal of choice.
-
-**Linux/Mac:**
-1. To install rustup on Linux or macOS, open a terminal and enter the following command    `curl https://sh.rustup.rs -sSf | sh`
-2. Once the Rust installation is complete, the Cargo’s bin directory (`~/.cargo/bin` – where all tools are installed) will be added in your PATH environment variable, in `~/.profile`.
-
-:zap:	To get a more detailed description or other methods of setting up Rust environment - go to our [list of setup materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#setup).
+[Link](rust_setup.md)
 
 ## :question: Where to get help?:
 
@@ -56,12 +43,12 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 
 **1) Practice, interactive, feedback**
 - [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is the project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying given code. It’d really help you to get an understanding of how the compiler works and what are the most common code issues.
-- [Exercism](https://exercism.org/tracks/rust/concepts) - open-source, free-coding platform which offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts.
+- [Exercism](https://exercism.org/tracks/rust/concepts) - open-source, free-coding platform which offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts. **Recommended to do after Rustling**.
 <p align="center">
 <img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
 
-- [Rust Gym](https://github.com/rust-lang-ua/rustgym_eng) - the project, which will demonstrate you how to create Data Structures and to implement Algorithms using programming language Rust.
+- [Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/) - Interactive course. Lay the foundation of knowledge you need to build fast and effective programs in Rust.
 
 **2) Reading books**
 
