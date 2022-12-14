@@ -72,7 +72,7 @@ Course Curriculum may change.
 - :mortar_board: [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses) - best materials
 - :rocket: [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) - skeleton of our curriculum
 - :globe_with_meridians: [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - back-end focused
-  - The book [as series of article](../back_end_book.md)
+  - The book [as series of article](../backend_book.md)
 
 <!-- - https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/
 - https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/
