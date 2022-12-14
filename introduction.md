@@ -13,7 +13,7 @@ Rust is a multi-paradigm programming language designed for performance and safet
 ## :book:	 Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
 ( _general_ ) ( _official_ ) ( _course_ ) ( _reading_ )
-- [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 
 We’d also recommend you such courses as:<br/>
@@ -53,7 +53,7 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 **2) Reading books**
 
 If you are the beginner in your Rust learning journey we'd highly reccomend you to start with [general-purpose books.](./learn.md#star-general-purpose-courses) <br/>
-Then you can also go to the official [RustBook](https://doc.rust-lang.org/book/),where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
+Then you can also go to the official [Rust Book](https://doc.rust-lang.org/book/),where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
 
 :zap:	Other interesting books you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 

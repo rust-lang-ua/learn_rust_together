@@ -68,25 +68,25 @@ Course Curriculum may change.
 
 - :footprints:️ [Step-by-step Introduction](https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md) - introduction
 - :file_folder: [Awesome list of learn materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether) - must have
-- :blue_book: [The Rust Book](https://doc.rust-lang.org/book/) - must have
-- :mortar_board: [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together) - best materials
+- :red_book: [The Rust Book](https://doc.rust-lang.org/book/) - must have
+- :mortar_board: [Collection of Awesome Rust Collections](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses) - best materials
 - :rocket: [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) - skeleton of our curriculum
 - :globe_with_meridians: [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - back-end focused
+  - The book [as series of article](../back_end_book.md)
 
-
-  <!-- - https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/
-  - https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/
-  - https://www.lpalmieri.com/posts/2020-08-09-zero-to-production-3-how-to-bootstrap-a-new-rust-web-api-from-scratch/
-  - https://www.lpalmieri.com/posts/2020-08-31-zero-to-production-3-5-html-forms-databases-integration-tests/
-  - https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/
-  - https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/
-  - https://www.lpalmieri.com/posts/2020-12-11-zero-to-production-6-domain-modelling/
-  - https://www.lpalmieri.com/posts/an-introduction-to-property-based-testing-in-rust/
-  - https://www.lpalmieri.com/posts/how-to-write-a-rest-client-in-rust-with-reqwest-and-wiremock/
-  - https://www.lpalmieri.com/posts/skeleton-and-principles-for-a-maintainable-test-suite/
-  - https://www.lpalmieri.com/posts/zero-downtime-deployments/
-  - https://www.lpalmieri.com/posts/error-handling-rust/
-  - https://www.lpalmieri.com/posts/naive-newsletter-delivery/
-  - https://www.lpalmieri.com/posts/password-authentication-in-rust/
-  - https://www.lpalmieri.com/posts/session-based-authentication-in-rust/
-  - https://www.lpalmieri.com/posts/idempotency/ -->
+<!-- - https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/
+- https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/
+- https://www.lpalmieri.com/posts/2020-08-09-zero-to-production-3-how-to-bootstrap-a-new-rust-web-api-from-scratch/
+- https://www.lpalmieri.com/posts/2020-08-31-zero-to-production-3-5-html-forms-databases-integration-tests/
+- https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/
+- https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/
+- https://www.lpalmieri.com/posts/2020-12-11-zero-to-production-6-domain-modelling/
+- https://www.lpalmieri.com/posts/an-introduction-to-property-based-testing-in-rust/
+- https://www.lpalmieri.com/posts/how-to-write-a-rest-client-in-rust-with-reqwest-and-wiremock/
+- https://www.lpalmieri.com/posts/skeleton-and-principles-for-a-maintainable-test-suite/
+- https://www.lpalmieri.com/posts/zero-downtime-deployments/
+- https://www.lpalmieri.com/posts/error-handling-rust/
+- https://www.lpalmieri.com/posts/naive-newsletter-delivery/
+- https://www.lpalmieri.com/posts/password-authentication-in-rust/
+- https://www.lpalmieri.com/posts/session-based-authentication-in-rust/
+- https://www.lpalmieri.com/posts/idempotency/ -->
