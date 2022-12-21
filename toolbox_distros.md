@@ -42,7 +42,14 @@ You might also be interested in other tooboxes:
 - [bottom](https://github.com/ClementTsang/bottom) by [Clement Tsang](https://github.com/ClementTsang) : cross-platform graphical process/system monitor
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
-<!-- - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator -->
+
+## For distributed systems
+
+( _distributed_systems_ )
+
+- [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
+- [meilisearch](https://github.com/meilisearch/meilisearch) by [Clément Renault](https://github.com/Kerollmops) : fast search engine
+
 <!-- xxx : move to backend -->
 
 ## Network
