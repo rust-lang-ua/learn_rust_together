@@ -27,10 +27,12 @@ Then, when the reviewer checks and approves your pull request, you can merge it 
  <p align="center">
  <img src="/asset/img/learning_group_2022_12_curriculum_instr/1.png"  width="600" align="center" />
  </p>
+ 
  - Now in the creation page name your repository. Choose the **Private** type of visibility. Press the checkbox "include all branches". Click the button "Create repository from template"
   <p align="center">
  <img src="/asset/img/learning_group_2022_12_curriculum_instr/2.png"  width="600" align="center" />
  </p>
+ 
  - Here we are. The private fork is ready. Look for it in the list of your repositories.
  
 2. [Invite as a collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository) of your repository our reviewers. 
@@ -38,15 +40,18 @@ Then, when the reviewer checks and approves your pull request, you can merge it 
  <p align="center">
  <img src="/asset/img/learning_group_2022_12_curriculum_instr/3.png"  width="600" align="center" />
  </p>
+ 
  - In the left corner find the section "Collaborators" and click to it.
  - Go to the section "Manage access" and click to the "Add people" 
  <p align="center">
  <img src="/asset/img/learning_group_2022_12_curriculum_instr/4.png"  width="600" align="center" />
  </p>
+ 
  - Write down the person you want to make a collabborator and submit to add them.
   <p align="center">
  <img src="/asset/img/learning_group_2022_12_curriculum_instr/5.png"  width="600" align="center" />
  </p>
+ 
  - Now wait for the approvement from a collaborator.
 
 
