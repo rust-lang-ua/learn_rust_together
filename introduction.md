@@ -55,7 +55,7 @@ This is how it takes place in our community, but we’re convinced that it’ll 
 If you are the beginner in your Rust learning journey we'd highly reccomend you to start with [general-purpose books.](./learn.md#star-general-purpose-courses) <br/>
 Then you can also go to the official [Rust Book](https://doc.rust-lang.org/book/),where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
 
-:zap:	Other interesting books you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
+:zap:	Other interesting books you can find in our [Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
 
 **3) Watching videos**
