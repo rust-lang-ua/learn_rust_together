@@ -26,7 +26,7 @@ A short instruction:
  1) Go to the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng)
  2) Find the button "Use as template" click and choose "create a new repository".
  <p align="center">
- <img src=".../asset/img/learning_group_2022_12_curriculum_instr/1.png"  width="600" align="center" />
+ <img src="/asset/img/learning_group_2022_12_curriculum_instr/1.png"  width="600" align="center" />
  </p>
  3) Now in the creation page name your repository. Choose the **Private** type of visibility. Press the checkbox "include all branches". Click the button "Create repository from template"
   <p align="center">
