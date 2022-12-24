@@ -2,11 +2,11 @@
 
 It is a setup and meta step-by-step instruction to start development in Rust.
 
-## :crab: Intro
+## :crab: What is it?
 
 <!-- [![](https://github.com/ChapliaS/LearnRustTogether/blob/master/asset/img/logo/rust-social-wide.jpg)](introduction.md) -->
 
-Rust is a multi-paradigm programming language designed for performance and safety.<br/> It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust has been the most beloved programming language for seven years in a row. The Rust community is traditionally very friendly.
+Rust is a multi-paradigm programming language designed for performance and safety. It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust has been the most beloved programming language for seven years in a row. The Rust community is traditionally very friendly.
 
 ## :book: Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
