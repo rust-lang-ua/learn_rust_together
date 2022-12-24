@@ -12,15 +12,11 @@ Rust is a multi-paradigm programming language designed for performance and safet
 
 ## :book:	 Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
-( _general_ ) ( _official_ ) ( _course_ ) ( _reading_ )
-- [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 
-We’d also recommend you such courses as:<br/>
-( _general_ ) ( _course_ ) ( _:movie_camera:_ )
+- [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+
+It might be more convenient for you to start from video course instead of book:<br/>
 - [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming)
-<!-- - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)  -->
-<!-- - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)  -->
 
 :zap:	Other interesting sources you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
