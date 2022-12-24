@@ -43,7 +43,7 @@ The best way to ask questions is to share your code in the [playground](https://
 **2) Reading books**
 
 If you are a beginner in your Rust learning journey, we'd highly recommend you to start with [general-purpose books.](./learn.md#star-general-purpose-courses) <br/>
-Then you can also go to the official [Rust Book](https://doc.rust-lang.org/book/), where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books.
+Then you can also go to the official [Rust Book](https://doc.rust-lang.org/book/), where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books. Also if you target web back-end you should read [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60), also available as [as a series of article](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn/backend_book.md).
 
 :zap: Other interesting books you can find in our [Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
 
@@ -56,7 +56,7 @@ To learn the syntax of Rust deeply and get familiar with Rust code, we'd also re
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
 
-More on our [awesome collection to learn Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
+:zap: More video courses you cand find on our [awesome collection to learn Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
 
 **4) Using Cheatsheets**
 
