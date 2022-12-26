@@ -26,7 +26,7 @@ Then, when the reviewer checks and approves your pull request, you can merge it 
  
 **NOTE** Don't forget to give the reviewer access to your repo. 
 
-Look here for a more detailed [instruction](./instruction_long.md#how-to-do-exersices).
+Look here for a more **[detailed instruction](./instruction_long.md#how-to-do-exersices)**.
 
 ## Course Curriculum
 
