@@ -79,7 +79,6 @@ Curated collection of resources to learn Rust.
 - [Command Line Applications in Rust](https://rust-cli.github.io/book/in-depth/signals.html) ( _reading_ )
 - [Rusts Module System Explained](https://aloso.github.io/2021/03/28/module-system.html) by [Ludwig Stecher](https://github.com/Aloso) ( _reading_ ) ( _article_ )
 - [The UniFFI user guide](https://mozilla.github.io/uniffi-rs/Overview.html) ( _reading_ )
-- [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ ) ( _interactive_ )
 
 ## Macros
 
@@ -115,7 +114,7 @@ Curated collection of resources to learn Rust.
 - [Rust playground](https://play.rust-lang.org/) ( _official_ )
 - [Rust explaine](https://jrvidal.github.io/explaine.rs/)
 - [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html)
-- [The Rust Programming Language(Interactive)](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ )
+- [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ )
 
 ## Cheat sheets
 
