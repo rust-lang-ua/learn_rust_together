@@ -110,7 +110,7 @@ Course Curriculum may change.
 - :rocket: [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) - skeleton of our curriculum
 - :globe_with_meridians: [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60) - back-end focused
   - The book [as a series of articles](../backend_book.md)
-- :question: [FAQ] - answers to question about the course
+- :question: [FAQ](./faq.md) - answers to question about the course
 
 <!-- - https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/
 - https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/
