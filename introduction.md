@@ -45,7 +45,8 @@ The best way to ask questions is to share your code in the [playground](https://
 If you are a beginner in your Rust learning journey, we'd highly recommend you to start with [general-purpose books.](./learn.md#star-general-purpose-courses) <br/>
 Then you can also go to the official [Rust Book](https://doc.rust-lang.org/book/), where you can find all the necessary information about Rust, or read the [Programming Rust](https://cuteboyprogrammers.com/pdf/humblebundle/programmingrust.pdf), which both are ones of the most common books. Also if you target web back-end you should read [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60), also available as [as a series of articles](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn/backend_book.md).
 
-:zap: Other interesting books you can find in our [Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
+:zap:	Other interesting books you can find in our [Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
+
 
 **3) Watching videos**
 
