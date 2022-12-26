@@ -98,6 +98,7 @@ Curated collection of resources to learn Rust.
 - [Extism - the universal plug-in system.](https://github.com/extism/extism) ( _reading_ )
 - [Wasm and multithreading](https://web.dev/webassembly-threads/) ( _reading_ )
 - [Big picture of WebAssembly](https://drive.google.com/drive/folders/1heGh7e7Pu-L6lMidJj0fPWu_j1K1qUkc)  ( _reading_ )
+- [Wat2wasm demo for converting](https://webassembly.github.io/wabt/demo/wat2wasm/)
 
 ## Embedded
 
