@@ -50,7 +50,7 @@ Curated collection of resources to learn Rust.
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
-- [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( _video_ )
+- [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( _:movie_camera:_ )
 
 ## Introduction to Rust
 
@@ -92,6 +92,12 @@ Curated collection of resources to learn Rust.
 
 - :star: [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) ( _reading_ )
 - [The wasm-bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html) ( _reading_ )
+- [Practical intro to WebAssembly](https://youtu.be/Es7Ab2VH_Vg) ( _:movie_camera:_ ) ( _non-eng_ )
+- [Wasm Architecture](https://www.youtube.com/watch?v=3sU557ZKjUs) ( _:movie_camera:_ )
+- [WebAssembly Roadmap](https://webassembly.org/roadmap/) ( _reading_ )
+- [Extism - the universal plug-in system.](https://github.com/extism/extism) ( _reading_ )
+- [Wasm and multithreading](https://web.dev/webassembly-threads/) ( _reading_ )
+- [Big picture of WebAssembly](https://drive.google.com/drive/folders/1heGh7e7Pu-L6lMidJj0fPWu_j1K1qUkc)  ( _reading_ )
 
 ## Embedded
 
