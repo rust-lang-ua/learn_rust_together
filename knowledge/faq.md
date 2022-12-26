@@ -1,11 +1,9 @@
 # FAQ
 ---
 
-<ins>*- Питання по модулях. В документації сказано що є два способи:<br>
+<ins>*- Question on modules. The documentation says that there are two ways:<br>
 	1. smth/mod.rs<br>
 	2. smth/, smth.rs<br>
-І що другий спосіб рекомендований. Але коли розбирав різні examples то там скрізь перший варіант.
-Рекомендація використовувати другий варіант ігнорується чи що?*</ins>
+And that the second method is recommended. But when I analyzed various examples, the first option is everywhere. Is the recommendation to use the second option ignored or what?*</ins>
 
-Тут добре розписано про це: [Crates and Modules](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/crates-and-modules.html) Якщо коротко то обидва варіанти вірні, якщо у тебе дочірні модулі не матимуть своїх чайлд модулів то можна модуль виносити в файл без фолдера, file_name.rs
-Якщо ж ти знаєш що у модуля ще будуть чайлди - у фолдер і mod.rs відповідно.
+It is well described here: [Crates and Modules](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/crates-and-modules.html) In short, both options are correct, if your child modules do not have their own child modules, then you can put the module in a file without a folder, file_name.rs If you know that the module will still have childs - in folder and mod.rs respectively.
