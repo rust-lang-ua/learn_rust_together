@@ -22,10 +22,10 @@ Then, when the reviewer checks and approves your pull request, you can merge it 
 
 1. [Create](https://github.com/rust-lang-ua/rust_incubator_eng/generate) a new [GitHub repository](https://help.github.com/articles/github-glossary/#repository) for yourself using this one [as template](https://help.github.com/en/articles/creating-a-repository-from-a-template). Don't forget to make it private.
 2. [Invite as a collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository) of your repository our reviewers. 
- 
-**NOTE** Don't forget to give the reviewer access to your repo. 
 
-Look here for a more **[detailed instruction](./instruction_long.md#how-to-do-exersices)**.
+Look here for a more [detailed instruction](./instruction_long.md#how-to-do-exersices).
+
+**NOTE** Don't forget to give the reviewer access to your repo. 
 
 ## Course Curriculum
 
