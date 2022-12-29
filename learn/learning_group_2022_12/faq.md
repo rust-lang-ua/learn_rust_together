@@ -34,7 +34,7 @@
 Додайте основний репозиторій як remote.
 
 ```bash
-git remote add template [URL of the template repo]
+git remote add template git@github.com:rust-lang-ua/rust_incubator_eng.git
 ```
 
 Заберіть зміни з репозиторію
