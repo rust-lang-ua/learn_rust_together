@@ -3,7 +3,7 @@
 
 
 ## [Top 10 Big Companies Using Rust](https://careerkarma.com/blog/companies-that-use-rust/)
- There are a lot of companies that use Rust in their tech stacks. The Rust programming language is one of the most innovative and popular programming languages, globally. It provides C-like performance while maintaining the memory safety we know from languages like JavaScript and Python.
+There are a lot of companies that use Rust in their tech stacks. The Rust programming language is one of the most innovative and popular programming languages, globally. It provides C-like performance while maintaining the memory safety we know from languages like JavaScript and Python.
 
 This article discusses what Rust is, lists the largest companies that use Rust, and explains why it is ideal for companies to use to develop efficient and reliable software. [Read](https://careerkarma.com/blog/companies-that-use-rust/)
 
