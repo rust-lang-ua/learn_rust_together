@@ -1,3 +1,6 @@
+# Collection of collections
+
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 ## :label: Projects catalogue
 
@@ -38,8 +41,14 @@
 - :package: [Distros toolbox](./ToolboxDistros.md) with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 - [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
-- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
-- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson)
+- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/
 - [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) : language development toolbox
+- [Awesome Embed Rust](https://github.com/rust-embedded/awesome-embedded-rust) by [Rust Embedded](https://github.com/rust-embedded) ( _about:embed_ ) ( _collection_ )
 - [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly) by [rustwasm](https://github.com/rustwasm)
 - [Rust Forge](https://forge.rust-lang.org/index.html) : documentation useful for members
+
+## Tags legend
+
+- :star: - fearured and strongly recommended
+- ( _collection_ ) - collection of resources instead of single resource
+- ( _about:embed_ ) - proper error handling

@@ -198,8 +198,10 @@ You might also be interested in other tooboxes:
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _templating_ )
 - [cargo-depgraph](https://crates.io/crates/cargo-depgraph) by [Jonas Platte](https://blog.turbo.fish/) : generate dependencies graph
 - [cargo_metadata](https://github.com/oli-obk/cargo_metadata) by [Oli Scherer](https://github.com/oli-obk) : information about cargo module
-- [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) : manage cargo cache
+- [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) : manage cargo cache, cleaning cache
 - [cargo-when](https://github.com/starkat99/cargo-when) by [Kathryn Long](https://github.com/starkat99) : run conditionally upon rustc version and environment
+- [cargo-wipe](https://github.com/mihai-dinculescu/cargo-wipe) by [Mihai Dinculescu](https://github.com/mihai-dinculescu) : cleaning, removing artifacts
+- [cargo-update](https://github.com/nabijaczleweli/cargo-update) by [Nabijaczleweli](https://github.com/nabijaczleweli) : update installed globally executables
 
 ## Video
 
@@ -236,6 +238,7 @@ You might also be interested in other tooboxes:
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _build_ ) : WebAssembly web application bundler
 - [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by [Alex Crichton](https://github.com/alexcrichton) : interactions between WebAssembly modules and JavaScript
+- [wasm-server-runner](https://github.com/jakobhellermann/wasm-server-runner/tree/main) by [Jakob Hellermann](https://github.com/jakobhellermann) : run in the browser
 - [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Alex Crichton](https://github.com/alexcrichton) ( _testing_ ) : run tests of wasm-based application in browser
 - [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Nick Fitzgerald](https://github.com/fitzgen) : A panic hook for wasm
 - [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Nick Fitzgerald](https://github.com/fitzgen) : utility to remove function body from a wasm file
@@ -354,6 +357,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [polars](https://github.com/pola-rs/polars) by [https://github.com/ritchie46](Ritchie Vink) : multi-threaded DataFrame library
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
+- [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
 
 ## Functional programming
 
@@ -864,7 +868,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-miri](https://github.com/rust-lang/miri) by [Scott Olson](https://github.com/solson) : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior
 - [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : Extension for cargo to expand macros
 - [cargo-llvm-lines](https://github.com/dtolnay/cargo-llvm-lines) by [David Tolnay](https://github.com/dtolnay) : Count the number of lines of LLVM IR across all instantiations of a generic function
-
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
