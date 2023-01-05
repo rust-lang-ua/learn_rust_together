@@ -2,6 +2,15 @@
 ---
 
 
+## [Performance of WebAssembly runtimes in 2023](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
+In 2019, support for a new WebAssembly target (wasm32-wasi) was added to libsodium, making it possible to use the library outside web browsers, even without a JavaScript engine.
+
+As of today, multiple runtimes support wasm32-wasi, but on the same platform, the same code can run with very different performance across runtimes.
+
+Benchmarking abilities for wasm32-wasi were thus added to libsodium.
+
+This benchmark proved to be more representative of real-world performance than micro-benchmarks. Sure, libsodium is a crypto library. But the diversity of the primitives being measured exercises the vast majority of optimizations implemented (or not) by WebAssembly runtimes/compilers/JITs, and this benchmark turns out to be a good representative of real-world applications. [Read](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
+
 ## [Top 10 Big Companies Using Rust](https://careerkarma.com/blog/companies-that-use-rust/)
 There are a lot of companies that use Rust in their tech stacks. The Rust programming language is one of the most innovative and popular programming languages, globally. It provides C-like performance while maintaining the memory safety we know from languages like JavaScript and Python.
 
