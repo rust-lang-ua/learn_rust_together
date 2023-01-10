@@ -51,8 +51,9 @@ Curated collection of resources to learn Rust.
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
 - [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( _:movie_camera:_ )
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/) by [Google]()
 
-## Introduction to Rust
+## About Rust
 
 - [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( _video_ )
 - [Rust Tutorial](https://www.youtube.com/watch?v=ygL_xcavzQ4) by [Derek Banas](https://www.youtube.com/c/derekbanas) ( _video_ )
@@ -70,7 +71,8 @@ Curated collection of resources to learn Rust.
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
-- [The Rustonomicon - nonsafe programming](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ )
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ ) : nonsafe programming
+- [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 - [Compile-Time Reflection in Rust](https://www.mn.uio.no/ifi/english/research/groups/psy/completedmasters/2020/gaarde/masterthesis-gaarde.pdf) by Asbjørn Gaarde ( _reading_ )
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/) ( _reading_ )
@@ -99,10 +101,6 @@ Curated collection of resources to learn Rust.
 - [Wasm and multithreading](https://web.dev/webassembly-threads/) ( _reading_ )
 - [Big picture of WebAssembly](https://drive.google.com/drive/folders/1heGh7e7Pu-L6lMidJj0fPWu_j1K1qUkc)  ( _reading_ )
 - [Wat2wasm demo for converting](https://webassembly.github.io/wabt/demo/wat2wasm/)
-
-## Embedded
-
-- [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html) ( _course_ ) ( _reading_ )
 
 ## Interactive courses on Rust with feedback
 
@@ -259,6 +257,16 @@ Curated collection of resources to learn Rust.
 
 - [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/) -->
 
+## Embed
+
+( _about:embed_ )
+
+- [Awesome Embed Rust](https://github.com/rust-embedded/awesome-embedded-rust) by [Rust Embedded](https://github.com/rust-embedded) ( _collection_ ) : collection of learning resources and toolbox about Embed in Rust
+- [Embedded in Rust](http://blog.japaric.io/) by [Jorge Aparicio](https://github.com/japaric) ( _blog_ ) : blog about Embed in Rust
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
+- [High Assurance Rust](https://highassurance.rs/landing.html) ( _course_ ) ( _reading_ ) : developing secure and robust software
+- [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html) ( _course_ ) ( _reading_ )
+
 ## Graphics
 
 ( _about:graphics_ )
@@ -306,7 +314,8 @@ Curated collection of resources to learn Rust.
 - ( _project_ ) - project
 - ( _algo_ ) - algorithmic problems and solutions
 - ( _toy_ ) - educational toy projects
-- ( _predictions_ ) history and predictions
+- ( _predictions_ ) - history and predictions
+- ( _blog_ ) - blog
 - ( _teachings_material_ ) - Teaching materials and Workshops
 - ( _teaching_materials_ ) - teaching materials
 - ( _about:setup_ ) - how to install rust and setup your development environment
@@ -323,6 +332,7 @@ Curated collection of resources to learn Rust.
 - ( _about:web_ ) - web development
 - ( _about:graphics_ ) - graphics
 - ( _about:errors_handling_ ) - proper error handling
+- ( _about:embed_ ) - proper error handling
 
 <!-- ## Learn Rust Together
 
