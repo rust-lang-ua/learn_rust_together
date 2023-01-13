@@ -130,14 +130,21 @@ Curated collection of resources to learn Rust.
 - [Rosetta Code: Rust](https://github.com/rust-rosetta/rust-rosetta) by [rust-rosetta](https://github.com/rust-rosetta)
 - [Design Patterns in Rust](https://github.com/fadeevab/design-patterns-rust) by [Alexander Fadeev](https://github.com/fadeevab)
 
+## DSL
+
+( _dsl_ )
+
+- [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _edu_project_ ) ( _dsl_ )
+- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _:movie_camera:_ ) ( _edu_project_ ) ( _dsl_ )
+
 ## Educational projects
 
-( _toy_ )
+( _edu_project_ )
 
-- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _course_ ) ( _about:memory_ )
-- [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _course_ )
+- [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _edu_project_ ) ( _about:memory_ )
 - [Building a runtime reflection system for Rust](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/)
-- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _:movie_camera:_ ) ( _course_ )
+- [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( _:movie_camera:_ ) ( _edu_project_ ) ( _dsl_ )
+- [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _edu_project_ ) ( _dsl_ )
 
 ## Domain-specific topics
 
@@ -313,7 +320,7 @@ Curated collection of resources to learn Rust.
 - ( _cheatsheet_ ) - cheat sheet
 - ( _project_ ) - project
 - ( _algo_ ) - algorithmic problems and solutions
-- ( _toy_ ) - educational toy projects
+- ( _edu_project_ ) - educational toy projects
 - ( _predictions_ ) - history and predictions
 - ( _blog_ ) - blog
 - ( _teachings_material_ ) - Teaching materials and Workshops
