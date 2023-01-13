@@ -70,6 +70,7 @@ Curated collection of resources to learn Rust.
 
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
+- [Rust Atomics and Locks](https://marabos.nl/atomics/) ( _reading_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/introduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ ) : nonsafe programming
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
