@@ -1,0 +1,33 @@
+base_url = "https://github.com/rust-lang-ua/learn_rust_together"
+title = "learn_rust_together"
+build_search_index = true
+generate_feed = true
+compile_sass = true
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+toc = true
+use_cdn = false
+favicon = "/icon/favicon.png"
+theme = "auto"      
+# mathjax = true
+# mathjax_dollar_inline_enable = true
+
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 }
+]
+
+socials = [
+    { name = "github", url = "https://github.com/rust-lang-ua/learn_rust_together", icon = "github" }
+]
+
+custom_css = []
+
+[extra.analytics]
+enabled = true
+goatcounter_user = "your_user"
+goatcounter_host = "example.com"    # default= goatcounter.com
