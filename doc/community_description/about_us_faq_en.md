@@ -13,10 +13,10 @@ Rust is a multi-paradigm programming language designed for performance and safet
 ## What are our aims?
 We strive to provide all members with the space to build trusting professional relationships in an informal way by providing support and encouragement to develop professional skills.
 These are the core values of our organization:
-- **mutual assistance**
-- **openness to** listen to alternative points of view
-- cultivation of **Open Source** culture
-- fostering a **friendly attitude** towards each other
+- 💜 **mutual assistance**
+- 🐣 **openness to** listen to alternative points of view
+- 📃 cultivation of **Open Source** culture
+- 🤗 fostering a **friendly attitude** towards each other
 
 ## What can we gain from joining your community?
 As a member of  our community, you can:
