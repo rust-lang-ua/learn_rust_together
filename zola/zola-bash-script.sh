@@ -14,8 +14,6 @@ cd ~/Zola-blog
 git clone https://github.com/VersBinarii/hermit_zola
 cd ~/Zola-blog/hermit_zola/content/posts/
 rm *.md
-cd ~/Zola-blog/learn_rust_together/zola/
-mv ./_index.md ~/Zola-blog/hermit_zola/content/posts/
 echo "----------DONE----------"
 # Cloning GitHub Repo with MD files 
 echo "Clonning Repo with MD files"
@@ -32,6 +30,8 @@ echo "----------DONE----------"
 echo "Copying MDs to content"
 cd ~/Zola-blog/learn_rust_together/
 cp *.md  ~/Zola-blog/hermit_zola/content/posts/
+cd ~/Zola-blog/learn_rust_together/zola/
+mv ./_index.md ~/Zola-blog/hermit_zola/content/posts/
 echo "----------DONE----------"
 # Removing ./asset for MD files
 echo "Removing "./asset" from MD files"
