@@ -12,8 +12,10 @@ echo "----------DONE----------"
 echo "Setup a new Zola theme"
 cd ~/Zola-blog
 git clone https://github.com/VersBinarii/hermit_zola
-cd ~/Zola-blog/hermit_zola/content/posts
+cd ~/Zola-blog/hermit_zola/content/posts/
 rm *.md
+cd ~/Zola-blog/learn_rust_together/zola/
+mv _index.md cd ~/Zola-blog/hermit_zola/content/posts/
 echo "----------DONE----------"
 # Cloning GitHub Repo with MD files 
 echo "Clonning Repo with MD files"
@@ -31,11 +33,11 @@ echo "Copying MDs to content"
 cd ~/Zola-blog/learn_rust_together/
 cp *.md  ~/Zola-blog/hermit_zola/content/posts/
 echo "----------DONE----------"
-# Copying Readme as About Section
-#echo "Making Readme as a about.md file"
-#cd ~/Zola-blog/learn_rust_together/
-#mv readme.md about.md
-#mv -f about.md ~/Zola-blog/hermit_zola/content/
+# Removing ./asset for MD files
+echo "Removing "./asset" from MD files"
+cd ~/Zola-blog/hermit_zola/content/posts/
+sed -i "s/[.asset][/]//i" *.md 
+sed -i "s/asset//i" *.md
 echo "----------DONE----------"
 # Copying Assets to Zola Static Folder
 echo "Copying Assets to Static"
@@ -50,11 +52,6 @@ echo "----------DONE----------"
 # Wierd case
 cd ~/Zola-blog/hermit_zola/content/posts/
 rm learn.md
-# Posting our Blog locally
-#echo "Zola Serve"
-#cd ~/Zola-blog/hermit_zola/
-#zola serve
-#echo "----------DONE----------"
 # Zola build html files for finished blog
 echo "Build site into Public folder"
 cd ~/Zola-blog/hermit_zola/
