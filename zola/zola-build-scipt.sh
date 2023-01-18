@@ -31,6 +31,8 @@ echo "----------DONE----------"
 # Wierd case
 cd ~/Zola-blog/my_site/content
 rm learn.md
+cd ~/Zola-blog/my_site/content/
+rm about.md
 # Copying assets to static
 echo "Copying assets to static"
 cd ~/Zola-blog/learn_rust_together/asset/
