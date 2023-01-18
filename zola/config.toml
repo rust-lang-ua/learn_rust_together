@@ -19,9 +19,6 @@ highlight_code = false
 highlight_theme = "agola-dark"
 
 # Whether to generate a RSS feed automatically
-base_url = "https://github.com/rust-lang-ua/learn_rust_together"
-title = "learn_rust_together"
-build_search_index = true
 generate_feed = true
 feed_filename = "rss.xml"
 
@@ -43,7 +40,6 @@ taxonomies = [
 
 # Whether to compile the Sass files found in the `sass` directory
 compile_sass = true
-minify_html = true
 
 # Whether to build a search index out of the pages and section
 # content for the `default_language`
@@ -55,9 +51,6 @@ build_search_index = false
 # Example:
 #     ignored_content = ["*.{graphml,xlsx}", "temp.*"]
 ignored_content = []
-[markdown]
-highlight_code = true
-highlight_theme = "ayu-dark"
 
 # A list of directories to search for additional `.sublime-syntax` files in.
 extra_syntaxes = []
@@ -76,25 +69,13 @@ footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/
 hermit_menu = [
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" }
-toc = true
-use_cdn = false
-favicon = "/icon/favicon.png"
-theme = "auto"      
-# mathjax = true
-# mathjax_dollar_inline_enable = true
-
-menu = [
-    { name = "/posts", url = "/posts", weight = 1 }
 ]
 
 hermit_social = [
     { name = "github", link = "https://github.com/rust-lang-ua/learn_rust_together" },
     { name = "email", link = "mailto:author@domain.com" }
-socials = [
-    { name = "github", url = "https://github.com/rust-lang-ua/learn_rust_together", icon = "github" }
 ]
 
-custom_css = []
 
 # You can use highlight.js for code highlighting if you dont like the 
 # default one
@@ -121,7 +102,3 @@ email = "author@domain.com"
 [extra.google_analytics]
 enable = false
 id = "UA-4XXXXXXX-X"
-[extra.analytics]
-enabled = true
-goatcounter_user = "your_user"
-goatcounter_host = "example.com"    # default= goatcounter.com
