@@ -1,5 +1,6 @@
 +++
 title = "Communicate"
+date = 2022-06-26
 +++
 # :speech_balloon: Rust Community
 

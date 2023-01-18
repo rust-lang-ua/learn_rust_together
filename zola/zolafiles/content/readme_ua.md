@@ -1,5 +1,6 @@
 +++
 title = "Вивчаємо Rust Разом"
+date = 2022-07-12
 +++
 <!-- ![Rust](./asset/img/logo/Logo2.jpg) -->
 

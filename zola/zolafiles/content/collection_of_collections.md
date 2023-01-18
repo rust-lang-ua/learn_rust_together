@@ -1,5 +1,6 @@
 +++
 title = "Collection of collections"
+date=2023-01-04
 +++
 # Collection of collections
 

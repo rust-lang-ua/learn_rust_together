@@ -1,5 +1,5 @@
 +++
-title = "Learn Rust Together"
+title="About"
 +++
 <!-- ![Rust](./asset/img/logo/Logo2.jpg) -->
 

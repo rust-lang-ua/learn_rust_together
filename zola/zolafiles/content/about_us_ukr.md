@@ -1,3 +1,7 @@
++++
+title="Українська гілка спільноти Rust ентузіастів"
+date=2022-08-10
++++
 # 🦀 Українська гілка Rust Спільноти 💙💛
 
 ![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/b60b4f7155d7b00c58e1f8d8820f2bb23f82799e/asset/logo/Collage_2.jpg)

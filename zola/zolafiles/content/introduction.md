@@ -1,5 +1,6 @@
 +++
 title = "Introduction"
+date = 2022-12-26
 +++
 # :footprints:️ Introduction
 
@@ -38,7 +39,7 @@ The best way to ask questions is to share your code in the [playground](https://
 - [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is a project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying the given code. It'd really help you to get an understanding of how the compiler works and what are the most common code issues. If you struggle to start, just follow [these steps](https://www.youtube.com/watch?v=G3Vr-yswlaU).
 - [Exercism](https://exercism.org/tracks/rust/concepts) - an open-source, free-coding platform that offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts. Recommended taking after Rustling.
 <p align="center">
-<img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
+<img src="/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
 
 - [Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/) - Interactive course. Lay the foundation of knowledge you need to build fast and effective programs in Rust.
@@ -66,6 +67,6 @@ To learn the syntax of Rust deeply and get familiar with Rust code, we'd also re
 
 One more way to learn Rust, but thought the schemes, tables, and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathered in one big page will always be useful while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
 <p align="center">
-<img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
+<img src="/img/introduction_page/cheatsheet.png"  width="600" align="center" />
 </p>
 

@@ -1,5 +1,6 @@
 +++
 title = "Rust Setup"
+date = 2022-12-12
 +++
 ## :gear: How to set up rust:
 

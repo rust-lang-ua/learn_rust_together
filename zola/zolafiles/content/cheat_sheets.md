@@ -1,5 +1,6 @@
 +++
 title = "Collection of cheat sheets"
+date=2022-09-22
 +++
 # :chart_with_upwards_trend: Cheat sheats
 
@@ -13,4 +14,4 @@ Collection of cheat sheets.
 
 ## Memory Layout
 
-![Memoty Layout](./asset/img/cheatsheet/Layout.jpg)
+![Memoty Layout](/img/cheatsheet/Layout.jpg)
