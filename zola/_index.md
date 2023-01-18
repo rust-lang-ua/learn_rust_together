@@ -1,4 +1,4 @@
-+++ 
-title= "Posts" 
-sort_by="none" 
++++
+title = "Posts"
+sort_by = "none"
 +++
