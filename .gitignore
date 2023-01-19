@@ -13,6 +13,10 @@
 /Cargo.lock
 /.vscode
 /_*
+/zola/*
+/zola/blogv.zip
+/zola/Zola-blog
+
 
 target
 dist
