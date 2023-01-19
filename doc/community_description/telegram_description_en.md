@@ -4,10 +4,10 @@ Hello, we are a Ukrainian branch of 🦀 the Rust Community.
 
 🤝 One is not a warrior in the field. Our goals are to popularize Rust in Ukraine, develop the community around it, launch and support all-Ukrainian mentoring and educational programs, and attract Rust projects and related investments in Ukraine,as well as the spread of our values:
 
-- **mutual assistance**
-- **openness to** listen to alternative points of view
-- cultivation of **Open Source** culture
-- fostering a **friendly** attitude towards each other
+- 💜 **mutual assistance**
+- 🐣 **openness to** listen to alternative points of view
+- 📃 cultivation of **Open Source** culture
+- 🤗 fostering a **friendly attitude** towards each other
 
 The Rust communities have always been distinguished by those values and that’s why we love ❤️ Rust.
 
