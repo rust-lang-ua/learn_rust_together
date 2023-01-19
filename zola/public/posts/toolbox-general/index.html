@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta itemprop="name" content="Learn Rust Together" />
+  <meta itemprop="description" content="My blog" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://example.com/blog/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/blog/favicon-32x32.png" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="https://example.com/blog/favicon-16x16.png"
+  />
+  <link
+    rel="shortcut icon"
+    href="https://example.com/blog/favicon.ico"
+  />
+  <link rel="stylesheet" href="https://example.com/blog/style.css"/>
+  
+  <title>*</title>
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://example.com/blog/rss.xml">
+  
+
+  <body id="page">
+
+	
+<header id="site-header" class="animated slideInUp faster">
+  <div class="hdr-wrapper section-inner">
+    <div class="hdr-left">
+      <div class="site-branding">
+        <a href="https:&#x2F;&#x2F;example.com&#x2F;blog">Learn Rust Together</a>
+      </div>
+      <nav class="site-nav hide-in-mobile">
+            
+        
+        <a href="https://example.com/blog/posts">Posts</a>
+        
+        <a href="https://example.com/blog/about">About</a>
+        
+      </nav>
+    </div>
+    <div class="hdr-right hdr-icons">
+      <span class="hdr-social hide-in-mobile">
+        
+
+<a href="https:&#x2F;&#x2F;github.com&#x2F;rust-lang-ua&#x2F;learn_rust_together" target="_blank" rel="noopener me"
+   title="github">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+  
+</a>
+
+<a href="mailto:author@domain.com" target="_blank" rel="noopener me"
+   title="email">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+  
+</a>
+
+
+      </span>
+      <button id="menu-btn" class="hdr-btn" title="Menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="animated fast">
+  <ul>
+    
+    <li><a href="https://example.com/blog/posts">Posts</a></li>
+    
+    <li><a href="https://example.com/blog/about">About</a></li>
+    
+  </ul>
+</div>
+
+	
+	
+
+		
+<main class="site-main section-inner animated fadeIn faster">
+  <article class="thin">
+	<header class="post-header">
+	  <div class="post-meta">
+		
+		<span>Jan 19, 2023</span>
+		<small> - 
+<span class="reading-time" title="Estimated read time">
+  
+  31 min read
+  
+</span>
+</small>
+		
+            
+	  </div>
+	  <h1>*</h1>
+	</header>
+
+	<div class="content">
+        
+	  <h1 id="wrench-rust-developer-s-toolbox">:wrench: Rust Developer's Toolbox</h1>
+<!--xxx : https://github.com/dherman -->
+<!-- - []() by []() : -->
+<p>Awesome collection of crates for productive development in Rust. It is curated by us.</p>
+<p>You might also be interested in other tooboxes:</p>
+<ul>
+<li>:wrench: <a href="toolbox_general.md">Explore</a> : general-purpose toolbox with collection of crates.</li>
+<li>:video_game: <a href="toolbox_multimedia.md">Explore</a> : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.</li>
+<li>:infinity: <a href="toolbox_scientific.md">Explore</a> : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.</li>
+<li>:package: <a href="toolbox_distros.md">Explore</a> : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.</li>
+</ul>
+<p><a href="https://example.com/blog/posts/toolbox-general/#tags-legend">:arrow_down: Tags legend</a> at the end of the page.</p>
+<h2 id="errors-handling">Errors handling</h2>
+<p>( <em>error</em> )</p>
+<ul>
+<li><a href="https://github.com/zkamiette">miette</a> by <a href="https://github.com/zkat">Kat Marchán</a> : error reporting facilities</li>
+<li><a href="https://github.com/dtolnay/thiserror">thiserror</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : macro error for struct and enum error types</li>
+<li><a href="https://github.com/dtolnay/anyhow">anyhow</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : a generic error trait</li>
+<li><a href="https://github.com/informalsystemflex-error">flex-error</a> by <a href="https://github.com/soareschen">Soares Chen</a> : adapter for error handling approaches</li>
+</ul>
+<h2 id="macros">Macros</h2>
+<p>( <em>macro</em> )</p>
+<ul>
+<li><a href="https://github.com/dtolnay/paste">paste</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : workaround of concatenating identifiers problem</li>
+<li><a href="https://github.com/dtolnay/cargo-expand">cargo-expand</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : extension for cargo to expand macros</li>
+<li><a href="https://github.com/dtolnay/syn">syn</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : parser for writing macros</li>
+<li><a href="https://github.com/dtolnay/quote">quote</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : tool to write procedure macros</li>
+<li><a href="https://github.com/dtolnay/rustversion">rustversion</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : conditional compilation according to rustc compiler version</li>
+<li><a href="https://github.com/lukaslueg/macro_railroad">macro_railroad</a> by <a href="https://github.com/lukaslueg">Lukas Lueg</a> : to generate syntax diagrams for macro_rules!()</li>
+<li><a href="https://lukaslueg.github.io/macro_railroad_wasm_demo">macro_railroad as service</a> by <a href="https://github.com/lukaslueg">Lukas Lueg</a> : a service to generate syntax diagrams for macro_rules!()</li>
+<li><a href="https://github.com/LukasKalbertodlitrs">litrs</a> by <a href="https://github.com/LukasKalbertodt">Lukas Kalbertodt</a> : parse Rust literals</li>
+</ul>
+<h2 id="meta">Meta</h2>
+<p>( <em>meta</em> )</p>
+<ul>
+<li><a href="https://github.com/rukai/treeflection">treeflection</a> by <a href="https://github.com/rukai">Lucas Kent</a> ( <em>idea</em> ) : pseudo-reflection for structs and enums</li>
+</ul>
+<h2 id="decorators">Decorators</h2>
+<p>( <em>meta</em> ) ( <em>decorator</em> )</p>
+<ul>
+<li><a href="https://github.com/katharostech/cfg_aliases">cfg_aliases</a> by <a href="https://github.com/zicklag">Zicklag</a> : aliasing of cfg</li>
+<li><a href="https://github.com/blusmaplit">maplit</a> by <a href="https://github.com/bluss">bluss</a> : literal macros for containers</li>
+<li><a href="https://github.com/estk/literally">literally</a> by <a href="https://github.com/estk">estk</a> : alternative literal macros for containers</li>
+<li><a href="https://github.com/lambda-fairy/if_chain">if_chain</a> by <a href="https://github.com/lambda-fairy">Chris Wong</a> : nested if let</li>
+</ul>
+<h2 id="derives">Derives</h2>
+<p>( <em>meta</em> ) ( <em>derive</em> )</p>
+<ul>
+<li><a href="https://github.com/JelteF/derive_more">derive_more</a> by <a href="https://github.com/JelteF">Jelte Fennema</a> : many useful derives</li>
+<li><a href="https://github.com/nrc/derive-new">derive-new</a> by <a href="https://github.com/nrc">Nick Cameron</a> : derive new</li>
+<li><a href="https://github.com/frozenlib/parse-display">parse-display</a> by <a href="https://github.com/frozenlib">Frozenlib</a> ( <em>parser</em> ) ( <em>stringification</em> ) : derive macro Display and FromStr</li>
+<li><a href="https://github.com/fitzgen/derive_is_enum_variant">derive_is_enum_variant</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> :  macro to generate the method is_variant for each variant of an enum</li>
+<li><a href="https://github.com/TedDriggfield_names">field_names</a> by <a href="https://github.com/TedDriggs">Ted Driggs</a> : derive to list names of fields bound to the structure</li>
+<li><a href="https://github.com/Peternator7/strum">strum</a> by <a href="https://github.com/Peternator7">Peter Glotfelty</a> ( <em>stringification</em> ) : enum stringification, parsing and iterating</li>
+<li><a href="https://github.com/fitzgen/derive_is_enum_variant">derive_is_enum_variant</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : macro to generate the method is_variant for each variant of an enum</li>
+</ul>
+<h2 id="compilers-static-analyzers-code-formatters">Compilers, Static Analyzers, code formatters</h2>
+<p>( <em>compiler</em> )</p>
+<ul>
+<li><a href="https://github.com/sslab-gatech/Rudra">rudra</a> by <a href="https://github.com/Qwaz">Yechan Bae</a> : undefined behavior detection</li>
+</ul>
+<!-- https://github.com/dtolnay/prettyplease -->
+<h2 id="compile-time">Compile-time</h2>
+<p>( <em>compile_time</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-phf/rust-phf">phf</a> by <a href="https://github.com/sfackler">Steven Fackler</a> : compile-time hashmap</li>
+<li><a href="https://github.com/tkaitchuck/constrandom">constrandom</a> by <a href="https://github.com/tkaitchuck">Tom Kaitchuck</a> : random compile-time constants</li>
+<li><a href="https://github.com/nvzqz/static-assertions-rs">static_assertions</a> by <a href="https://github.com/nvzqz">Nikolai Vazquez</a> : compile-time cecks</li>
+<li><a href="https://github.com/LukasKalbertodreinda">reinda</a> by <a href="https://github.com/LukasKalbertodt">Lukas Kalbertodt</a> : embed s</li>
+<li><a href="https://github.com/rustyhordvergen">vergen</a> by <a href="https://github.com/jasonozias">Jason Ozias</a> : ( <em>hardware</em> ) ( <em>compile_time</em> ) compile-time constants about process of compilation</li>
+<li><a href="https://github.com/pyrossh/rust-embed">rust-embed</a> by <a href="https://github.com/pyrossh"></a> : embed files into the rust binary at compile time during release and loads the file from the fs during dev</li>
+</ul>
+<h2 id="global">Global</h2>
+<p>( <em>global</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/matklad/once_cell">once_cell</a> by <a href="https://github.com/matklad">Aleksey Kladov</a> : single assignment cells and lazy statics without macros, the most popular</li>
+<li><a href="https://github.com/rust-lang-nursery/lazy-static.rs">lazy_static</a> by <a href="https://github.com/Kimundi">Marvin Löbel</a> : macro for defining lazy evaluated static variables</li>
+</ul>
+<h2 id="ui">UI</h2>
+<p>( <em>ui</em> ) ( <em>gui</em> )</p>
+<ul>
+<li><a href="https://github.com/vislyhq/stretch">stretch</a> by <a href="https://github.com/vislyhq">Emil Sjölander</a> : flexbox implementation</li>
+</ul>
+<h2 id="gui">GUI</h2>
+<p>( <em>ui</em> ) ( <em>gui</em> )</p>
+<ul>
+<li><a href="https://github.com/emilk/egui">egui</a> by <a href="https://github.com/emilk">Emil Ernerfeldt</a> : an immediate mode GUI</li>
+<li><a href="https://github.com/imgui-rimgui-rs">imgui</a> by <a href="https://github.com/Gekkio">Joonas Javanainen</a> : an immediate mode GUI</li>
+<li><a href="https://github.com/iced-riced">iced</a> by <a href="https://github.com/hecrj">Héctor Ramón</a> : cross-platform GUI inspired by Elm</li>
+<li><a href="https://github.com/Relm4/relm4">relm4</a> by <a href="https://github.com/AaronErhardt">Aaron Erhardt</a> : inspired by Elm and based on gtk4-rs</li>
+<li><a href="https://github.com/Ax9D/pw-viz">pw-viz</a> by <a href="https://github.com/Ax9D">Ax9D</a> : graph editor</li>
+<li><a href="https://github.com/StarArawn/kayak_ui">kayak_ui</a> by <a href="https://github.com/StarArawn">John Mitchell</a> : game UI</li>
+<li><a href="https://github.com/elkowar/eww">eww</a> by <a href="https://github.com/elkowar">ElKowar</a> : drop-down widgets</li>
+<li><a href="https://github.com/unrelentingtech/unixbar">unixbar</a> by <a href="https://github.com/unrelentingtech">Greg V</a> : UNIX-style desktop bar</li>
+</ul>
+<h2 id="command-user-interface-input-output">Command user interface input / output</h2>
+<p>( <em>ui</em> ) ( <em>cui</em> )</p>
+<ul>
+<li><a href="https://github.com/mitsuhiko/dialoguer">dialoguer</a> by <a href="https://github.com/mitsuhiko">Armin Ronacher</a> : command line prompts</li>
+<li><a href="https://github.com/console-rindicatif">indicatif</a> by <a href="https://github.com/mitsuhiko">Armin Ronacher</a> : command line progress reporting</li>
+</ul>
+<h2 id="textual-user-interface-input-output">Textual user interface input / output</h2>
+<p>( <em>ui</em> ) ( <em>tui</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/fdehau/tui-rs">tui-rs</a> by <a href="https://github.com/fdehau">Florian Dehau</a> : the most popular TUI framework</li>
+<li><a href="https://github.com/gyscoCursive">cursive</a> by <a href="https://github.com/gyscos">Alexandre Bury</a> : TUI framework</li>
+<li><a href="https://github.com/zhiburexpectrl">expectrl</a> by <a href="https://github.com/zhiburt">Maxim Zhiburt</a> ( <em>testing</em> ) ( <em>os</em> ) : controlling input/output of interactive programs</li>
+</ul>
+<h2 id="command-user-interface-parsing">Command user interface parsing</h2>
+<p>( <em>ui</em> ) ( <em>cui</em> ) ( <em>cui_parsing</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/clap-rclap">clap</a> by <a href="https://github.com/kbknapp">Kevin K.</a> : the most popular CUI parsing</li>
+<li><a href="https://github.com/TeXitoi/structopt">structopt</a> by <a href="https://github.com/TeXitoi">Guillaume P.</a> : CUI parsing with a structure</li>
+<li><a href="https://github.com/RazrFalcon/pico-args">pico-args</a> by <a href="https://github.com/RazrFalcon">Yevhenii Reizner</a> : smallest one CUI tool</li>
+</ul>
+<h2 id="terminal">Terminal</h2>
+<p>( <em>terminal</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/mitsuhiko/console">console</a> by <a href="https://github.com/mitsuhiko">Armin Ronacher</a> : the most popular module to manipulate terminal</li>
+<li><a href="https://gitlab.redox-os.org/redox-otermion">termion</a> by <a href="https://github.com/ticki">Ticki</a> : low-level handling, manipulating and reading information about terminals</li>
+<li><a href="https://github.com/crossterm-rcrossterm">crossterm</a> by <a href="https://github.com/TimonPost">Timon</a> : cross platform terminal</li>
+<li><a href="https://github.com/softpropatty">atty</a> by <a href="https://github.com/softprops">Doug Tangren</a> : check is it a tty</li>
+<li><a href="https://github.com/JohnTitor/termize">termize</a> by <a href="https://github.com/JohnTitor">Yuki Okushi</a> : terminal size</li>
+<li><a href="https://github.com/eminencterminal-size">terminal_size</a> by <a href="https://github.com/eminence">Andrew Chin</a> : terminal size</li>
+<li><a href="https://github.com/Canop/terminal-clipboard">terminal-clipboard</a> by <a href="https://github.com/Canop">Canop</a> : text only clipboard facade</li>
+<li><a href="https://github.com/BurntSushi/termcolor">termcolor</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : terminal colors</li>
+<li><a href="https://github.com/LukasKalbertodbunt">bunt</a> by <a href="https://github.com/LukasKalbertodt">Lukas Kalbertodt</a> :  colored and formatted text to a terminal</li>
+<li><a href="https://gitlab.com/davidbittner/ansi-parser">ansi-parser</a> by <a href="https://gitlab.com/davidbittner">David Bittner</a> : parseing ANSI escape codes based on nom</li>
+</ul>
+<h2 id="cloud-apis">Cloud APIs</h2>
+<p>( <em>cloud_api</em> )</p>
+<ul>
+<li><a href="https://github.com/kbknapp/doapi-rs">doapi</a> by <a href="https://github.com/kbknapp">Kevin K.</a> : DigitalOcean API v2</li>
+<li><a href="https://github.com/XAMPPRocky/octocrab">octocrab</a> by <a href="https://github.com/XAMPPRocky">Erin P</a> : GitHub API</li>
+<li><a href="https://github.com/thedodd/giphy-api">giphy api</a> by <a href="https://github.com/thedodd">Anthony Dodd</a> : giphy API</li>
+</ul>
+<h2 id="nodejs-and-js">NodeJS and JS</h2>
+<p>( <em>njs</em> )</p>
+<ul>
+<li><a href="https://github.com/neon-bindingneon">neon</a> by <a href="https://github.com/dherman">Dave Herman</a> : native Node.js modules</li>
+<li><a href="https://github.com/numToStr/snm">snm</a> by <a href="https://github.com/numToStr">Vikas Raj</a> : environment manager, like NVM</li>
+<li><a href="https://github.com/Schniz/fnm">fnm</a> by <a href="https://github.com/Schniz">Gal Schlezinger</a> : Fast and simple Node.js version manager</li>
+<li><a href="https://github.com/volta-cli/volta">volta</a> by <a href="https://github.com/dherman">Dave Herman</a> : JS Toolchains</li>
+</ul>
+<h2 id="building-and-optimization">Building and Optimization</h2>
+<p>( <em>build</em> )</p>
+<ul>
+<li><a href="https://github.com/thedodd/trunk">trunk</a> by <a href="https://github.com/thedodd">Anthony Dodd</a> ( <em>wasm</em> ) : WebAssembly web application bundler</li>
+<li><a href="https://github.com/rust-embedded/cross">cross</a> by <a href="https://github.com/japaric">Jorge Aparicio</a> ( <em>build</em> ) ( <em>cross_compile</em> ) ( <em>testing</em> ) : cross-compilation and cross-testing</li>
+<li><a href="https://github.com/sagiegurari/duckscript">duckscript</a> by <a href="https://github.com/sagiegurari">Sagie Gur-Ari</a> : utility to be cross-platform shell.</li>
+<li><a href="https://github.com/sagiegurari/cargo-make">cargo-make</a> by <a href="https://github.com/sagiegurari">Sagie Gur-Ari</a> ( <em>utility</em> ) : make-like utility</li>
+<li><a href="https://github.com/casey/just">just</a> by <a href="https://github.com/casey">Casey Rodarmor</a> ( <em>utility</em> ) : make-like utility</li>
+<li><a href="https://github.com/burtonageo/cargo-bundle">cargo-bundle</a> by <a href="https://github.com/burtonageo">George Burton</a> : cross-platform bundling</li>
+<li><a href="https://github.com/parcel-bundler/parcel-css">parcel_css</a> by <a href="https://github.com/devongovett">Devon Govett</a> ( <em>parser</em> ) : CSS parser, transformer, and minifier</li>
+<li><a href="https://github.com/wilsonzlin/minify-html">minify-html</a> by <a href="https://github.com/wilsonzlin">Wilson Lin</a> ( <em>html</em> ) : HTML minifier</li>
+<li><a href="https://github.com/tauri-apptauri">tauri</a> by <a href="https://github.com/rstoenescu">Razvan Stoenescu</a> : desktop applications with a web frontend</li>
+<li><a href="https://github.com/lukaslueg/built">built</a> by <a href="https://github.com/lukaslueg">Lukas Lueg</a> : information when and how it was built</li>
+<li><a href="https://github.com/Kobzol/cargo-pgo">cargo-pgo</a> by <a href="https://github.com/Kobzol">Jakub Beránek</a> ( <em>reading</em> ) ( <em>article</em> ) : profile guided optimzation</li>
+</ul>
+<h2 id="cross-compile">Cross-compile</h2>
+<p>( <em>cross_compile</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-embedded/cross">cross</a> by <a href="https://github.com/japaric">Jorge Aparicio</a> ( <em>build</em> ) ( <em>cross_compile</em> ) ( <em>testing</em> ) : cross-compilation and cross-testing</li>
+<li><a href="https://github.com/tpoechtrager/osxcross">osxcross</a> by <a href="https://github.com/tpoechtrager">Thomas Pöchtrager</a> : cross toolchain for Linux and *BSD</li>
+</ul>
+<h2 id="cargo-extension">Cargo extension</h2>
+<p>( <em>cargo</em> ) ( <em>build</em> )</p>
+<ul>
+<li><a href="https://github.com/killercup/cargo-edit">cargo-edit</a> by <a href="https://github.com/killercup">Pascal Hertleif</a> : utility to add, remove, upgrade cargo dependencies</li>
+<li><a href="https://github.com/fornwall/rust-script">rust-script</a> by <a href="https://github.com/fornwall">Fredrik Fornwall</a> : utility to interpret rust files and expressions</li>
+<li><a href="https://github.com/watchexec/cargo-watch">cargo-watch</a> by <a href="https://github.com/passcod">Félix Saparelli</a> : utility to watch over your project's source for changes</li>
+<li><a href="https://github.com/rust-embedded/cargo-binutils">cargo-binutils</a> by <a href="https://github.com/japaric">Jorge Aparicio</a> : LLVM utility</li>
+<li><a href="https://github.com/cargo-generatcargo-generate">cargo-generate</a> by <a href="https://github.com/ashleygwilliams">ashley williams</a> : utility to instantiate a template ( <em>templating</em> )</li>
+<li><a href="https://crates.io/cratecargo-depgraph">cargo-depgraph</a> by <a href="https://blog.turbo.fish/">Jonas Platte</a> : generate dependencies graph</li>
+<li><a href="https://github.com/oli-obk/cargo_metadata">cargo_metadata</a> by <a href="https://github.com/oli-obk">Oli Scherer</a> : information about cargo module</li>
+<li><a href="https://github.com/matthiaskrgr/cargo-cache">cargo-cache</a> by <a href="https://github.com/matthiaskrgr">Matthias Krüger</a> : manage cargo cache, cleaning cache</li>
+<li><a href="https://github.com/starkat99/cargo-when">cargo-when</a> by <a href="https://github.com/starkat99">Kathryn Long</a> : run conditionally upon rustc version and environment</li>
+<li><a href="https://github.com/mihai-dinculescu/cargo-wipe">cargo-wipe</a> by <a href="https://github.com/mihai-dinculescu">Mihai Dinculescu</a> : cleaning, removing artifacts</li>
+<li><a href="https://github.com/nabijaczleweli/cargo-update">cargo-update</a> by <a href="https://github.com/nabijaczleweli">Nabijaczleweli</a> : update installed globally executables</li>
+</ul>
+<h2 id="video">Video</h2>
+<p>:movie_camera:</p>
+<ul>
+<li><a href="https://github.com/oli-obk/camera_capture">camera_capture</a> by <a href="https://github.com/oli-obk">Oli Scherer</a> : webcam screenshot</li>
+</ul>
+<h2 id="testing">Testing</h2>
+<p>( <em>testing</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-embedded/cross">cross</a> by <a href="https://github.com/japaric">Jorge Aparicio</a> ( <em>build</em> ) ( <em>cross_compile</em> ) ( <em>testing</em> ) : cross-compilation and cross-testing</li>
+<li><a href="https://github.com/rustwasm/wasm-bindgen/tremain/crates/test">wasm-bindgen-test</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> ( <em>wasm</em> ) : run tests of wasm-based application in browser</li>
+<li><a href="https://github.com/dtolnay/trybuild">trybuild</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : negative testing, when error during compilation is expected result.</li>
+<li><a href="https://github.com/zhiburexpectrl">expectrl</a> by <a href="https://github.com/zhiburt">Maxim Zhiburt</a> ( <em>ui</em> ) ( <em>tui</em> ) ( <em>os</em> ) : controlling input/output of interactive programs</li>
+<li><a href="https://github.com/Dentosal/portpicker-rs">portpicker</a> by <a href="https://github.com/Dentosal">Hannes Karppila</a> ( <em>network</em> ) ( <em>testing</em> ) : pick a free unused port</li>
+<li><a href="https://github.com/frondeutest-case">test-case</a> by <a href="https://github.com/frondeus">Wojciech Polak</a> : procedural macro attribute for adding test cases</li>
+<li><a href="https://github.com/cucumber-rcucumber">cucumber</a> by <a href="https://github.com/bbqsrc">Brendan Molloy</a> : BBD</li>
+<li><a href="https://github.com/tikv/pprof-rs">pprof</a> by <a href="https://github.com/YangKeao">YangKeao</a> : CPU profiler</li>
+<li><a href="https://github.com/Manishearth/compiletest-rs">compiletest</a> by <a href="https://github.com/Manishearth">Manish Goregaokar</a> : an extraction of the compiletest utility from the Rust compiler</li>
+<li><a href="https://github.com/rust-fuzz/cargo-fuzz">cargo-fuzz</a> by <a href="https://github.com/Manishearth">Manish Goregaokar</a> : testing framework for fuzzy testing</li>
+</ul>
+<h2 id="performance-benchmarking">Performance benchmarking</h2>
+<p>( <em>perf_benchmark</em> )</p>
+<ul>
+<li><a href="https://github.com/fcsonlindrill">drill</a> by <a href="https://github.com/fcsonline">Ferran Basora</a> ( <em>network</em> ) ( <em>perf_benchmark</em> ) : HTTP load testing</li>
+<li><a href="https://github.com/tag1consulting/goose">goose</a> by <a href="https://github.com/jeremyandrews">Jeremy Andrews</a> ( <em>network</em> ) ( <em>perf_benchmark</em> ) : HTTP load testing</li>
+<li><a href="https://github.com/tokio-rloom">loom</a> by <a href="https://github.com/carllerche">Carl Lerche</a> : ( <em>perf_benchmark</em> ) concurrency permutation testing</li>
+</ul>
+<h2 id="webassembly">WebAssembly</h2>
+<p>( <em>wasm</em> )</p>
+<ul>
+<li><a href="https://github.com/thedodd/trunk">trunk</a> by <a href="https://github.com/thedodd">Anthony Dodd</a> ( <em>build</em> ) : WebAssembly web application bundler</li>
+<li><a href="https://github.com/rustwasm/wasm-bindgen">wasm-bindgen</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : interactions between WebAssembly modules and JavaScript</li>
+<li><a href="https://github.com/jakobhellermann/wasm-server-runner/tremain">wasm-server-runner</a> by <a href="https://github.com/jakobhellermann">Jakob Hellermann</a> : run in the browser</li>
+<li><a href="https://github.com/rustwasm/wasm-bindgen/tremain/crates/test">wasm-bindgen-test</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> ( <em>testing</em> ) : run tests of wasm-based application in browser</li>
+<li><a href="https://github.com/rustwasm/console_error_panic_hook">console_error_panic_hook</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : A panic hook for wasm</li>
+<li><a href="https://github.com/rustwasm/wasm-snip">wasm-snip</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : utility to remove function body from a wasm file</li>
+<li><a href="https://github.com/bytecodealliancwasm-tools">wasm-tools</a> by <a href="https://github.com/yurydelendik">Yury Delendik</a>: tooling for WebAssembly</li>
+<li><a href="https://github.com/bytecodealliancwasmtime">wasmtime</a> by <a href="https://github.com/stoklund">Jakob Stoklund Olesen</a> : standalone JIT-style runtime</li>
+<li><a href="https://github.com/wasmerio/wasmer">wasmer</a> by <a href="https://github.com/syrusakbary">Syrus Akbary</a>
+<em>error</em> ) : Debug panics on wasm32-unknown-unknown by providing a panic hook that forwards panic messages to console</li>
+<li><a href="https://github.com/rustwasm/twiggy">twiggy</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : utility to profile wasm code size</li>
+<li><a href="https://github.com/WebAssembly/binaryen">wasm-opt</a> by <a href="https://github.com/kripken">Alon Zakai</a> : utility to optimize wasm file</li>
+<li><a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a> by <a href="https://github.com/ashleygwilliams">ashley williams</a> : wasn-bindgen and binaryen/wasm-opt as single utility</li>
+<li><a href="https://github.com/bytecodealliancwizer">wizer</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : performance optimization by compile-time pre-initialization</li>
+<li><a href="https://github.com/rustwasm/wee_alloc">wee_alloc</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : 1kB-size memory allocator for size-optimized builds</li>
+<li><a href="https://github.com/paritytech/parity-wasm">parity-wasm</a> by <a href="https://github.com/NikVolf">Nikolay Volf</a> : read wasm files</li>
+</ul>
+<!-- - [cargo-web](https://github.com/koutcargo-web) by [Koute](https://github.com/koute) : cargo subcommand for Web -->
+<h2 id="windowing">Windowing</h2>
+<p>( <em>windowing</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-windowing/winit">winit</a> by <a href="https://github.com/tomaka">Pierre Krieger</a> : cross-platform window creation and management</li>
+<li><a href="https://github.com/Boscop/web-view">web-view</a> by <a href="https://github.com/Boscop">Boscop</a> : bindings for webview, a tiny cross-platform library</li>
+</ul>
+<h2 id="data-streams-aggregation">Data streams aggregation</h2>
+<p>( <em>dsa</em> )</p>
+<ul>
+<li><a href="https://github.com/wezm/feedfinder">feedfinder</a> by <a href="https://github.com/wezm/feedfinder">Wesley Moore</a> ( <em>html</em> ) : auto-discovery of feeds in HTML</li>
+</ul>
+<h2 id="html-generating-parsing-transformation">HTML generating / parsing / transformation</h2>
+<p>( <em>html</em> )</p>
+<ul>
+<li><a href="https://github.com/wezm/feedfinder">feedfinder</a> by <a href="https://github.com/wezm/feedfinder">Wesley Moore</a> ( <em>dsa</em> ) : auto-discovery of feeds in HTML</li>
+<li><a href="https://github.com/utkarshkukreti/markup.rs">markup</a> by <a href="https://github.com/utkarshkukreti">Utkarsh Kukreti</a> : template engine to generate HTML</li>
+<li><a href="https://github.com/kuchiki-rkuchiki">kuchiki</a> by <a href="https://github.com/SimonSapin">Simon Sapin</a> : HTML/XML tree manipulation</li>
+<li><a href="https://github.com/servo/html5ever">html5ever</a> by <a href="https://github.com/kmcallister">Keegan McAllister</a> : high-performance HTML5 parser</li>
+<li><a href="https://github.com/wilsonzlin/minify-html">minify-html</a> by <a href="https://github.com/wilsonzlin">Wilson Lin</a> ( <em>build</em> ) : HTML minifier</li>
+<li><a href="https://github.com/kivikakk/comrak">comrak</a> by <a href="https://github.com/kivikakk">Asherah Connor</a> : GFM compatible Markdown parser and renderer</li>
+</ul>
+<h2 id="web-dom">Web DOM</h2>
+<p>( <em>web_frontend</em> ) ( <em>dom</em> )</p>
+<ul>
+<li><a href="https://github.com/iamcodemaker/console_log">console_log</a> by <a href="https://github.com/iamcodemaker">Matthew Nicholson</a> : A logger that routes messages to the browser's console</li>
+<li><a href="https://github.com/koutstdweb">stdweb</a> by <a href="https://github.com/koute">Koute</a> : standard library for the client-side Web</li>
+<li><a href="https://github.com/DoumanAsh/web-log">web-log</a> by <a href="https://github.com/DoumanAsh">Douman</a> : minimal wrapper over browser console</li>
+<li><a href="https://github.com/rustwasm/wasm-bindgen/tremain/crates/web-sys">web-sys</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : Raw wasm-bindgen imports for all of the Web's APIsDescription</li>
+<li><a href="https://github.com/rustwasm/wasm-bindgen/tremain/crates/js-sys">js-sys</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> ( <em>bindings</em> ) : Raw bindings to JS global APIs for projects using wasm-bindgen</li>
+<li><a href="https://github.com/rustwasm/gloo">gloo</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : alternative of web-sys</li>
+<li><a href="https://github.com/rustwasm/wasm-bindgen/tremain/crates/futures">wasm-bindgen-futures</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> ( <em>concurrency</em> ) : bridges the gap between a Rust Future and a JavaScript Promise</li>
+</ul>
+<h2 id="web-frontend">Web Frontend</h2>
+<p>( <em>web_frontend</em> )</p>
+<ul>
+<li><a href="https://github.com/sycamore-rsycamore">sycamore</a> by <a href="https://github.com/lukechu10">Luke Chu</a> : reactive frontend</li>
+<li><a href="https://github.com/yewstack/yew">yew</a> by <a href="https://github.com/DenisKolodin">Denis Kolodin</a> : Elm-inspired frontend</li>
+<li><a href="https://github.com/thedodd/ybc">ybc</a> by <a href="https://github.com/thedodd">Anthony Dodd</a> : a Yew component library based on the Bulma CSS framework</li>
+<li><a href="https://github.com/seed-rseed">seed</a> by <a href="https://github.com/David-OConnor">David O'Connor</a> : Elm-inspired frontend</li>
+</ul>
+<h2 id="web-backend">Web Backend</h2>
+<p>( <em>web_backend</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/SergioBenitez/Rocket">rocket</a> by <a href="https://github.com/SergioBenitez">https://github.com/SergioBenitez</a> : one of the most popular web backend frameworks</li>
+<li>:earth_africa: <a href="https://github.com/actix/actix">actix</a> by <a href="https://github.com/fafhrd91">Nikolay Kim</a> : one of the most popular web backend frameworks</li>
+<li><a href="https://github.com/tokio-raxum">axum</a> by <a href="https://github.com/davidpdrsn">David Pedersen</a> : tokio-based web backend framework</li>
+<li><a href="https://github.com/rksm/axum-yew-setup">axum-yew-setup</a> by <a href="https://github.com/rksm">Robert Krahn</a> : starter project that sets up axum and yew for full stack</li>
+<li><a href="https://github.com/brson/basic-http-server">basic-http-server</a> by <a href="https://github.com/brson">Brian Anderson</a> : a simple static HTTP server, for learning and local development</li>
+<li><a href="https://github.com/LukasKalbertodpenguin">penguin</a> by <a href="https://github.com/LukasKalbertodt">Lukas Kalbertodt</a> : a static server</li>
+<li><a href="https://github.com/seanmonstar/reqwest">reqwest</a> by <a href="https://github.com/seanmonstar">Sean McArthur</a> : high-level HTTP client</li>
+<li><a href="https://github.com/hyperium/hyper">hyper</a> by <a href="https://github.com/seanmonstar">Sean McArthur</a> : low-level HTTP client</li>
+<li><a href="https://github.com/hyperium/headers">headers</a> by <a href="https://github.com/reem">Jonathan Reem</a> : HTTP Headers for hyper</li>
+<li><a href="https://github.com/hyperium/warp">warp</a> by <a href="https://github.com/seanmonstar">Sean McArthur</a> : composable, web server framework</li>
+<li><a href="https://github.com/breard-r/libreauth">libreauth</a> by <a href="https://github.com/breard-r"></a> : user authentication</li>
+<li><a href="https://github.com/SergioBenitez/cookie-rs">cookie</a> by <a href="https://github.com/SergioBenitez">https://github.com/SergioBenitez</a> : HTTP cookie parsing and cookie jar management</li>
+<li><a href="https://github.com/vectordotdev/vector">vector</a> by <a href="https://github.com/lukesteensen">Luke Steensen</a> : data aggregator</li>
+<li><a href="https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md">Rust back-end frameworks comparison</a> : bunch of back-end frameworks comparison</li>
+</ul>
+<!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
+<h2 id="network">Network</h2>
+<p>( <em>network</em> )</p>
+<ul>
+<li><a href="https://github.com/jonhoo/rust-imap">imap</a> by <a href="https://github.com/jonhoo">Jon Gjengset</a> : IMAP interface</li>
+<li><a href="https://github.com/sfackler/r2d2">r2d2</a> by <a href="https://github.com/sfackler">Steven Fackler</a> : agnostic connection pool</li>
+<li><a href="https://github.com/rust-pcap/pcap">pcap</a> by <a href="https://github.com/ebfull">Sean Bowe</a> : packet sniffing</li>
+<li><a href="https://github.com/vi/websocat">websocat</a> by <a href="https://github.com/vi">Vitaly Shukela</a> : CUI to communicate via WebSocket ( <em>cui</em> )</li>
+<li><a href="https://github.com/ZingerLittleBenetraffic">netraffic</a> by <a href="https://github.com/ZingerLittleBee">ZingerLittleBee</a> : statistics network traffic</li>
+<li><a href="https://github.com/Dentosal/portpicker-rs">portpicker</a> by <a href="https://github.com/Dentosal">Hannes Karppila</a> ( <em>network</em> ) ( <em>testing</em> ) : pick a free unused port</li>
+<li><a href="https://github.com/fcsonlindrill">drill</a> by <a href="https://github.com/fcsonline">Ferran Basora</a> ( <em>network</em> ) ( <em>testing</em> ) : HTTP load testing application</li>
+</ul>
+<h2 id="database">Database</h2>
+<p>( <em>db</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/diesel-rdiesel">diesel</a> by <a href="https://github.com/sgrif">Sage Griffin</a> : ORM and query builder</li>
+<li>:earth_africa: <a href="https://github.com/bikeshedder/deadpool">deadpool-postgres</a> by <a href="https://github.com/bikeshedder">Michael P. Jung</a> : async pool for PostgreSQL</li>
+<li>:earth_africa: <a href="https://github.com/sfackler/rust-postgres">tokio_postgres</a> by <a href="https://github.com/sfackler">Steven Fackler</a> : PostgreSQL driver</li>
+<li>:earth_africa: <a href="https://github.com/launchbadgsqlx">sqlx</a> by <a href="https://github.com/mehcode">Ryan Leckey</a> : SQL DBMS driver</li>
+<li><a href="https://github.com/NyxCodormx">ormx</a> by <a href="https://github.com/NyxCode">NyxCode</a> : orm-like features to sqlx</li>
+<li><a href="https://github.com/softpropdynomite">dynomite</a> by <a href="https://github.com/softprops">Doug Tangren</a> : DynamoDB binding</li>
+<li><a href="https://github.com/mitsuhiko/redis-rs">redis</a> by <a href="https://github.com/mitsuhiko">Armin Ronacher</a> : Redis binding</li>
+<li><a href="https://github.com/apacharrow-datafusion">datafusion</a> by <a href="https://github.com/jacques-n">Jacques Nadeau</a> ( <em>db</em> ) ( <em>data_science</em> ) : query engine from Apache</li>
+<li><a href="https://github.com/mongodb/mongo-rust-driver">mongodb</a> by <a href="https://github.com/saghm">Saghm Rossi</a> : official MongoDB binding</li>
+<li><a href="https://github.com/mongodb/monger">monger</a> by <a href="https://github.com/saghm">Saghm Rossi</a> : MongoDB version manager</li>
+<li><a href="https://github.com/rusqlitrusqlite">rusqlite</a> by <a href="https://github.com/hydhknn">hydhknn</a> : bindings to SQLite</li>
+<li><a href="https://github.com/0xSiO/bolt-rs">bolt-client</a> by <a href="https://github.com/0xSiO">Luc Street</a> : communicate with Bolt-compatible graph databases</li>
+<li><a href="https://github.com/spacejam/sled">sled</a> by <a href="https://github.com/spacejam">Tyler Neely</a> : an embedded database</li>
+</ul>
+<h2 id="data-science">Data science</h2>
+<ul>
+<li>
+<p>( <em>data_science</em> )</p>
+</li>
+<li>
+<p><a href="https://github.com/pola-rpolars">polars</a> by [https://github.com/ritchie46](Ritchie Vink) : multi-threaded DataFrame library</p>
+</li>
+<li>
+<p><a href="https://github.com/apacharrow-datafusion">datafusion</a> by <a href="https://github.com/jacques-n">Jacques Nadeau</a> ( <em>db</em> ) ( <em>data_science</em> ) : query engine from Apache</p>
+</li>
+<li>
+<p><a href="https://github.com/apacharrow-rs">arrow</a> by <a href="https://github.com/jacques-n">Jacques Nadeau</a> : working with bytes from Apache</p>
+</li>
+</ul>
+<h2 id="functional-programming">Functional programming</h2>
+<p>( <em>functional</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-itertoolitertools">itertools</a> by <a href="https://github.com/bluss">bluss</a> : extra iterator tools  ???</li>
+</ul>
+<h2 id="version-control-systems">Version control systems</h2>
+<p>( <em>vcs</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-lang/git2-rs">git2</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : libgit2 binding</li>
+</ul>
+<h2 id="virtualization">Virtualization</h2>
+<p>( <em>virtualisation</em> )</p>
+<ul>
+<li><a href="https://github.com/softpropshiplift">shiplift</a> by <a href="https://github.com/softprops">Doug Tangren</a> : maneuvering docker containers</li>
+<li><a href="https://github.com/tailhook/unshare">unshare</a> by <a href="https://github.com/tailhook">Paul Colomiets</a> : low-level linux containers</li>
+</ul>
+<h2 id="async">Async</h2>
+<p>( <em>async</em> )</p>
+<ul>
+<li><a href="https://github.com/taiki-pin-project">pin-project</a> by <a href="https://github.com/taiki-e">Taiki Endo</a> : synchronization primitives pin-projection</li>
+<li><a href="https://github.com/taiki-pin-project-lite">pin-project-lite</a> by <a href="https://github.com/taiki-e">Taiki Endo</a> : synchronization primitives pin-projection, lite version</li>
+<li><a href="https://github.com/smol-rblocking">blocking</a> by Stjepan Glavina : a thread pool for isolating blocking I/O in async environment</li>
+<li><a href="https://github.com/smol-rasync-compat">async-compat</a> by <a href="https://github.com/taiki-e">Taiki Endo</a> : compatibility adapter between tokio and futures</li>
+<li><a href="https://github.com/Pauan/rust-signals">futures-signals</a> by <a href="https://github.com/Pauan">Pauan</a> : reactive signals</li>
+<li><a href="https://github.com/rust-lang/futures-rs">futures</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : async interfaces</li>
+<li><a href="https://github.com/smol-rwaker-fn">waker-fn</a> by Stjepan Glavina : convert closures into waker</li>
+</ul>
+<h2 id="async-runtimes">Async Runtimes</h2>
+<p>( <em>async</em> ) ( <em>async_runtime</em> )</p>
+<ul>
+<li><a href="https://github.com/tokio-rtokio">tokio</a> by <a href="https://github.com/carllerche">Carl Lerche</a> : asynchronous application framework</li>
+<li><a href="https://github.com/async-rasync-std">async-std</a> by <a href="https://github.com/skade">Florian Gilcher</a> : async version of std</li>
+<li><a href="https://github.com/zesterer/pollster">pollster</a> by <a href="https://github.com/zesterer">Joshua Barretto</a> : a minimal async executor</li>
+<li><a href="https://github.com/smol-rsmol">smol</a> by Stjepan Glavina : a small and fast async runtime for Rust</li>
+</ul>
+<h2 id="concurrency">Concurrency</h2>
+<p>( <em>concurrency</em> )</p>
+<ul>
+<li><a href="https://github.com/bitvecto-rradium">radium</a> by <a href="https://github.com/mystor">Nika Layzell </a> : atomic instructions fallback</li>
+<li><a href="https://github.com/rayon-rrayon">rayon</a> by <a href="https://github.com/nikomatsakis">Niko Matsakis</a> : data-parallelism</li>
+<li><a href="https://github.com/Pauan/rust-signals">futures-signals</a> by <a href="https://github.com/Pauan">Pauan</a> : reactive signals</li>
+<li><a href="https://github.com/crossbeam-rcrossbeam">crossbeam</a> by <a href="https://github.com/aturon">Aaron Turon</a> : tools for concurrent programming</li>
+<li><a href="https://github.com/Kimundi/scoped-threadpool-rs">scoped_threadpool</a> by <a href="https://github.com/Kimundi">Marvin Löbel</a> : scoped and cached threadpools</li>
+</ul>
+<h2 id="concurrency-primitives">Concurrency primitives</h2>
+<p>( <em>concurrency</em> ) ( <em>primitive</em> )</p>
+<ul>
+<li><a href="https://github.com/Amanieu/parking_lot">parking_lot</a> by <a href="https://github.com/Amanieu">Amanieu d'Antras</a> : synchronization primitives on steroids</li>
+<li><a href="https://github.com/SergioBenitez/state">state</a> by <a href="https://github.com/SergioBenitez">https://github.com/SergioBenitez</a> : HTTP cookie parsing and cookie jar management</li>
+<li><a href="https://github.com/Amanieu/thread_local-rs">thread_local</a> by <a href="https://github.com/Amanieu">Amanieu d'Antras</a> : thread-local storage</li>
+<li><a href="https://github.com/zesterer/flume">flume</a> by <a href="https://github.com/zesterer">Joshua Barretto</a> : multi-producer, multi-consumer channel</li>
+<li><a href="https://github.com/polyfractal/bounded-spsc-queue">bounded-spsc-queue</a> by <a href="https://github.com/polyfractal">Zachary Tong</a> : bounded, Single-producer Single-consumer queue (SPSC)</li>
+<li><a href="https://github.com/jonhoo/bus">bus</a> by <a href="https://github.com/jonhoo">Jon Gjengset</a> : lock-free, bounded, single-producer, multi-consumer, broadcast channel</li>
+<li><a href="https://github.com/jonhoo/left-right">left-right</a> by <a href="https://github.com/jonhoo">Jon Gjengset</a> : lock-free, read-optimized, concurrency primitive</li>
+<li><a href="https://github.com/jonhoo/evmap">evmap</a> by <a href="https://github.com/jonhoo">Jon Gjengset</a> ( <em>data_structure</em> ) : lock-free, eventually consistent, concurrent multi-value map</li>
+<li><a href="https://github.com/xacrimon/dashmap">dashmap</a> by <a href="https://github.com/xacrimon">Acrimon Joel</a> ( <em>data_structure</em> ) : concurrent HashMap</li>
+<li><a href="https://github.com/LukasKalbertodatomig">atomig</a> by <a href="https://github.com/LukasKalbertodt">Lukas Kalbertodt</a> : type constructor of atmotics</li>
+<li><a href="https://github.com/kvark/syncell">syncell</a> by <a href="https://github.com/kvark">Dzmitry Malyshau</a> : sync alternative to RefCell</li>
+<li><a href="https://github.com/uazu/qcell">qcell</a> by <a href="https://github.com/uazu">Jim Peters</a> : statically-checked alternatives to RefCell and RwLock</li>
+<li><a href="https://github.com/diwic/reffers-rs">reffers</a> by <a href="https://github.com/diwic">David Henningsson</a> : wrappers around references, boxes and Arcs</li>
+</ul>
+<h2 id="persistence-and-delayed-execution">Persistence and delayed execution</h2>
+<p>( <em>persistence</em> )</p>
+<ul>
+<li><a href="https://github.com/mehcodschedule-rs">schedule</a> by <a href="https://github.com/mehcode">Ryan Leckey</a> : in-process cron-like scheduler</li>
+</ul>
+<h2 id="communication">Communication</h2>
+<p>( <em>communication</em> )</p>
+<ul>
+<li><a href="https://github.com/polyfractal/Turbine">turbine</a> by <a href="https://github.com/polyfractal">Zachary Tong</a> : inter-task communication</li>
+</ul>
+<h2 id="streams-and-buffers">Streams and Buffers</h2>
+<p>( <em>streams</em> ) ( <em>buffers</em> ) ( <em>data_structure</em> )</p>
+<ul>
+<li><a href="https://github.com/orlp/peekread">peekreed</a> by <a href="https://github.com/orlp">Orson Peters</a> : peekable read streams</li>
+<li><a href="https://github.com/tokio-rbytes">bytes</a> by <a href="https://github.com/carllerche">Carl Lerche</a> : working with bytes</li>
+<li><a href="https://github.com/apacharrow-rs">arrow</a> by <a href="https://github.com/jacques-n">Jacques Nadeau</a> : working with bytes from Apache</li>
+</ul>
+<h2 id="memory-management">Memory management</h2>
+<p>( <em>mem</em> )</p>
+<ul>
+<li><a href="https://github.com/sdroegbyte-slice-cast">byte-slice-cast</a> by <a href="https://github.com/sdroege">Sebastian Dröge</a> : casting to / from byte slice</li>
+<li><a href="https://docs.rzerocopy/">zerocopy</a> by <a href="https://github.com/joshlf">Joshua Liebow-Feeser</a> ( <em>serialization</em> ) : zero-copy parsing and serialization</li>
+<li><a href="https://github.com/danburkermemmap-rs">memmap</a> by <a href="https://github.com/danburkert">Dan Burkert</a> : API for memory mapped IO</li>
+<li><a href="https://github.com/rustwasm/wee_alloc">wee_alloc</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : 1kB-size memory allocator for size-optimized builds</li>
+<li><a href="https://github.com/fitzgen/shuffling-allocator">shuffling-allocator</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : randomizing location in the heap</li>
+</ul>
+<h2 id="serialization">Serialization</h2>
+<p>( <em>serialization</em> )</p>
+<ul>
+<li><a href="https://github.com/vityafx/unique-type-id">unique_type_id_workspace</a> by <a href="https://github.com/vityafx">Victor Polevoy</a> : procedural macro for generating unique ids</li>
+<li><a href="https://docs.rzerocopy/">zerocopy</a> by <a href="https://github.com/joshlf">Joshua Liebow-Feeser</a> ( <em>mem</em> ) : zero-copy parsing and serialization</li>
+<li><a href="https://github.com/lukaslueg/restruct">restruct</a> by <a href="https://github.com/lukaslueg">Lukas Lueg</a> : serializing and deserializing of a tuple</li>
+<li><a href="https://github.com/bincode-org/bincode">bincode</a> by <a href="https://github.com/nmccarty">Nathan McCarty</a> : a binary encoder / decoder implementation</li>
+<li><a href="https://github.com/ron-rs">ron</a> by <a href="https://github.com/kvark">Dzmitry Malyshau</a> ( <em>gdf</em> ) : readable data serialization format</li>
+<li>:earth_africa: <a href="https://github.com/serde-rserde">serde</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : the most popular serialization framework</li>
+<li><a href="https://github.com/hjson/hjson-rust">serde-hjson</a> by <a href="https://github.com/laktak">Christian Zangl</a> : serde plugin to parse JSON with comments</li>
+<li><a href="https://github.com/not-fl3/nanoserde">nanoserde</a> by <a href="https://github.com/not-fl3">Fedor Logachev</a> : minimal serialization library with zero dependencies</li>
+<li><a href="https://github.com/koutspeedy">speedy</a> by <a href="https://github.com/koute">Koute</a> : another serialization alternative</li>
+<li><a href="https://github.com/chinedufn/dipa">dipa</a> by <a href="https://github.com/chinedufn">Chinedu Francis Nwafili</a> : structures delta encoding</li>
+</ul>
+<h2 id="stringification">Stringification</h2>
+<p>( <em>stringification</em> )</p>
+<ul>
+<li><a href="https://github.com/frozenlib/parse-display">parse-display</a> by <a href="https://github.com/frozenlib">Frozenlib</a> ( <em>derive</em> ) : derive macro Display and FromStr</li>
+<li><a href="https://github.com/Peternator7/strum">strum</a> by <a href="https://github.com/Peternator7">Peter Glotfelty</a> ( <em>adt</em> ) : enum stringification, parsing and iterating</li>
+<li><a href="https://github.com/Alexhuszagh/rust-lexical">lexical</a> by <a href="https://github.com/Alexhuszagh">Alexander Huszagh</a> ( <em>parser</em> ) : numeric to and from string conversion</li>
+<li><a href="https://github.com/Alexhuszagh/rust-lexical/tremain/lexical-core">lexical-core</a> by <a href="https://github.com/Alexhuszagh">Alexander Huszagh</a> ( <em>parser</em> ) : minimal implementation of lexical</li>
+<li><a href="https://github.com/LeopoldArkham/humansize">humansize</a> by <a href="https://github.com/LeopoldArkham">Leopold Arkham</a> : file size formatting</li>
+<li><a href="https://github.com/SergioBenitez/ubyte">ubyte</a> by <a href="https://github.com/SergioBenitez">https://github.com/SergioBenitez</a> : byte units</li>
+<li><a href="https://github.com/bcmyernum-format">num-format</a> by <a href="https://github.com/bcmyers">Brian Myers</a> : formatting of numbers</li>
+<li><a href="https://github.com/zhiburtabled">tabled</a> by <a href="https://github.com/zhiburt">Maxim Zhiburt</a> : textual tables formatting</li>
+</ul>
+<h2 id="parser-generators-combinators">Parser generators / combinators</h2>
+<p>( <em>parser_generator</em> )</p>
+<ul>
+<li><a href="https://github.com/zesterer/chumsky">chumsky</a> by <a href="https://github.com/zesterer">Joshua Barretto</a> : parser combinator</li>
+<li><a href="https://github.com/Geal/nom">nom</a> by <a href="https://github.com/Geal">Geoffroy Couprie</a> : parser combinator framework</li>
+<li><a href="https://github.com/Marwecombine">combine</a> by <a href="https://github.com/Marwes">Markus Westerlind</a> : parser combinators</li>
+<li><a href="https://github.com/Marwecombine-language">combine-language</a> by <a href="https://github.com/Marwes">Markus Westerlind</a> : extension of combine to generate parsers of programming languages</li>
+<li><a href="https://github.com/lalrpop/lalrpop">lalrpop</a> by <a href="https://github.com/nikomatsakis">Niko Matsakis</a> : LR(1) parser generator</li>
+<li><a href="https://github.com/kevinmehall/rust-peg">peg</a> by <a href="https://github.com/kevinmehall">Kevin Mehall</a> : PEG parser generator</li>
+</ul>
+<h2 id="lexer-generator">Lexer generator</h2>
+<p>( <em>lexer_generator</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/maciejhirsz/logos">logos</a> by <a href="https://github.com/maciejhirsz">Maciej Hirsz</a> : fast tokenizer, the most popular</li>
+<li><a href="https://github.com/osa1/lexgen">lexgen</a> by <a href="https://github.com/osa1">Ömer Sinan Ağacan</a> : lexer generator, as a procedural macro</li>
+<li><a href="https://github.com/softdevteam/grmtooltree/master/lrlex">lrlex</a> by <a href="https://github.com/ptersilie">Lukas Diekmann</a> : lex/flex inspired lexer</li>
+</ul>
+<h2 id="parser-of-a-specific-language">Parser of a specific language</h2>
+<p>( <em>parser</em> )</p>
+<ul>
+<li><a href="https://github.com/Canop/minimad">minimad</a> by <a href="https://github.com/Canop">Canop</a> : markdown ( MD ) parser</li>
+<li><a href="https://github.com/parcel-bundler/parcel-css">parcel_css</a> by <a href="https://github.com/devongovett">Devon Govett</a> ( <em>build</em> ) : CSS parser, transformer, and minifier</li>
+<li><a href="https://github.com/BurntSushi/rust-csv">csv</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : CSV parser</li>
+<li><a href="https://github.com/alexcrichton/toml-rs">toml</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : TOML parser</li>
+<li><a href="https://github.com/ordian/toml_edit">toml_edit</a> by <a href="https://github.com/ordian">Andronik Ordian</a> : format-preserving TOML parser</li>
+<li>:earth_africa: <a href="https://github.com/rust-lang/regex">regex</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : the most popular regular expressions implementation</li>
+<li><a href="https://github.com/rusty-ecmRESS">ress</a> by <a href="https://github.com/FreeMasen">Robert Masen</a> : tokenizer of JS</li>
+<li><a href="https://github.com/rusty-ecmRESSA">ressa</a> by <a href="https://github.com/FreeMasen">Robert Masen</a> : parser of JS</li>
+<li><a href="https://github.com/trishumsyntect">syntect</a> by <a href="https://github.com/trishume">Tristan Hume</a> : syntax highlighting using Sublime text syntax definitions</li>
+<li><a href="https://github.com/osa1/sg">sg</a> by <a href="https://github.com/osa1">Ömer Sinan Ağacan</a> : syntax-aware grep-like code search</li>
+<li><a href="https://github.com/osa1/tree-sitter-parse">tree-sitter-parse</a> by <a href="https://github.com/osa1">Ömer Sinan Ağacan</a> : tree-sitter-cli that can load parsers compiled to shared libraries</li>
+</ul>
+<h2 id="time">Time</h2>
+<p>( <em>time</em> )</p>
+<ul>
+<li>:earth_africa: <a href="https://github.com/time-rtime">time</a> by <a href="https://github.com/jhpratt">Jacob Pratt</a> : the most popular date and time module</li>
+<li><a href="https://github.com/chronotopchrono">chrono</a> by <a href="https://github.com/lifthrasiir">Kang Seonghoon</a> : date and time module, maintained poorly</li>
+<li><a href="https://gitlab.com/imp/chrono-humanize-rs">chrono-humanize</a> by <a href="https://gitlab.com/imp">Cyril Plisko</a> : human-friendly time expressions</li>
+</ul>
+<h2 id="statistics">Statistics</h2>
+<p>( <em>statistics</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-random/getrandom">getrandom</a> by <a href="https://github.com/dhardy">Diggory Hardy</a> : cross-platform get random back-end</li>
+<li><a href="https://github.com/rust-random/rand">rand</a> by <a href="https://github.com/froystig">Roy Frostig</a> : random number generation front-end</li>
+<li><a href="https://github.com/smol-rfastrand">fastrand</a> by <a href="https://github.com/smol-rs">Stjepan Glavina</a> : fast random number generator</li>
+<li><a href="https://github.com/uuid-ruuid">uuid</a> by <a href="https://github.com/poiru">Biru Mohanathas</a> : generate and parse UUIDs</li>
+<li><a href="https://github.com/huxi/rusty_ulid">rusty_ulid</a> by <a href="https://github.com/huxi">Jörn Huxhorn</a> : generate and parse ULIDs, alternative of UUIDs</li>
+</ul>
+<h2 id="abstract-data-types">Abstract Data types</h2>
+<p>( <em>adt</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-num/num">num</a> by <a href="https://github.com/cuviper">Josh Stone</a> : a collection of numeric types and traits</li>
+<li><a href="https://github.com/tritoktotal_float_wrap">total_float_wrap</a> by <a href="https://github.com/tritoke"></a> : hash and equal for floats</li>
+</ul>
+<h2 id="algorithms">Algorithms</h2>
+<p>( <em>data_structure</em> ) ( <em>algo</em> )</p>
+<ul>
+<li><a href="https://github.com/emilk/drop-merge-sort">dmsort</a> by <a href="https://github.com/emilk">Emil Ernerfeldt</a> : fast novel adaptive sorting algorithm optimized for nearly-sorted data</li>
+<li><a href="https://github.com/fitzgen/longest-increasing-subsequence">longest-increasing-subsequence</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : longest increasing subsequence</li>
+</ul>
+<h2 id="primitive-data-structures">Primitive data structures</h2>
+<p>( <em>data_structure</em> ) ( <em>primitive</em> )</p>
+<ul>
+<li><a href="https://github.com/bluseither">either</a> by <a href="https://github.com/bluss">bluss</a> : enum Either with variants Left and Right is a general purpose sum type with two cases</li>
+<li><a href="https://github.com/CAD97/pointer-utiltree/master/crates/ptr-union">ptr-union</a> by <a href="https://github.com/CAD97">Christopher Durham</a> : union of pointers storing the tag in alignment bits</li>
+<li><a href="https://github.com/CAD97/pointer-utiltree/master/crates/erasable">erasable</a> by <a href="https://github.com/CAD97">Christopher Durham</a> : produce type-less pointers</li>
+<li><a href="https://github.com/CAD97/pointer-utiltree/master/crates/rc-box">rc-box</a> by <a href="https://github.com/CAD97">Christopher Durham</a> : better Rc&lt; Box &gt; and Arc&lt; Box &gt;</li>
+<li><a href="https://github.com/CAD97/pointer-utiltree/master/crates/rc-borrow">rc-borrow</a> by <a href="https://github.com/CAD97">Christopher Durham</a> : borrow Rc/Arc without wrapping borrowed</li>
+<li><a href="https://github.com/Manishearth/triomphe">triomphe</a> by <a href="https://github.com/Manishearth">Manish Goregaokar</a> : FFI-focused ARC</li>
+<li><a href="https://github.com/blusscopeguard">scopeguard</a> by <a href="https://github.com/bluss">bluss</a> : run a given closure when it goes out of scope</li>
+<li><a href="https://github.com/maciejhirsz/beef">beef</a> by <a href="https://github.com/maciejhirsz">Maciej Hirsz</a> : fast tokenizer</li>
+</ul>
+<h2 id="collections">Collections</h2>
+<p>( <em>data_structure</em> ) ( <em>collection</em> )</p>
+<ul>
+<li><a href="https://github.com/blusindexmap">indexmap</a> by <a href="https://github.com/bluss">bluss</a> : hash table which preserves insertion order</li>
+<li><a href="https://github.com/rust-lang/hashbrown">hashbrown</a> by <a href="https://github.com/Amanieu">Amanieu d'Antras</a> : hashmap and hashset for &quot;no std&quot;</li>
+<li><a href="https://github.com/rust-lang/rustc-hash">rustc-hash</a> by <a href="https://github.com/nikomatsakis">Niko Matsakis</a> : fast non-cryptographic hashmap and hashset</li>
+<li><a href="https://github.com/gnzlbg/slice_deque">slice-deque</a> by <a href="https://github.com/gnzlbg">gnzlbg</a> : contiguous-in-memory double-ended queue that derefs into a slice</li>
+<li><a href="https://github.com/hawkw/thingbuf">thingbuf</a> by <a href="https://github.com/hawkw">Eliza Weisman</a> : in-place allocation-reusing queues</li>
+<li><a href="https://github.com/bitvecto-rbitvec">bitvec</a> by <a href="https://github.com/myrrlyn">Alexander Payne</a> : bitfields</li>
+<li><a href="https://github.com/bitflagbitflags">bitflags</a> by <a href="https://github.com/bitflags">Alex Crichton</a> : macro to generate structures which behave like bitflags</li>
+<li><a href="https://github.com/dpbrigggrowable-bloom-filters">growable-bloom-filter</a> by <a href="https://github.com/dpbriggs">David Briggs</a> : growable bloom filter</li>
+<li><a href="https://github.com/fitzgen/associative-cache">associative-cache</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : fixed-size, associative cache</li>
+<li><a href="https://github.com/fitzgen/intrusive_splay_tree">intrusive_splay_tree</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : an intrusive, allocation-free <a href="https://en.wikipedia.org/wiki/Splay_tree">splay tree</a> implementation</li>
+<li><a href="https://github.com/chris-morgan/anymap">anymap</a> by <a href="https://github.com/chris-morgan">Chris Morgan</a> : wrapper around HashMap&lt; TypeId, Box&lt; dyn Any &gt; &gt;</li>
+<li><a href="https://github.com/BurntSushi/fst">fst</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : trie-like to represent large sets and maps</li>
+<li><a href="https://github.com/jonhoo/evmap">evmap</a> by <a href="https://github.com/jonhoo">Jon Gjengset</a> ( <em>concurrency</em> ) : lock-free, eventually consistent, concurrent multi-value map</li>
+<li><a href="https://github.com/xacrimon/dashmap">dashmap</a> by <a href="https://github.com/xacrimon">Acrimon Joel</a> ( <em>concurrency</em> ) : concurrent HashMap</li>
+<li><a href="https://github.com/hawkw/sharded-slab">sharded-slab</a> by <a href="https://github.com/hawkw">Eliza Weisman</a> ( <em>concurrency</em> ) : lock-free concurrent slab</li>
+</ul>
+<!-- - [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys. -->
+<h2 id="character-encoding">Character encoding</h2>
+<p>( <em>string</em> ) ( <em>character_encoding</em> )</p>
+<ul>
+<li><a href="https://github.com/kornelski/deunicode">deunicode</a> by <a href="https://github.com/kornelski">Kornel</a> : transliterates Unicode strings into ASCII</li>
+<li><a href="https://github.com/starkat99/widestring-rs">widestring</a> by <a href="https://github.com/starkat99">Kathryn Long</a> : a wide string Rust library for converting to and from wide Unicode strings</li>
+<li><a href="https://github.com/unicode-runicode-width">unicode-width</a> by <a href="https://github.com/kwantam">Riad S. Wahby</a> : displayed width</li>
+<li><a href="https://github.com/unicode-runicode-segmentation">unicode-segmentation</a> by <a href="https://github.com/kwantam">Riad S. Wahby</a> : iterate graphemes of unicode string</li>
+</ul>
+<h2 id="string-and-slice-data-structures-and-algorithms">String and slice data structures and algorithms</h2>
+<p>( <em>data_structure</em> ) ( <em>string</em> )</p>
+<ul>
+<li><a href="https://github.com/febeling/edit-distance">edit-distance</a> by <a href="https://github.com/febeling">Florian Ebeling</a> : Levenshtein distance</li>
+<li><a href="https://github.com/mitsuhiko/similar">similar</a> by <a href="https://github.com/mitsuhiko">Armin Ronacher</a> : determining difference between string</li>
+<li><a href="https://github.com/blustwoway">twoway</a> by <a href="https://github.com/bluss">bluss</a> : twoway substring search</li>
+<li><a href="https://github.com/BurntSushi/memchr">memchr</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : string search routines</li>
+<li><a href="https://github.com/BurntSushi/aho-corasick">aho-corasick</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : finding occurrences of many patterns at once</li>
+<li><a href="https://github.com/BurntSushi/suffix">suffix</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : finding several occurrences of the same pattern in a long text</li>
+<li><a href="https://github.com/BurntSushi/globset">globset</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> ( <em>fs</em> ) : glob matching</li>
+<li><a href="https://github.com/withoutboatheck">heck</a> by <a href="https://github.com/withoutboats">Saoirse Shipwreckt</a> : case conversion</li>
+<li><a href="https://github.com/rutrum/convert-case">convert-case</a> by <a href="https://github.com/rutrum">Dave Purdum</a> : case conversion</li>
+<li><a href="https://github.com/CAD97/pointer-utiltree/master/crates/slice-dst">slice-dst</a> by <a href="https://github.com/CAD97">Christopher Durham</a> : slice-based DST allocation</li>
+</ul>
+<h2 id="stack-based-data-structures">Stack-based data structures</h2>
+<p>( <em>data_structure</em> ) ( <em>stack_based</em> )</p>
+<ul>
+<li><a href="https://github.com/fitzgen/inlinable_string">inlinable_string</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> ( <em>string</em> ) : stack-based string if small, otherwise heap-based, also defines String interface</li>
+<li><a href="https://github.com/bodil/smartstring">smartstring</a> by <a href="https://github.com/bodil">Bodil Stokke</a> ( <em>string</em> ) : stack-based string if small, otherwise heap-based</li>
+<li><a href="https://github.com/cobalt-org/kstring">kstring</a> by <a href="https://github.com/epage">Ed Page</a> : stack-based string if small, otherwise heap-based, optimal as a key for hashmap</li>
+<li><a href="https://github.com/blusarrayvec">arrayvec</a> by <a href="https://github.com/bluss">bluss</a> : stack-based vector and string</li>
+<li><a href="https://github.com/servo/rust-smallvec">smallvec</a> by <a href="https://github.com/SimonSapin">Simon Sapin</a> : stack-based vector</li>
+<li><a href="https://github.com/notgull/tinymap">tinymap</a> by <a href="https://github.com/notgull">John</a> : stack-based hashmap</li>
+<li><a href="https://github.com/notgull/storagevec-rs">storagevec</a> by <a href="https://github.com/notgull">John</a> : feature to chose stack-based containers</li>
+</ul>
+<h2 id="self-referential-structures">Self referential structures</h2>
+<p>( <em>data_structure</em> ) ( <em>self_ref</em> ) ( <em>ownership_semantics</em> )</p>
+<ul>
+<li><a href="https://github.com/Kimundi/owning-ref-rs">owning_ref</a> by <a href="https://github.com/Kimundi">Marvin Löbel</a> : references that carry their owner with them</li>
+<li><a href="https://github.com/joshua-maroouroboros">ouroboros</a> by <a href="https://github.com/joshua-maros">Joshua Maros</a> : self-referential struct generation</li>
+</ul>
+<h2 id="ownership-semantic">Ownership semantic</h2>
+<p>( <em>data_structure</em> ) ( <em>ownership_semantics</em> )</p>
+<ul>
+<li><a href="https://github.com/frozenlib/slabmap">slabmap</a> by <a href="https://github.com/frozenlib">Frozenlib</a> : hashMap-like collection with implicit key</li>
+<li><a href="https://github.com/tokio-rslab">slab</a> by <a href="https://github.com/carllerche">Carl Lerche</a> : hashMap-like collection with implicit key</li>
+<li><a href="https://github.com/blusindexing">indexing</a> by <a href="https://github.com/bluss">bluss</a> : solving indexing problem by associating lifetime with intervals</li>
+<li><a href="https://github.com/orlp/slotmap">slotmap</a> by <a href="https://github.com/orlp">Orson Peters</a> : a hashmap with implicit key</li>
+<li><a href="https://github.com/SimonSapin/rust-typed-arena">typed-arena</a> by <a href="https://github.com/SimonSapin">Simon Sapin</a> : homogenous allocator operating references without the ability to deallocate an individual element</li>
+<li><a href="https://github.com/fitzgen/id-arena">id-arena</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : homogenous allocator operating ids without the ability to deallocate an individual element</li>
+<li><a href="https://github.com/fitzgen/generational-arena">generational-arena</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : homogenous allocator operating ids with the ability to deallocate an individual element</li>
+<li><a href="https://github.com/fitzgen/bumpalo">bumpalo</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : heterogeneous allocator operating ids without the ability to deallocate an individual element</li>
+</ul>
+<h2 id="multidimensional-data-structures-and-algorithms">Multidimensional data structures and algorithms</h2>
+<p>( <em>data_structure</em> ) ( <em>multidimensional</em> )</p>
+<ul>
+<li><a href="https://github.com/svenstaro/bvh">bvh</a> by <a href="https://github.com/svenstaro">Sven-Hendrik Haase</a> : fast BVH using SAH</li>
+</ul>
+<h2 id="graphs">Graphs</h2>
+<p>( <em>data_structure</em> ) ( <em>graphs</em> )</p>
+<ul>
+<li><a href="https://github.com/petgraph/petgraph">petgraph</a> by <a href="https://github.com/bluss">bluss</a> : graph data structure and algorithms</li>
+</ul>
+<h2 id="hashing">Hashing</h2>
+<p>( <em>hashing</em> )</p>
+<ul>
+<li><a href="https://github.com/tkaitchuck/aHash">ahash</a> by <a href="https://github.com/tkaitchuck">Tom Kaitchuck</a> : fast non-cryptographic hashing</li>
+<li><a href="https://github.com/DoumanAsh/xxhash-rust">xxhash-rust</a> by <a href="https://github.com/DoumanAsh">Douman</a> : xxhash algorithm - one of the fastest non-cryptographic hashing</li>
+<li><a href="https://github.com/shepmaster/twox-hash">twox-hash</a> by <a href="https://github.com/shepmaster">Jake Goulding</a> : xxhash algorithm - one of the fastest non-cryptographic hashing</li>
+<li><a href="https://gitlab.redox-os.org/redox-oseahash">seahash</a> by <a href="https://github.com/Tommoa">Tom Almeida</a> : one of the fastest non-cryptographic hashing algorithm</li>
+<li><a href="https://github.com/mbrubeck/by_address">by_address</a> by <a href="https://github.com/mbrubeck">Matt Brubeck</a> ( <em>adt</em> ) : comparison by pointer address</li>
+</ul>
+<h2 id="cryptography">Cryptography</h2>
+<p>( <em>cryptography</em> )</p>
+<ul>
+<li><a href="https://github.com/facebookresearch/Cupcake">Cupcake</a> by <a href="https://github.com/haochenuw">Hao Chen</a> : lattice-based additive homomorphic encryption</li>
+<li><a href="https://github.com/chritchenelgamal-curve25519">elgamal-curve25519</a> by <a href="https://github.com/chritchens">Christian Nyumbayire</a> : ElGamal homomorphic encryption on Curve25519</li>
+<li><a href="https://github.com/bcmyerargonautica">argonautica</a> by <a href="https://github.com/bcmyers">Brian Myers</a> : password hashing</li>
+<li><a href="https://github.com/sru-systemrust-argon2">rust-argon2</a> by <a href="https://github.com/mrijkeboer">Martijn Rijkeboer</a> :  password hashing</li>
+</ul>
+<h2 id="compression">Compression</h2>
+<p>( <em>compression</em> )</p>
+<ul>
+<li><a href="https://github.com/dfrg/yazi">yazi</a> by <a href="https://github.com/dfrg">Chad Brokaw</a> : deflatzlib compression</li>
+<li><a href="https://github.com/rust-lang/flate2-rs">flate2</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : deflate, gzip, and zlib bindings</li>
+<li><a href="https://github.com/BurntSushi/rust-snappy">snap</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : high speeds and reasonable compression</li>
+<li><a href="https://github.com/gwihlidal/smush-rs">smush</a> by <a href="https://github.com/gwihlidal">Graham Wihlidal</a> : adapter of variety of compression codecs</li>
+</ul>
+<h2 id="encoding-decoding">Encoding / decoding</h2>
+<p>( <em>encoding</em> )</p>
+<ul>
+<li><a href="https://github.com/servo/rust-url/tremaster/percent_encoding">percent-encoding</a> by <a href="https://github.com/SimonSapin">Simon Sapin</a> : do <a href="https://en.wikipedia.org/wiki/Percent-encoding">URL percent encoding</a></li>
+<li><a href="https://github.com/servo/rust-url">url</a> by <a href="https://github.com/SimonSapin">Simon Sapin</a> : URI parsing</li>
+<li><a href="https://github.com/KokaKiwi/rust-hex">hex</a> by <a href="https://github.com/KokaKiwi">KokaKiwi</a> : hexadecimal encoding</li>
+</ul>
+<h2 id="general-data-format">General data format</h2>
+<p>( <em>gdf</em> )</p>
+<ul>
+<li><a href="https://github.com/frol/flatc-rust">flatc-rust</a> by <a href="https://github.com/frol/flatc-rust">Vlad Frolov</a> : FlatBuffers</li>
+<li><a href="https://github.com/ron-rs">ron</a> by <a href="https://github.com/kvark">Dzmitry Malyshau</a> ( <em>serialization</em> ) : readable data serialization format</li>
+<li><a href="https://github.com/3Hren/msgpack-rust">rmp</a> by <a href="https://github.com/3Hren">Evgeny Safronov</a> : MessagePack</li>
+<li><a href="https://gitlab.com/twittner/minicbor">minicbor</a> by <a href="https://gitlab.com/twittner">Toralf Wittner</a> : CBOR</li>
+<li><a href="https://github.com/dflemstr/rq">record-query</a> by <a href="https://github.com/dflemstr">David Flemström</a> : transform from one GDF to another one</li>
+</ul>
+<!-- - [json](https://github.com/maciejhirsz/json-rust) by [Maciej Hirsz](https://github.com/maciejhirsz) : inlined JSON -->
+<h2 id="image-reading-writing">Image reading / writing</h2>
+<p>( _<em>image</em> )</p>
+<ul>
+<li><a href="https://github.com/Cykooz/libheif-rs">libheif-rs</a> by <a href="https://github.com/Cykooz">Kirill Kuzminykh</a> : heif/heic files reading/writing</li>
+<li><a href="https://github.com/kornelski/lodepng-rust">lodepng</a> by <a href="https://github.com/kornelski">Kornel</a> : PNG image reader/writer</li>
+<li><a href="https://github.com/vadixidav/exifsd">exifsd</a> by <a href="https://github.com/vadixidav">Geordon Worley</a> : exif serialization and deserialization</li>
+</ul>
+<h2 id="image-processing">Image processing</h2>
+<p>( _<em>image_processing</em> )</p>
+<ul>
+<li><a href="https://github.com/Cykooz/fast_image_resize">fast_image_resize</a> by <a href="https://github.com/Cykooz">Kirill Kuzminykh</a> : SIMD image resizing</li>
+<li><a href="https://github.com/ImageOptim/libimagequant">imagequant</a> by <a href="https://github.com/kornelski">Kornel</a> : palette quantization library</li>
+<li><a href="https://github.com/kornelski/dssim">dssim</a> by <a href="https://github.com/kornelski">Kornel</a> : image similarity comparison simulating human perception</li>
+<li><a href="https://github.com/Razaekel/noise-rs">noise</a> by <a href="https://github.com/Razaekel">Nick Whitney</a> : procedural noise generation</li>
+<li><a href="https://github.com/image-rimageproc">imageproc</a> by <a href="https://github.com/image-rs">image-rs</a> : library for images processing</li>
+<li><a href="https://github.com/Joylei/anim-rs">anim-rs</a> by <a href="https://github.com/Joylei">Joylei</a> : animation library</li>
+</ul>
+<h2 id="file-system">File system</h2>
+<p>( <em>fs</em> )</p>
+<ul>
+<li><a href="https://github.com/dirs-dev/directories-rs">directories</a> by <a href="https://github.com/soc">Simon Ochsenreither</a> : OS's paths</li>
+<li><a href="https://github.com/danburkerfs2-rs">fs2</a> by <a href="https://github.com/danburkert">Dan Burkert</a> : extra system fs routines</li>
+<li><a href="https://github.com/BurntSushi/walkdir">walkdir</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : walking directories recursively</li>
+<li><a href="https://github.com/XAMPPRocky/remove_dir_all">remove_dir_all</a> by <a href="https://github.com/XAMPPRocky">Erin P</a> : directory removal</li>
+<li><a href="https://github.com/bitflagfiletime">filetime</a> by <a href="https://github.com/bitflags">Alex Crichton</a> : file timestamps reading / writing</li>
+<li><a href="https://github.com/fitzgen/is_executable">is_executable</a> by <a href="https://github.com/fitzgen">Nick Fitzgerald</a> : is an executable</li>
+<li><a href="https://github.com/BurntSushi/same-file">same-file</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : two files or directories are the same</li>
+<li><a href="https://github.com/BurntSushi/globset">globset</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> ( <em>data_structure</em> ) ( <em>string</em> ) : glob matching</li>
+<li><a href="https://github.com/harryfei/which-rs">which</a> by <a href="https://github.com/harryfei">Harry Fei</a> : equivalent of Unix command &quot;which&quot;</li>
+<li><a href="https://github.com/manuel-woelker/rust-vfs">vfs</a> by <a href="https://github.com/manuel-woelker">Manuel Woelker</a> : file system adapter</li>
+</ul>
+<!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
+<!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
+<h2 id="operation-systems-userland">Operation Systems - userland</h2>
+<p>( <em>os</em> )</p>
+<ul>
+<li><a href="https://github.com/retep998/winapi-rs">winapi</a> by <a href="https://github.com/retep998">Peter Atashian</a> : bindings to Windows API</li>
+<li><a href="https://github.com/retep998/wio-rs">wio</a> by <a href="https://github.com/retep998">Peter Atashian</a> : extra bindings to Windows API</li>
+<li><a href="https://github.com/BurntSushi/winapi-util">winapi-util</a> by <a href="https://github.com/BurntSushi">Andrew Gallant</a> : middleware above</li>
+<li><a href="https://github.com/spacejam/rio">rio</a> by <a href="https://github.com/spacejam">Tyler Neely</a> : io_uring</li>
+<li><a href="https://github.com/trishumtelefork">telefork</a> by <a href="https://github.com/trishume">Tristan Hume</a> : remote fork()</li>
+<li><a href="https://github.com/zhiburexpectrl">expectrl</a> by <a href="https://github.com/zhiburt">Maxim Zhiburt</a> ( <em>ui</em> ) ( <em>tui</em> ) ( <em>testing</em> ) : controlling input/output of interactive programs</li>
+<li><a href="https://github.com/nix-rusnix">nix</a> by <a href="https://github.com/carllerche">Carl Lerche</a> : nix APIs</li>
+<li><a href="https://github.com/unrelentingtech/systemstat">systemstat</a> by <a href="https://github.com/unrelentingtech">Greg V</a> : system information</li>
+</ul>
+<h2 id="operation-systems-kernel">Operation Systems - kernel</h2>
+<p>( <em>os</em> ) ( <em>kernel</em> )</p>
+<ul>
+<li><a href="https://github.com/Andy-Python-Programmer/ion">Ion</a> by <a href="https://github.com/Andy-Python-Programmer">Anhad Singh </a> : x86_64 UEFI bootloader</li>
+<li><a href="https://github.com/Andy-Python-Programmer/aero">Aero</a> by <a href="https://github.com/Andy-Python-Programmer">Anhad Singh </a> : unix-like operating system</li>
+<li><a href="https://github.com/hawkw/mycelium">mycelium</a> by <a href="https://github.com/hawkw">Eliza Weisman</a> : operating system</li>
+<li><a href="https://github.com/hermitcorrusty-hermit">hermit-sys</a> by <a href="https://github.com/stlankes">Stefan Lankes</a> : lightweight unikernel</li>
+</ul>
+<h2 id="asm">Asm</h2>
+<p>( <em>asm</em> )</p>
+<ul>
+<li><a href="https://github.com/m4b/faerie">faerie</a> by <a href="https://github.com/m4b">m4b</a> : ELF and Mach-o object file writer</li>
+<li><a href="https://github.com/m4b/goblin">goblin</a> by <a href="https://github.com/m4b">m4b</a> : binary parsing</li>
+<li><a href="https://github.com/RazrFalcon/cargo-bloat">cargo-bloat</a> by <a href="https://github.com/RazrFalcon">Yevhenii Reizner</a> : utility to profile code size</li>
+<li><a href="https://github.com/rust-embedded/cargo-binutils">cargo-binutils</a> by <a href="https://github.com/japaric">Jorge Aparicio</a> : LLVM utility</li>
+<li><a href="https://github.com/gz/rust-elfloader">elfloader</a> by <a href="https://github.com/gz">Gerd Zellweger</a> : x86 CPUID instruction</li>
+<li><a href="https://github.com/calebzulawski/symbol">symbol</a> by <a href="https://github.com/calebzulawski">Caleb Zulawski</a> : ELF and Mach-O symbols manipulation</li>
+</ul>
+<h2 id="hardware">Hardware</h2>
+<p>( <em>hardware</em> )</p>
+<ul>
+<li><a href="https://github.com/gz/rust-cpuid">cpuid</a> by <a href="https://github.com/gz">Gerd Zellweger</a> : x86 CPUID instruction</li>
+<li><a href="https://github.com/shepmaster/cupid">cupid</a> by <a href="https://github.com/shepmaster">Jake Goulding</a> : x86 CPUID instruction</li>
+<li><a href="https://github.com/seanmonstar/num_cpus">num_cpus</a> by <a href="https://github.com/seanmonstar">Sean McArthur</a> : number of CPUs</li>
+<li><a href="https://github.com/calebzulawski/generic-simd">generic-simd</a> by <a href="https://github.com/calebzulawski">Caleb Zulawski</a> : SIMD instructions</li>
+<li><a href="https://github.com/calebzulawski/multiversion">multiversion</a> by <a href="https://github.com/calebzulawski">Caleb Zulawski</a> : tool to write multiversioned architecture-specific implementations of functions</li>
+<li><a href="https://github.com/rustyhordvergen">vergen</a> by <a href="https://github.com/jasonozias">Jason Ozias</a> : ( <em>hardware</em> ) ( <em>compile_time</em> ) compile-time constants about process of compilation</li>
+</ul>
+<h2 id="embedded">Embedded</h2>
+<p>( <em>embed</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-embedded/embedded-hal">embedded-hal</a> by <a href="https://github.com/japaric">Jorge Aparicio</a> : hardware abstraction layer (HAL) for embedded systems</li>
+<li><a href="https://github.com/rede97/serial_enumerator">serial_enumerator</a> by <a href="https://github.com/rede97">eebear</a> : serial port enumreator</li>
+</ul>
+<h2 id="foreign">Foreign</h2>
+<p>( <em>foreign</em> )</p>
+<ul>
+<li><a href="https://github.com/sfackler/foreign-types">foreign_types</a> by <a href="https://github.com/sfackler">Steven Fackler</a> : wrappers over C APIs.</li>
+<li><a href="https://github.com/mystor/rust-cpp">cpp</a> by <a href="https://github.com/mystor">Nika Layzell</a> : embed C++ inside rust code</li>
+</ul>
+<h2 id="logging">Logging</h2>
+<p>( <em>logger</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-lang/log">log</a> by <a href="https://github.com/alexcrichton">Alex Crichton</a> : lightweight logging</li>
+<li><a href="https://github.com/estk/log4rs">log4rs</a> by <a href="https://github.com/estk">estk</a> : configurable logging</li>
+<li><a href="https://github.com/Drakulix/simplelog.rs">simplelog</a> by <a href="https://github.com/Drakulix">Victoria Brekenfeld</a> : simple logging</li>
+<li><a href="https://github.com/tokio-rtracing">tracing</a> by <a href="https://github.com/hawkw">Eliza Weisman</a> :</li>
+<li><a href="https://github.com/elefant-dev/fregate-rs">fregate</a> by <a href="https://github.com/elefant-dev">Petr Makagon</a> : metrics, logging, environment all-in-one</li>
+</ul>
+<h2 id="config">Config</h2>
+<p>( <em>config</em> )</p>
+<ul>
+<li><a href="https://github.com/mehcodconfig-rs">config</a> by <a href="https://github.com/mehcode">Ryan Leckey</a> : generic config manager</li>
+<li><a href="https://github.com/allan2/dotenvy/">dotenvy</a> by <a href="https://github.com/allan2">Allan</a> : environment variables from a .env file</li>
+</ul>
+<h2 id="diagnostics-tools">Diagnostics tools</h2>
+<p>( <em>daignostics</em> )</p>
+<ul>
+<li><a href="https://github.com/colin-kiegel/rust-pretty-assertions">pretty_assertions</a> by <a href="https://github.com/colin-kiegel">Colin Kiegel</a> : pretty assert_eq</li>
+</ul>
+<h2 id="mobile">Mobile</h2>
+<p>( <em>mobile</em> )</p>
+<ul>
+<li><a href="https://github.com/BrainiumLLC/cargo-mobile">cargo-mobile</a> by <a href="https://github.com/mtak-">mtak-</a> ( <em>build</em> ) : utility to run rust on mobile</li>
+<li><a href="https://github.com/dodorarcrossbow">crossbow</a> by <a href="https://github.com/enfipy">David Ackerman</a> : cross-platform rust toolkit for games</li>
+<li><a href="https://github.com/BrainiumLLC/mobile-entry-point">mobile-entry-point</a> by <a href="https://github.com/francesca64">Francesca Lovebloom</a> : Wraps a function to make it the entry-point for an mobile app</li>
+</ul>
+<h2 id="android">Android</h2>
+<p>( <em>android</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-windowing/android-ndk-rs">android-ndk-rs</a> by <a href="https://github.com/mb64">Mark Barbone</a> : libraries and tools for Rust programming on Android targets</li>
+<li><a href="https://github.com/rust-windowing/android-ndk-rtree/master/ndk-glue">ndk-glue</a> by <a href="https://github.com/dvc94ch">David Craven</a> : interoperability library for a native Rust application with the Android framework</li>
+<li><a href="https://github.com/rust-windowing/android-ndk-rtree/master/ndk-sys">ndk-sys</a> by <a href="https://github.com/dvc94ch">David Craven</a> ( <em>bindings</em> ) : raw FFI bindings to the NDK</li>
+<li><a href="https://github.com/Nercury/android_logger-rs">android_logger</a> by <a href="https://github.com/Nercury">Nerijus Arlauskas</a> ( <em>logger</em> ) : send Rust logs to Logcat</li>
+<li><a href="https://github.com/rust-windowing/android-ndk-rtree/master/cargo-apk">cargo-apk</a> by <a href="https://github.com/dvc94ch">David Craven</a> ( <em>build</em> ) : tool for creating Android packages</li>
+</ul>
+<h2 id="ios">iOS</h2>
+<p>( <em>ios</em> )</p>
+<ul>
+<li><a href="https://github.com/wojteklu/rust-to-ios">rust-to-ios</a> by <a href="https://github.com/wojteklu">Wojtek Lukaszuk</a> ( <em>example</em> ) : Example project for building a library for iOS.</li>
+<li><a href="https://github.com/yonaskolb/XcodeGen">xcodegen</a> by <a href="https://github.com/yonaskolb">Yonas Kolb</a> : utility to generates your Xcode project</li>
+<li><a href="https://github.com/TimNN/cargo-lipo">cargo-lipo</a> by <a href="https://github.com/TimNN">Tim Neumann</a> : utility to automatically creates a universal library for use with iOS application</li>
+</ul>
+<h2 id="templating">Templating</h2>
+<p>( <em>templating</em> )</p>
+<ul>
+<li><a href="https://github.com/sunng87/handlebars-rust">handlebars-rust</a> by <a href="https://github.com/sunng87">Ning Sun</a> : Handlebars templating language implemented in Rust and for Rust</li>
+<li><a href="https://github.com/cargo-generatcargo-generate">cargo-generate</a> by <a href="https://github.com/ashleygwilliams">ashley williams</a> : utility to instantiate a template ( <em>cargo</em> ) ( <em>build</em> )</li>
+<li><a href="https://github.com/maciejhirsz/ramhorns">ramhorns</a> by <a href="https://github.com/maciejhirsz">Maciej Hirsz</a> : Mustache template engine</li>
+</ul>
+<h2 id="utilities-for-development">Utilities for development</h2>
+<p>( <em>development</em> )( <em>utility</em> )</p>
+<ul>
+<li><a href="https://github.com/rust-lang/rust-clippy">cargo-clippy</a> by <a href="https://github.com/Manishearth">Manishearth</a> : A collection of lints to catch common mistakes and improve your Rust code</li>
+<li><a href="https://github.com/RustSec/rustsec/tremain/cargo-audit">cargo-audit</a> by <a href="https://github.com/tarcieri">Tony Arcieri</a> : Audit Cargo.lock files for crates with security vulnerabilities reported to the RustSec Advisory Database</li>
+<li><a href="https://github.com/est31/cargo-udeps">cargo-udeps</a> by <a href="https://github.com/est31">est31</a> : Find unused dependencies in Cargo.toml</li>
+<li><a href="https://github.com/watchexec/cargo-watch">cargo-watch</a> by <a href="https://github.com/passcod">Félix Saparelli</a> : Utility to watch over your project's source for changes</li>
+<li><a href="https://github.com/cargo-checkmatcargo-checkmate">cargo-checkmate</a> by <a href="https://github.com/nathan-at-least">Nathan Wilcox</a> : Perform a series of useful checks out of the box.</li>
+<li><a href="https://github.com/EmbarkStudiocargo-about">cargo-about</a> by <a href="https://github.com/Jake-Shadle">Jake Shadle</a> : Cargo plugin for generating a license listing for all dependencies of a crate</li>
+<li><a href="https://github.com/taiki-cargo-hack">cargo-hack</a> by <a href="https://github.com/taiki-e">Taiki Endo</a> : Cargo subcommand to provide various options useful for testing and continuous integration</li>
+<li><a href="https://github.com/kbknapp/cargo-outdated">cargo-outdated</a> by <a href="https://github.com/kbknapp">Kevin K.</a> : A cargo subcommand for displaying when Rust dependencies are out of date</li>
+<li><a href="https://github.com/rust-lang/miri">cargo-miri</a> by <a href="https://github.com/solson">Scott Olson</a> : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior</li>
+<li><a href="https://github.com/dtolnay/cargo-expand">cargo-expand</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : Extension for cargo to expand macros</li>
+<li><a href="https://github.com/dtolnay/cargo-llvm-lines">cargo-llvm-lines</a> by <a href="https://github.com/dtolnay">David Tolnay</a> : Count the number of lines of LLVM IR across all instantiations of a generic function</li>
+</ul>
+<!-- qqq : add tag::utility for each utility -->
+<!-- qqq : sort tags -->
+<!-- qqq : emoji instead of tags? -->
+<!-- qqq : replace rust-windowing by a person -->
+<!-- qqq : replace orgs by persons, add missing authors -->
+<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheeblob/master/README.md -->
+<h2 id="tags-legend">Tags legend</h2>
+<ul>
+<li>:earth_africa: - the most popular module in its category</li>
+<li>( <em>error</em> ) - errors handling</li>
+<li>( <em>macro</em> ) - writing macros</li>
+<li>( <em>meta</em> ) - meta programming : reflection, introspection and such things</li>
+<li>( <em>decorator</em> ) - decorators for nicer code</li>
+<li>( <em>derive</em> ) - procedural derive macroses</li>
+<li>( <em>compiler</em> ) - compilers and static analyzers</li>
+<li>( <em>compile_time</em> ) - non run-time</li>
+<li>( <em>global</em> ) - global variable</li>
+<li>( <em>njs</em> ) - NodeJs related</li>
+<li>( <em>ui</em> ) - user interface</li>
+<li>( <em>gui</em> ) - graphical user interface</li>
+<li>( <em>tui</em> ) - textual user interface</li>
+<li>( <em>cui</em> ) - command user interface</li>
+<li>( <em>cui_parsing</em> ) - tools to parse input of command user interface ( CUI )</li>
+<li>( <em>terminal</em> ) - terminal, textual output</li>
+<li>( <em>cloud_api</em> ) - remote APIs, mostly REST</li>
+<li>( <em>cross_compile</em> ) - build from one platform to another one</li>
+<li>( <em>build</em> ) - toolchains to build your project</li>
+<li>( <em>perf_benchmark</em> ) - performance benchmarking</li>
+<li>( <em>wasm</em> ) - WebAssembly-related</li>
+<li>( <em>windowing</em> ) - windows creating, manipulating OS GUI</li>
+<li>( <em>dsa</em> ) - data streams aggregation</li>
+<li>( <em>html</em> ) - HTML generating / parsing / transformation</li>
+<li>( <em>dom</em> ) - web DOM</li>
+<li>( <em>web_frontend</em> ) - web frontend</li>
+<li>( <em>web_backend</em> ) - web backend</li>
+<li>( <em>network</em> ) - network</li>
+<li>( <em>db</em> ) - database-related</li>
+<li>( <em>data_science</em> ) - data science, data mining, data minding, machine learning</li>
+<li>( <em>functional</em> ) - functional programming</li>
+<li>( <em>virtualisation</em> ) - virtualisation-related, docker-related</li>
+<li>( <em>concurrency</em> ) - concurrency programming</li>
+<li>( <em>async</em> ) - asynchronous programming</li>
+<li>( <em>async_runtime</em> ) - asynchronous runtimes and executors</li>
+<li>( <em>persistence</em> ) - persistence and delayed execution</li>
+<li>( <em>communication</em> ) - either inter-process or inter-thread communication</li>
+<li>( <em>streams</em> ) - read/write streams</li>
+<li>( <em>buffers</em> ) - buffers for memory management</li>
+<li>( <em>mem</em> ) - memory management</li>
+<li>( <em>serialization</em> ) - serialization / deserialization</li>
+<li>( <em>stringification</em> ) - converting to / from a string</li>
+<li>( <em>parser_generator</em> ) - parser generators / combinators</li>
+<li>( <em>lexer_generator</em> ) - lexer generator</li>
+<li>( <em>parser</em> ) - parser of a specific language</li>
+<li>( <em>time</em> ) - time</li>
+<li>( <em>statistics</em> ) - random generators, distributions and statistics-related things</li>
+<li>( <em>character_encoding</em> ) - character encoding</li>
+<li>( <em>adt</em> ) - abstract data types</li>
+<li>( <em>algo</em> ) - algorithms</li>
+<li>( <em>data_structure</em> ) - data structures and algorithms</li>
+<li>( <em>primitive</em> ) - primitives</li>
+<li>( <em>collection</em> ) - data structures which are collections</li>
+<li>( <em>string</em> ) - either string or bytes slice based data structures and algorithms</li>
+<li>( <em>stack_based</em> ) - stack-based data structures and algorithms</li>
+<li>( <em>graphs</em> ) - graphs data structures and algorithms</li>
+<li>( <em>hashing</em> ) - hashing algorithms</li>
+<li>( <em>cryptography</em> ) - cryptographic</li>
+<li>( <em>compression</em> ) - compression, archiving</li>
+<li>( <em>encoding</em> ) - encoding / decoding</li>
+<li>( <em>gdf</em> ) - general data format, genera-purpose formats to exchange data</li>
+<li>( _<em>image</em> ) - reading / writing / manipulating various image formats</li>
+<li>( <em>fs</em> ) - file system related</li>
+<li>( <em>os</em> ) - operation systems, bootloaders and components of such, OS APIs</li>
+<li>( <em>kernel</em> ) - kernel of operation system</li>
+<li>( <em>cargo</em> ) - extension of cargo</li>
+<li>:movie_camera: - video-processing, capturing</li>
+<li>( <em>asm</em> ) - machine code, byte code, interpreters, assembler</li>
+<li>( <em>hardware</em> ) - reading / writing hardware</li>
+<li>( <em>embed</em> ) - embedded</li>
+<li>( <em>foreign</em> ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )</li>
+<li>( <em>self_ref</em> ) - self referential structures</li>
+<li>( <em>ownership_semantics</em> ) - solutions of problems of owning/borrowing/lifetimes self referring</li>
+<li>( <em>multidimensional</em> ) - multidimensional data structures and algorithms</li>
+<li>( <em>bindings</em> ) - bindings to foreign library or service</li>
+<li>( <em>logger</em> ) - tools for printing information</li>
+<li>( <em>config</em> ) - config managing</li>
+<li>( <em>daignostics</em> ) - tools for diagnostics</li>
+<li>( <em>mobile</em> ) - tool or lib related to running rust code on mobile</li>
+<li>( <em>android</em> ) - tools for running rust code on Android</li>
+<li>( <em>ios</em> ) - tools for running rust code on iOS</li>
+<li>( <em>testing</em> ) - for writing tests</li>
+<li>( <em>utility</em> ) - utility to run in terminal</li>
+<li>( <em>example</em> ) - example project</li>
+<li>( <em>templating</em> ) - tools to generate text using template</li>
+<li>( <em>idea</em> ) - it is rather proof of concept than production-ready implementation</li>
+<li>( <em>development</em> ) - helps the developer to develop</li>
+</ul>
+
+	</div>
+	<hr class="post-end">
+	<footer class="post-info">
+    
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>8341 Words</p>
+    
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2023-01-19</p>
+    
+	</footer>
+  </article>
+    
+  
+  <div class="post-nav thin">
+	
+	
+  </div>
+
+  
+</main>
+
+	  </div>
+	  
+	  
+
+
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+  <p>&copy; 2023 <a href="https:&#x2F;&#x2F;example.com&#x2F;blog">The Author</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+  <p>Made with <a href="https://www.getzola.org" target="_blank" rel="noopener">Zola</a> &#183; Theme <a href="https://github.com/VersBinarii/hermit_zola" target="_blank" rel="noopener">Hermit_Zola</a>
+	
+	&#183; <a href="https://example.com/blog/rss.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+	
+  </p>
+</footer>
+
+
+
+
+	</div>
+	
+	<script src="https://example.com/blog/js/main.js"></script>
+
+	<!-- Math rendering -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}]});"></script>
+
+    
+		<link href="https://unpkg.com/highlightjs-badge/highlightjs/styles/railscasts.css" rel="stylesheet">
+		<!-- https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/styles/  for min version -->
+		<script src="https://unpkg.com/highlightjs-badge/highlightjs/highlight.pack.js"></script>
+		<script src="https://unpkg.com/highlightjs-badge/highlightjs-badge.min.js"></script>
+		<script>
+			var pres = document.querySelectorAll("pre>code");
+			for (var i = 0; i < pres.length; i++) {
+				hljs.highlightBlock(pres[i]);
+			}
+		</script>
+		
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+			<script>
+				var options = {
+					copyIconClass: "gg-clipboard",
+					checkIconClass: "gg-check"
+				};
+				window.highlightJsBadge(options);
+			</script>
+		
+
+	
+
+	
+	<script src="https://example.com/blog/js/main.js"></script>
+
+    
+    
+
+	
+  </body>
+</html>
