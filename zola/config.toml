@@ -1,4 +1,4 @@
-# Base URL of the site, the only required config argument
+# Base URL of the site, the only required config argument (https://example.com/blog)
 base_url = "https://example.com/blog"
 
 # Used in RSS by default
