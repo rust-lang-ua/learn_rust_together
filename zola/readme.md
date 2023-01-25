@@ -11,7 +11,7 @@ Zola is static site engine made on Rust
 |-- readme.md     - insrustion and description
 
 
-0 directories, 6 files
+0 directories, 2 files
 
 ## How script works (instruction to use)
 
