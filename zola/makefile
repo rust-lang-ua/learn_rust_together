@@ -12,7 +12,7 @@ build:
 test:
 	cd ./Zola-blog/hermit_zola/ && zola serve -O 
 
-# Deploying html via Netlify
+# Deploying html via Netlify ($NETLIFY for NetlifyToken)
 .PHONY: deploy
 deploy:
 	 curl -H "Content-Type: application/zip" \

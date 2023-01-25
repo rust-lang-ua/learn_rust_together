@@ -7,21 +7,15 @@ Zola is static site engine made on Rust
 ## File tree structure 
 
 .
-├── config.toml
-├── _index.md
-├── makefile
-├── readme.md
-├── tree.txt
-└── zola-bash-script.sh
+├── config.toml               - zola configuration file. Zola instruction file for processing your MD files
+├── _index.md                 - zola file for processing newgenerated html`s
+├── makefile                  - usage: "build" for creating html`s, "test" to test Zola locally, "deploy" to deploy your site with Netlify 
+                                ($NETLIFY for yours NetlifyToken),"clean" for afterall clearing
+├── readme.md                 - insrustion and description
+└── zola-bash-script.sh       - shell script made for this repo 
+                                with step-by-step .MD preparing, asset linking and Zola execution
 
 0 directories, 6 files
-
-- config.toml - zola configuration file. Zola instruction file for processing your MD files
-- _index.md - zola file for processing newgenerated html`s
-- zola-bash-script.sh - shell script made for this repo with step-by-step .MD preparing, asset linking and Zola execution
-- makefile - usage: "build" for creating html`s, "test" to test Zola locally, 
-"deploy" to deploy your site with Netlify ($NETLIFY for yours NetlifyToken),
-"clean" for afterall clearing
 
 ## How script works (instruction to use)
 
