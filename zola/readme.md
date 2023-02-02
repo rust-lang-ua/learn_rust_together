@@ -7,6 +7,7 @@ Zola is static site engine made on Rust
 ## File tree structure 
 
 |-- makefile      - set of insructions
+
 |-- readme.md     - insrustion to use and description
 
 
