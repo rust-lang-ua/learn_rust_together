@@ -8,10 +8,11 @@ prerequirements: 	clone_refresh \
 # Content clone and zola files requirements setup
 content:			git_clone \
 					_zola_requirements \
-					copy_md_to_content \
-					copy_index_to_content \
-					remove_asset \
-					hard_links_copy
+					_copy_md_to_content \
+					_copy_index_to_content \
+					_remove_asset \
+					_hard_links_copy \
+					_clone_config
 
 # html files generating 
 build: 				prerequirements \
@@ -60,32 +61,32 @@ _zola_requirements: git_clone
 
 # Copying MD files to post
 .PHONY: copy_md_to_content
-copy_md_to_content: theme_setup git_clone
+_copy_md_to_content: theme_setup git_clone
 	cd ./Zola-blog/learn_rust_together/ &&\
 	cp *.md  ../hermit_zola/content/posts/
 
 # Copying index file to post
 .PHONY: copy_index_to_content
-copy_index_to_content: theme_setup git_clone
+_copy_index_to_content: theme_setup git_clone
 	cd ./Zola-blog/zolafiles/ &&\
 	cp _index.md ../hermit_zola/content/posts/
 
 # Removing ./asset for MD files
 .PHONY: remove_asset
-remove_asset: theme_setup copy_md_to_content
+_remove_asset: theme_setup copy_md_to_content
 	cd ./Zola-blog/hermit_zola/content/posts/ &&\
 	sed -i "s/[.asset][/]//i" *.md  &&\
 	sed -i "s/asset//i" *.md
 
 # Copy hard links only
 ./PHONY: hard_links_copy
-hard_links_copy: 
+_hard_links_copy: 
 	cd ./Zola-blog/learn_rust_together/asset/ &&\
 	cp -lr . ../../hermit_zola/static/
 
 # Copying Own Zola blog Config file
 ./PHONY: clone_config
-clone_config: theme_setup git_clone
+_clone_config: theme_setup git_clone
 	cd ./Zola-blog/zolafiles &&\
 	cp ./config.toml ../hermit_zola/
 
