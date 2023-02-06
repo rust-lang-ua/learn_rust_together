@@ -8,5 +8,5 @@
 
 
  <p align="center">
- <img src="/asset/img/instructions_linkedin_organization/1_add_button.png"  width="600" align="center" />
+ <img src="/asset/img/instructions_linkedin_organization/1_add_button.png"  width="400" align="center" />
  </p>
