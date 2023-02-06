@@ -5,10 +5,11 @@
 <p align="center">
  <img src="/asset/img/instructions_linkedin_organization/1_add_button.png"  width="500" align="center" />
  </p>
-3. У відкритому віконечку заповніть оберіть секцію "Add volunteer experience"
+3. У відкритому віконечку оберіть секцію "Add volunteer experience"
 <p align="center">
  <img src="/asset/img/instructions_linkedin_organization/2_add_volunteer.png"  width="500" align="center" />
  </p>
+ 
 4. У цій секції заповніть наступні дані:
 - _Organization_: почніть вписувати та оберіть із запропонованих [Ukrainian Rust Community](https://www.linkedin.com/company/ukrainian-rust-community/?viewAsMember=true)
 - _Role_: 'Evangelist'
