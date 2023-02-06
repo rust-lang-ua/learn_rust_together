@@ -1,6 +1,6 @@
 # Як додати у свій LinkedIn профіль волонтерську діяльність як Євангеліст у спільноті Вивчаємо Rust Разом
 
-1. Перейдіть на сторінку вашого LinkedIn профілю
+1. Перейдіть на сторінку вашого [LinkedIn](https://www.linkedin.com/) профілю
 2. Натисніть на кнопку "Add profile section"  (якщо ви не додавали попередньо дану секцію)
 <p align="center">
  <img src="/asset/img/instructions_linkedin_organization/1_add_button.png"  width="500" align="center" />
@@ -35,3 +35,5 @@ Our goals are to popularize Rust in Ukraine, develop the community around it, la
   <p align="center">
  <img src="/asset/img/instructions_linkedin_organization/4_result.png"  width="500" align="center" />
  </p>
+ 
+**:movie_camera:	Ви також можете скористатись [відео-інструкцією](https://youtu.be/RemRRDrBuGQ).**
