@@ -62,6 +62,7 @@ You might also be interested in other tooboxes:
 - [field_names](https://github.com/TedDriggs/field_names) by [Ted Driggs](https://github.com/TedDriggs) : derive to list names of fields bound to the structure
 - [strum](https://github.com/Peternator7/strum) by [Peter Glotfelty](https://github.com/Peternator7) ( _stringification_ ) : enum stringification, parsing and iterating
 - [derive_is_enum_variant](https://github.com/fitzgen/derive_is_enum_variant) by [Nick Fitzgerald](https://github.com/fitzgen) : macro to generate the method is_variant for each variant of an enum
+- [validator](https://github.com/Keats/validator) by [Vincent Prouillet](https://github.com/Keats) : Macros 1.1 custom derive to simplify struct validation inspired by [marshmallow](https://marshmallow.readthedocs.io/en/latest) and [Django validators](https://docs.djangoproject.com/en/1.10/ref/validators).
 
 ## Compilers, Static Analyzers, code formatters
 
