@@ -9,8 +9,7 @@ build: 				clone_refresh \
 					_copy_md_to_content \
 					_copy_index_to_content \
 					_remove_asset \
-					_hard_links_copy \
-					_wierd_case
+					_hard_links_copy 
 					cd ./Zola-blog/hermit_zola/ &&\
 					zola build &&\
 					cp -r ./public/ ../..
@@ -74,14 +73,6 @@ _remove_asset: theme_setup copy_md_to_content
 
 # Copy hard links only
 ./PHONY: hard_links_copy
-_hard_links_copy: 
+_hard_links_copy: theme_setup
 	cd ./Zola-blog/learn_rust_together/asset/ &&\
 	cp -lr . ../../hermit_zola/static/
-
-# Wierd case
-./PHONY: wierd_case
-_wierd_case:
-	cd ./Zola-blog/hermit_zola/content/posts/ &&\
-	rm learn.md &&\
-	cd ../../templates/ &&\
-	sed -i "54s/{% section.title %}/Posts/i" section.html
