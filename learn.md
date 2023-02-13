@@ -113,6 +113,7 @@ Curated collection of resources to learn Rust.
 - [Rust explaine](https://jrvidal.github.io/explaine.rs/)
 - [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html)
 - [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ )
+- [Procedural macros workshop](https://github.com/dtolnay/proc-macro-workshop) by [David Tolnay](https://github.com/dtolnay)
 
 ## Cheat sheets
 
