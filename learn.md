@@ -193,14 +193,20 @@ Curated collection of resources to learn Rust.
 ( _about:async_ )
 
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
-- [Async/await](https://www.youtube.com/watch?v=ThjvMReOXYM) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( _video_ ) : introduction into async/await
-- [The Why, What, and How of Pinning in Rust](https://www.youtube.com/watch?v=DkMwYxfSYNQ) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( _video_ )
+- [Async/await](https://www.youtube.com/watch?v=ThjvMReOXYM) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _:movie_camera:_ ) ( _introductory_ ) ( _video_ ) : introduction into async/await
+- [The Why, What, and How of Pinning in Rust](https://www.youtube.com/watch?v=DkMwYxfSYNQ) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _:movie_camera:_ ) ( _introductory_ ) ( _video_ )
 - [Introduction into tokio](https://tokio.rs/tokio/tutorial) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _course_ ) ( _introductory_ )
 - [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene) ( _cheatsheet_ ) : cheat sheet on concurrency and async
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) by [Amos](https://fasterthanli.me/) ( _reading_ ) ( _advanced_ )
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _teaching_materials_ )
-- [Rust Atomics and Locks](https://marabos.nl/atomics/) ( _reading_ ) ( _book_ )
+- [Rust Atomics and Locks](https://marabos.nl/atomics/) ( _reading_ ) ( _book_ )  
+- [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/introduction.html) ( _reading_ ) ( _book_ )  
+- [The Rustonomicon - Concurrency and Parallelism](https://doc.rust-lang.org/nomicon/concurrency.html) ( _reading_ ) ( _book_ )  
+- [RustLatam 2019 - Without Boats: Zero-Cost Async IO](https://www.youtube.com/watch?v=skos4B5x7qE) ( _:movie_camera:_ ) ( _video_ )   
+- [The What and How of Futures and async/await in Rust](https://www.youtube.com/watch?v=9_3krAQtD2k) ( _:movie_camera:_ ) ( _video_ )   
+- ["A Tale of Two Asyncs: Open Source Language Design in Rust and Node.js" by Ashley Williams](https://www.youtube.com/watch?v=aGJTXdXQN2o) ( _:movie_camera:_ ) ( _video_ )   
+
 
 ## Ownership semantics
 
