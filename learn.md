@@ -168,7 +168,7 @@ Curated collection of resources to learn Rust.
 ( _about:cross_compile_ ) ( _specific_ )
 
 - [rust-cross](https://github.com/japaric/rust-cross) by [Jorge Aparicio](https://github.com/japaric) ( _reading_ ) ( _article_ )
-- [Cross-Compiling Rust from macOS To Linux](https://omarkhawaja.com/cross-compiling-rust-from-macos-to-linux/) by [Omar Khawaja](https://omarkhawaja.com/author/omar/) ( _reading_ ) ( _article_ )
+- [Cross-Compiling Rust from macOS To Linux](https://betterprogramming.pub/cross-compiling-rust-from-mac-to-linux-7fad5a454ab1) by [Merlin Fuchs](https://medium.com/@merlinfuchs) ( _reading_ ) ( _article_ )
 - [Cross compiling Rust from Linux to macOS](https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html) by [James Waples](https://wapl.es) ( _reading_ ) ( _article_ )
 - [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/) by [Jake Shadle](https://github.com/Jake-Shadle) ( _reading_ ) ( _article_ )
 

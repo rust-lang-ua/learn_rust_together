@@ -23,7 +23,7 @@
 - Чат [Вивчаємо Rust Разом # Lviv](https://t.me/learn_rust_together_lviv)
 - Чат флуд [Rust Теревені](https://t.me/rust_tereveni)
 - Ми як організація на [GitHub](https://github.com/rust-lang-ua)
-- Ми як організація в [LinkedIn](https://www.linkedin.com/company/learn-together-pro)
+- Ми як організація в [LinkedIn](https://www.linkedin.com/company/ukrainian-rust-community)
 - Канал у [Twitter](https://twitter.com/LearnTogetherP)
 - Канал у [YouTube](https://www.youtube.com/channel/UCmkAFUu2MVOX8ly0LjB6TMA)
 - Сторінка на [Facebook](https://www.facebook.com/learntogetherpro) 
