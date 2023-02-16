@@ -15,7 +15,7 @@ Curated collection of resources to learn Rust.
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- :star: [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- :star: [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 - [The Rust Reference](https://doc.rust-lang.org/reference/introduction.html) ( _reading_ ) ( _reference_ )
