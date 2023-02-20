@@ -15,7 +15,7 @@
 - _Organization_: почніть вписувати та оберіть із запропонованих [Ukrainian Rust Community](https://www.linkedin.com/company/ukrainian-rust-community/?viewAsMember=true)
 - _Role_: 'Evangelist'
 - _Cause_: 'Science and Tchnologies'
-- _Checkbox: I'm currently volunteering in this role__: on
+- _Checkbox: I'm currently volunteering in this role_: on
 - _Start Date_: Вкажіть приблизно місяць, коли ви приєднались
 - _Description_: Додайте опис того, чим ви займаєтесь у спільноті. Як Євангеліст ви можете використати наступний шаблон:
 >I’m a Rust Evangelist of a Ukrainian community "Learn Rust Together".
