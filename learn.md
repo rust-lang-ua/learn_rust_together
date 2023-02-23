@@ -15,7 +15,7 @@ Curated collection of resources to learn Rust.
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- :star: [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
+- :star: [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 - [The Rust Reference](https://doc.rust-lang.org/reference/introduction.html) ( _reading_ ) ( _reference_ )
@@ -168,7 +168,7 @@ Curated collection of resources to learn Rust.
 ( _about:cross_compile_ ) ( _specific_ )
 
 - [rust-cross](https://github.com/japaric/rust-cross) by [Jorge Aparicio](https://github.com/japaric) ( _reading_ ) ( _article_ )
-- [Cross-Compiling Rust from macOS To Linux](https://omarkhawaja.com/cross-compiling-rust-from-macos-to-linux/) by [Omar Khawaja](https://omarkhawaja.com/author/omar/) ( _reading_ ) ( _article_ )
+- [Cross-Compiling Rust from macOS To Linux](https://betterprogramming.pub/cross-compiling-rust-from-mac-to-linux-7fad5a454ab1) by [Merlin Fuchs](https://medium.com/@merlinfuchs) ( _reading_ ) ( _article_ )
 - [Cross compiling Rust from Linux to macOS](https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html) by [James Waples](https://wapl.es) ( _reading_ ) ( _article_ )
 - [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/) by [Jake Shadle](https://github.com/Jake-Shadle) ( _reading_ ) ( _article_ )
 

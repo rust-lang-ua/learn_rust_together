@@ -79,7 +79,7 @@ Rust - мультипарадигмова мова, головними пере�
 Також шукай нас на платформах: 
 [Twitter](https://twitter.com/LearnTogetherP)  | 
 [Facebook](https://www.facebook.com/learntogetherpro) |
-[Linkedin](https://www.linkedin.com/company/learn-together-pro) |
+[Linkedin](https://www.linkedin.com/company/ukrainian-rust-community) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |

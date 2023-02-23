@@ -23,7 +23,7 @@ The Rust communities have always been distinguished by those values and that’s
 - Chat [ВLearn Rust Together # Lviv](https://t.me/learn_rust_together_lviv)
 - Chat floud [Rust Теревені](https://t.me/rust_tereveni)
 - We as an organization in [GitHub](https://github.com/rust-lang-ua)
-- We as an organization in [LinkedIn](https://www.linkedin.com/company/learn-together-pro)
+- We as an organization in [LinkedIn](https://www.linkedin.com/company/ukrainian-rust-community)
 - Channel in [Twitter](https://twitter.com/LearnTogetherP)
 - Channel in [YouTube](https://www.youtube.com/channel/UCmkAFUu2MVOX8ly0LjB6TMA)
 - Page in [Facebook](https://www.facebook.com/learntogetherpro) 

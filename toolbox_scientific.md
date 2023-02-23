@@ -55,7 +55,7 @@ You might also be interested in other tooboxes:
 
 ( _math_ ) ( _meta_ )
 
-- [https://github.com/rust-num/num-traits](num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
+- [num-traits](https://github.com/rust-num/num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
 
 ## Physics
 
