@@ -350,6 +350,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
 - [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
+- [tikv](https://github.com/tikv/tikv) by [ngaut](https://github.com/ngaut) : distributed key-value DBMS
+
+<!-- https://github.com/rust-rocksdb/rust-rocksdb -->
 
 ## Data science
 
@@ -385,6 +388,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
 - [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
 - [blocking](https://github.com/smol-rs/blocking) by Stjepan Glavina : a thread pool for isolating blocking I/O in async environment
+- [yatp](https://github.com/tikv/yatp) by [ngaut](https://github.com/ngaut) : generic thread pool
 - [async-compat](https://github.com/smol-rs/async-compat) by [Taiki Endo](https://github.com/taiki-e) : compatibility adapter between tokio and futures
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : async interfaces
@@ -495,6 +499,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [combine-language](https://github.com/Marwes/combine-language) by [Markus Westerlind](https://github.com/Marwes) : extension of combine to generate parsers of programming languages
 - [lalrpop](https://github.com/lalrpop/lalrpop) by [Niko Matsakis](https://github.com/nikomatsakis) : LR(1) parser generator
 - [peg](https://github.com/kevinmehall/rust-peg) by [Kevin Mehall](https://github.com/kevinmehall) : PEG parser generator
+- [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) ( _collection_ ) : parser/language development toolboxs
 
 ## Lexer generator
 
@@ -567,7 +572,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Collections
 
-( _data_structure_ ) ( _collection_ )
+( _data_structure_ ) ( _ds_collection_ )
 
 - [indexmap](https://github.com/bluss/indexmap) by [bluss](https://github.com/bluss) : hash table which preserves insertion order
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
@@ -879,6 +884,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ## Tags legend
 
 - :earth_africa: - the most popular module in its category
+- ( _collection_ ) - awesome collection
 - ( _error_ ) - errors handling
 - ( _macro_ ) - writing macros
 - ( _meta_ ) - meta programming : reflection, introspection and such things
@@ -930,7 +936,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _algo_ ) - algorithms
 - ( _data_structure_ ) - data structures and algorithms
 - ( _primitive_ ) - primitives
-- ( _collection_ ) - data structures which are collections
+- ( _ds_collection_ ) - data structures which are collections
 - ( _string_ ) - either string or bytes slice based data structures and algorithms
 - ( _stack_based_ ) - stack-based data structures and algorithms
 - ( _graphs_ ) - graphs data structures and algorithms
