@@ -117,6 +117,7 @@ You might also be interested in other tooboxes:
 - [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
 - [rugl](https://github.com/gregtatum/rugl) by [Greg Tatum](https://github.com/gregtatum) : declarative Stateless OpenGL in Rust (inspired by regl)
 - [glyphon](https://github.com/grovesNL/glyphon) by [Josh Groves](https://github.com/grovesNL) : 2D text renderer for wgpu
+- [Ambient](https://github.com/AmbientRun/Ambient) by [AmbientRun](https://www.ambient.run/) : a runtime for building high-performance multiplayer games and 3D applications
 
 ## Data Structures and Algorithms
 
@@ -205,11 +206,11 @@ You might also be interested in other tooboxes:
 - [`plotlib`](https://github.com/milliams/plotlib) by [Matt Williams](https://github.com/milliams) : generic data visualisation and plotting library for Rust.
 - [`plotly`](https://github.com/igiagkiozis/plotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) a plotting library for Rust powered by Plotly.js.
 
-## Tesselation
+## Tessellation
 
-( _tesselation_ )
+( _tessellation_ )
 
-- [cdshealpix-rust](https://github.com/cds-astro/cds-healpix-rust) by [CDS (Centre de Données astronomiques de Strasbourg)](https://github.com/cds-astro) : Rust implementation of the HEALPix tesselation
+- [cdshealpix-rust](https://github.com/cds-astro/cds-healpix-rust) by [CDS (Centre de Données astronomiques de Strasbourg)](https://github.com/cds-astro) : Rust implementation of the HEALPix tessellation
 - [lyon::path](https://github.com/nical/lyon/tree/HEAD/crates/path) by [Nicolas Silva](https://github.com/nical) : Types and utilities to store, build and iterate over 2D paths
 - [tir](https://github.com/dcrasch/tir/tree/HEAD/tessellations) by [David Rasch](https://github.com/dcrasch) : Library to create and draw periodic tilings of the plane
 - [geopattern](https://github.com/suyash/geopattern-rs) by [Suyash](https://github.com/suyash) : Beautiful generative geometric background images from a string, a Rust implementation of geo_pattern from @jasonlong
@@ -354,7 +355,7 @@ You might also be interested in other tooboxes:
 - ( _data_structures_ ) - data structures and algorithms for graphics, multimedia and game development
 - ( _plotting_ ) - plot data
 - ( _data_structure_ ) - data structures and algorithms
-- ( _tesselation_ ) - tesselation libs
+- ( _tessellation_ ) - tessellation libs
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
 - ( _simulation_ ) - simulation
