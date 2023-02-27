@@ -107,10 +107,11 @@ Curated collection of resources to learn Rust.
 ( _interactive_ )
 
 - [Rustlings](https://github.com/rust-lang-ua/rustlings_eng) ( _official_ )
+- [Learn Rust](https://plugins.jetbrains.com/plugin/16631-learn-rust) : Rustlings JetBrains plugin
 - [Rust by Exercism](https://exercism.io/tracks/rust)
 - [Rust by practice](https://github.com/rust-lang-ua/rust_by_practice_eng) by [Sunface](https://github.com/sunface)
-- [Rust playground](https://play.rust-lang.org/) ( _official_ )
-- [Rust explaine](https://jrvidal.github.io/explaine.rs/)
+- [Rust playground](https://play.rust-lang.org) ( _official_ )
+- [Rust explaine](https://jrvidal.github.io/explaine.rs)
 - [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html)
 - [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ )
 
