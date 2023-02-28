@@ -25,13 +25,15 @@ You might also be interested in other tooboxes:
 
 ( _processors_ )
 
-- [jaq](https://github.com/01mf02/jaq) by [Michael Färber ](https://github.com/01mf02) : JSON processor
+- [jaq](https://github.com/01mf02/jaq) by [Michael Färber](https://github.com/01mf02) : JSON processor
 
 ## General purpose distros
 
 ( _general_purpose_ )
 
+- [wiki-tui](https://github.com/Builditluc/wiki-tui) by [Builditluc](https://github.com/Builditluc) : TUI for searching wikipedia without browser. Stores the log of wisited pages in the launch directory.
 - [bartib](https://github.com/nikolassv/bartib) by [Nikolas Schmidt-Voigt](https://github.com/nikolassv) : CUI for time tracking
+- [porsmo](https://crates.io/crates/porsmo) by [Color Cookie](https://github.com/ColorCookie-dev) : CUI for Pomadora time management
 - [gix](https://github.com/Byron/gitoxide) by [Sebastian Thiel](https://github.com/Byron) : CUI for alternative implementation of Git
 - [xsv](https://github.com/BurntSushi/xsv) by [Andrew Gallant](https://github.com/BurntSushi) : CUI to read read CSV
 - [loc](https://github.com/cgag/loc) by [Curtis Gagliardi](https://github.com/cgag) : CUI to count lines of code quickly
@@ -57,6 +59,7 @@ You might also be interested in other tooboxes:
 - [websocat](https://github.com/vi/websocat) by [Vitaly Shukela](https://github.com/vi) : CUI to communicate via WebSocket
 - [netop](https://github.com/ZingerLittleBee/netop) by [ZingerLittleBee](https://github.com/ZingerLittleBee) : network activity monitoring
 - [niping](https://github.com/zhiburt/niping) by [Maxim Zhiburt](https://github.com/zhiburt) : ping
+- [speedtest-rs](https://github.com/nelsonjchen/speedtest-rs) by [Nelson Chen](https://github.com/nelsonjchen) : check the internet connection speed
 
 ## Administration
 
@@ -72,8 +75,11 @@ You might also be interested in other tooboxes:
 ( _fs_ )
 
 - [dua-cli](https://github.com/Byron/dua-cli) by [Sebastian Thiel](https://github.com/Byron) : CUI to view disk space usage and delete unwanted data
+- [du-dust](https://github.com/bootandy/dust) by [Andy Boot](https://www.nuclearcarrot.co.uk/aboutme/) : CUI to view disk space usage. du + rust = dust. Like du but more intuitive.
 - [watchexec](https://github.com/watchexec/watchexec) by [Matt Green](https://github.com/mattgreen) : executes commands in response to file modifications
 - [broot](https://github.com/Canop/broot) by [Denys Séguret](https://github.com/Canop) : CUI for files navigation
+- [exa](https://github.com/ogham/exa) by [Benjamin Sago](https://github.com/ogham) : a better version of `ls` with colors and more
+- [bat](https://github.com/sharkdp/bat) by [David Peter](https://github.com/sharkdp) : a better version of `cat` with syntax highlighting and rows' numbers
 
 ## Versions Control Systems
 
