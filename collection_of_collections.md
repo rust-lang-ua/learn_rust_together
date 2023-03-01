@@ -38,8 +38,9 @@
 - :infinity: [Explore](./toolbox_scientific.md) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
 - :package: [Explore](./toolbox_distros.md) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 - [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
+- [List of resources to learn Rust](https://gist.github.com/noxasaxon/7bf5ebf930e281529161e51cd221cf8a) by [Saxon](https://gist.github.com/noxasaxon)
 - [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
-- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/
+- [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/brson) : collection of substantial blog posts about Rust
 - [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) : parser/language development toolboxs
 - [Awesome Embed Rust](https://github.com/rust-embedded/awesome-embedded-rust) by [Rust Embedded](https://github.com/rust-embedded) ( _about:embed_ ) ( _collection_ )
 - [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly) by [rustwasm](https://github.com/rustwasm)
