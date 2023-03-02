@@ -3,6 +3,10 @@
 
 
 
+## <ins>*- How work session based authorization?*</ins>
+The first example is simple, it just shows how it works. - [actix-session-auth-example](https://github.com/TheBestTvarynka/actix-session-auth-example)  
+Another example of an already large project. - [auth (OAuth, Registration, Sessions)](https://gitlab.com/dataans/auth)
+
 ## <ins>*[Dangit, Git!?!](https://dangitgit.com/en)*</ins>
 Git is hard: messing up is easy, and figuring out how to fix your mistakes is impossible. Git documentation has this chicken and egg problem where you can't search for how to get yourself out of a mess, unless you already know the name of the thing you need to know about in order to fix your problem.
 
