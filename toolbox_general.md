@@ -318,6 +318,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md) : bunch of back-end frameworks comparison
+- [juniper](https://github.com/graphql-rust/juniper) by [GraphQL Rust](https://github.com/graphql-rust) : makes it possible to write GraphQL servers in Rust  
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
