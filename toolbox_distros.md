@@ -88,6 +88,12 @@ You might also be interested in other tooboxes:
 
 - [rsspls](https://github.com/wezm/rsspls) by [Wesley Moore](https://github.com/wezm) : generate RSS feeds from websites
 
+## Database Management Systems
+
+( _dbms_ )
+
+- [meilisearch](https://github.com/meilisearch/meilisearch) by [Clément Renault](https://github.com/Kerollmops) : fast search engine
+
 <!-- ## System / CPU info
 
 ( _sys_info_ )
@@ -151,3 +157,4 @@ You might also be interested in other tooboxes:
 - ( _benchmark_ ) - benchmarking tools and libraries
 - ( _cpu_ ) - CPU related libraries
 - ( _gpu_ ) - GPU related libraries
+- ( _dbms_ ) - database management systems
