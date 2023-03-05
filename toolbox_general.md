@@ -270,7 +270,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## HTML generating / parsing / transformation
 
-( _html_ )
+( _html_ ) ( _xml_ )
 
 - [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _dsa_ ) : auto-discovery of feeds in HTML
 - [markup](https://github.com/utkarshkukreti/markup.rs) by [Utkarsh Kukreti](https://github.com/utkarshkukreti) : template engine to generate HTML
@@ -278,6 +278,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [html5ever](https://github.com/servo/html5ever) by [Keegan McAllister](https://github.com/kmcallister) : high-performance HTML5 parser
 - [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) ( _build_ ) : HTML minifier
 - [comrak](https://github.com/kivikakk/comrak) by [Asherah Connor](https://github.com/kivikakk) : GFM compatible Markdown parser and renderer
+- [quick-xml](https://github.com/tafia/quick-xml) by [Johann Tuffe](https://github.com/tafia) : high performance XML pull reader/writer
+- [hard-xml](https://gitlab.com/kevincox/hard-xml) by [Kevin Cox](https://gitlab.com/kevincox) : A derive-based XML parser for Rust
 
 ## Web DOM
 
@@ -971,3 +973,4 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _templating_ ) - tools to generate text using template
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
 - ( _development_ ) - helps the developer to develop
+- ( _xml_ ) - XML parsers, readers/writers
