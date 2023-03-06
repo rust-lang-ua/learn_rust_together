@@ -339,26 +339,63 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _db_ )
 
-- :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
-- :earth_africa: [deadpool-postgres](https://github.com/bikeshedder/deadpool) by [Michael P. Jung](https://github.com/bikeshedder) : async pool for PostgreSQL
-- :earth_africa: [tokio_postgres](https://github.com/sfackler/rust-postgres) by [Steven Fackler](https://github.com/sfackler) : PostgreSQL driver
-- :earth_africa: [sqlx](https://github.com/launchbadge/sqlx) by [Ryan Leckey](https://github.com/mehcode) : SQL DBMS driver
 - [ormx](https://github.com/NyxCode/ormx) by [NyxCode](https://github.com/NyxCode) : orm-like features to sqlx
+- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
+- [influxdb-rust](https://github.com/influxdb-rs/influxdb-rust) by [Gero Gerke](https://github.com/Empty2k12) : time-series database
+- [meilisearch-rust](https://github.com/meilisearch/meilisearch-rust) by [Mubelotix](https://github.com/Mubelotix) : stores data and provides some basic filtering and sorting capabilities
+- [sonic-channel](https://github.com/pleshevskiy/sonic-channel) by [pleshevskiy](https://github.com/pleshevskiy) : schema-less search backend. it is an alternative to traditional search engines like Elasticsearch or Solr
+
+## Key-Value Database
+
+( _db_ )( _key-value_ )
+
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
-- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
-- [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
-- [monger](https://github.com/saghm/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
-- [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
-- [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
 - [tikv](https://github.com/tikv/tikv) by [ngaut](https://github.com/ngaut) : distributed key-value DBMS
+- [rust-rocksdb](https://github.com/rust-rocksdb/rust-rocksdb) by [Tyler Neely](https://github.com/spacejam) : embedded database that is designed to be used as a library within an application
+- [lmdb-rs](https://github.com/vhbit/lmdb-rs) by [Valerii Hiora](https://github.com/vhbit) : high-performance embedded key-value store designed to provide efficient storage and retrieval of data
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
+- [rsmgclient](https://github.com/memgraph/rsmgclient) by [Mario Herceg](https://github.com/MarioHerceg) : used for interacting with the Redis key-value store
+- [surrealdb](https://github.com/surrealdb/surrealdb) by [Tobie Morgan Hitchcock](https://github.com/tobiemh) : 
+
+## Document-oriented Database
+
+( _db_ )( _document-oriented_ )
+
+- [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
+- [monger](https://github.com/saghm/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
+- [redb](https://github.com/cberner/redb) by [Christopher Berner](https://github.com/cberner) : provides a lightweight and efficient implementation of a document-oriented database that is optimized for performance and scalability
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently 
+- [darkbird](https://github.com/Rustixir/darkbird) by [DanyalMh](https://github.com/pleshevskiy) : in-memory database solution optimized for fast document retrieval
+
+## Relational Database
+
+( _db_ )( _relational_ )
+
+- :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
+- [sea-orm](https://github.com/SeaQL/sea-orm) by [Chris Tsang](https://github.com/tyt2y3) : ORM and query builder
+- :earth_africa: [sqlx](https://github.com/launchbadge/sqlx) by [Ryan Leckey](https://github.com/mehcode) : SQL DBMS driver
+- [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
+- :earth_africa: [deadpool-postgres](https://github.com/bikeshedder/deadpool) by [Michael P. Jung](https://github.com/bikeshedder) : async pool for PostgreSQL
+- :earth_africa: [tokio_postgres](https://github.com/sfackler/rust-postgres) by [Steven Fackler](https://github.com/sfackler) : PostgreSQL driver
+
+## Graph Database
+
+( _db_ )( _graphs_ )
+
+- [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
+- [neo4rs](https://github.com/neo4j-labs/neo4rs) by [John Vincent](https://github.com/yehohanan7) : based on the property graph data model, which consists of nodes, relationships, and properties
+- [indradb](https://github.com/indradb/indradb) by [Yusuf Simonson](https://github.com/ysimonson) : uses Apache TinkerPop as its underlying graph framework
+- [oxigraph](https://github.com/oxigraph/oxigraph) by [Thomas Tanon](https://github.com/Tpt) : designed for the resource description framwork data model
+- [dgraph-rs](https://github.com/Swoorup/dgraph-rs) by [Swoorup Joshi](https://github.com/Swoorup) : supports complex queries, aggregations and traversals using GraphQl-like syntax
+- [cozo](https://github.com/cozodb/cozo) by [Ziyang Hu](https://github.com/zh217) : optimized for efficient graph processing on large datasets
 
 <!-- https://github.com/rust-rocksdb/rust-rocksdb -->
 
 ## Data science
 
-- ( _data_science_ )
+( _data_science_ )
 
 - [polars](https://github.com/pola-rs/polars) by [Ritchie Vink](https://github.com/ritchie46) : multi-threaded DataFrame library
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
@@ -915,6 +952,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _web_backend_ ) - web backend
 - ( _network_ ) - network
 - ( _db_ ) - database-related
+- ( _key-value_ ) - key-value
+- ( _document-oriented_ ) - document-oriented
+- ( _relational_ ) - relational
 - ( _data_science_ ) - data science, data mining, data minding, machine learning
 - ( _functional_ ) - functional programming
 - ( _virtualisation_ ) - virtualisation-related, docker-related
