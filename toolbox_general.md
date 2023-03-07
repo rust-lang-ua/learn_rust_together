@@ -347,7 +347,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Key-Value Database
 
-( _db_ )( _key-value_ )
+( _db_ )( _db_key_value_ )
 
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
@@ -361,7 +361,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Document-oriented Database
 
-( _db_ )( _document-oriented_ )
+( _db_ )( _db_document_oriented_ )
 
 - [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
 - [monger](https://github.com/saghm/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
@@ -371,7 +371,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Relational Database
 
-( _db_ )( _relational_ )
+( _db_ )( _db_relational_ )
 
 - :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
 - [sea-orm](https://github.com/SeaQL/sea-orm) by [Chris Tsang](https://github.com/tyt2y3) : ORM and query builder
@@ -382,7 +382,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Graph Database
 
-( _db_ )( _graphs_ )
+( _db_ )( _db_graphs_ )
 
 - [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
 - [neo4rs](https://github.com/neo4j-labs/neo4rs) by [John Vincent](https://github.com/yehohanan7) : based on the property graph data model, which consists of nodes, relationships, and properties
@@ -952,9 +952,10 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _web_backend_ ) - web backend
 - ( _network_ ) - network
 - ( _db_ ) - database-related
-- ( _key-value_ ) - key-value
-- ( _document-oriented_ ) - document-oriented
-- ( _relational_ ) - relational
+- ( _db_key_value_ ) - key-value
+- ( _db_document_oriented_ ) - document-oriented
+- ( _db_relational_ ) - relational
+- ( _db_graphs_ ) - graph
 - ( _data_science_ ) - data science, data mining, data minding, machine learning
 - ( _functional_ ) - functional programming
 - ( _virtualisation_ ) - virtualisation-related, docker-related
