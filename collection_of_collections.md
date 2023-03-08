@@ -44,6 +44,7 @@
 - [Awesome Embed Rust](https://github.com/rust-embedded/awesome-embedded-rust) by [Rust Embedded](https://github.com/rust-embedded) ( _about:embed_ ) ( _collection_ )
 - [Awesome Rust and Webassembly](https://github.com/rustwasm/awesome-rust-and-webassembly) by [rustwasm](https://github.com/rustwasm)
 - [Rust Forge](https://forge.rust-lang.org/index.html) : documentation useful for members
+- [Languages Written in Rust](https://github.com/alilleybrinker/langs-in-rust) by [Andrew Lilley Brinker](https://github.com/alilleybrinker) : list of languages implemented in Rust 
 
 ## Tags legend
 

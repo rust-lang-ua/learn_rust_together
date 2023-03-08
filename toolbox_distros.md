@@ -42,6 +42,7 @@ You might also be interested in other tooboxes:
 - [bottom](https://github.com/ClementTsang/bottom) by [Clement Tsang](https://github.com/ClementTsang) : cross-platform graphical process/system monitor
 - [rural](https://github.com/saghm/rural) by [Saghm Rossi](https://github.com/saghm) : CUI of HTTP tool, curl-like
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
+- [Languages Written in Rust](https://github.com/alilleybrinker/langs-in-rust) by [Andrew Lilley Brinker](https://github.com/alilleybrinker) : list of languages implemented in Rust 
 
 ## For distributed systems
 
