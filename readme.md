@@ -6,8 +6,6 @@
 
 > [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state.
 
-## General-purpose official resources
-
 ## Who are we?
 We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
 
