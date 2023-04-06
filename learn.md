@@ -244,6 +244,7 @@ Curated collection of resources to learn Rust.
 - [Web development with rust](https://www.youtube.com/playlist?list=PLECOtlti4Psr4hXVX5GuSvLKp0-RZjz93) by [Genus-v Programming](https://www.youtube.com/c/GenusvProgramming) ( _:movie_camera:_ ) ( _course_ )
 - [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md)
 - [Introduction to Axum](https://www.youtube.com/playlist?list=PLrmY5pVcnuE-_CP7XZ_44HN-mDrLQV4nS) ( _:movie_camera:_ )
+- [Rust on Nails](https://rust-on-nails.com/) - full stack Axum project from start to deployment ( _project_ )
 
 ## Web development
 
