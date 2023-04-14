@@ -8,7 +8,7 @@ It is a setup and meta step-by-step instruction to start development in Rust.
 
 ## :crab: What is it?
 
-<!-- [![](https://github.com/ChapliaLearnRustTogether/blob/master//img/logo/rust-social-wide.jpg)](/posts/introduction) -->
+<!-- [![](https://github.com/ChapliaLearnRustTogether/blob/master/asset/img/logo/rust-social-wide.jpg)](/posts/introduction) -->
 
 Rust is a multi-paradigm programming language designed for performance and safety. It is an effective tool for the collaboration of large developer teams with different levels of knowledge. Furthermore, according to the Stack Overflow Developer Survey, Rust has been the most beloved programming language for seven years in a row. The Rust community is traditionally very friendly.
 
@@ -39,7 +39,7 @@ The best way to ask questions is to share your code in the [playground](https://
 - [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is a project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying the given code. It'd really help you to get an understanding of how the compiler works and what are the most common code issues. If you struggle to start, just follow [these steps](https://www.youtube.com/watch?v=G3Vr-yswlaU).
 - [Exercism](https://exercism.org/trackrust/concepts) - an open-source, free-coding platform that offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts. Recommended taking after Rustling.
 <p align="center">
-<img src="/img/introduction_page/exercism.png"  width="600" align="center" />
+<img src="/asset/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
 
 - [Take your first steps with Rust](https://learn.microsoft.com/en-utraining/paths/rust-first-steps/) - Interactive course. Lay the foundation of knowledge you need to build fast and effective programs in Rust.
@@ -67,6 +67,6 @@ To learn the syntax of Rust deeply and get familiar with Rust code, we'd also re
 
 One more way to learn Rust, but thought the schemes, tables, and images - the [Rust Cheat Sheet](https://cheats.r). All tips gathered in one big page will always be useful while writing code. Go to our [collection of cheatsheets](/posts/cheat-sheets#chart_with_upwards_trend-cheat-sheats).
 <p align="center">
-<img src="/img/introduction_page/cheatsheet.png"  width="600" align="center" />
+<img src="/asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
 </p>
 

@@ -14,4 +14,4 @@ Collection of cheat sheets.
 
 ## Memory Layout
 
-![Memoty Layout](/img/cheatsheet/Layout.jpg)
+![Memoty Layout](/asset/img/cheatsheet/Layout.jpg)
