@@ -21,7 +21,14 @@
 - [This Week in Rust](https://this-week-in-rust.org/)
 - [Rust GameDev Working Group](https://gamedev.rs/)
 - [Rust and WebAssembly](https://rustwasm.github.io/)
+- [Awesome Rust Weekly](https://rust.libhunt.com/newsletter?ref=inboxreads)
+- [Rust Weekly](https://discu.eu/weekly/rust/?ref=inboxreads)
+- [Rust in Blockchain](https://rustinblockchain.org/?ref=inboxreads)
+- [Let's Get Rusty](https://letsgetrusty.com/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
+- [New Rustacean](https://newrustacean.com/) ( _audio_ )
+- [Building with Rust](https://podcasts.apple.com/gb/podcast/building-with-rust/id1553513574) ( _audio_ )
+- [Rust Game Dev](https://rustgamedev.com/) ( _audio_ )
 
 ## :globe_with_meridians: Other collections on Rust
 
