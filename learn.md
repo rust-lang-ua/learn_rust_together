@@ -58,7 +58,6 @@ Curated collection of resources to learn Rust.
 - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ ): focus on using "easy English" for non-native speakers
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _:movie_camera:_ ) ( _non-eng_ )
-- [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
@@ -153,7 +152,6 @@ Curated collection of resources to learn Rust.
 - [Cheat Sheet](https://github.com/donbright/rust-lang-cheat-sheet) by [don bright](https://github.com/donbright) : basics
 - [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene)
 - [Rust beginner cheat sheet](https://quickref.me/rust) : basics
-- [Cheat Sheet by Let's Get Rusty](https://letsgetrusty.com/) ( _newsletters_ )
 
 ## Algorithmic problems and solutions in Rust
 
