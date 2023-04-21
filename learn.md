@@ -43,7 +43,9 @@ Curated collection of resources to learn Rust.
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _:movie_camera:_ )
 - [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _:movie_camera:_ )
 - [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _:movie_camera:_ )
-- [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ )
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _reading_ )
+- [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
+- [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ ): focus on using "easy English" for non-native speakers
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _:movie_camera:_ ) ( _non-eng_ )
 - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
@@ -52,9 +54,14 @@ Curated collection of resources to learn Rust.
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
 - [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( _:movie_camera:_ )
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/) by [Google]()
+- [Beginning Rust: From Novice to Professional](https://amzn.to/3DS1pBi) by [Carlo Milanesi](https://twitter.com/carlomilanesi) ( _reading_ ) ( _book_ )
+- [First Steps in Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/?WT.mc_id=academic-29077-cxa): a free course provided by Microsoft providing an introductory view into Rust.
+- [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion) by Carol Nichols and Jake Goulding ( _:movie_camera:_ )
+- [Rust Essential Training by LinkedIn](https://www.linkedin.com/learning/rust-essential-training)
 
 ## About Rust
 
+- [The Rust Programming Language GitHub](https://github.com/rust-lang) ( _official_ )
 - [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( _video_ )
 - [Rust Tutorial](https://www.youtube.com/watch?v=ygL_xcavzQ4) by [Derek Banas](https://www.youtube.com/c/derekbanas) ( _video_ )
 
@@ -63,6 +70,8 @@ Curated collection of resources to learn Rust.
 ( _course_ ) ( _advanced_ )
 
 - :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _:movie_camera:_ ) ( _general_ )
+- [Rust Atomics and Locks](https://marabos.nl/atomics/) by [Mara Bos](https://github.com/m-ou-se) ( _reading_ ) ( _book_ )
+- [Rust for Rustaceans](https://nostarch.com/rust-rustaceans) by [Jon Gjengset](https://www.youtube.com/c/jongjengset) ( _reading_ ) ( _book_ )
 
 ## Additional
 
@@ -81,6 +90,9 @@ Curated collection of resources to learn Rust.
 - [Command Line Applications in Rust](https://rust-cli.github.io/book/in-depth/signals.html) ( _reading_ )
 - [Rusts Module System Explained](https://aloso.github.io/2021/03/28/module-system.html) by [Ludwig Stecher](https://github.com/Aloso) ( _reading_ ) ( _article_ )
 - [The UniFFI user guide](https://mozilla.github.io/uniffi-rs/Overview.html) ( _reading_ )
+- [Rust in Action](https://amzn.to/3DRu0qh) by [Tim McNamara](https://www.linkedin.com/in/timmcnamaranz/?originalSubdomain=nz) ( _reading_ ) ( _book_ )
+- [Programming Rust: Fast, Safe Systems Development 2nd Edition](https://amzn.to/3Jfxbtb) ( _reading_ ) ( _book_ )
+- [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ( _collection_ )
 
 ## Macros
 
@@ -116,10 +128,14 @@ Curated collection of resources to learn Rust.
 
 ## Cheat sheets
 
+( _cheatsheet_ )
+
 - [Rust Language Cheat Sheet](https://cheats.rs/) by [Ralf Biedert](https://xr.io/)
 - [Memoty Layout](./cheat_sheets.md#memory-layout) by Raph Levien
 - [Cheat Sheet](https://github.com/donbright/rust-lang-cheat-sheet) by [don bright](https://github.com/donbright) : basics
 - [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene)
+- [Rust beginner cheat sheet](https://quickref.me/rust) : basics
+- [Cheat Sheet by Let's Get Rusty](https://letsgetrusty.com/) ( _newsletters_ )
 
 ## Algorithmic problems and solutions in Rust
 
@@ -221,6 +237,7 @@ Curated collection of resources to learn Rust.
 - [Pointers Are Complicated](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
 - [Pointers Are Complicated II, or: We need better language specs](https://www.ralfj.de/blog/2020/12/14/provenance.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
 - [Pointers Are Complicated III, or: Pointer-integer casts exposed](https://www.ralfj.de/blog/2022/04/11/provenance-exposed.html) by [ralfj.de](https://www.ralfj.de/) ( _reading_ ) ( _article_ )
+- [Rust Atomics and Locks](https://marabos.nl/atomics/) by [Mara Bos](https://github.com/m-ou-se) ( _reading_ ) ( _book_ )
 
 ## Self-referential structures
 
@@ -298,6 +315,25 @@ Curated collection of resources to learn Rust.
 - [Teaching Material](https://github.com/rust-lang-ua/teaching_material_eng) by [Ferrous](https://github.com/ferrous-systems)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:async_ )
 
+## Newsletter
+
+( _newsletters_ )
+
+- [Awesome Rust Weekly](https://rust.libhunt.com/newsletter?ref=inboxreads)
+- [This week in Rust](https://this-week-in-rust.org/?ref=inboxreads)
+- [Rust Weekly](https://discu.eu/weekly/rust/?ref=inboxreads)
+- [Rust in Blockchain](https://rustinblockchain.org/?ref=inboxreads) ( _specific_ )
+- [Let's Get Rusty](https://letsgetrusty.com/)
+
+## Podcasts
+
+( _audio_ )
+
+- [New Rustacean](https://newrustacean.com/)
+- [Rustacean Station](https://rustacean-station.org/)
+- [Building with Rust](https://podcasts.apple.com/gb/podcast/building-with-rust/id1553513574)
+- [Rust Game Dev](https://rustgamedev.com/) ( _specific_ )
+
 ## Tags legend
 
 - :star: - fearured and strongly recommended
@@ -318,6 +354,7 @@ Curated collection of resources to learn Rust.
 - ( _audio_ ) - material to listen
 - ( _collection_ ) - list of resources
 - ( _newspaper_ ) - regularly updating list of articles
+- ( _newsletters_ ) - subscription to the regular aggregation of all Rust-related
 - ( _cheatsheet_ ) - cheat sheet
 - ( _project_ ) - project
 - ( _algo_ ) - algorithmic problems and solutions
