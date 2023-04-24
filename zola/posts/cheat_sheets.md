@@ -2,7 +2,7 @@
 title = "Cheat-sheets"
 
 +++
-# :chart_with_upwards_trend: Cheat sheats
+# 📈  Cheat sheats
 
 Collection of cheat sheets.
 

@@ -31,7 +31,7 @@ As a member of  our community, you can:
 - get the latest news about Rust
 - have a good time in informal meetings for our members
 
-## :question: FAQ
+## ? FAQ
 <ins>*- Is the community for beginners only?*</ins><br/>
 No. Many of our members have many years of professional experience, and some have been studying Rust since its inception.
 

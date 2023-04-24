@@ -2,13 +2,13 @@
 title = "Communicate"
 
 +++
-# :speech_balloon: Rust Community
+# 💬 Rust Community
 
 Curated list of chats, news streams and forums about Rust. You may get help with Rust on those resources.
 
-[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+[⬇️ Tags legend](#tags-legend) at the end of the page.
 
-## :speaking_head: Chats
+## 🗣️ Chats
 
 ( _chat_ )
 
@@ -33,7 +33,7 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 - [SolanaUkr](https://t.msolanaUkr) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
 - [Near Protocol UA - Вивчаємо Near разом](https://t.mnearprotocolua) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
 
-## :vibration_mode: News streams
+## 📳 News streams
 
 ### Telegram channels
 ( _telegram_ ) ( _stream_ )
@@ -55,7 +55,7 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 - [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rusindex.html) 
 - [ Rust GameDev WG ](https://gamedev.r)
 
-## :globe_with_meridians: Forums
+## 🌐 Forums
 
 ( _forum_ )
 

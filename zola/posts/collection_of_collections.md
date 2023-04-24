@@ -4,9 +4,9 @@ title = "Collection of collections"
 +++
 # Collection of collections
 
-[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+[⬇️ Tags legend](#tags-legend) at the end of the page.
 
-## :label: Projects catalogue
+## 🏷️ Projects catalogue
 
 ( _collection_ ) ( _project_ )
 
@@ -17,7 +17,7 @@ title = "Collection of collections"
 - [Lib.rs](https://lib.r)
 - [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 
-## :newspaper: Newspapers and working groups
+## 📰 Newspapers and working groups
 
 ( _collection_ ) ( _newspaper_ )
 
@@ -27,22 +27,22 @@ title = "Collection of collections"
 - [Rust and WebAssembly](https://rustwasm.github.io/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
 
-## :globe_with_meridians: Other collections on Rust
+## 🌐 Other collections on Rust
 
 ( _collection_ )
 
-- :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust
-- :footprints:️ [Start](/posts/introduction) : setup and step-by-step introduction into development on Rust.
-- :mortar_board: [Learn](/posts/learn) : collection of materials to learn Rust.
-- :chart_with_upwards_trend: [Systemize](/posts/cheat-sheets) : collection of cheat sheets.
-- :speech_balloon: [Communicate](/posts/communicate) : collection of chats and forums
-- :question: [Get answer](/posts/about-us#question-faq) : our FAQ and community rules.
-- :wrench: [Explore](/posts/toolbox-general) : general-purpose toolbox with collection of crates.
-- :video_game: [Explore](/posts/toolbox-multimedia) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](/posts/toolbox-scientific) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
-- :infinity: [Math toolbox](/posts/ToolboxMath) with collection of crates for Math, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Distros toolbox](/posts/ToolboxDistros) with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
+- 📘  [Read](https://github.com/sger/RustBooks) : books on Rust
+- 👣  [Start](/posts/introduction) : setup and step-by-step introduction into development on Rust.
+- 🎓  [Learn](/posts/learn) : collection of materials to learn Rust.
+- 📈  [Systemize](/posts/cheat-sheets) : collection of cheat sheets.
+- 💬  [Communicate](/posts/communicate) : collection of chats and forums
+- ?  [Get answer](/posts/about-us#question-faq) : our FAQ and community rules.
+- 🔧  [Explore](/posts/toolbox-general) : general-purpose toolbox with collection of crates.
+- 🎮  [Explore](/posts/toolbox-multimedia) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
+- ∞  [Explore](/posts/toolbox-scientific) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- 📦  [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
+- ∞ [Math toolbox](/posts/ToolboxMath) with collection of crates for Math, Lienar Algebra, Machine Learnign, DSP.
+- 📦  [Distros toolbox](/posts/ToolboxDistros) with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 - [List of resources to learn Rust](https://github.com/ctjhorust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
 - [List of resources to learn Rust](https://hackr.io/tutoriallearn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/
