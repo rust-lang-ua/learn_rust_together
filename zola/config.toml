@@ -64,7 +64,7 @@ extra_syntaxes = []
 
 home_subtitle = ""
 
-footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+footer_copyright = ' &#183; <a href="" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 hermit_menu = [
     { link = "/posts", name = "" },

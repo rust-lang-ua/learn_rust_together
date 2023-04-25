@@ -10,20 +10,20 @@ title = "Collection of collections"
 
 ( _collection_ ) ( _project_ )
 
-- [Are we game yet?](https://arewegameyet.r) : gamedev
+- [Are we game yet?](https://arewegameyet.rs/) : gamedev
 - [Are we web yet?](https://www.arewewebyet.org/) : web
 - [Are we GUI yet?](http://www.areweguiyet.com/) : user interfaces
 - [Are we learning yet?](http://www.arewelearningyet.com/) : machine learning
-- [Lib.rs](https://lib.r)
+- [Lib.rs](https://lib.rs/)
 - [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust) by [E. Dunham](https://github.com/edunham)
 
 ## 📰 Newspapers and working groups
 
 ( _collection_ ) ( _newspaper_ )
 
-- [Read Rust](https://readrust.ne)
+- [Read Rust](https://readrust.net/)
 - [This Week in Rust](https://this-week-in-rust.org/)
-- [Rust GameDev Working Group](https://gamedev.r)
+- [Rust GameDev Working Group](https://gamedev.rs/)
 - [Rust and WebAssembly](https://rustwasm.github.io/)
 - [The Rustacean Station Podcast](https://rustacean-station.org/) ( _audio_ )
 
@@ -53,6 +53,6 @@ title = "Collection of collections"
 
 ## Tags legend
 
-- :star: - fearured and strongly recommended
+- ⭐ - fearured and strongly recommended
 - ( _collection_ ) - collection of resources instead of single resource
 - ( _about:embed_ ) - proper error handling

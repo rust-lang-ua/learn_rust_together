@@ -11,7 +11,7 @@ title = "Learn"
 
 Curated collection of resources to learn Rust.
 
-[⬇️  Tags legend](#tags-legend) at the end of the page.
+[⬇️ Tags legend](#tags-legend) at the end of the page.
 
 <!-- - []() by []() -->
 
@@ -19,9 +19,9 @@ Curated collection of resources to learn Rust.
 
 ( _general_ ) ( _official_ ) ( _course_ )
 
-- ⭐ [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ )
-- [Rust by Example](https://doc.rust-lang.org/rust-by-examplindex.html) [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
+- ⭐ [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [🇬🇧](https://doc.rust-lang.org/book/ch00-00-introduction.html) [🏴‍☠️](https://doc.rust-lang.ru/book/) ( _reading_ )
+- [Rust by Example](https://doc.rust-lang.org/rust-by-examplindex.html) [🇬🇧](https://doc.rust-lang.org/rust-by-example/index.html) [🏴‍☠️](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ )
+- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [🇬🇧](https://rust-lang-nursery.github.io/rust-cookbook/) [🏴‍☠️](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ )
 - [The Rust Reference](https://doc.rust-lang.org/referencintroduction.html) ( _reading_ ) ( _reference_ )
 
 <!-- ## Standard materials
@@ -38,7 +38,7 @@ Curated collection of resources to learn Rust.
 - [Use Rust to build browser-native libraries through WebAssembly](https://rustwasm.github.io/docbook/) ( _reading_ )
 - [Become proficient with Rust for Microcontrollers and other embedded systems](https://doc.rust-lang.org/stablembedded-book/) ( _reading_ ) -->
 
-## :star: General-purpose courses
+## ⭐ General-purpose courses
 
 ( _general_ ) ( _course_ )
 
@@ -73,7 +73,7 @@ Curated collection of resources to learn Rust.
 ( _course_ ) ( _advanced_ )
 
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ )
-- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) [:uk:](https://rust-lang.github.io/async-book/) [:pirate_flag:](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
+- [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) [🇬🇧](https://rust-lang.github.io/async-book/) [🏴‍☠️](https://doc.rust-lang.ru/async-book/) ( _reading_ ) ( _official_ ) ( _general_ ) ( _course_ ) ( _about:async_ )
 - [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelineintroduction.html) ( _reading_ ) ( _official_ )
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _reading_ ) ( _official_ ) : nonsafe programming
 - [High Assurance Rust](https://highassurance.rlanding.html) ( _reading_ ) : developing secure and robust software
@@ -115,7 +115,7 @@ Curated collection of resources to learn Rust.
 - [Rust by practice](https://github.com/rust-lang-urust_by_practice_eng) by [Sunface](https://github.com/sunface)
 - [Rust playground](https://play.rust-lang.org/) ( _official_ )
 - [Rust explaine](https://jrvidal.github.io/explaine.r)
-- [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html)
+- [Tour of Rust](https://tourofrust.com/index.html) [🇬🇧](https://tourofrust.com/index.html) [🇺🇦](https://tourofrust.com/00_ua.html)
 - [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ )
 
 ## Cheat sheets

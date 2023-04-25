@@ -2,18 +2,18 @@
 title = "Toolbox scientific"
 
 +++
-# :infinity: Scientific Toolbox
+# ∞  Scientific Toolbox
 
 Awesome collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP. It is curated by us.
 
 You might also be interested in other tooboxes:
 
-- :wrench: [Explore](/posts/toolbox-general) : general-purpose toolbox with collection of crates.
-- :video_game: [Explore](/posts/toolbox-multimedia) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](/posts/toolbox-scientific) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
+- 🔧 [Explore](/posts/toolbox-general) : general-purpose toolbox with collection of crates.
+- 🎮 [Explore](/posts/toolbox-multimedia) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
+- ∞  [Explore](/posts/toolbox-scientific) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- 📦 [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
-[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+[⬇️ Tags legend](#tags-legend) at the end of the page.
 
 <!-- - []() by []() : -->
 

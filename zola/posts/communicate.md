@@ -12,17 +12,17 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 
 ( _chat_ )
 
-- [ Вивчаємо Rust Разом ](https://t.mrustlang_ua)( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
-- [ Вивчаємо Rust Разом # Kyiv ](https://t.mlearn_rust_together_kyiv)   ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ )
-- [ Вивчаємо Rust Разом # Odesa ](https://t.mlearn_rust_together_odesa) ( _telegram_ ) ( _non-eng_ )  ( _ukraine_ ) 
-- [ Вивчаємо Rust Разом # Lviv ](https://t.mlearn_rust_together_lviv)  ( _telegram_ ) ( _non-eng_ )  ( _ukraine_ )
-- [ Вивчаємо Rust Разом ](https://discord.com/invitJVCZfTVf5A) ( _discord_ )   ( _non-eng_ ) ( _ukraine_ )
-- [ Вивчаємо Rust Разом  ](https://www.reddit.com/r/rustlang_ucomments/vbxc7s/ukrainian_branch_of_rust_community/) ( _reddit_ ) ( _non-eng_ )  ( _ukraine_ )
-- [ Rust Beginners ](https://t.mrust_beginners_ru) ( _telegram_ ) ( _non-eng_ )
-- [ Rust — русскоговорящее сообщество ](https://t.mrustlang_ru) ( _telegram_ ) ( _non-eng_ )
-- [ Learn Rust with RustDevz ](https://t.mrustdevs) ( _telegram_ ) ( _non-eng_ )
-- [ Rust GameDev — русскоговорящее сообщество ](https://t.mrust_gamedev_ru) ( _telegram_ ) ( _non-eng_ )
-- [ Embedded Lab ](https://t.membedded_lab) ( _telegram_ ) ( _non-eng_ )
+- [ Вивчаємо Rust Разом ](https://t.me/rustlang_ua)( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
+- [ Вивчаємо Rust Разом # Kyiv ](https://t.me/learn_rust_together_kyiv)   ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ )
+- [ Вивчаємо Rust Разом # Odesa ](https://t.me/learn_rust_together_odesa) ( _telegram_ ) ( _non-eng_ )  ( _ukraine_ ) 
+- [ Вивчаємо Rust Разом # Lviv ](https://t.me/learn_rust_together_lviv)  ( _telegram_ ) ( _non-eng_ )  ( _ukraine_ )
+- [ Вивчаємо Rust Разом ](https://discord.com/invite/JVCZfTVf5A) ( _discord_ )   ( _non-eng_ ) ( _ukraine_ )
+- [ Вивчаємо Rust Разом  ](https://www.reddit.com/r/rustlang_ua/comments/vbxc7s/ukrainian_branch_of_rust_community/) ( _reddit_ ) ( _non-eng_ )  ( _ukraine_ )
+- [ Rust Beginners ](https://t.me/rust_beginners_ru) ( _telegram_ ) ( _non-eng_ )
+- [ Rust — русскоговорящее сообщество ](https://t.me/rustlang_ru) ( _telegram_ ) ( _non-eng_ )
+- [ Learn Rust with RustDevz ](https://t.me/rustdevs) ( _telegram_ ) ( _non-eng_ )
+- [ Rust GameDev — русскоговорящее сообщество ](https://t.me/rust_gamedev_ru) ( _telegram_ ) ( _non-eng_ )
+- [ Embedded Lab ](https://t.me/embedded_lab) ( _telegram_ ) ( _non-eng_ )
 - [ Dimforge ](https://discord.gg/AQ434ubNSa) ( _discord_ )
 - [ Game development in Rust ](https://discord.gg/yNtPTb2) ( _discord_ )
 - [ Rust community ](https://discord.gg/rust-lang-community) ( _discord_ )
@@ -30,16 +30,16 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 
 ### Blockchain
 ( _blockchain_ )
-- [SolanaUkr](https://t.msolanaUkr) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
-- [Near Protocol UA - Вивчаємо Near разом](https://t.mnearprotocolua) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
+- [SolanaUkr](https://t.me/solanaUkr) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
+- [Near Protocol UA - Вивчаємо Near разом](https://t.me/nearprotocolua) ( _telegram_ ) ( _non-eng_ ) ( _ukraine_ ) 
 
 ## 📳 News streams
 
 ### Telegram channels
 ( _telegram_ ) ( _stream_ )
-- [ Канал Вивчаємо Rust Разом ](https://t.mlearn_rust_ukr) ( _non-eng_ )  ( _ukraine_ )
-- [ English channel Learn Rust Together ](https://t.mlearn_rust)  
-- [ pub ThisWeekInRust {} ](https://t.mthis_week_in_rust) 
+- [ Канал Вивчаємо Rust Разом ](https://t.me/learn_rust_ukr) ( _non-eng_ )  ( _ukraine_ )
+- [ English channel Learn Rust Together ](https://t.me/learn_rust)  
+- [ pub ThisWeekInRust {} ](https://t.me/this_week_in_rust) 
 
 ### Twitter blogs
 ( _twitter_ ) ( _blog_ )
@@ -52,8 +52,8 @@ Curated list of chats, news streams and forums about Rust. You may get help with
 ### Website blogs
 ( _website_ ) ( _blog_ )
 - [ Rust Main Blog ](https://blog.rust-lang.org/) 
-- [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rusindex.html) 
-- [ Rust GameDev WG ](https://gamedev.r)
+- [ Inside Rust Blog ](https://blog.rust-lang.org/inside-rust/index.html) 
+- [ Rust GameDev WG ](https://gamedev.rs/)
 
 ## 🌐 Forums
 

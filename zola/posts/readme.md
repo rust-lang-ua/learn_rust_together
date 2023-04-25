@@ -36,7 +36,7 @@ Here you can find:
 
 ## Join
 
-💬 Join our [Telegram-Chat](https://t.mrustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
+💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
 
 You may also follow us on these platforms:
 [Twitter](https://twitter.com/RustUkraine)  |
@@ -44,8 +44,8 @@ You may also follow us on these platforms:
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invitJVCZfTVf5A) |
-[Reddit](https://www.reddit.com/r/rustlang_u) |
-[Telegram](https://t.mrustlang_ua) |
+[Reddit](https://www.reddit.com/r/rustlang_ua) |
+[Telegram](https://t.me/rustlang_ua) |
 <br/>
 
 Let’s Learn Rust 🦀 Together!

@@ -32,7 +32,7 @@ title = "Readme (ua)"
 
 ## Долучайся
 
-💬 Приєднуйся до нашого [Телеграм-Чату](https://t.mrustlang_ua) і [Телеграм-Каналу](https://t.me/learn_rust_ukr). <br/>
+💬 Приєднуйся до нашого [Телеграм-Чату](https://t.me/rustlang_ua) і [Телеграм-Каналу](https://t.me/learn_rust_ukr). <br/>
 
 Ти можеш також слідкувати за нами на цих платформах:
 [Twitter](https://twitter.com/LearnTogetherP)  |
@@ -40,8 +40,8 @@ title = "Readme (ua)"
 [Linkedin](https://www.linkedin.com/company/learn-together-pro) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invitJVCZfTVf5A) |
-[Reddit](https://www.reddit.com/r/rustlang_u) |
-[Telegram](https://t.mrustlang_ua) |
+[Reddit](https://www.reddit.com/r/rustlang_ua) |
+[Telegram](https://t.me/rustlang_ua) |
 <br/>
 
 Вивчаймо Rust 🦀 Разом!

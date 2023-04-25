@@ -2,7 +2,7 @@
 title = "Rust setup"
 
 +++
-## :gear: How to set up rust:
+## ⚙️ How to set up rust:
 
 To get started with Rust you obviously have to set up your environment.<br/> 
 There is a short guide to do this:<br/>
@@ -17,4 +17,4 @@ There is a short guide to do this:<br/>
 1. To install rustup on Linux or macOS, open a terminal and enter the following command    `curl https://sh.rustup.rs -sSf | sh`
 2. Once the Rust installation is complete, the Cargo’s bin directory (`~/.cargo/bin` – where all tools are installed) will be added in your PATH environment variable, in `~/.profile`.
 
-:zap:	To get a more detailed description or other methods of setting up Rust environment - go to our [list of setup materials](https://github.com/rust-lang-ulearn_rust_together/blob/master/learn.md#setup). 
+⚡ To get a more detailed description or other methods of setting up Rust environment - go to our [list of setup materials](https://github.com/rust-lang-ulearn_rust_together/blob/master/learn.md#setup). 

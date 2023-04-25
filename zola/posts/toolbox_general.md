@@ -2,7 +2,7 @@
 title = "Toolbox general"
 
 +++
-# :wrench: Rust Developer's Toolbox
+# 🔧 Rust Developer's Toolbox
 
 <!--xxx : https://github.com/dherman -->
 <!-- - []() by []() : -->
@@ -11,12 +11,12 @@ Awesome collection of crates for productive development in Rust. It is curated b
 
 You might also be interested in other tooboxes:
 
-- :wrench: [Explore](/posts/toolbox-general) : general-purpose toolbox with collection of crates.
-- :video_game: [Explore](/posts/toolbox-multimedia) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
-- :infinity: [Explore](/posts/toolbox-scientific) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
-- :package: [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
+- 🔧 [Explore](/posts/toolbox-general) : general-purpose toolbox with collection of crates.
+- 🎮 [Explore](/posts/toolbox-multimedia) : multimedia toolbox with collection of crates for GameDev, Graphics, Video, Audio.
+- ∞  [Explore](/posts/toolbox-scientific) : scientific toolbox with collection of crates for Math, Physycs, Lienar Algebra, Machine Learnign, DSP.
+- 📦 [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 
-[:arrow_down: Tags legend](#tags-legend) at the end of the page.
+[⬇️ Tags legend](#tags-legend) at the end of the page.
 
 ## Errors handling
 

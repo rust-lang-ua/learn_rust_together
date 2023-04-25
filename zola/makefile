@@ -5,7 +5,9 @@ build: 				clone_refresh \
 					create_zolafolder \
 					theme_setup \
 					_copy_md_to_content \
-					_copy_index_to_content 
+					_copy_index_to_content
+					rm -rf ./Zola-blog/hermit_zola/templates
+					cp -fr ./templates ./Zola-blog/hermit_zola/
 					cd ./Zola-blog/hermit_zola/ &&\
 					zola build &&\
 					cd ../.. 
