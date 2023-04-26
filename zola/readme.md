@@ -12,6 +12,8 @@ Zola is static site engine made on Rust
 
 |-- sass          - set of scss files
 
+|-- templates     - HTML templates for page generating
+
 |-- _index.md     - zola filter file
 
 |-- config.toml   - zola configuration file
