@@ -1,5 +1,5 @@
 +++
-title = "Readme (ua)"
+title = ""
 
 +++
 <!-- ![Rust](/img/logo/Logo2.jpg) -->

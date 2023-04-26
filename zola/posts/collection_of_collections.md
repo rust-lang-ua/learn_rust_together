@@ -1,5 +1,5 @@
 +++
-title = "Collection of collections"
+title = ""
 
 +++
 # Collection of collections
@@ -43,8 +43,8 @@ title = "Collection of collections"
 - 📦  [Explore](/posts/toolbox-distros) : distros toolbox with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
 - ∞ [Math toolbox](/posts/ToolboxMath) with collection of crates for Math, Lienar Algebra, Machine Learnign, DSP.
 - 📦  [Distros toolbox](/posts/ToolboxDistros) with collection of utilities written in Rust to been distributed outside of Rust ecosystem.
-- [List of resources to learn Rust](https://github.com/ctjhorust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
-- [List of resources to learn Rust](https://hackr.io/tutoriallearn-rust) by [hackr.io](https://hackr.io/)
+- [List of resources to learn Rust](https://github.com/ctjhoa/rust-learning) by [Camille TJHOA](https://github.com/ctjhoa)
+- [List of resources to learn Rust](https://hackr.io/tutorials/learn-rust) by [hackr.io](https://hackr.io/)
 - [Rust Anthology](https://github.com/brson/rust-anthology/blob/master/master-list.md) by [Brian Anderson](https://github.com/
 - [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) : language development toolbox
 - [Awesome Embed Rust](https://github.com/rust-embedded/awesome-embedded-rust) by [Rust Embedded](https://github.com/rust-embedded) ( _about:embed_ ) ( _collection_ )

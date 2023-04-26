@@ -1,5 +1,5 @@
 +++
-title = "Toolbox multimedia"
+title = ""
 
 +++
 # 🎮 Multimedia Developer Toolbox

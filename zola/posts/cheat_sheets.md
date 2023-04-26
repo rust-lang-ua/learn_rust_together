@@ -1,5 +1,5 @@
 +++
-title = "Cheatsheet"
+title = ""
 
 +++
 # 📈  Cheat sheats

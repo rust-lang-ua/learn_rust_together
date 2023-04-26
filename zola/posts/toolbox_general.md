@@ -1,5 +1,5 @@
 +++
-title = "Toolbox general"
+title = ""
 
 +++
 # 🔧 Rust Developer's Toolbox

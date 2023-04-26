@@ -1,5 +1,5 @@
 +++
-title = "Communicate"
+title = ""
 
 +++
 # 💬 Rust Community

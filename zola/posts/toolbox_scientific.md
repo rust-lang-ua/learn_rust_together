@@ -1,5 +1,5 @@
 +++
-title = "Toolbox scientific"
+title = ""
 
 +++
 # ∞  Scientific Toolbox

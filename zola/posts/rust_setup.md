@@ -1,5 +1,5 @@
 +++
-title = "Rust setup"
+title = ""
 
 +++
 ## ⚙️ How to set up rust:

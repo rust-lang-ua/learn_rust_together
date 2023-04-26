@@ -1,5 +1,5 @@
 +++
-title = "Learn"
+title = ""
 
 +++
 > [❗] We condemn in the strongest possible terms Russia’s 🏴‍☠️ unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. All Russian-language materials are published for educational purposes only.

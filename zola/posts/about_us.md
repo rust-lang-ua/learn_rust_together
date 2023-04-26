@@ -1,5 +1,5 @@
 +++
-title = "About_us"
+title = ""
 
 +++
 # 🦀 Ukrainian branch of Rust Community 💙💛
@@ -77,7 +77,7 @@ Ask us on [chat](https://t.me/rustlang_ua).
 ## Join
 Come join our friendly community!
 
-💬 Join our [Telegram-Chat](https://t.mrustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
+💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
 📖 Resources we recommend are [here](https://github.com/rust-lang-ulearn_rust_together). <br/>
 
 You may also follow us on these platforms:

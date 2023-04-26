@@ -1,5 +1,5 @@
 +++
-title = "Toolbox distros"
+title = ""
 
 +++
 # 📦 Awesome Collection of Distros
