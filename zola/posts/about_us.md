@@ -78,7 +78,7 @@ Ask us on [chat](https://t.me/rustlang_ua).
 Come join our friendly community!
 
 💬 Join our [Telegram-Chat](https://t.me/rustlang_ua) and [Telegram-Channel](https://t.me/learn_rust_ukr). <br/>
-📖 Resources we recommend are [here](https://github.com/rust-lang-ulearn_rust_together). <br/>
+📖 Resources we recommend are [here](https://github.com/rust-lang-ua/learn_rust_together). <br/>
 
 You may also follow us on these platforms:
 [Twitter](https://twitter.com/LearnTogetherP)  |

@@ -22,9 +22,9 @@ You might also be interested in other tooboxes:
 ( _math_ ) ( _general_ )
 
 - [ultraviolet](https://github.com/termhn/ultraviolet) by [Gray Olson](https://github.com/termhn) : linear algebra crate for games and graphics
-- [nalgebra](https://github.com/dimforgnalgebra) by [dimforge](https://github.com/dimforge) : game linear algebra
+- [nalgebra](https://github.com/dimforge/nalgebra) by [dimforge](https://github.com/dimforge) : game linear algebra
 - [cgmath](https://github.com/rustgd/cgmath) by [rustgd](https://github.com/rustgd) : A linear algebra and mathematics library for computer graphics
-- [gml](https://lib.rcrates/gml) : Graphics Math Library. Generic Vector and Matrix Math library targetting graphics applications.
+- [gml](https://lib.rs/crates/gml) : Graphics Math Library. Generic Vector and Matrix Math library targetting graphics applications.
 - [geomath](https://github.com/samibendou/geomath) by [bendou](https://github.com/samibendou) : stack-allocated maths for geometry, simulation and computer graphics
 
 ## Unsorted math
@@ -32,10 +32,10 @@ You might also be interested in other tooboxes:
 ( _math_ ) ( _unsorted_ )
 
 - [packed_simd_2](https://github.com/rust-lang/packed_simd) by [gnzlbg](https://github.com/gnzlbg) : Packed SIMD Vectors
-- [flo_curves](https://github.com/Logicalshifflo_curves) by [Andrew Hunter](https://github.com/Logicalshift) ( _line_ ) : bezier curve
-- [matrixmultiply](https://github.com/blusmatrixmultiply) by [bluss](https://github.com/bluss) : matrix multiplication
-- [ndarray](https://github.com/blusndarray) by [bluss](https://github.com/bluss) : N-dimensional array
-- [simba](https://github.com/dimforgsimba) by [dimforge](https://github.com/dimforge) : SIMD algebra for [nalgebra](https://github.com/dimforge/nalgebra)
+- [flo_curves](https://github.com/Logicalshift/flo_curves) by [Andrew Hunter](https://github.com/Logicalshift) ( _line_ ) : bezier curve
+- [matrixmultiply](https://github.com/bluss/matrixmultiply) by [bluss](https://github.com/bluss) : matrix multiplication
+- [ndarray](https://github.com/bluss/ndarray) by [bluss](https://github.com/bluss) : N-dimensional array
+- [simba](https://github.com/dimforge/simba) by [dimforge](https://github.com/dimforge) : SIMD algebra for [nalgebra](https://github.com/dimforge/nalgebra)
 - [approx](https://github.com/brendanzab/approx) by [Brendan Zabarauskas](https://github.com/brendanzab) : approximate floating point comparisons
 - [noisy_float](https://github.com/SergiusIW/noisy_float-rs) by [Matthew Michelotti](https://github.com/SergiusIW) : floating point types that panic if they are set to an illegal value, such as NaN
 - [half](https://github.com/starkat99/half-rs) by [Kathryn Long](https://github.com/starkat99) : half-precision floating point types f16 and bf16 for
@@ -46,7 +46,7 @@ You might also be interested in other tooboxes:
 - [mini-math-rs](https://github.com/swiftcoder/mini-math-rs) by [Tristam MacDonald](https://github.com/swiftcoder) : Lightweight math routines for 3D graphics ( _3d_ )
 - [geometric_algebra](https://github.com/lichtso/geometric_algebra) by [Alexander Meißner](https://github.com/lichtso) : Generate(d) custom libraries for geometric algebras
 - [rustometry](https://github.com/bradmartin333/rustometry) by [Brad Martin](https://github.com/bradmartin333): Spatial Geometry in Pure Rust
-- [geometry_tools](https://github.com/scanmountgoageometry_tools) by [ScanMountGoat](https://github.com/scanmountgoat) : Efficient computation of single precision geometric data
+- [geometry_tools](https://github.com/scanmountgoat/geometry_tools) by [ScanMountGoat](https://github.com/scanmountgoat) : Efficient computation of single precision geometric data
 - [Myelin Geometry](https://github.com/myelin-ai/geometry) by [Myelin Research Group](https://github.com/myelin-ai) : Basic linear and vector geometry for two-dimensional Euclidean geometry
 
 ## Graphs
@@ -59,18 +59,18 @@ You might also be interested in other tooboxes:
 
 ( _math_ ) ( _meta_ )
 
-- [https://github.com/rust-num/num-traits](num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
+- [num-traits](https://github.com/rust-num/num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
 
 ## Physics
 
 ( _physics_ )
 
-- [parry](https://github.com/dimforgparry) by [dimforge](https://github.com/dimforge) : collision-detection library
-- [nphysics](https://github.com/dimforgnphysics) by [Sébastien Crozet](https://github.com/sebcrozet) : 2 and 3-dimensional rigid body physics engine
+- [parry](https://github.com/dimforge/parry) by [dimforge](https://github.com/dimforge) : collision-detection library
+- [nphysics](https://github.com/dimforge/nphysics) by [Sébastien Crozet](https://github.com/sebcrozet) : 2 and 3-dimensional rigid body physics engine
 - [k](https://github.com/openrr/k) by [Takashi Ogura](https://github.com/OTL) : kinematics library
-- [rapier2d](https://github.com/dimforgrapier) by [Sébastien Crozet](https://github.com/sebcrozet) : 2D physics engines focused on performance
-- [godot-vs-rapier](https://github.com/extrawursgodot-vs-rapier) by [Stephan Dilly](https://github.com/extrawurst) : comparison of two physics engines
-- [gdnative](https://github.com/godot-rusgodot-rust) by [vurpo](https://github.com/vurpo) ( _engine_ ) : godot engine binding
+- [rapier2d](https://github.com/dimforge/rapier) by [Sébastien Crozet](https://github.com/sebcrozet) : 2D physics engines focused on performance
+- [godot-vs-rapier](https://github.com/extrawurst/godot-vs-rapier) by [Stephan Dilly](https://github.com/extrawurst) : comparison of two physics engines
+- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _engine_ ) : godot engine binding
 
 ## DSP
 
@@ -86,17 +86,17 @@ You might also be interested in other tooboxes:
 ( _safety_ )
 
 - [oca-rust](https://github.com/THCLab/oca-rust) by [The Human Colossus Lab](https://github.com/THCLab) : Rust implementation of Overlays Capture architecture.
-- [gdpr_consent](https://github.com/cirlgdpr_consent) by [Tim Cheeseman](https://github.com/cirla) : GDPR Transparency and Consent Framework SDK Rust.
+- [gdpr_consent](https://github.com/cirla/gdpr_consent) by [Tim Cheeseman](https://github.com/cirla) : GDPR Transparency and Consent Framework SDK Rust.
 - [gdpr_consent_string](https://github.com/mdsherry/gdpr_consent_string) by [mdsherry](https://github.com/mdsherry) : mask GDPR strings.
-- [gdpr-extractor](https://github.com/oshagdpr-extractor) by [oshas](https://github.com/oshas) : extract GDPR data.
-- [safelog](https://gitlab.torproject.org/tpo/corarti/-/tree/main/crates/safelog) by [The Tor Project](https://gitlab.torproject.org/tpo) : mark data as sensitive for logging purposes.
-- [secrecy](https://github.com/iqlusioninc/cratetree/main/secrecy) by [iqlusion](https://github.com/iqlusioninc) : a simple secret-keeping library for Rust.
-- [secstr](https://github.com/Riatechsecstr) by [Pavel Strakhov](https://github.com/Riateche) : a Rust library that implements a data type (wrapper around Vec<u8>) suitable for storing sensitive information such as passwords and private keys in memory.
-- [secret-value](https://crates.io/cratesecret-value) by [Pavel Strakhov](https://github.com/Riateche) : is a minimalistic crate for ensuring that no secret value was displayed or logged.
+- [gdpr-extractor](https://github.com/oshas/gdpr-extractor) by [oshas](https://github.com/oshas) : extract GDPR data.
+- [safelog](https://gitlab.torproject.org/tpo/core/arti/-/tree/main/crates/safelog) by [The Tor Project](https://gitlab.torproject.org/tpo) : mark data as sensitive for logging purposes.
+- [secrecy](https://github.com/iqlusioninc/crates/tree/main/secrecy) by [iqlusion](https://github.com/iqlusioninc) : a simple secret-keeping library for Rust.
+- [secstr](https://github.com/Riateche/secstr) by [Pavel Strakhov](https://github.com/Riateche) : a Rust library that implements a data type (wrapper around Vec<u8>) suitable for storing sensitive information such as passwords and private keys in memory.
+- [secret-value](https://crates.io/crates/secret-value) by [Pavel Strakhov](https://github.com/Riateche) : is a minimalistic crate for ensuring that no secret value was displayed or logged.
 - [fakepii](https://github.com/feynmanium/fakepii) by [Jerry Wartak](https://github.com/feynmanium) : a program for generating fake "personally identifiable information" (PII) for tests and examples.
 - [ApacheLogAnonymizer](https://github.com/br-olf/ApacheLogAnonymizer) by [Olaf Pichler](https://github.com/br-olf) : a small Rust programm to anonymize webserver logs.
 - [noname](https://github.com/antonKalinin/noname) by [Anton Kalinin](https://github.com/antonKalinin) : a CLI tool to help remove personally identifiable information from screenshots.
-- [clean-pii](https://github.com/grass-roots-ultimatclean-pii) by [Anton Kalinin](https://github.com/antonKalinin) : A Rust executable to work with PII in Ultimate Central data exports. -->
+- [clean-pii](https://github.com/grass-roots-ultimate/clean-pii) by [Anton Kalinin](https://github.com/antonKalinin) : A Rust executable to work with PII in Ultimate Central data exports. -->
 
 ## HPC
 

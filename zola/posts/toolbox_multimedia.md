@@ -21,12 +21,12 @@ You might also be interested in other tooboxes:
 
 ( _renderer_ )
 
-- [WebGPU](https://github.com/gfx-rwgpu) : State of the art API for rendering
-- [skia-bindings](https://github.com/rust-skirust-skia) by [Long Yinan](https://github.com/Brooooooklyn) : binding of skia
+- [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
+- [skia-bindings](https://github.com/rust-skia/rust-skia) by [Long Yinan](https://github.com/Brooooooklyn) : binding of skia
 - [glow](https://github.com/grovesNL/glow) by [Josh Groves](https://github.com/grovesNL) : GL on Whatever
 - [glutin](https://github.com/rust-windowing/glutin) by [Rust Windowing](https://github.com/rust-windowing) : OpenGL context
 - [gl-rs](https://github.com/brendanzab/gl-rs) by [Brendan Zabarauskas](https://github.com/brendanzab) : OpenGL function pointer
-- [limelight](https://crates.io/cratelimelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper with a renderer
+- [limelight](https://crates.io/crates/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper with a renderer
 - [rend3](https://github.com/BVE-Reborn/rend3) by [BVE-Reborn Train Simulator](https://github.com/BVE-Reborn) : easy to use, customizable, efficient 3D renderer library built on wgpu
 
 ## Rendering Middleware
@@ -36,24 +36,24 @@ You might also be interested in other tooboxes:
 - [three-d](https://github.com/asny/three-d) by [Asger Nyman Christiansen](https://github.com/asny) : another rendering middleware renderer
 - [luminance](https://github.com/phaazon/luminance-rs) by [Dimitri Sabadie](https://github.com/phaazon) : another rendering middleware renderer
 - [miniquad](https://github.com/not-fl3/miniquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform renderer
-- [kiss3d](https://github.com/sebcrozekiss3d) by [Sébastien Crozet](https://github.com/sebcrozet) : stupid 3d renderer
-- [pixels](https://github.com/parasytpixels) by [Jay Oster](https://github.com/parasyte) : tiny hardware-accelerated pixel frame buffer
+- [kiss3d](https://github.com/sebcrozet/kiss3d) by [Sébastien Crozet](https://github.com/sebcrozet) : stupid 3d renderer
+- [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : tiny hardware-accelerated pixel frame buffer
 - [speedy2d](https://github.com/QuantumBadger/Speedy2D) by [QuantumBadger](https://github.com/QuantumBadger) : hardware-accelerated renderer with easy to use API
-- [pixels](https://github.com/parasytpixels) by [Jay Oster](https://github.com/parasyte) : small hardware-accelerated pixel frame buffer
-- [limelight](https://github.com/drifting-in-spaclimelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper
+- [pixels](https://github.com/parasyte/pixels) by [Jay Oster](https://github.com/parasyte) : small hardware-accelerated pixel frame buffer
+- [limelight](https://github.com/drifting-in-space/limelight) by [Paul Butler](https://github.com/paulgb) : WebGL2 wrapper
 
 ## Game Engines
 
 ( _engine_ )
 
-- [Bevy](https://github.com/bevyenginbevy) by [Carter Anderson](https://github.com/cart) ( _bevy_ ) : popular wgpu-based game engine
-- [Piston](https://github.com/PistonDeveloperpiston) by [PistonDevelopers](https://github.com/PistonDevelopers) : a modular game engine written in Rust
-- [Fyrox](https://github.com/FyroxEnginFyrox) by [Fyrox Engine](https://github.com/FyroxEngine) : a modern Rust game engine
-- [Amethyst](https://github.com/amethysamethyst) by [Amethyst Foundation](https://github.com/amethyst) : a data-driven and data-oriented game engine aiming to be fast and as configurable as possible
-- [emerald](https://github.com/Bombfusemerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
-- [tetra](https://github.com/17cupsofcoffetetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
+- [Bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _bevy_ ) : popular wgpu-based game engine
+- [Piston](https://github.com/PistonDevelopers/piston) by [PistonDevelopers](https://github.com/PistonDevelopers) : a modular game engine written in Rust
+- [Fyrox](https://github.com/FyroxEngine/Fyrox) by [Fyrox Engine](https://github.com/FyroxEngine) : a modern Rust game engine
+- [Amethyst](https://github.com/amethyst/amethyst) by [Amethyst Foundation](https://github.com/amethyst) : a data-driven and data-oriented game engine aiming to be fast and as configurable as possible
+- [emerald](https://github.com/Bombfuse/emerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
+- [tetra](https://github.com/17cupsofcoffee/tetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
 - [macroquad](https://github.com/not-fl3/macroquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform game engine
-- [gdnative](https://github.com/godot-rusgodot-rust) by [vurpo](https://github.com/vurpo) ( _physics_ ) : godot engine binding
+- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _physics_ ) : godot engine binding
 
 ## Web engine
 
@@ -65,14 +65,14 @@ You might also be interested in other tooboxes:
 
 ( _hid_ )
 
-- [gamepad-rs](https://github.com/unrusgamepad-rs) by [Edwin Cheng](https://github.com/edwin0cheng) : cross-platform gamepad support
+- [gamepad-rs](https://github.com/unrust/gamepad-rs) by [Edwin Cheng](https://github.com/edwin0cheng) : cross-platform gamepad support
 
 ## Shader Middleware
 
 ( _middleware_ ) ( _shader_ )
 
 - [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL shading language parser
-- [naga](https://github.com/gfx-rnaga) by [Dzmitry Malyshau](https://github.com/kvark) : shader translation
+- [naga](https://github.com/gfx-rs/naga) by [Dzmitry Malyshau](https://github.com/kvark) : shader translation
 
 ## Geometry
 
@@ -82,9 +82,9 @@ You might also be interested in other tooboxes:
 - [meshopt](https://github.com/gwihlidal/meshopt-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : binding of zeux/meshoptimizer
 - [euclid](https://github.com/servo/euclid) by [Servo](https://github.com/servo) : Geometry primitives
 - [Pointy](https://github.com/douglau/pointy) by [Douglas Lau](https://github.com/douglau) : Minimal 2D geometry library
-- [geom-rs](https://github.com/vectoriougeom-rs) by [Brandon King](https://github.com/vectorious) : Simple 2D geometry library
+- [geom-rs](https://github.com/vectorious/geom-rs) by [Brandon King](https://github.com/vectorious) : Simple 2D geometry library
 - [implicit3d](https://github.com/hmeyer/implicit3d) by [Henning Meyer](https://github.com/hmeyer) : 3d implicit geometry
-- [euler](https://github.com/alteoueuler) by [David Harvey-Macaulay](https://github.com/alteous) : Mathematics library for 3D computer graphics
+- [euler](https://github.com/alteous/euler) by [David Harvey-Macaulay](https://github.com/alteous) : Mathematics library for 3D computer graphics
 - [lyon](https://github.com/nical/lyon) by [Nicolas Silva](https://github.com/nical) : A path tessellation library written in rust for GPU-based 2D graphics rendering.
 - [raqote](https://github.com/jrmuizel/raqote) by [Jeff Muizelaar](https://github.com/jrmuizel) : A pure Rust 2D Graphics Library.
 - [footile](https://github.com/douglau/footile) by [Douglas Lau](https://github.com/douglau) : A 2D vector graphics library
@@ -105,12 +105,12 @@ You might also be interested in other tooboxes:
 
 ( _bevy_ )
 
-- [bevy](https://github.com/bevyenginbevy) by [Carter Anderson](https://github.com/cart) ( _engine_ ) : popular wgpu-based game engine
-- [bevy_mod_picking](https://github.com/aevyribevy_mod_picking) by [Aevyrie](https://github.com/aevyrie) : 3D mouse picking
+- [bevy](https://github.com/bevyengine/bevy) by [Carter Anderson](https://github.com/cart) ( _engine_ ) : popular wgpu-based game engine
+- [bevy_mod_picking](https://github.com/aevyrie/bevy_mod_picking) by [Aevyrie](https://github.com/aevyrie) : 3D mouse picking
 - [bevy_ecs_tilemap](https://github.com/StarArawn/bevy_ecs_tilemap) by [John Mitchell](https://github.com/StarArawn) : ECS tilemap
 - [kayak_ui](https://github.com/StarArawn/kayak_ui) by [John Mitchell](https://github.com/StarArawn) : game UI
 - [bevy_tiled](https://github.com/StarArawn/bevy_tiled) by [John Mitchell](https://github.com/StarArawn) : rendering tiled maps
-- [bevy__ron](https://github.com/inodentry/bevy_asset_ron) by [Ida Iyes](https://github.com/inodentry) : RON Assets
+- [bevy_asset_ron](https://github.com/inodentry/bevy_asset_ron) by [Ida Iyes](https://github.com/inodentry) : RON Assets
 - [smooth-bevy-cameras](https://github.com/bonsairobo/smooth-bevy-cameras) by [Duncan](https://github.com/bonsairobo) : camera controllers with buttery, exponential smoothing
 
 ## WebGPU
@@ -118,7 +118,7 @@ You might also be interested in other tooboxes:
 ( _webgpu_ )
 
 - [wgpu_glyph](https://github.com/hecrj/wgpu_glyph) by [Héctor Ramón](https://github.com/hecrj) ( _webgpu_ ) : text renderer for wgpu
-- [WebGPU](https://github.com/gfx-rwgpu) : State of the art API for rendering
+- [WebGPU](https://github.com/gfx-rs/wgpu) : State of the art API for rendering
 - [rugl](https://github.com/gregtatum/rugl) by [Greg Tatum](https://github.com/gregtatum) : declarative Stateless OpenGL in Rust (inspired by regl)
 - [glyphon](https://github.com/grovesNL/glyphon) by [Josh Groves](https://github.com/grovesNL) : 2D text renderer for wgpu
 
@@ -151,54 +151,54 @@ You might also be interested in other tooboxes:
 
 ( _gif_ )
 
-- [gifski](https://crates.io/crategifski) by [ImageOptim](https://github.com/ImageOptim) : highest-quality GIF encoder based on pngquant.
-- [gif](https://crates.io/crategif) by [image-rs](https://github.com/image-rs) : GIF en- and decoder written in Rust.
-- [webp-animation](https://crates.io/cratewebp-animation) by [Mika](https://github.com/blaind) : a high-level Rust wrapper for decoding and encoding WebP animations.
+- [gifski](https://crates.io/crates/gifski) by [ImageOptim](https://github.com/ImageOptim) : highest-quality GIF encoder based on pngquant.
+- [gif](https://crates.io/crates/gif) by [image-rs](https://github.com/image-rs) : GIF en- and decoder written in Rust.
+- [webp-animation](https://crates.io/crates/webp-animation) by [Mika](https://github.com/blaind) : a high-level Rust wrapper for decoding and encoding WebP animations.
 
 ## Animation
 
 ( _animation_ )
 
-- [rust-animation](https://crates.io/craterust-animation) by [Joone Hur](https://github.com/joone) : designed to implement a simple animated UI for embedded devices.
-- [anim](https://crates.io/crateanim) by [joylei](https://github.com/Joylei) : a framework independent animation library for rust.
-- [silver_animation](https://crates.io/cratesilver_animation) by [lenscas](https://github.com/lenscas) : simple and basic animation system for quicksilver.
-- [skeletal_animation](https://crates.io/crateskeletal_animation) by [Sven Nilsen](https://github.com/bvssvni) : a Rust library for data-driven skeletal animation.
+- [rust-animation](https://crates.io/crates/rust-animation) by [Joone Hur](https://github.com/joone) : designed to implement a simple animated UI for embedded devices.
+- [anim](https://crates.io/crates/anim) by [joylei](https://github.com/Joylei) : a framework independent animation library for rust.
+- [silver_animation](https://crates.io/crates/silver_animation) by [lenscas](https://github.com/lenscas) : simple and basic animation system for quicksilver.
+- [skeletal_animation](https://crates.io/crates/skeletal_animation) by [Sven Nilsen](https://github.com/bvssvni) : a Rust library for data-driven skeletal animation.
 
-## 3D s
+## 3D assets
 
-( _s_3d_ )
+( _assets_3d_ )
 
-- [russimp](https://github.com/jkvargarussimp) by [Jhonny Vargas](https://github.com/jkvargas) : binding of assimp
+- [russimp](https://github.com/jkvargas/russimp) by [Jhonny Vargas](https://github.com/jkvargas) : binding of assimp
 - [bvh_anim](https://github.com/burtonageo/bvh_anim) by [George Burton](https://github.com/burtonageo) : loader for bvh animation files
 <!-- GLTF -->
-- [gltf](https://crates.io/crategltf) by [gltf-rs](https://github.com/gltf-rs) : loader for glTF 2.0.
-- [mugltf](https://crates.io/cratemugltf) by [Andy K. S. Wong](https://github.com/andykswong) : minimal glTF 2.0  model loader.
-- [easy-gltf](https://crates.io/crateeasy-gltf) by [Florian Amsallem](https://github.com/flomonster) : loader for glTF 2.0.
+- [gltf](https://crates.io/crates/gltf) by [gltf-rs](https://github.com/gltf-rs) : loader for glTF 2.0.
+- [mugltf](https://crates.io/crates/mugltf) by [Andy K. S. Wong](https://github.com/andykswong) : minimal glTF 2.0 asset model loader.
+- [easy-gltf](https://crates.io/crates/easy-gltf) by [Florian Amsallem](https://github.com/flomonster) : loader for glTF 2.0.
 <!-- DAE -->
-- [dae-parser](https://crates.io/cratedae-parser) by [Mario Carneiro](https://github.com/digama0) : parser for the Collada (.dae) format.
-- [collada](https://crates.io/cratecollada) by [PistonDevelopers](https://github.com/PistonDevelopers) : parsing Collada files.
+- [dae-parser](https://crates.io/crates/dae-parser) by [Mario Carneiro](https://github.com/digama0) : parser for the Collada (.dae) format.
+- [collada](https://crates.io/crates/collada) by [PistonDevelopers](https://github.com/PistonDevelopers) : parsing Collada files.
 <!-- OBJ -->
-- [obj](https://crates.io/crateobj) by [Dzmitry Malyshau](https://github.com/kvark) : basic Wavefront OBJ importer and exporter.
-- [obj-rs](https://crates.io/crateobj-rs) by [Hyeon Kim](https://github.com/simnalamburt) : Wavefront .obj parser, handles both .obj and .mtl formats.
-- [tobj](https://crates.io/cratetobj) by [Will Usher](https://github.com/Twinklebear) : simple and lightweight option for loading OBJ files.
+- [obj](https://crates.io/crates/obj) by [Dzmitry Malyshau](https://github.com/kvark) : basic Wavefront OBJ importer and exporter.
+- [obj-rs](https://crates.io/crates/obj-rs) by [Hyeon Kim](https://github.com/simnalamburt) : Wavefront .obj parser, handles both .obj and .mtl formats.
+- [tobj](https://crates.io/crates/tobj) by [Will Usher](https://github.com/Twinklebear) : simple and lightweight option for loading OBJ files.
 <!-- STL -->
-- [stl](https://crates.io/cratestl) by [Eric Holk](https://github.com/eholk) : library for reading Stereo Lithography (STL) files.
-- [stl_io](https://crates.io/cratestl_io) by [Henning Meyer](https://github.com/hmeyer) : reading and writing STL (STereoLithography) files.
-- [nom_stl](https://crates.io/cratenom_stl) by [Clark Kampfe](https://github.com/ckampfe) : binary and ASCII STL parser.
+- [stl](https://crates.io/crates/stl) by [Eric Holk](https://github.com/eholk) : library for reading Stereo Lithography (STL) files.
+- [stl_io](https://crates.io/crates/stl_io) by [Henning Meyer](https://github.com/hmeyer) : reading and writing STL (STereoLithography) files.
+- [nom_stl](https://crates.io/crates/nom_stl) by [Clark Kampfe](https://github.com/ckampfe) : binary and ASCII STL parser.
 <!-- STEP -->
-- [iso-10303-parts](https://crates.io/crateiso-10303-parts) by [Junfeng Liu](https://github.com/J-F-Liu) : generated reader code for ISO 10303 parts.
-- [iso-10303](https://crates.io/crateiso-10303) by [Junfeng Liu](https://github.com/J-F-Liu) : reading STP/STEP CAD files.
+- [iso-10303-parts](https://crates.io/crates/iso-10303-parts) by [Junfeng Liu](https://github.com/J-F-Liu) : generated reader code for ISO 10303 parts.
+- [iso-10303](https://crates.io/crates/iso-10303) by [Junfeng Liu](https://github.com/J-F-Liu) : reading STP/STEP CAD files.
 <!-- 3DS -->
-- [fs3ds](https://crates.io/cratefs3ds) by [marius851000](https://github.com/marius851000) : access the romfs of an unencrypted romfs.
-- [bevy_3ds](https://crates.io/cratebevy_3ds) by [Ian Chamberlain](https://github.com/ian-h-chamberlain) : using Bevy on the 3DS.
+- [fs3ds](https://crates.io/crates/fs3ds) by [marius851000](https://github.com/marius851000) : access the romfs of an unencrypted romfs.
+- [bevy_3ds](https://crates.io/crates/bevy_3ds) by [Ian Chamberlain](https://github.com/ian-h-chamberlain) : using Bevy on the 3DS.
 
 ## Line
 
 ( _line_ )
 
-- [line_drawing](https://github.com/expenseline_drawing) by [Ashley](https://github.com/expenses) : line-drawing algorithms
+- [line_drawing](https://github.com/expenses/line_drawing) by [Ashley](https://github.com/expenses) : line-drawing algorithms
 - [zeno](https://github.com/dfrg/swash) by [Chad Brokaw](https://github.com/dfrg) ( _font_ ) : path rasterization library
-- [bezier-nd](https://github.com/atthecodefacbezier-nd-rs) by [Gavin J Stark](https://github.com/atthecodeface) : Bezier curve implementations using N-dimensional vectors
+- [bezier-nd](https://github.com/atthecodeface/bezier-nd-rs) by [Gavin J Stark](https://github.com/atthecodeface) : Bezier curve implementations using N-dimensional vectors
 - [makima_spline](https://github.com/grasbock/makima_spline) by [GRASBOCK](https://github.com/grasbock) : An implementation of the modified akima spline interpolation
 - [Uniform Cubic Spline Interpolation & Inversion](https://github.com/virtualritz/uniform-cubic-splines) by [Moritz Mœller](https://github.com/virtualritz) : Simple uniform cubic spline evaluation and inversion
 
@@ -206,16 +206,16 @@ You might also be interested in other tooboxes:
 
 ( _plotting_ )
 
-- [`plotlib`](https://github.com/milliamplotlib) by [Matt Williams](https://github.com/milliams) : generic data visualisation and plotting library for Rust.
-- [`plotly`](https://github.com/igiagkioziplotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) a plotting library for Rust powered by Plotly.js.
+- [`plotlib`](https://github.com/milliams/plotlib) by [Matt Williams](https://github.com/milliams) : generic data visualisation and plotting library for Rust.
+- [`plotly`](https://github.com/igiagkiozis/plotly) by [Ioannis Giagkiozis](https://github.com/igiagkiozis) a plotting library for Rust powered by Plotly.js.
 
 ## Tesselation
 
 ( _tesselation_ )
 
 - [cdshealpix-rust](https://github.com/cds-astro/cds-healpix-rust) by [CDS (Centre de Données astronomiques de Strasbourg)](https://github.com/cds-astro) : Rust implementation of the HEALPix tesselation
-- [lyon::path](https://github.com/nical/lyon/treHEAD/crates/path) by [Nicolas Silva](https://github.com/nical) : Types and utilities to store, build and iterate over 2D paths
-- [tir](https://github.com/dcrasch/tir/treHEAD/tessellations) by [David Rasch](https://github.com/dcrasch) : Library to create and draw periodic tilings of the plane
+- [lyon::path](https://github.com/nical/lyon/tree/HEAD/crates/path) by [Nicolas Silva](https://github.com/nical) : Types and utilities to store, build and iterate over 2D paths
+- [tir](https://github.com/dcrasch/tir/tree/HEAD/tessellations) by [David Rasch](https://github.com/dcrasch) : Library to create and draw periodic tilings of the plane
 - [geopattern](https://github.com/suyash/geopattern-rs) by [Suyash](https://github.com/suyash) : Beautiful generative geometric background images from a string, a Rust implementation of geo_pattern from @jasonlong
 - [tessellation](https://github.com/hmeyer/tessellation) by [Henning Meyer](https://github.com/hmeyer) : 3d tessellation library
 - [plane-split](https://github.com/servo/plane-split) by [Servo](https://github.com/servo) : Plane splitting
@@ -231,21 +231,21 @@ You might also be interested in other tooboxes:
 
 ( _simulation_ )
 
-- [gfx-ocean](https://github.com/gfx-rgfx-ocean) by [Markus Siglreithmaier](https://github.com/msiglreith) : ocean simulation
+- [gfx-ocean](https://github.com/gfx-rs/gfx-ocean) by [Markus Siglreithmaier](https://github.com/msiglreith) : ocean simulation
 
 ## SDK bindings
 
 ( _sdk_ )
 
-- [steamworks](https://github.com/Noximsteamworks-rs) by [Aaro Perämaa](https://github.com/Noxime) : bindings to the SteamWorks SDK
+- [steamworks](https://github.com/Noxime/steamworks-rs) by [Aaro Perämaa](https://github.com/Noxime) : bindings to the SteamWorks SDK
 
 ## Codecs and video processing
 
 ( _codec_ )
 
-- [ac-ffmpeg](https://crates.io/crateac-ffmpeg) by [Angelcam](https://github.com/angelcam) : rust wrapper for FFmpeg libraries.
-- [ffmpeg-next](https://crates.io/crateffmpeg-next) by [Zhiming Wang](https://github.com/zmwangx) : safe FFmpeg wrapper (FFmpeg 4 compatible fork of the ffmpeg crate).
-- [syeve](https://crates.io/cratesyeve) by [ZettaScript](https://framagit.org/ZettaScript) : simple yet efficient video encoding (lossless streaming codec).
+- [ac-ffmpeg](https://crates.io/crates/ac-ffmpeg) by [Angelcam](https://github.com/angelcam) : rust wrapper for FFmpeg libraries.
+- [ffmpeg-next](https://crates.io/crates/ffmpeg-next) by [Zhiming Wang](https://github.com/zmwangx) : safe FFmpeg wrapper (FFmpeg 4 compatible fork of the ffmpeg crate).
+- [syeve](https://crates.io/crates/syeve) by [ZettaScript](https://framagit.org/ZettaScript) : simple yet efficient video encoding (lossless streaming codec).
 
 ## Sound
 
@@ -259,7 +259,7 @@ You might also be interested in other tooboxes:
 ( _sound_gen_ )
 
 - [usfx](https://github.com/tversteeg/usfx) by [Thomas Versteeg](https://github.com/tversteeg) : generate sound effects
-- [glicol](https://github.com/chaospringlicol) by [](https://github.com/chaosprint) : live coding language to generate music
+- [glicol](https://github.com/chaosprint/glicol) by [](https://github.com/chaosprint) : live coding language to generate music
 - [service glicol](https://glicol.org/) by [](https://github.com/chaosprint) : live coding language to generate music as a service
 
 ## Virtual Studio Technology
@@ -293,8 +293,8 @@ You might also be interested in other tooboxes:
 ( _game_design_ )
 
 - [grue](https://github.com/gwihlidal/grue-rs) by [Graham Wihlidal](https://github.com/gwihlidal) : tools for building role-playing and adventure games
-- [bracket-lib](https://github.com/amethysbracket-lib) by [Herbert Wolverson](https://github.com/thebracket) : terminal-based game development
-- [HandsOnRust](https://github.com/thebrackeHandsOnRust) by [Herbert Wolverson](https://github.com/thebracket) : samples from Hands-on Rust book
+- [bracket-lib](https://github.com/amethyst/bracket-lib) by [Herbert Wolverson](https://github.com/thebracket) : terminal-based game development
+- [HandsOnRust](https://github.com/thebracket/HandsOnRust) by [Herbert Wolverson](https://github.com/thebracket) : samples from Hands-on Rust book
 
 ## Games
 
@@ -318,12 +318,12 @@ You might also be interested in other tooboxes:
 ( _specific_ )
 
 - [triangle-rs](https://github.com/rconan/triangle-rs) by [Rod Conan](https://github.com/rconan) : A Rust binder for the 2D mesh generator and Delaunay triangulator Triangle
-- [Hilbert 2D](https://github.com/hbertoduarthilbert_2d) by [Humberto Duarte](https://github.com/hbertoduarte) : Functions for mapping between 1D and 2D space using the Hilbert curve, and its approximations
-- [truck-geometry](https://github.com/ricosjp/truck/treHEAD/truck-geometry) by [RICOS Co. Ltd.](https://github.com/ricosjp) : geometrical structs: knot vector, B-spline and NURBS
+- [Hilbert 2D](https://github.com/hbertoduarte/hilbert_2d) by [Humberto Duarte](https://github.com/hbertoduarte) : Functions for mapping between 1D and 2D space using the Hilbert curve, and its approximations
+- [truck-geometry](https://github.com/ricosjp/truck/tree/HEAD/truck-geometry) by [RICOS Co. Ltd.](https://github.com/ricosjp) : geometrical structs: knot vector, B-spline and NURBS
 - [centerline.rs](https://github.com/eadf/centerline.rs) by [eadf](https://github.com/eadf) : Simple library for finding centerlines of 2D closed geometry
 - [ring-algorithm](https://gitlab.com/Toru3/ring-algorithm) by [Toru3](https://gitlab.com/Toru3) : algorithms on ring (Abstruct Algebra)
-- [Enterpolation](https://github.com/nicolasklenerenterpolation) by [NicolasKlenert](https://github.com/nicolasklenert) : A library for creating and computing interpolations, extrapolations and smoothing of generic data points
-- [libreda-shapes](https://codeberg.org/librediron-shapes) by [LibrEDA](https://codeberg.org/libreda) : Basic data types and routines for computational geometry focused on VLSI chip design
+- [Enterpolation](https://github.com/nicolasklenert/enterpolation) by [NicolasKlenert](https://github.com/nicolasklenert) : A library for creating and computing interpolations, extrapolations and smoothing of generic data points
+- [libreda-shapes](https://codeberg.org/libreda/iron-shapes) by [LibrEDA](https://codeberg.org/libreda) : Basic data types and routines for computational geometry focused on VLSI chip design
 
 ## Utilities
 
@@ -337,11 +337,11 @@ You might also be interested in other tooboxes:
 | :---------------------------------------------------- | :-------------- | :------------------------------------ |
 | [glow](https://github.com/grovesNL/glow)              | Yes             | 55 Kb                                 |
 | [three-d](https://github.com/asny/three-d)            | Yes             | 139 Kb                                |
-| [pixels](https://github.com/parasytpixels)          | WIP             | 1 Mb                                  |
-| [limelight](https://crates.io/cratelimelight)       | Yes             | 175 Kb                                |
+| [pixels](https://github.com/parasyte/pixels)          | WIP             | 1 Mb                                  |
+| [limelight](https://crates.io/crates/limelight)       | Yes             | 175 Kb                                |
 | [speedy2d](https://github.com/QuantumBadger/Speedy2D) | Yes             | 1 Mb                                  |
 | [luminance](https://github.com/phaazon/luminance-rs)  | Yes             | 77 Kb                                 |
-| [gl-rs](https://github.com/brendanzab/gl-rs)          | Yes             | [Problem](unsorted/renderer/gl-rs/Readme.md) |
+| [gl-rs](https://github.com/brendanzab/gl-rs)          | Yes             | [Problem](./unsorted/renderer/gl-rs/Readme.md) |
 
 ## Tags legend
 
@@ -368,7 +368,7 @@ You might also be interested in other tooboxes:
 - ( _gif_ ) - GIF related
 - ( _animation_ ) - animating of drawing primitives
 - ( _img_ ) - image processing related
-- ( _s_3d_ ) - 3D assets loading/saving
+- ( _assets_3d_ ) - 3D assets loading/saving
 - ( _codec_ ) - codecs and video processing
 - ( _sound_ ) - sound-related
 - ( _vst_ ) - virtual studio technology
