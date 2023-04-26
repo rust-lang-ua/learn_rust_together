@@ -18,5 +18,5 @@ I encourage you to [buy it](https://www.zero2prod.com/index.html). But if you ca
 - [Error Handling In Rust - A Deep Dive](https://www.lpalmieri.com/posts/error-handling-rust/)
 - [Naive Newsletter Delivery](https://www.lpalmieri.com/posts/naive-newsletter-delivery/)
 - [Password auth in Rust, from scratch - Attacks and best practices](https://www.lpalmieri.com/posts/password-authentication-in-rust/)
-- [https://www.lpalmieri.com/posts/session-based-authentication-in-rust/](https://www.lpalmieri.com/posts/session-based-authentication-in-rust/)
+- [An Introduction To Session-based Authentication In Rust](https://www.lpalmieri.com/posts/session-based-authentication-in-rust/)
 - [An In-Depth Introduction To Idempotency](https://www.lpalmieri.com/posts/idempotency/)

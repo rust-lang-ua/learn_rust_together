@@ -1,12 +1,10 @@
 <!-- ![Rust](./asset/img/logo/Logo2.jpg) -->
 
-# 🦀 Learn Rust Together [💙💛](./readme_ua.md#-вивчаємо-rust-разом-)
+# 🦀 Ukrainian Rust Community [💙💛](./readme_ua.md#-вивчаємо-rust-разом-)
 
 [![Learn Rust Together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
 > [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state.
-
-## General-purpose official resources
 
 ## Who are we?
 We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
@@ -37,7 +35,7 @@ Here you can find:
 You may also follow us on these platforms:
 [Twitter](https://twitter.com/RustUkraine)  |
 [Facebook](https://www.facebook.com/learntogetherpro) |
-[Linkedin](https://www.linkedin.com/company/learn-together-pro) |
+[Linkedin](https://www.linkedin.com/company/ukrainian-rust-community) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |
