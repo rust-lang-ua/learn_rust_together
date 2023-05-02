@@ -42,7 +42,8 @@ You might also be interested in other tooboxes:
 
 ( _web_backend_ )
 
-[penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a static server
+[simple-http-server](https://github.com/thewawar/simple-http-server) by [LinFeng](https://github.com/thewawar) : a simple static server
+[penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a simple static server
 
 ## Management
 
