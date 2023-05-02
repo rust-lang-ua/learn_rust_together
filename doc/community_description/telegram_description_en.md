@@ -4,10 +4,10 @@ Hello, we are a Ukrainian branch of 🦀 the Rust Community.
 
 🤝 One is not a warrior in the field. Our goals are to popularize Rust in Ukraine, develop the community around it, launch and support all-Ukrainian mentoring and educational programs, and attract Rust projects and related investments in Ukraine,as well as the spread of our values:
 
-- **mutual assistance**
-- **openness to** listen to alternative points of view
-- cultivation of **Open Source** culture
-- fostering a **friendly** attitude towards each other
+- 💜 **mutual assistance**
+- 🐣 **openness to** listen to alternative points of view
+- 📃 cultivation of **Open Source** culture
+- 🤗 fostering a **friendly attitude** towards each other
 
 The Rust communities have always been distinguished by those values and that’s why we love ❤️ Rust.
 
@@ -23,7 +23,7 @@ The Rust communities have always been distinguished by those values and that’s
 - Chat [ВLearn Rust Together # Lviv](https://t.me/learn_rust_together_lviv)
 - Chat floud [Rust Теревені](https://t.me/rust_tereveni)
 - We as an organization in [GitHub](https://github.com/rust-lang-ua)
-- We as an organization in [LinkedIn](https://www.linkedin.com/company/learn-together-pro)
+- We as an organization in [LinkedIn](https://www.linkedin.com/company/ukrainian-rust-community)
 - Channel in [Twitter](https://twitter.com/LearnTogetherP)
 - Channel in [YouTube](https://www.youtube.com/channel/UCmkAFUu2MVOX8ly0LjB6TMA)
 - Page in [Facebook](https://www.facebook.com/learntogetherpro) 
@@ -32,7 +32,7 @@ The Rust communities have always been distinguished by those values and that’s
 
 ✨You may also be interested in:
 
-- ❓ Our [FAQ](https://t.me/rustlang_ua/7046)
+- ❓ Our [FAQ](https://t.me/rustlang_ua/2344)
 - 📅 [Calendar of events](https://t.me/rustlang_ua/2350) 
 - 📖 Our collection of materials to master Rust is [here](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md).
   - Chat [Rust Peerlab](https://t.me/peerlab_kharkiv_rust) in Kharkiv
