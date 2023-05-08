@@ -69,6 +69,7 @@ You might also be interested in other tooboxes:
 
 - [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL shading language parser
 - [naga](https://github.com/gfx-rs/naga) by [Dzmitry Malyshau](https://github.com/kvark) : shader translation
+- [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) by [EmbarkStudios](https://github.com/EmbarkStudios) : first-class language and ecosystem for GPU graphics & compute shaders ( _shader_ )
 
 ## Geometry
 
