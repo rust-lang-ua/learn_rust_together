@@ -270,7 +270,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## HTML generating / parsing / transformation
 
-( _html_ )
+( _html_ ) ( _xml_ )
 
 - [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _dsa_ ) : auto-discovery of feeds in HTML
 - [markup](https://github.com/utkarshkukreti/markup.rs) by [Utkarsh Kukreti](https://github.com/utkarshkukreti) : template engine to generate HTML
@@ -278,6 +278,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [html5ever](https://github.com/servo/html5ever) by [Keegan McAllister](https://github.com/kmcallister) : high-performance HTML5 parser
 - [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) ( _build_ ) : HTML minifier
 - [comrak](https://github.com/kivikakk/comrak) by [Asherah Connor](https://github.com/kivikakk) : GFM compatible Markdown parser and renderer
+- [quick-xml](https://github.com/tafia/quick-xml) by [Johann Tuffe](https://github.com/tafia) : high performance XML pull reader/writer
+- [hard-xml](https://gitlab.com/kevincox/hard-xml) by [Kevin Cox](https://gitlab.com/kevincox) : A derive-based XML parser for Rust
 
 ## Web DOM
 
@@ -313,12 +315,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
 - [headers](https://github.com/hyperium/headers) by [Jonathan Reem](https://github.com/reem) : HTTP Headers for hyper
-- [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
-- [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
+- [warp](https://github.com/seanmonstar/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
+- [libreauth](https://github.com/breard-r/libreauth) by [Rodolphe Bréard](https://github.com/breard-r) : user authentication
 - [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [tungstenite](https://github.com/snapview/tungstenite-rs) by [](https://github.com/snapview) : websocket implementation
-- [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md) : bunch of back-end frameworks comparison
+- [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md) ( _collection_ ) : bunch of back-end frameworks comparison
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -338,25 +340,65 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _db_ )
 
-- :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
-- :earth_africa: [deadpool-postgres](https://github.com/bikeshedder/deadpool) by [Michael P. Jung](https://github.com/bikeshedder) : async pool for PostgreSQL
-- :earth_africa: [tokio_postgres](https://github.com/sfackler/rust-postgres) by [Steven Fackler](https://github.com/sfackler) : PostgreSQL driver
-- :earth_africa: [sqlx](https://github.com/launchbadge/sqlx) by [Ryan Leckey](https://github.com/mehcode) : SQL DBMS driver
 - [ormx](https://github.com/NyxCode/ormx) by [NyxCode](https://github.com/NyxCode) : orm-like features to sqlx
+- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
+- [influxdb-rust](https://github.com/influxdb-rs/influxdb-rust) by [Gero Gerke](https://github.com/Empty2k12) : time-series database
+- [meilisearch-rust](https://github.com/meilisearch/meilisearch-rust) by [Mubelotix](https://github.com/Mubelotix) : stores data and provides some basic filtering and sorting capabilities
+- [sonic-channel](https://github.com/pleshevskiy/sonic-channel) by [pleshevskiy](https://github.com/pleshevskiy) : schema-less search backend. it is an alternative to traditional search engines like Elasticsearch or Solr
+
+## Key-Value Database
+
+( _db_ )( _db_key_value_ )
+
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
-- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
-- [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
-- [monger](https://github.com/mongodb/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
-- [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
-- [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
 - [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
+- [tikv](https://github.com/tikv/tikv) by [ngaut](https://github.com/ngaut) : distributed key-value DBMS
+- [rust-rocksdb](https://github.com/rust-rocksdb/rust-rocksdb) by [Tyler Neely](https://github.com/spacejam) : embedded database that is designed to be used as a library within an application
+- [lmdb-rs](https://github.com/vhbit/lmdb-rs) by [Valerii Hiora](https://github.com/vhbit) : high-performance embedded key-value store designed to provide efficient storage and retrieval of data
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
+- [rsmgclient](https://github.com/memgraph/rsmgclient) by [Mario Herceg](https://github.com/MarioHerceg) : used for interacting with the Redis key-value store
+- [surrealdb](https://github.com/surrealdb/surrealdb) by [Tobie Morgan Hitchcock](https://github.com/tobiemh) :
+
+## Document-oriented Database
+
+( _db_ )( _db_document_oriented_ )
+
+- [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
+- [monger](https://github.com/saghm/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
+- [redb](https://github.com/cberner/redb) by [Christopher Berner](https://github.com/cberner) : provides a lightweight and efficient implementation of a document-oriented database that is optimized for performance and scalability
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
+- [darkbird](https://github.com/Rustixir/darkbird) by [DanyalMh](https://github.com/pleshevskiy) : in-memory database solution optimized for fast document retrieval
+
+## Relational Database
+
+( _db_ )( _db_relational_ )
+
+- :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
+- [sea-orm](https://github.com/SeaQL/sea-orm) by [Chris Tsang](https://github.com/tyt2y3) : ORM and query builder
+- :earth_africa: [sqlx](https://github.com/launchbadge/sqlx) by [Ryan Leckey](https://github.com/mehcode) : SQL DBMS driver
+- [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
+- :earth_africa: [deadpool-postgres](https://github.com/bikeshedder/deadpool) by [Michael P. Jung](https://github.com/bikeshedder) : async pool for PostgreSQL
+- :earth_africa: [tokio_postgres](https://github.com/sfackler/rust-postgres) by [Steven Fackler](https://github.com/sfackler) : PostgreSQL driver
+
+## Graph Database
+
+( _db_ )( _db_graphs_ )
+
+- [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
+- [neo4rs](https://github.com/neo4j-labs/neo4rs) by [John Vincent](https://github.com/yehohanan7) : based on the property graph data model, which consists of nodes, relationships, and properties
+- [indradb](https://github.com/indradb/indradb) by [Yusuf Simonson](https://github.com/ysimonson) : uses Apache TinkerPop as its underlying graph framework
+- [oxigraph](https://github.com/oxigraph/oxigraph) by [Thomas Tanon](https://github.com/Tpt) : designed for the resource description framwork data model
+- [dgraph-rs](https://github.com/Swoorup/dgraph-rs) by [Swoorup Joshi](https://github.com/Swoorup) : supports complex queries, aggregations and traversals using GraphQl-like syntax
+- [cozo](https://github.com/cozodb/cozo) by [Ziyang Hu](https://github.com/zh217) : optimized for efficient graph processing on large datasets
+
+<!-- https://github.com/rust-rocksdb/rust-rocksdb -->
 
 ## Data science
 
-- ( _data_science_ )
+( _data_science_ )
 
-- [polars](https://github.com/pola-rs/polars) by [https://github.com/ritchie46](Ritchie Vink) : multi-threaded DataFrame library
+- [polars](https://github.com/pola-rs/polars) by [Ritchie Vink](https://github.com/ritchie46) : multi-threaded DataFrame library
 - [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
 - [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
 
@@ -386,6 +428,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
 - [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
 - [blocking](https://github.com/smol-rs/blocking) by Stjepan Glavina : a thread pool for isolating blocking I/O in async environment
+- [yatp](https://github.com/tikv/yatp) by [ngaut](https://github.com/ngaut) : generic thread pool
 - [async-compat](https://github.com/smol-rs/async-compat) by [Taiki Endo](https://github.com/taiki-e) : compatibility adapter between tokio and futures
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : async interfaces
@@ -496,6 +539,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [combine-language](https://github.com/Marwes/combine-language) by [Markus Westerlind](https://github.com/Marwes) : extension of combine to generate parsers of programming languages
 - [lalrpop](https://github.com/lalrpop/lalrpop) by [Niko Matsakis](https://github.com/nikomatsakis) : LR(1) parser generator
 - [peg](https://github.com/kevinmehall/rust-peg) by [Kevin Mehall](https://github.com/kevinmehall) : PEG parser generator
+- [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) ( _collection_ ) : parser/language development toolboxs
 
 ## Lexer generator
 
@@ -568,7 +612,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ## Collections
 
-( _data_structure_ ) ( _collection_ )
+( _data_structure_ ) ( _ds_collection_ )
 
 - [indexmap](https://github.com/bluss/indexmap) by [bluss](https://github.com/bluss) : hash table which preserves insertion order
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
@@ -729,7 +773,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [fs2](https://github.com/danburkert/fs2-rs) by [Dan Burkert](https://github.com/danburkert) : extra system fs routines
 - [walkdir](https://github.com/BurntSushi/walkdir) by [Andrew Gallant](https://github.com/BurntSushi) : walking directories recursively
 - [remove_dir_all](https://github.com/XAMPPRocky/remove_dir_all) by [Erin P](https://github.com/XAMPPRocky) : directory removal
-- [filetime](https://github.com/bitflags/filetime) by [Alex Crichton](https://github.com/bitflags) : file timestamps reading / writing
+- [filetime](https://github.com/alexcrichton/filetime) by [Alex Crichton](https://github.com/alexcrichton) : file timestamps reading / writing
 - [is_executable](https://github.com/fitzgen/is_executable) by [Nick Fitzgerald](https://github.com/fitzgen) : is an executable
 - [same-file](https://github.com/BurntSushi/same-file) by [Andrew Gallant](https://github.com/BurntSushi) : two files or directories are the same
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
@@ -770,7 +814,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
-- [symbol](https://github.com/calebzulawski/symbol) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
+- [symtool](https://github.com/calebzulawski/symtool) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
 
 ## Hardware
 
@@ -833,10 +877,10 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _android_ )
 
 - [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [Mark Barbone](https://github.com/mb64) : libraries and tools for Rust programming on Android targets
-- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [David Craven](https://github.com/dvc94ch) : interoperability library for a native Rust application with the Android framework
-- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [David Craven](https://github.com/dvc94ch) ( _bindings_ ) : raw FFI bindings to the NDK
+- [ndk](https://github.com/rust-mobile/ndk) by [David Craven](https://github.com/dvc94ch) : interoperability library for a native Rust application with the Android framework
+- [ndk-sys](https://github.com/rust-mobile/ndk/tree/master/ndk-sys) by [David Craven](https://github.com/dvc94ch) ( _bindings_ ) : raw FFI bindings to the NDK
+- [cargo-apk](https://github.com/rust-mobile/cargo-apk) by [David Craven](https://github.com/dvc94ch) ( _build_ ) : tool for creating Android packages
 - [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : send Rust logs to Logcat
-- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [David Craven](https://github.com/dvc94ch) ( _build_ ) : tool for creating Android packages
 
 ## iOS
 
@@ -880,6 +924,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ## Tags legend
 
 - :earth_africa: - the most popular module in its category
+- ( _collection_ ) - awesome collection
 - ( _error_ ) - errors handling
 - ( _macro_ ) - writing macros
 - ( _meta_ ) - meta programming : reflection, introspection and such things
@@ -908,6 +953,10 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _web_backend_ ) - web backend
 - ( _network_ ) - network
 - ( _db_ ) - database-related
+- ( _db_key_value_ ) - key-value
+- ( _db_document_oriented_ ) - document-oriented
+- ( _db_relational_ ) - relational
+- ( _db_graphs_ ) - graph
 - ( _data_science_ ) - data science, data mining, data minding, machine learning
 - ( _functional_ ) - functional programming
 - ( _virtualisation_ ) - virtualisation-related, docker-related
@@ -931,7 +980,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _algo_ ) - algorithms
 - ( _data_structure_ ) - data structures and algorithms
 - ( _primitive_ ) - primitives
-- ( _collection_ ) - data structures which are collections
+- ( _ds_collection_ ) - data structures which are collections
 - ( _string_ ) - either string or bytes slice based data structures and algorithms
 - ( _stack_based_ ) - stack-based data structures and algorithms
 - ( _graphs_ ) - graphs data structures and algorithms
@@ -966,3 +1015,4 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _templating_ ) - tools to generate text using template
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
 - ( _development_ ) - helps the developer to develop
+- ( _xml_ ) - XML parsers, readers/writers
