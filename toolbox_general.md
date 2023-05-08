@@ -319,6 +319,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [libreauth](https://github.com/breard-r/libreauth) by [Rodolphe Bréard](https://github.com/breard-r) : user authentication
 - [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
+- [tungstenite](https://github.com/snapview/tungstenite-rs) by [](https://github.com/snapview) : websocket implementation
 - [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md) ( _collection_ ) : bunch of back-end frameworks comparison
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
