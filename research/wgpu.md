@@ -5,6 +5,7 @@ This research provides a few examples on how to work with graphics in pure Rust.
 ## Table of contents
 - [WGPU](#wgpu)
 - [rust-gpu](#rust-gpu)
+- [Learning material](#learning-material)
 
 ## wgpu
 
@@ -43,3 +44,9 @@ pub fn main(
 ```
 
 [More examples](https://github.com/EmbarkStudios/rust-gpu/tree/main/examples)
+
+## Learning material
+
+[Here](https://github.com/andrusha/rust-gpu-wgpu-compute-minimal) you can find minimal example of an graphics application written prurely in rust. It uses [wgpu](#wgpu) for graphics api and [rust-gpu](#rust-gpu) for shaders.
+
+[Here](https://sotrh.github.io/learn-wgpu/) is a guide for [wgpu](#wgpu) which will help you in learning the api and working with different components vital for graphics development.
