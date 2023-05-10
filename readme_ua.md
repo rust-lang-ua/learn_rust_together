@@ -1,6 +1,6 @@
 <!-- ![Rust](./asset/img/logo/Logo2.jpg) -->
 
-# 🦀 Вивчаємо Rust Разом 💙💛
+# 🦀 Українська Rust Спільнота 💙💛
 
 [![Вивчаємо Rust Разом](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/59713d4ae68edc4aa1447a1194f772adb4cecde0/asset/logo/Collage_2.jpg)](https://github.com/rust-lang-ua/learn_rust_together)
 
@@ -33,7 +33,7 @@
 Ти можеш також слідкувати за нами на цих платформах:
 [Twitter](https://twitter.com/LearnTogetherP)  |
 [Facebook](https://www.facebook.com/learntogetherpro) |
-[Linkedin](https://www.linkedin.com/company/learn-together-pro) |
+[Linkedin](https://www.linkedin.com/company/ukrainian-rust-community) |
 [GitHub](https://github.com/rust-lang-ua) |
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |
