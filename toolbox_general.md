@@ -335,6 +335,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [netraffic](https://github.com/ZingerLittleBee/netraffic) by [ZingerLittleBee](https://github.com/ZingerLittleBee) : statistics network traffic
 - [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
 - [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) : HTTP load testing application
+- [g3](https://github.com/bytedance/g3) by [Zhang Jingqiang](https://github.com/zh-jq-b) ( _network_ ) : generic proxy
 
 ## Database
 
