@@ -15,6 +15,7 @@ This repostory contains nearly a dozen curated collections: learning materials, 
 Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
+- 🦀 [About Us](./about_us.md) : about our community
 - :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
 - :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust.
 - 🦀 [RustBook UA](https://rustlangua.github.io/rustbookua.github.io/) : RustBook translated in Ukrainian by our community
