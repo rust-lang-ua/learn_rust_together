@@ -18,7 +18,6 @@ Here you can find:
 - 🦀 [About Us](./about_us.md) : about our community
 - :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
 - :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust.
-- 🦀 [RustBook UA](https://rustlangua.github.io/rustbookua.github.io/) : RustBook translated in Ukrainian by our community
 - :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
 - :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums.
 - :question: [Get answer](./about_us.md#question-faq) : our FAQ and community rules.
