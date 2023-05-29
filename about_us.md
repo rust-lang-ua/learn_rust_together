@@ -55,6 +55,9 @@ Yes. Simply write in the chat that you need a mentor and for what purpose. Surel
 <ins>*- What educational activities can I attend?*</ins><br/>
 We periodically hold local and national webinars, workshops, and conferences about Rust. Follow  [the calendar](https://calendar.google.com/calendar/u/0?cid=OWpobWZuYTJmdjcyNjFxNjNzaDV1aHZhNWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) and announcements on the channel so you will be notified of upcoming events.
 
+<ins>*- Is there Ukrainian version of RustBook?*</ins><br/>
+Yes, our community translated original RustBook into [Ukrainian](https://rustlangua.github.io/rustbookua.github.io/).
+
 <ins>*- How can I get my code review?*</ins><br/>
 Just ask in the chat and someone will respond.
 
@@ -68,7 +71,7 @@ Please pay attention to manually-selected courses and [learning materials on Rus
 Please contact [me](https://t.me/wandalen_me) on Telegram if you wish to: help with moderation, host an event, provide comments, or make any other contributions to the promotion of Rust in Ukraine.
 
 <ins>*- What if I didn’t find an answer in the FAQ?*</ins><br/>
-Ask us on [chat](https://t.me/rustlang_ua).
+Ask us on a [chat](https://t.me/rustlang_ua).
 
 ## Join
 Come join our friendly community!
