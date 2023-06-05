@@ -1,7 +1,7 @@
-# Rust Development Professionally
+# Rust Bootcamp Curriculum
 
-In this learning group, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) -
-a hard-way step-by-step Rust learning course to reveal your full potential as a Rust Backend Developer.
+In this bootcamp, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) -
+a hard-way step-by-step Rust learning course to reveal your full potential as a Rust Developer.
 
 ## Pre-requirements
 
@@ -10,7 +10,7 @@ The Rust Book is a must. Nice if you did rustlings and exercism and had some pra
 
 ## Organization and certification
 
-Members of the course will be divided into a few small groups. There will be meetings every day but on weekends. During each meeting, we will discuss what has been done and what you're planning to do next. The learning process is built on top of your everyday work on improving your skills using the best learning materials we will advise.
+Members of the course will be divided into a few small groups. There will be meetings four days a week but on weekends. During each meeting, we will discuss what has been done and what you're planning to do next. The learning process is built on top of your everyday work on improving your skills using the best learning materials we will advise.
 
 You'll track your progress in an interactive spreadsheet. You'll have to do a final assessment at the end of the course. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
 
@@ -45,6 +45,8 @@ Look here for a more [detailed instruction](./instruction_long.md#how-to-do-exer
     - 2.2. Swapping values with `mem::replace`
     - 2.3. Bound behavior, not data
     - 2.4. Abstract type in, concrete type out
+    - 2.5. Exhaustivity
+    - 2.6. Sealing
 3. Ecosystem
     - 3.1. Testing and mocking
     - 3.2. Declarative and procedural macros
@@ -59,13 +61,13 @@ Look here for a more [detailed instruction](./instruction_long.md#how-to-do-exer
     - 3.11. Async I/O, futures and actors
     - 3.12. Web frameworks, databases, connection pools and ORMs
 4. Zero To Production
-    - 4.1. Building an REST API
-    - 4.2. Telemetry
-    - 4.3. Deployment with Docker
-    - 4.4. Type-Driven Development
-    - 4.5. Writing tests
-    - 4.6. Error handling
-    - 4.7. API Authorization
+    - 4.1. Basic actix-web
+    - 4.2. Logging
+    - 4.3. Docker and deployment
+    - 4.4. Type-Driven Development and testing
+    - 4.5. Advanced actix-web and error handling
+    - 4.6. Authorization
+5. Final Task
 
 Course Curriculum may change.
 
