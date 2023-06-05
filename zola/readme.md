@@ -6,19 +6,32 @@ Zola is static site engine made on Rust
 
 ## File tree structure 
 
+|-- nginx         - nginx configuration
+
+|-- posts         - folder with modified md files 
+
+|-- sass          - set of scss files
+
+|-- templates     - HTML templates for page generating
+
+|-- _index.md     - zola filter file
+
+|-- config.toml   - zola configuration file
+
+|-- Dockerfile    - docker instruction 
+
 |-- makefile      - set of insructions
 
 |-- readme.md     - insrustion to use and description
 
 
-0 directories, 2 files
+3 directories, 5 files
 
 ## How makefile works (instruction to use)
 
 - Usage: 
-    - make prerequirements - to setup project folder and Zola theme
-    - make content - to clone MD files from GitHub repo, and prepare files for Zola
     - make build - to make a folder "public" with ready to use html`s
     - make clean - for afterall cleaning
+    - docker run -d -p 80:80 $(docker build -q .)
 
 After all you will recieve a folder "public" with ready to use html files
