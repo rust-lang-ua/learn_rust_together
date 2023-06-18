@@ -1,3 +1,7 @@
++++
+title = ""
+
++++
 # 🦀 Ukrainian branch of Rust Community 💙💛
 
 ![learn rust together](https://raw.githubusercontent.com/rust-lang-ua/learn_rust_together/b60b4f7155d7b00c58e1f8d8820f2bb23f82799e/asset/logo/Collage_2.jpg)
@@ -27,7 +31,7 @@ As a member of  our community, you can:
 - get the latest news about Rust
 - have a good time in informal meetings for our members
 
-## :question: FAQ
+## ? FAQ
 <ins>*- Is the community for beginners only?*</ins><br/>
 No. Many of our members have many years of professional experience, and some have been studying Rust since its inception.
 
@@ -55,9 +59,6 @@ Yes. Simply write in the chat that you need a mentor and for what purpose. Surel
 <ins>*- What educational activities can I attend?*</ins><br/>
 We periodically hold local and national webinars, workshops, and conferences about Rust. Follow  [the calendar](https://calendar.google.com/calendar/u/0?cid=OWpobWZuYTJmdjcyNjFxNjNzaDV1aHZhNWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) and announcements on the channel so you will be notified of upcoming events.
 
-<ins>*- Is there Ukrainian version of RustBook?*</ins><br/>
-Yes, our community translated original RustBook into [Ukrainian](https://rustlangua.github.io/rustbookua.github.io/).
-
 <ins>*- How can I get my code review?*</ins><br/>
 Just ask in the chat and someone will respond.
 
@@ -71,7 +72,7 @@ Please pay attention to manually-selected courses and [learning materials on Rus
 Please contact [me](https://t.me/wandalen_me) on Telegram if you wish to: help with moderation, host an event, provide comments, or make any other contributions to the promotion of Rust in Ukraine.
 
 <ins>*- What if I didn’t find an answer in the FAQ?*</ins><br/>
-Ask us on a [chat](https://t.me/rustlang_ua).
+Ask us on [chat](https://t.me/rustlang_ua).
 
 ## Join
 Come join our friendly community!
@@ -82,11 +83,11 @@ Come join our friendly community!
 You may also follow us on these platforms:
 [Twitter](https://twitter.com/LearnTogetherP)  |
 [Facebook](https://www.facebook.com/learntogetherpro) |
-[Linkedin](https://www.linkedin.com/company/ukrainian-rust-community) |
+[Linkedin](https://www.linkedin.com/company/learn-together-pro) |
 [GitHub](https://github.com/rust-lang-ua) |
-[Discord](https://discord.com/invite/JVCZfTVf5A) |
-[Reddit](https://www.reddit.com/r/rustlang_ua/) |
-[Telegram](https://t.me/rustlang_ua) |
+[Discord](https://discord.com/invitJVCZfTVf5A) |
+[Reddit](https://www.reddit.com/r/rustlang_u) |
+[Telegram](https://t.mrustlang_ua) |
 <br/>
 
 Let’s Learn Rust 🦀 Together!

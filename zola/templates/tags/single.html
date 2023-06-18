@@ -1,0 +1,71 @@
+{% extends "index.html" %} {% import "macros.html" as macros %} {% block header
+%}
+<header id="site-header" class="animated slideInUp faster">
+  <div class="hdr-wrapper section-inner">
+    <div class="hdr-left">
+      <div class="site-branding">
+        <a href="{{ config.base_url}}">{{ config.title }}</a>
+      </div>
+      <nav class="site-nav hide-in-mobile">
+        {% for menu_item in config.extra.hermit_menu %}
+        <a href="{{ menu_item.link }}">{{ menu_item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="hdr-right hdr-icons">
+      <span class="hdr-social hide-in-mobile">
+        {{ macros::render_social_icons() }}
+      </span>
+      <button id="menu-btn" class="hdr-btn" title="Menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="animated fast">
+  <ul>
+    {% for menu_item in config.extra.hermit_menu %}
+    <li><a href="{{ menu_item.link }}">{{ menu_item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock header %} {% block title %} {% endblock title %} {% block main %}
+
+<main class="site-main section-inner thin animated fadeIn faster">
+  <h1>{{ term.name }}</h1>
+  {% for year, pages in term.pages | group_by(attribute="year") %}
+  <div class="posts-group">
+    <div class="post-year">{{ year }}</div>
+    <ul class="posts-list">
+      {% for page in pages %}
+      <li class="post-item">
+        <a href="{{ page.permalink }}">
+          <span class="post-title">{{ page.title }}</span>
+          <span class="post-day"
+            >{{ page.date | date(format="%b %d") }}</span
+          >
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</main>
+
+{% endblock main %} {% block footer %} {{ macros::footer() }} {% endblock footer
+%}
