@@ -1,5 +1,5 @@
 //! # Learn Together
-//! Curated collection of lists of useful resources to learn Rust together.
+//! Curated collection of lists of useful resources to master Rust together.
 //! # Experiment
 //! Experiment
 

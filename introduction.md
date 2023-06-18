@@ -29,7 +29,7 @@ If you are Ukrainian, the best way to get help is to join our [Learn Rust Togeth
 
 The best way to ask questions is to share your code in the [playground](https://play.rust-lang.org/). In this case, other members don't have to spend extra time recreating the problem.<br/>
 
-## :books: Alternative ways to learn Rust
+## :books: Alternative ways to master Rust
 
 **1) Practice, interactive feedback**
 - [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is a project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying the given code. It'd really help you to get an understanding of how the compiler works and what are the most common code issues. If you struggle to start, just follow [these steps](https://www.youtube.com/watch?v=G3Vr-yswlaU).
@@ -57,11 +57,11 @@ To learn the syntax of Rust deeply and get familiar with Rust code, we'd also re
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
 
-:zap: More video courses you cand find on our [awesome collection to learn Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
+:zap: More video courses you cand find on our [awesome collection to master Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
 
 **4) Using Cheatsheets**
 
-One more way to learn Rust, but thought the schemes, tables, and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathered in one big page will always be useful while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
+One more way to master Rust, but thought the schemes, tables, and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathered in one big page will always be useful while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
 <p align="center">
 <img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
 </p>

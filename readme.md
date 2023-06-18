@@ -10,12 +10,12 @@
 We are a Ukrainian branch of the community of Rust enthusiasts. More [about us](about_us.md) and our values.
 
 ## What is this about?
-This repostory contains nearly a dozen curated collections: learning materials, toolboxes, newspapers, working groups and a collection of other collections. Everything you may find useful if you are interested in Development in Rust.
+This repository contains nearly a dozen curated collections: learning materials, toolboxes, newspapers, working groups and a collection of other collections. Everything you may find useful if you are interested in Development in Rust.
 
 Here you can find:
 
 - :footprints:️ [Start](./introduction.md) : setup and step-by-step introduction into development on Rust.
-- :mortar_board: [Learn](./learn.md) : collection of materials to learn Rust.
+- :mortar_board: [Learn](./learn.md) : collection of materials to master Rust.
 - :blue_book: [Read](https://github.com/sger/RustBooks) : books on Rust.
 - :chart_with_upwards_trend: [Systemize](./cheat_sheets.md) : collection of cheat sheets.
 - :speech_balloon: [Communicate](./communicate.md) : collection of chats and forums.

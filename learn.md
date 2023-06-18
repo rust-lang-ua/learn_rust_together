@@ -1,11 +1,10 @@
 > [:exclamation:] We condemn in the strongest possible terms Russia’s :pirate_flag: unprovoked, unjust and illegal invasion of Ukraine, a sovereign and democratic state. All Russian-language materials are published for educational purposes only.
-## General-purpose official resources
 
 <!-- ![Rust](./doc/img/logo/Logo2.jpg) -->
 
 # :mortar_board: Our Awesome Collection of Materials to Learn Rust
 
-Curated collection of resources to learn Rust.
+Curated collection of resources to master Rust.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
@@ -55,7 +54,7 @@ Curated collection of resources to learn Rust.
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty) ( _:movie_camera:_ )
 - [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( _:movie_camera:_ )
 - [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( _:movie_camera:_ )
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _reading_ )
+- [A half-hour to master Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _reading_ )
 - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ )
 - [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ ): focus on using "easy English" for non-native speakers
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _:movie_camera:_ ) ( _non-eng_ )
@@ -349,7 +348,7 @@ Curated collection of resources to learn Rust.
 - ( _book_ ) - a book
 - ( _reference_ ) - a reference
 - ( _article_ ) - either single article or single video-tutorial
-- ( _not-finished_ ) - not finished, too little to learn
+- ( _not-finished_ ) - not finished, too little to master
 - ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _reading_ ) - material to read
 - ( _:movie_camera:_ ) - material to watch
