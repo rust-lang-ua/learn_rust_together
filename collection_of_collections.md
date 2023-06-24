@@ -6,6 +6,7 @@
 
 ( _collection_ ) ( _project_ )
 
+- [Rust's GitHub](https://github.com/rust-lang) ( _official_ )
 - [Are we game yet?](https://arewegameyet.rs/) : gamedev
 - [Are we web yet?](https://www.arewewebyet.org/) : web
 - [Are we GUI yet?](http://www.areweguiyet.com/) : user interfaces
