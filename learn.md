@@ -45,7 +45,7 @@ Curated collection of resources to master Rust.
 - [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( :movie_camera: )
 - [Rust in 10 minutes](https://www.youtube.com/watch?v=br3GIIQeefY) and [reading](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _drill_ ) ( _reading_ ) ( :movie_camera: )
 - [First Steps in Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) ( _reading_ ) ( _interactive_ ) : introduction by Microsoft
-- [Rustlings](https://github.com/rust-lang-ua/rustlings_eng) ( _official_ )
+- [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ )
 
 ## First Month
 
@@ -154,7 +154,7 @@ Curated collection of resources to master Rust.
 
 <!-- xxx -->
 
-- [Rustlings](https://github.com/rust-lang-ua/rustlings_eng) ( _official_ ) ( _interactive_ )
+- [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ ) ( _interactive_ )
 - [Exercism](https://exercism.org/tracks/rust) ( _interactive_ ) : interactive exercises
 - [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ( _interactive_ )
 - [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html) ( _drill_ )
