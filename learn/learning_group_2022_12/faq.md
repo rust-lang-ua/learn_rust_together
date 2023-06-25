@@ -3,10 +3,10 @@
 > PR - Pull Request
 
 #### <ins>*- Коли відбуваються зустрічі?*</ins><br/>
-Щотижня у будні дні. Ранкова група о 10:30, вечірна о 18:30. 
+Щотижня у будні дні. Ранкова група о 10:30, вечірна о 18:30.
 
 #### <ins>*- Як розпочати виконання завдань?*</ins><br/>
-Для початку вам потрібно зробити приватний форк головного [репозиторію](https://github.com/rust-lang-ua/rust_incubator_eng) Rust Incubator. Як це зробити - читайте детальніше в [інструкції](https://github.com/rust-lang-ua/rust_incubator_eng#before-you-start).
+Для початку вам потрібно зробити приватний форк головного [репозиторію](https://github.com/rust-lang-ua/rust_incubator) Rust Incubator. Як це зробити - читайте детальніше в [інструкції](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
 
 #### <ins>*- Як і куди надсилати Pull Requests виконаних завдань?*</ins><br/>
 У вашому приватному форку ви створюєте для кожного підрозділу(завдання) окрему гілку (branch). У відповідній гілці виконуєте завдання та створюєте PR у __свою ж__ головну гілку master. У PR тегаєте рев'ювера.
@@ -34,7 +34,7 @@
 Додайте основний репозиторій як remote.
 
 ```bash
-git remote add template git@github.com:rust-lang-ua/rust_incubator_eng.git
+git remote add template git@github.com:rust-lang-ua/rust_incubator.git
 ```
 
 Заберіть зміни з репозиторію

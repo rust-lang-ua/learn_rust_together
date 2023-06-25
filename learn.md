@@ -42,8 +42,9 @@ Curated collection of resources to master Rust.
 
 ( _general_ ) ( _course_ )
 
-- [First Steps in Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) ( _reading_ ) ( _interactive_ ) : introduction by Microsoft
 - [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( :movie_camera: )
+- [Rust in 10 minutes](https://www.youtube.com/watch?v=br3GIIQeefY) and [reading](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _drill_ ) ( _reading_ ) ( :movie_camera: )
+- [First Steps in Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) ( _reading_ ) ( _interactive_ ) : introduction by Microsoft
 - [Rustlings](https://github.com/rust-lang-ua/rustlings_eng) ( _official_ )
 
 ## First Month
@@ -52,8 +53,8 @@ Curated collection of resources to master Rust.
 
 - :star: [Rust Book](https://doc.rust-lang.org/book/title-page.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _course_ ) ( _official_ )
 - [Rust Book with Quizes](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ ) ( _interactive_ ) ( _course_ ) ( _official_ )
-- :star: [Learn Rust Programming - Complete Course](https://www.youtube.com/watch?v=BpPEoZW5IiY) by [Free Code Camp](https://www.youtube.com/@freecodecamp)
 - [Exercism](https://exercism.org/tracks/rust) : interactive exercises
+- :star: [Learn Rust Programming - Complete Course](https://www.youtube.com/watch?v=BpPEoZW5IiY) by [Free Code Camp](https://www.youtube.com/@freecodecamp) ( :movie_camera: ) ( _course_ )
 - [Rust Tutorial](https://www.youtube.com/watch?v=ygL_xcavzQ4) by [Derek Banas](https://www.youtube.com/c/derekbanas) ( :movie_camera: ) ( _course_ )
 - [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming) ( :movie_camera: )
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q) ( :movie_camera: )
@@ -66,7 +67,7 @@ Curated collection of resources to master Rust.
 - [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training) by [Linkedin](https://www.linkedin.com)  ( :movie_camera: ) ( _course_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
-- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/) by [Google]()
 - [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ ) ( _course_ )
 - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) ( _reading_ ) ( _course_ )
@@ -94,7 +95,7 @@ Curated collection of resources to master Rust.
 
 - [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html) by [Nick Cameron](https://github.com/nrc) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
-- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator_eng) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 
 ## Infrastructure
 
@@ -157,8 +158,7 @@ Curated collection of resources to master Rust.
 - [Exercism](https://exercism.org/tracks/rust) ( _interactive_ ) : interactive exercises
 - [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ( _interactive_ )
 - [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html) ( _drill_ )
-- [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ ) ( _drill_ )
-- [A half-hour to master Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _reading_ ) ( _drill_ )
+- [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _drill_ ) ( _reading_ )
 
 ## Interactive Toolset
 
@@ -198,9 +198,9 @@ Curated collection of resources to master Rust.
 ( _edu_project_ )
 
 - [Making our own executable packer](https://fasterthanli.me/series/making-our-own-executable-packer) by [Amos](https://fasterthanli.me/about) ( _reading_ ) ( _edu_project_ ) ( _about:memory_ )
-- [Building a runtime reflection system for Rust](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/)
 - [Writing a Programming Language](https://www.youtube.com/playlist?list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy) by [Seán Kelleher](https://www.youtube.com/user/eZanmoto) ( :movie_camera: ) ( _edu_project_ ) ( _dsl_ )
 - [Build a language VM](https://medium.com/iridium-vm) by [Fletcher Haynes](https://medium.com/@subnet_zero) ( _reading_ ) ( _edu_project_ ) ( _dsl_ )
+- [Building a runtime reflection system for Rust](https://www.osohq.com/post/rust-reflection-pt-1) by [OSO](https://www.osohq.com/) <!-- xxx -->
 
 ## Unsorted topics
 
@@ -353,9 +353,10 @@ Curated collection of resources to master Rust.
 - [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( :movie_camera: ) ( _playlist_ )
 - [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( :movie_camera: )
 
-## Teaching materials and Workshops
+## Unsorted teaching materials and Workshops
 
 ( _teachings_material_ )
+<!-- xxx -->
 
 - [Teaching Material](https://github.com/rust-lang-ua/teaching_material_eng) by [Ferrous](https://github.com/ferrous-systems)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:async_ )
