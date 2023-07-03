@@ -16,6 +16,7 @@ Curated collection of resources to master Rust.
 
 - [Rust API documentation](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ ) ( _official_ )
 - [Rust Book](https://doc.rust-lang.org/book/title-page.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _course_ ) ( _official_ )
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
 
 ## Cookbooks
 
@@ -81,19 +82,22 @@ Curated collection of resources to master Rust.
 ( _course_ ) ( _advanced_ )
 
 - :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( :movie_camera: ) ( _general_ )
-- [Rust Atomics and Locks](https://marabos.nl/atomics/) by [Mara Bos](https://github.com/m-ou-se) ( _reading_ ) ( _book_ ) ( _specific_ )
-- [Rust for Rustaceans](https://nostarch.com/rust-rustaceans) by [Jon Gjengset](https://www.youtube.com/c/jongjengset) ( _reading_ ) ( _book_ )
+- :star: [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
 - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
-- [Programming Rust: Fast, Safe Systems Development 2nd Edition](https://amzn.to/3Jfxbtb) ( _reading_ ) ( _book_ )
 - [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ ) ( _specific )
-- [Compile-Time Reflection in Rust](https://www.mn.uio.no/ifi/english/research/groups/psy/completedmasters/2020/gaarde/masterthesis-gaarde.pdf) by Asbjørn Gaarde ( _reading_ )
+
+<!-- - [Rust for Rustaceans](https://nostarch.com/rust-rustaceans) by [Jon Gjengset](https://www.youtube.com/c/jongjengset) ( _reading_ ) ( _book_ ) -->
+<!-- - [Programming Rust: Fast, Safe Systems Development 2nd Edition](https://amzn.to/3Jfxbtb) ( _reading_ ) ( _book_ ) -->
+<!-- - [Compile-Time Reflection in Rust](https://www.mn.uio.no/ifi/english/research/groups/psy/completedmasters/2020/gaarde/masterthesis-gaarde.pdf) by Asbjørn Gaarde ( _reading_ ) -->
 
 ## Idiomatic Rust
 
 ( _about:idiomatic_ )
 
 - [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html) by [Nick Cameron](https://github.com/nrc) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 
@@ -101,6 +105,9 @@ Curated collection of resources to master Rust.
 
 ( _about:infrastructure_ )
 
+- [Rust API documentation](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ ) ( _official_ )
+- [Rust Book](https://doc.rust-lang.org/book/title-page.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _course_ ) ( _official_ )
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
 - [Reference Book](https://doc.rust-lang.org/reference/introduction.html) ( _reading_ ) ( _reference_ ) ( _official_ )
 - [Editions Book](https://doc.rust-lang.org/edition-guide/index.html) ( _reading_ ) ( _official_ )
 - [Rustdoc Book](https://doc.rust-lang.org/rustdoc/index.html) ( _reading_ ) ( _official_ )
@@ -235,6 +242,14 @@ Curated collection of resources to master Rust.
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) ( _reading_ )
 - [Profile guided optimzation](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ )
 
+## Concurrency
+
+( _about:concurrency_ )
+
+- [Asynchronous vs Multithreading](https://github.com/Learn-Together-Pro/ComputerScience/blob/master/cheatsheets.md#asynchronous-vs) by [Learn Together](https://github.com/Learn-Together-Pro) ( _cheatsheet_ ) ( _about:concurrency_ )
+- [Rust Atomics and Locks](https://marabos.nl/atomics/) by [Mara Bos](https://github.com/m-ou-se) ( _reading_ ) ( _book_ ) ( _about:concurrency_ )
+- [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene) ( _cheatsheet_ ) ( _about:concurrency_ ) : cheat sheet on concurrency and async
+
 ## Asynchronous
 
 ( _about:async_ )
@@ -243,7 +258,6 @@ Curated collection of resources to master Rust.
 - [Async/await](https://www.youtube.com/watch?v=ThjvMReOXYM) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( :movie_camera: ) : introduction into async/await
 - [The Why, What, and How of Pinning in Rust](https://www.youtube.com/watch?v=DkMwYxfSYNQ) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( _introductory_ ) ( :movie_camera: )
 - [Introduction into tokio](https://tokio.rs/tokio/tutorial) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _course_ ) ( _introductory_ )
-- [Concurrency](https://github.com/quambene/rust-concurrency) by [quambene](https://github.com/quambene) ( _cheatsheet_ ) : cheat sheet on concurrency and async
 - [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/) by [Alice Ryhl](https://ryhl.io/) ( _reading_ ) ( _article_ ) ( _introductory_ )
 - [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering) by [Amos](https://fasterthanli.me/) ( _reading_ ) ( _advanced_ )
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _teaching_materials_ )
