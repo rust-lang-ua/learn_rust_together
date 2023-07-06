@@ -198,10 +198,16 @@ You might also be interested in other tooboxes:
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _templating_ )
 - [cargo-depgraph](https://crates.io/crates/cargo-depgraph) by [Jonas Platte](https://blog.turbo.fish/) : generate dependencies graph
 - [cargo_metadata](https://github.com/oli-obk/cargo_metadata) by [Oli Scherer](https://github.com/oli-obk) : information about cargo module
-- [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) : manage cargo cache, cleaning cache
 - [cargo-when](https://github.com/starkat99/cargo-when) by [Kathryn Long](https://github.com/starkat99) : run conditionally upon rustc version and environment
-- [cargo-wipe](https://github.com/mihai-dinculescu/cargo-wipe) by [Mihai Dinculescu](https://github.com/mihai-dinculescu) : cleaning, removing artifacts
 - [cargo-update](https://github.com/nabijaczleweli/cargo-update) by [Nabijaczleweli](https://github.com/nabijaczleweli) : update installed globally executables
+
+## Cargo clean
+
+( _cargo_ ) ( _cargo_clean_ )
+
+- [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) ( _cargo_clean_ ) : manage cargo cache, cleaning cache
+- [cargo-wipe](https://github.com/mihai-dinculescu/cargo-wipe) by [Mihai Dinculescu](https://github.com/mihai-dinculescu) ( _cargo_clean_ ) : cleaning, removing artifacts
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep) by [Viktor Holmgren](https://github.com/holmgr) ( _cargo_clean_ ) : one more artifacts cleaner
 
 ## Video
 
@@ -995,6 +1001,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
 - ( _kernel_ ) - kernel of operation system
 - ( _cargo_ ) - extension of cargo
+- ( _cargo_clean_ ) - clean artifacts
 - :movie_camera: - video-processing, capturing
 - ( _asm_ ) - machine code, byte code, interpreters, assembler
 - ( _hardware_ ) - reading / writing hardware
