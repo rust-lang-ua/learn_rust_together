@@ -63,7 +63,6 @@ Curated collection of resources to master Rust.
 - [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL) by [dcode](https://www.youtube.com/c/dcode-software) ( :movie_camera: )
 - [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( :movie_camera: )
 - [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( :movie_camera: )
-- [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ ): focus on using "easy English" for non-native speakers
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( :movie_camera: ) ( _non-eng_ )
 - [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training) by [Linkedin](https://www.linkedin.com)  ( :movie_camera: ) ( _course_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
@@ -84,9 +83,7 @@ Curated collection of resources to master Rust.
 - :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( :movie_camera: ) ( _general_ )
 - :star: [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
-- [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
-- [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ ) ( _specific )
 
 <!-- - [Rust for Rustaceans](https://nostarch.com/rust-rustaceans) by [Jon Gjengset](https://www.youtube.com/c/jongjengset) ( _reading_ ) ( _book_ ) -->
 <!-- - [Programming Rust: Fast, Safe Systems Development 2nd Edition](https://amzn.to/3Jfxbtb) ( _reading_ ) ( _book_ ) -->
@@ -97,7 +94,7 @@ Curated collection of resources to master Rust.
 ( _about:idiomatic_ )
 
 - [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
-- [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ )
+- [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ ) ( _about:idiomatic_ )
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html) by [Nick Cameron](https://github.com/nrc) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 
@@ -107,7 +104,7 @@ Curated collection of resources to master Rust.
 
 - [Rust API documentation](https://doc.rust-lang.org/std/index.html) ( _reading_ ) ( _reference_ ) ( _official_ )
 - [Rust Book](https://doc.rust-lang.org/book/title-page.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _course_ ) ( _official_ )
-- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
+- [Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
 - [Reference Book](https://doc.rust-lang.org/reference/introduction.html) ( _reading_ ) ( _reference_ ) ( _official_ )
 - [Editions Book](https://doc.rust-lang.org/edition-guide/index.html) ( _reading_ ) ( _official_ )
 - [Rustdoc Book](https://doc.rust-lang.org/rustdoc/index.html) ( _reading_ ) ( _official_ )
@@ -117,6 +114,7 @@ Curated collection of resources to master Rust.
 - [Embed Book](https://doc.rust-lang.org/stable/embedded-book/) ( _reading_ )
 - [Cargo Book](https://doc.rust-lang.org/cargo/index.html) ( _reading_ ) ( _official_ ) ( _about:cargo_ )
 - [Rustup Book](https://rust-lang.github.io/rustup/) ( _official_ ) ( _reading_ ) ( _course_ )
+- [Compiler Book](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) ( _reading_ ) ( _specific )
 
 ## Rustup
 
@@ -171,8 +169,9 @@ Curated collection of resources to master Rust.
 
 <!-- xxx -->
 
-- [Rust playground](https://play.rust-lang.org/) ( _official_ )
+- :star: [Rust Playground](https://play.rust-lang.org/) ( _official_ )
 - [Rust explaine](https://jrvidal.github.io/explaine.rs/)
+- [Rust to Asmebler](https://godbolt.org/)
 
 ## Cheat sheets
 
