@@ -64,7 +64,7 @@ Curated collection of resources to master Rust.
 - [Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) by [mithradates](https://www.youtube.com/user/mithradates) ( :movie_camera: )
 - [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( :movie_camera: )
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( :movie_camera: ) ( _non-eng_ )
-- [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training) by [Linkedin](https://www.linkedin.com)  ( :movie_camera: ) ( _course_ )
+- [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training/learn-rust-programming) by [Linkedin](https://www.linkedin.com)  ( :movie_camera: ) ( _course_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
@@ -93,10 +93,10 @@ Curated collection of resources to master Rust.
 
 ( _about:idiomatic_ )
 
+- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ ) ( _about:idiomatic_ )
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html) by [Nick Cameron](https://github.com/nrc) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
-- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 
 ## Infrastructure
 
@@ -306,6 +306,12 @@ Curated collection of resources to master Rust.
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _course_ ) ( _reading_ ) : developing secure and robust software
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html) ( _course_ ) ( _reading_ )
 
+## Kernel / Drivers
+
+( _about:embed_ )
+
+- :star: [Writing an OS in Rust](https://os.phil-opp.com/) by [Philipp Oppermann](https://github.com/phil-opp)
+
 ## Self-referential structures
 
 ( _about:self_ref_ )
@@ -366,13 +372,26 @@ Curated collection of resources to master Rust.
 - [History and Predictions](https://www.youtube.com/watch?v=QyJZzq0v7Z4) ( :movie_camera: ) ( _playlist_ )
 - [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) by [Richard Feldman](https://github.com/rtfeldman) ( :movie_camera: )
 
-## Unsorted teaching materials and Workshops
+## Rust As Curriculum
 
 ( _teachings_material_ )
-<!-- xxx -->
 
-- [Teaching Material](https://github.com/rust-lang-ua/teaching_material_eng) by [Ferrous](https://github.com/ferrous-systems)
+- [101-rs](https://github.com/tweedegolf/101-rs) by [Henk Oordt](https://github.com/hdoordt) ( _reading_ ) : Rust 101 is a university course for computer science students, introducing the Rust Programming Language.
+- [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ( _interactive_ )
+- [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
+- [Writing an OS in Rust](https://os.phil-opp.com/) by [Philipp Oppermann](https://github.com/phil-opp)
+- [Teaching Material](https://github.com/ferrous-systems/teaching-material/tree/main) by [Ferrous](https://github.com/ferrous-systems)
+- [Curriculum](https://github.com/ferrous-systems/rust-training/blob/main/training-slides/src/SUMMARY.md) by [Ferrous](https://github.com/ferrous-systems)
+- [Embed Training](https://github.com/esp-rs/std-training) by [Ferrous](https://github.com/ferrous-systems)
 - [Workshop : implementing a chat server](https://github.com/hawkw/async-workshop) by [Eliza Weisman](https://github.com/hawkw) ( _reading_ ) ( _about:async_ )
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/) by [Google]()
+- [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training/learn-rust-programming) by [Linkedin](https://www.linkedin.com)  ( :movie_camera: ) ( _course_ )
+- [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) by [David MacLeod](https://github.com/Dhghomon) ( _reading_ ) ( _course_ )
+- [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html) ( _drill_ )
+- [Learn Rust Programming - Complete Course](https://www.youtube.com/watch?v=BpPEoZW5IiY) by [Free Code Camp](https://www.youtube.com/@freecodecamp) ( :movie_camera: ) ( _course_ )
+- [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( :movie_camera: ) ( _non-eng_ )
 
 ## Tags legend
 
