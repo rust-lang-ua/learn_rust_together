@@ -27,7 +27,7 @@
 💬 Перелік наших чатів та каналів у Telegram та інші соцмережі:
 
 - Канал [Вивчаємо Rust Разом](https://t.me/learn_rust_ukr)
-- English channel [Learn Rust Together](https://t.me/learn_rust)
+<!-- - English channel [Learn Rust Together](https://t.me/learn_rust) -->
 - Канал [Rust Jobs UA](https://t.me/rust_jobs_ua)   
 - Чат [Вивчаємо Rust Разом # Ukraine](https://t.me/rustlang_ua) **( цей чат )**
 - Чат [Вивчаємо Rust Разом # Kyiv](https://t.me/learn_rust_together_kyiv)
