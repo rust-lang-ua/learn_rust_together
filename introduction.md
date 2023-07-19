@@ -13,9 +13,9 @@ There are some of the most popular general-purpose official resources for learni
 
 - [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/)
 
-It might be more convenient for you to start from a video course instead of a book. For example, you might like [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW).
+It might be more convenient for you to start from a video course instead of a book. For example, you might like [Intro to Rust](https://www.youtube.com/watch?v=BpPEoZW5IiY).
 
-:zap: Other interesting sources you can find in our [ Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
+:zap: Other interesting sources you can find in our [ Awesome Collection of Materials](./learn.md).
 
 ## [:gear: How to set up rust](rust_setup.md)
 
@@ -29,16 +29,18 @@ If you are Ukrainian, the best way to get help is to join our [Learn Rust Togeth
 
 The best way to ask questions is to share your code in the [playground](https://play.rust-lang.org/). In this case, other members don't have to spend extra time recreating the problem.<br/>
 
-## :books: Alternative ways to learn Rust
+## :books: Alternative ways to master Rust
 
-**1) Practice, interactive feedback**
-- [Rustling](https://github.com/rust-lang/rustlings#rustlings-%EF%B8%8F) is a project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying the given code. It'd really help you to get an understanding of how the compiler works and what are the most common code issues. If you struggle to start, just follow [these steps](https://www.youtube.com/watch?v=G3Vr-yswlaU).
-- [Exercism](https://exercism.org/tracks/rust/concepts) - an open-source, free-coding platform that offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts. Recommended taking after Rustling.
+**1) Practice drills, interactive feedback**
+
+- [Rustlings](https://github.com/rust-lang/rustlings) is a project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying the given code. It'd really help you to get an understanding of how the compiler works and what are the most common code issues. If you struggle to start, just follow [these steps](https://www.youtube.com/watch?v=G3Vr-yswlaU).
+- [Rust by practice](https://practice.rs/why-exercise.html) similar to rustlings drill exercises
+- [Exercism](https://exercism.org/tracks/rust) - an open-source, free-coding platform that offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts. Recommended taking after Rustling.
 <p align="center">
 <img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
 
-- [Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/) - Interactive course. Lay the foundation of knowledge you need to build fast and effective programs in Rust.
+- [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) - Interactive course. Lay the foundation of knowledge you need to build fast and effective programs in Rust.
 
 **2) Reading books**
 
@@ -46,7 +48,6 @@ If you are a beginner in your Rust learning journey, we'd highly recommend you t
 Then you can also go to the official [Rust Book](https://doc.rust-lang.org/book/), where you can find all the necessary information about Rust, or buy the [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/), which both are ones of the most common books. Also if you target web back-end you should read [Zero To Production](https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60), also available as [as a series of articles](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn/backend_book.md).
 
 :zap:	Other interesting books you can find in our [Awesome Collection of Materials](./learn.md#mortar_board-our-awesome-collection-of-materials-to-learn-rust).
-
 
 **3) Watching videos**
 
@@ -57,12 +58,11 @@ To learn the syntax of Rust deeply and get familiar with Rust code, we'd also re
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
 
-:zap: More video courses you cand find on our [awesome collection to learn Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
+:zap: More video courses you cand find on our [awesome collection to master Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
 
 **4) Using Cheatsheets**
 
-One more way to learn Rust, but thought the schemes, tables, and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathered in one big page will always be useful while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
+One more way to master Rust, but thought the schemes, tables, and images - the [Rust Cheat Sheet](https://cheats.rs/). All tips gathered in one big page will always be useful while writing code. Go to our [collection of cheatsheets](./cheat_sheets.md#chart_with_upwards_trend-cheat-sheats).
 <p align="center">
 <img src="./asset/img/introduction_page/cheatsheet.png"  width="600" align="center" />
 </p>
-

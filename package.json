@@ -1,7 +1,7 @@
 {
   "name": "learn_rust_together",
   "version": "1.0.0",
-  "description": "Curated collection of lists of useful resources to learn Rust together.",
+  "description": "Curated collection of lists of useful resources to master Rust together.",
   "dependencies": {
   },
   "devDependencies": {
