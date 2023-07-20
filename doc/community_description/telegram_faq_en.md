@@ -1,3 +1,4 @@
+<!--
 ❓ **FAQ**
 
 __- Is the community for beginners only?__
@@ -41,3 +42,5 @@ Please contact [me](https://t.me/wandalen_me) on Telegram if you wish to: help w
 
 __- What if I didn’t find an answer in the FAQ?__
 Ask us on [chat](https://t.me/rustlang_ua).
+
+-->
