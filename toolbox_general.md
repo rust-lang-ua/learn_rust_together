@@ -580,6 +580,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [syntect](https://github.com/trishume/syntect) by [Tristan Hume](https://github.com/trishume) : syntax highlighting using Sublime text syntax definitions
 - [sg](https://github.com/osa1/sg) by [Ömer Sinan Ağacan](https://github.com/osa1) : syntax-aware grep-like code search
 - [tree-sitter-parse](https://github.com/osa1/tree-sitter-parse) by [Ömer Sinan Ağacan](https://github.com/osa1) : tree-sitter-cli that can load parsers compiled to shared libraries
+- [fancy-regex](https://github.com/fancy-regex/fancy-regex) by [Robin Stocker](https://github.com/robinst) : an implementation of regexes, supporting a relatively rich set of features, including backreferences and look-around.
 
 ## Time
 
