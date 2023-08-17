@@ -312,7 +312,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _web_backend_ )
 
-- :earth_africa: [rocket](https://github.com/SergioBenitez/Rocket) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
+- :earth_africa: [rocket](https://github.com/SergioBenitez/Rocket) by [Sergio Benitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
 - :earth_africa: [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
 - [axum](https://github.com/tokio-rs/axum) by [David Pedersen](https://github.com/davidpdrsn) : tokio-based web backend framework
 - [axum-yew-setup](https://github.com/rksm/axum-yew-setup) by [Robert Krahn](https://github.com/rksm) : starter project that sets up axum and yew for full stack
@@ -327,6 +327,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
 - [tungstenite](https://github.com/snapview/tungstenite-rs) by [](https://github.com/snapview) : websocket implementation
 - [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md) ( _collection_ ) : bunch of back-end frameworks comparison
+- [actix-web](https://github.com/actix/actix-web) by [Actix](https://github.com/actix) : is a powerful, pragmatic, and extremely fast web framework for Rust
+- [poem](https://github.com/poem-web/poem) by [Sunli](https://github.com/sunli829) : is a full-featured and easy-to-use web framework with the Rust programming language
+- [salvo](https://github.com/salvo-rs/salvo) by [Chrislearn Young](https://github.com/chrislearn) : is a powerful and simple Rust web server framework
+- [tide](https://github.com/http-rs/tide) by [http-rs](https://github.com/http-rs) : a minimal and pragmatic Rust web application framework built for rapid development
+- [isahc](https://github.com/sagebind/isahc) by [Stephen M. Coakley](https://github.com/sagebind) : the practical HTTP client that is fun to use
+- [ureq](https://github.com/algesten/ureq) by [Martin Algesten](https://github.com/algesten) : Simple, safe HTTP client
+- [surf](https://github.com/http-rs/surf) by [http-rs](https://github.com/http-rs) : the web - HTTP client framework
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -522,6 +529,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [nanoserde](https://github.com/not-fl3/nanoserde) by [Fedor Logachev](https://github.com/not-fl3) : minimal serialization library with zero dependencies
 - [speedy](https://github.com/koute/speedy) by [Koute](https://github.com/koute) : another serialization alternative
 - [dipa](https://github.com/chinedufn/dipa) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : structures delta encoding
+- [rkyv (archive)](https://github.com/rkyv/rkyv) by [David Koloski](https://github.com/djkoloski) : is a zero-copy deserialization framework for Rust
+- [musli](https://github.com/udoprog/musli) by [John-John Tedro](https://github.com/udoprog) : is a flexible and generic binary serialization framework
 
 ## Stringification
 
@@ -724,6 +733,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [elgamal-curve25519](https://github.com/chritchens/elgamal-curve25519) by [Christian Nyumbayire](https://github.com/chritchens) : ElGamal homomorphic encryption on Curve25519
 - [argonautica](https://github.com/bcmyers/argonautica) by [Brian Myers](https://github.com/bcmyers) : password hashing
 - [rust-argon2](https://github.com/sru-systems/rust-argon2) by [Martijn Rijkeboer](https://github.com/mrijkeboer) :  password hashing
+- [subtle](https://github.com/dalek-cryptography/subtle) by [dalek cryptography](https://github.com/dalek-cryptography) : Pure-Rust traits and utilities for constant-time cryptographic implementations
+- [MACs](https://github.com/RustCrypto/MACs) by [Rust Crypto](https://github.com/rustcrypto) : Collection of Message Authentication Code (MAC) algorithms written in pure Rust.
 
 ## Compression
 
@@ -905,6 +916,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _cargo_ ) ( _build_ )
 - [ramhorns](https://github.com/maciejhirsz/ramhorns) by [Maciej Hirsz](https://github.com/maciejhirsz) : Mustache template engine
 
+## Messaging
+
+( _messaging_ )
+
+- [paho-mqtt](https://github.com/eclipse/paho.mqtt.rust) by [Frank Pagliughi](https://github.com/fpagliughi) : The Official Eclipse Paho MQTT Rust Client Library. This is a wrapper around the Paho C library
+
 ## Utilities for development
 
 ( _development_ )( _utility_ )
@@ -1024,3 +1041,4 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
 - ( _development_ ) - helps the developer to develop
 - ( _xml_ ) - XML parsers, readers/writers
+- ( _messaging_ ) - tools for messaging
