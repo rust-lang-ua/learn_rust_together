@@ -735,7 +735,11 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [argonautica](https://github.com/bcmyers/argonautica) by [Brian Myers](https://github.com/bcmyers) : password hashing
 - [rust-argon2](https://github.com/sru-systems/rust-argon2) by [Martijn Rijkeboer](https://github.com/mrijkeboer) :  password hashing
 - [subtle](https://github.com/dalek-cryptography/subtle) by [dalek cryptography](https://github.com/dalek-cryptography) : Pure-Rust traits and utilities for constant-time cryptographic implementations
-- [MACs](https://github.com/RustCrypto/MACs) by [Rust Crypto](https://github.com/rustcrypto) : Collection of Message Authentication Code (MAC) algorithms written in pure Rust.
+- [belt-mac](https://github.com/RustCrypto/MACs/blob/master/belt-mac) by [Artyom Pavlov](https://github.com/newpavlov) : MAC specified by the BelT standard
+- [cbc-mac](https://github.com/RustCrypto/MACs/blob/master/cbc-mac) by [Artyom Pavlov](https://github.com/newpavlov) : Implementation of Cipher Block Chaining Message Authentication Code (CBC-MAC)
+- [cmac](https://github.com/RustCrypto/MACs/blob/master/cmac) by [Artyom Pavlov](https://github.com/newpavlov) : Generic implementation of Cipher-based Message Authentication Code
+- [hmac](https://github.com/RustCrypto/MACs/blob/master/hmac) by [Artyom Pavlov](https://github.com/newpavlov) : Generic implementation of Hash-based Message Authentication Code (HMAC)
+- [pmac](https://github.com/RustCrypto/MACs/blob/master/pmac) by [Artyom Pavlov](https://github.com/newpavlov) : Generic implementation of Parallelizable Message Authentication Code
 
 ## Compression
 
