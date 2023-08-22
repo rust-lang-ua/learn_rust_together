@@ -50,7 +50,7 @@ You might also be interested in other tooboxes:
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
 - [if_chain](https://github.com/lambda-fairy/if_chain) by [Chris Wong](https://github.com/lambda-fairy) : nested if let
-
+- [delegate](https://github.com/kobzol/rust-delegate) by [Godfrey Chan](https://github.com/chancancode) :  removes some boilerplate for structs that simply delegate some of their methods to one or more of their fields
 ## Derives
 
 ( _meta_ ) ( _derive_ )
@@ -179,6 +179,7 @@ You might also be interested in other tooboxes:
 - [tauri](https://github.com/tauri-apps/tauri) by [Razvan Stoenescu](https://github.com/rstoenescu) : desktop applications with a web frontend
 - [built](https://github.com/lukaslueg/built) by [Lukas Lueg](https://github.com/lukaslueg) : information when and how it was built
 - [cargo-pgo](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ ) : profile guided optimzation
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep) by [Viktor Holmgren](https://github.com/holmgr) : tool for cleaning unused build files created by Cargo
 
 ## Cross-compile
 
@@ -504,6 +505,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [peekreed](https://github.com/orlp/peekread) by [Orson Peters](https://github.com/orlp) : peekable read streams
 - [bytes](https://github.com/tokio-rs/bytes) by [Carl Lerche](https://github.com/carllerche) : working with bytes
 - [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
+- [scroll](https://github.com/m4b/scroll) by [m4b](https://github.com/m4b) : a suite of powerful, extensible, generic, endian-aware Read/Write traits for byte buffers
 
 ## Memory management
 
@@ -913,6 +915,14 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [xcodegen](https://github.com/yonaskolb/XcodeGen) by [Yonas Kolb](https://github.com/yonaskolb) : utility to generates your Xcode project
 - [cargo-lipo](https://github.com/TimNN/cargo-lipo) by [Tim Neumann](https://github.com/TimNN) : utility to automatically creates a universal library for use with iOS application
 
+## Bindings
+
+( _bindings_ )
+
+- [mcl-rs](https://github.com/pnnl/mcl/tree/master/rust/mcl-rs) by [Ryan Friese](https://github.com/rdfriese) : high-level bindings providing a "safe" interface to the Minos Compute Library (MCL)
+- [libmcl-sys](https://github.com/pnnl/mcl/tree/master/rust/libmcl-sys) by [Ryan Friese](https://github.com/rdfriese) : high-level bindings through an "unsafe" interface to the Minos Compute Library (MCL)
+- [mcl-sched](https://github.com/pnnl/mcl/tree/master/rust/mcl-sched) by [Ryan Friese](https://github.com/rdfriese) : convenience wrapper for installing the mcl scheduler via cargo to the Minos Compute Library (MCL)
+
 ## Templating
 
 ( _templating_ )
@@ -942,6 +952,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-miri](https://github.com/rust-lang/miri) by [Scott Olson](https://github.com/solson) : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior
 - [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : Extension for cargo to expand macros
 - [cargo-llvm-lines](https://github.com/dtolnay/cargo-llvm-lines) by [David Tolnay](https://github.com/dtolnay) : Count the number of lines of LLVM IR across all instantiations of a generic function
+
 
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
