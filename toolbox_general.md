@@ -921,7 +921,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [mcl-rs](https://github.com/pnnl/mcl/tree/master/rust/mcl-rs) by [Ryan Friese](https://github.com/rdfriese) : high-level bindings providing a "safe" interface to the Minos Compute Library (MCL)
 - [libmcl-sys](https://github.com/pnnl/mcl/tree/master/rust/libmcl-sys) by [Ryan Friese](https://github.com/rdfriese) : high-level bindings through an "unsafe" interface to the Minos Compute Library (MCL)
-- [mcl-sched](https://github.com/pnnl/mcl/tree/master/rust/mcl-sched) by [Ryan Friese](https://github.com/rdfriese) : convenience wrapper for installing the mcl scheduler via cargo to the Minos Compute Library (MCL)
 
 ## Templating
 
