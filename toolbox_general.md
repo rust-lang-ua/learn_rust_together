@@ -50,6 +50,7 @@ You might also be interested in other tooboxes:
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
 - [if_chain](https://github.com/lambda-fairy/if_chain) by [Chris Wong](https://github.com/lambda-fairy) : nested if let
+- [sealed](https://github.com/jmg-duarte/sealed-rs) by [José Duarte](https://github.com/jmg-duarte) : macro to seal traits
 
 ## Derives
 
@@ -70,6 +71,10 @@ You might also be interested in other tooboxes:
 - [rudra](https://github.com/sslab-gatech/Rudra) by [Yechan Bae](https://github.com/Qwaz) : undefined behavior detection
 
 <!-- https://github.com/dtolnay/prettyplease -->
+
+## Interoperability
+
+- [bindgen-cli](https://github.com/rust-lang/rust-bindgen) by [Jyun-Yan You](https://github.com/crabtw) : automatically generates Rust FFI bindings to C (and some C++) libraries
 
 ## Compile-time
 
@@ -115,7 +120,6 @@ You might also be interested in other tooboxes:
 - [dialoguer](https://github.com/mitsuhiko/dialoguer) by [Armin Ronacher](https://github.com/mitsuhiko) : command line prompts
 - [indicatif](https://github.com/console-rs/indicatif) by [Armin Ronacher](https://github.com/mitsuhiko) : command line progress reporting
 
-
 ## Textual user interface input / output
 
 ( _ui_ ) ( _tui_ )
@@ -144,7 +148,7 @@ You might also be interested in other tooboxes:
 - [terminal_size](https://github.com/eminence/terminal-size) by [Andrew Chin](https://github.com/eminence) : terminal size
 - [terminal-clipboard](https://github.com/Canop/terminal-clipboard) by [Canop](https://github.com/Canop) : text only clipboard facade
 - [termcolor](https://github.com/BurntSushi/termcolor) by [Andrew Gallant](https://github.com/BurntSushi) : terminal colors
-- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) :  colored and formatted text to a terminal
+- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : colored and formatted text to a terminal
 - [ansi-parser](https://gitlab.com/davidbittner/ansi-parser) by [David Bittner](https://gitlab.com/davidbittner) : parseing ANSI escape codes based on nom
 
 ## Cloud APIs

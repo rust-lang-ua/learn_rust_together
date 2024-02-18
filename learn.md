@@ -45,7 +45,7 @@ Curated collection of resources to master Rust.
 
 - [Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek) by [Fireship](https://www.youtube.com/c/Fireship) ( :movie_camera: )
 - [Rust in 10 minutes](https://www.youtube.com/watch?v=br3GIIQeefY) and [reading](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) ( _drill_ ) ( _reading_ ) ( :movie_camera: )
-- [First Steps in Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) ( _reading_ ) ( _interactive_ ) : introduction by Microsoft
+- [First Steps in Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) ( _reading_ ) ⚡ : introduction by Microsoft
 - [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ )
 
 ## First Month
@@ -53,7 +53,7 @@ Curated collection of resources to master Rust.
 ( _general_ )
 
 - :star: [Rust Book](https://doc.rust-lang.org/book/title-page.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/) ( _reading_ ) ( _course_ ) ( _official_ )
-- [Rust Book with Quizes](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ ) ( _interactive_ ) ( _course_ ) ( _official_ )
+- [Rust Book with Quizes](https://rust-book.cs.brown.edu/experiment-intro.html) ( _reading_ ) ⚡ ( _course_ ) ( _official_ )
 - [Exercism](https://exercism.org/tracks/rust) : interactive exercises
 - :star: [Learn Rust Programming - Complete Course](https://www.youtube.com/watch?v=BpPEoZW5IiY) by [Free Code Camp](https://www.youtube.com/@freecodecamp) ( :movie_camera: ) ( _course_ )
 - [Rust Tutorial](https://www.youtube.com/watch?v=ygL_xcavzQ4) by [Derek Banas](https://www.youtube.com/c/derekbanas) ( :movie_camera: ) ( _course_ )
@@ -159,9 +159,9 @@ Curated collection of resources to master Rust.
 
 <!-- xxx -->
 
-- [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ ) ( _interactive_ )
-- [Exercism](https://exercism.org/tracks/rust) ( _interactive_ ) : interactive exercises
-- [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ( _interactive_ )
+- [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ ) ⚡
+- [Exercism](https://exercism.org/tracks/rust) ⚡ : interactive exercises
+- [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ⚡
 - [Tour of Rust](https://tourofrust.com/index.html) [:uk:](https://tourofrust.com/index.html) [:ukraine:](https://tourofrust.com/00_ua.html) ( _drill_ )
 - [Improving the Rust Book](https://rust-book.cs.brown.edu/experiment-intro.html) ( _drill_ ) ( _reading_ )
 
@@ -377,7 +377,7 @@ Curated collection of resources to master Rust.
 ( _teachings_material_ )
 
 - [101-rs](https://github.com/tweedegolf/101-rs) by [Henk Oordt](https://github.com/hdoordt) ( _reading_ ) : Rust 101 is a university course for computer science students, introducing the Rust Programming Language.
-- [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ( _interactive_ )
+- [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ⚡
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
@@ -407,7 +407,6 @@ Curated collection of resources to master Rust.
 - ( _reference_ ) - a reference
 - ( _article_ ) - either single article or single video-tutorial
 - ( _not-finished_ ) - not finished, too little to master
-- ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _reading_ ) - material to read
 - ( :movie_camera: ) - material to watch
 - ( _audio_ ) - material to listen

@@ -64,7 +64,7 @@ Curated collection of resources to learn Rust.
 - [Программирование на Rust](https://www.youtube.com/playlist?list=PLlb7e2G7aSpTfhiECYNI2EZ1uAluUqE_e) by [Computer Science Center](https://www.youtube.com/c/CompscicenterRu) ( _:movie_camera:_ ) ( _non-eng_ )
 - [Rust by Tutorials Point](https://www.tutorialspoint.com/rust/index.htm) ( _reading_ )
 - [Rust by RIP Tutorial](https://riptutorial.com/rust) ( _reading_ )
-- [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ( _interactive_ )
+- [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) by [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) ( _reading_ ) ⚡
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto Team](https://github.com/instrumentisto) ( _reading_ )
 - [Rust Crash Course](https://www.youtube.com/playlist?list=PL6yRaaP0WPkWRsXJgdnw9lj1vchAaKwfS) by [Vandad Nahavandipoor](https://www.youtube.com/c/VandadNP) ( _🎥_ )
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/) by [Google](https://www.google.com)
@@ -137,7 +137,7 @@ Curated collection of resources to learn Rust.
 
 ## Interactive courses on Rust with feedback
 
-( _interactive_ )
+⚡
 
 - [Rustlings](https://github.com/rust-lang/rustlings) ( _official_ )
 - [Rust by Exercism](https://exercism.io/tracks/rust)
@@ -353,7 +353,6 @@ Curated collection of resources to learn Rust.
 - ( _reference_ ) - a reference
 - ( _article_ ) - either single article or single video-tutorial
 - ( _not-finished_ ) - not finished, too little to learn
-- ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _reading_ ) - material to read
 - ( _:movie_camera:_ ) - material to watch
 - ( _audio_ ) - material to listen
