@@ -80,6 +80,7 @@ You might also be interested in other tooboxes:
 
 ( _compile_time_ )
 
+- [databake](https://github.com/unicode-org/icu4x/tree/main/utils/databake) by [Shane F. Carr](https://github.com/sffc) : data to write itself into Rust code
 - [phf](https://github.com/rust-phf/rust-phf) by [Steven Fackler](https://github.com/sfackler) : compile-time hashmap
 - [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
 - [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
