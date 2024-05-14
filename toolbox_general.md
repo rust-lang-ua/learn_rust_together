@@ -471,6 +471,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
 - [scoped_threadpool](https://github.com/Kimundi/scoped-threadpool-rs) by [Marvin Löbel](https://github.com/Kimundi) : scoped and cached threadpools
+- [wasm-bindgen-rayon](https://github.com/RReverser/wasm-bindgen-rayon) by [Ingvar Stepanyan](https://github.com/RReverser)
+- [wasm-mt](https://github.com/w3reality/wasm-mt) by [j-devel](https://github.com/j-devel)
 
 ## Concurrency primitives
 
