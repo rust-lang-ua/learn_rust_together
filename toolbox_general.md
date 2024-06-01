@@ -30,6 +30,7 @@ You might also be interested in other tooboxes:
 - [paste](https://github.com/dtolnay/paste) by [David Tolnay](https://github.com/dtolnay) : workaround of concatenating identifiers problem
 - [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : extension for cargo to expand macros
 - [syn](https://github.com/dtolnay/syn) by [David Tolnay](https://github.com/dtolnay) : parser for writing macros
+- [prettyplease](https://github.com/dtolnay/prettyplease) by [https://github.com/dtolnay](David Tolnay) : minimal `syn` syntax tree pretty-printer
 - [quote](https://github.com/dtolnay/quote) by [David Tolnay](https://github.com/dtolnay) : tool to write procedure macros
 - [rustversion](https://github.com/dtolnay/rustversion) by [David Tolnay](https://github.com/dtolnay) : conditional compilation according to rustc compiler version
 - [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [Lukas Lueg](https://github.com/lukaslueg) : to generate syntax diagrams for macro_rules!()
@@ -159,6 +160,7 @@ You might also be interested in other tooboxes:
 - [doapi](https://github.com/kbknapp/doapi-rs) by [Kevin K.](https://github.com/kbknapp) : DigitalOcean API v2
 - [octocrab](https://github.com/XAMPPRocky/octocrab) by [Erin P](https://github.com/XAMPPRocky) : GitHub API
 - [giphy api](https://github.com/thedodd/giphy-api) by [Anthony Dodd](https://github.com/thedodd) : giphy API
+- [aws-sdk-*](https://github.com/awslabs/aws-sdk-rust/tree/next) : AWS SDK for Rust
 
 ## NodeJS and JS
 
@@ -538,6 +540,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [dipa](https://github.com/chinedufn/dipa) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : structures delta encoding
 - [rkyv (archive)](https://github.com/rkyv/rkyv) by [David Koloski](https://github.com/djkoloski) : is a zero-copy deserialization framework for Rust
 - [musli](https://github.com/udoprog/musli) by [John-John Tedro](https://github.com/udoprog) : is a flexible and generic binary serialization framework
+- [typify](https://github.com/oxidecomputer/typify) by [Adam Leventhal](https://github.com/ahl) : JSON Schema -> Rust type converter
+
+
 
 ## Stringification
 
@@ -809,6 +814,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
 - [which](https://github.com/harryfei/which-rs) by [Harry Fei](https://github.com/harryfei) : equivalent of Unix command "which"
 - [vfs](https://github.com/manuel-woelker/rust-vfs) by [Manuel Woelker](https://github.com/manuel-woelker) : file system adapter
+- [inotify](https://github.com/hannobraun/inotify-rs) by [Hanno Braun](https://github.com/hannobraun) : track changes in file system
 
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
