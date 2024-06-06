@@ -41,6 +41,7 @@ You may also follow us on these platforms:
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |
 [Telegram](https://t.me/rustlang_ua) |
+[YouTube](https://www.youtube.com/@rustlang_ua) |
 <br/>
 
 Let’s Learn Rust 🦀 Together!
