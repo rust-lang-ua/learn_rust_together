@@ -110,6 +110,7 @@ You might also be interested in other tooboxes:
 - [broot](https://github.com/Canop/broot) by [Denys Séguret](https://github.com/Canop) : CUI for files navigation
 - [exa](https://github.com/ogham/exa) by [Benjamin Sago](https://github.com/ogham) : a better version of `ls` with colors and more
 - [bat](https://github.com/sharkdp/bat) by [David Peter](https://github.com/sharkdp) : a better version of `cat` with syntax highlighting and rows' numbers
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep) by [Viktor Holmgren](https://github.com/holmgr) : tool for cleaning unused build files created by Cargo
 
 ## Versions Control Systems
 
