@@ -661,6 +661,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _concurrency_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 - [sharded-slab](https://github.com/hawkw/sharded-slab) by [Eliza Weisman](https://github.com/hawkw) ( _concurrency_ ) : lock-free concurrent slab
+- [heapless](https://github.com/rust-embedded/heapless) by [Jorge Aparicio](https://github.com/japaric) : heapless data structures, mostly for embed
+
 <!-- - [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys. -->
 
 ## Character encoding
@@ -872,6 +874,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Jorge Aparicio](https://github.com/japaric) : hardware abstraction layer (HAL) for embedded systems
 - [serial_enumerator](https://github.com/rede97/serial_enumerator) by [eebear](https://github.com/rede97) : serial port enumreator
+- [heapless](https://github.com/rust-embedded/heapless) by [Jorge Aparicio](https://github.com/japaric) : heapless data structures, mostly for embed
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
 
 ## Foreign
 

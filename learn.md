@@ -304,6 +304,7 @@ Curated collection of resources to master Rust.
 
 ( _about:embed_ )
 
+- :star: [Discover the world of microcontrollers through Rust!](https://docs.rust-embedded.org/discovery/microbit/)
 - [Awesome Embed Rust](https://github.com/rust-embedded/awesome-embedded-rust) by [Rust Embedded](https://github.com/rust-embedded) ( _collection_ ) : collection of learning resources and toolbox about Embed in Rust
 - [Embedded in Rust](http://blog.japaric.io/) by [Jorge Aparicio](https://github.com/japaric) ( _blog_ ) : blog about Embed in Rust
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
