@@ -38,6 +38,7 @@
 [Discord](https://discord.com/invite/JVCZfTVf5A) |
 [Reddit](https://www.reddit.com/r/rustlang_ua/) |
 [Telegram](https://t.me/rustlang_ua) |
+[YouTube](https://www.youtube.com/@rustlang_ua) |
 <br/>
 
 Вивчаймо Rust 🦀 Разом!
