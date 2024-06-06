@@ -63,8 +63,8 @@ You might also be interested in other tooboxes:
 
 ## Source Code
 
+- :star: [tokei](https://github.com/XAMPPRocky/tokei) by [Erin P](https://github.com/XAMPPRocky) : CUI to count lines of code quickly
 - [loc](https://github.com/cgag/loc) by [Curtis Gagliardi](https://github.com/cgag) : CUI to count lines of code quickly
-- [tokei](https://github.com/XAMPPRocky/tokei) by [Erin P](https://github.com/XAMPPRocky) : CUI to count lines of code quickly
 - [silicon](https://github.com/Aloxaf/silicon) by [Aloxaf](https://github.com/Aloxaf) : CUI to image of your source code
 - [rust-highlight](https://github.com/KokaKiwi/rust-highlight) by [extrawurst](https://github.com/KokaKiwi) : export Rust code as HTML
 
@@ -76,6 +76,12 @@ You might also be interested in other tooboxes:
 - [meilisearch](https://github.com/meilisearch/meilisearch) by [Clément Renault](https://github.com/Kerollmops) : fast search engine
 
 <!-- xxx : move to backend -->
+
+## DBMS
+
+( _dbms_ )
+
+- [prqlc](https://github.com/PRQL/prql) by [Maximilian Roos](https://github.com/max-sixty) : transpiler from PRQL ( alternative of SQL ) to SQL
 
 ## Network
 

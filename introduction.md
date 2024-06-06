@@ -11,7 +11,7 @@ Rust is a multi-paradigm programming language designed for performance and safet
 ## :book: Resources to use:
 There are some of the most popular general-purpose official resources for learning Rust: <br/>
 
-- [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:pirate_flag:](https://doc.rust-lang.ru/book/)
+- [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) [:ukraine:](https://rustlangua.github.io/rustbookua.github.io/) [:uk:](https://doc.rust-lang.org/book/ch00-00-introduction.html)
 
 It might be more convenient for you to start from a video course instead of a book. For example, you might like [Intro to Rust](https://www.youtube.com/watch?v=BpPEoZW5IiY).
 
@@ -56,7 +56,7 @@ To learn the syntax of Rust deeply and get familiar with Rust code, we'd also re
 
 - [Intro to Rust](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW) by [Tensor Programming](https://www.youtube.com/c/TensorProgramming)
 - [Rust Tutorial](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5) by [Doug Milford](https://www.youtube.com/channel/UCmBgC0JN41HjyjAXfkdkp-Q)
-- [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8) by [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty)
+- [Complete Course](https://www.youtube.com/watch?v=BpPEoZW5IiY) by [freeCodeCamp](https://www.youtube.com/@freecodecamp)
 
 :zap: More video courses you cand find on our [awesome collection to master Rust](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md#star-general-purpose-courses)
 

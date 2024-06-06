@@ -30,6 +30,7 @@ You might also be interested in other tooboxes:
 - [paste](https://github.com/dtolnay/paste) by [David Tolnay](https://github.com/dtolnay) : workaround of concatenating identifiers problem
 - [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : extension for cargo to expand macros
 - [syn](https://github.com/dtolnay/syn) by [David Tolnay](https://github.com/dtolnay) : parser for writing macros
+- [prettyplease](https://github.com/dtolnay/prettyplease) by [https://github.com/dtolnay](David Tolnay) : minimal `syn` syntax tree pretty-printer
 - [quote](https://github.com/dtolnay/quote) by [David Tolnay](https://github.com/dtolnay) : tool to write procedure macros
 - [rustversion](https://github.com/dtolnay/rustversion) by [David Tolnay](https://github.com/dtolnay) : conditional compilation according to rustc compiler version
 - [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [Lukas Lueg](https://github.com/lukaslueg) : to generate syntax diagrams for macro_rules!()
@@ -51,6 +52,8 @@ You might also be interested in other tooboxes:
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
 - [if_chain](https://github.com/lambda-fairy/if_chain) by [Chris Wong](https://github.com/lambda-fairy) : nested if let
 - [delegate](https://github.com/kobzol/rust-delegate) by [Godfrey Chan](https://github.com/chancancode) :  removes some boilerplate for structs that simply delegate some of their methods to one or more of their fields
+- [sealed](https://github.com/jmg-duarte/sealed-rs) by [José Duarte](https://github.com/jmg-duarte) : macro to seal traits
+
 ## Derives
 
 ( _meta_ ) ( _derive_ )
@@ -71,10 +74,15 @@ You might also be interested in other tooboxes:
 
 <!-- https://github.com/dtolnay/prettyplease -->
 
+## Interoperability
+
+- [bindgen-cli](https://github.com/rust-lang/rust-bindgen) by [Jyun-Yan You](https://github.com/crabtw) : automatically generates Rust FFI bindings to C (and some C++) libraries
+
 ## Compile-time
 
 ( _compile_time_ )
 
+- [databake](https://github.com/unicode-org/icu4x/tree/main/utils/databake) by [Shane F. Carr](https://github.com/sffc) : data to write itself into Rust code
 - [phf](https://github.com/rust-phf/rust-phf) by [Steven Fackler](https://github.com/sfackler) : compile-time hashmap
 - [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
 - [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
@@ -115,7 +123,6 @@ You might also be interested in other tooboxes:
 - [dialoguer](https://github.com/mitsuhiko/dialoguer) by [Armin Ronacher](https://github.com/mitsuhiko) : command line prompts
 - [indicatif](https://github.com/console-rs/indicatif) by [Armin Ronacher](https://github.com/mitsuhiko) : command line progress reporting
 
-
 ## Textual user interface input / output
 
 ( _ui_ ) ( _tui_ )
@@ -144,7 +151,7 @@ You might also be interested in other tooboxes:
 - [terminal_size](https://github.com/eminence/terminal-size) by [Andrew Chin](https://github.com/eminence) : terminal size
 - [terminal-clipboard](https://github.com/Canop/terminal-clipboard) by [Canop](https://github.com/Canop) : text only clipboard facade
 - [termcolor](https://github.com/BurntSushi/termcolor) by [Andrew Gallant](https://github.com/BurntSushi) : terminal colors
-- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) :  colored and formatted text to a terminal
+- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : colored and formatted text to a terminal
 - [ansi-parser](https://gitlab.com/davidbittner/ansi-parser) by [David Bittner](https://gitlab.com/davidbittner) : parseing ANSI escape codes based on nom
 
 ## Cloud APIs
@@ -154,6 +161,7 @@ You might also be interested in other tooboxes:
 - [doapi](https://github.com/kbknapp/doapi-rs) by [Kevin K.](https://github.com/kbknapp) : DigitalOcean API v2
 - [octocrab](https://github.com/XAMPPRocky/octocrab) by [Erin P](https://github.com/XAMPPRocky) : GitHub API
 - [giphy api](https://github.com/thedodd/giphy-api) by [Anthony Dodd](https://github.com/thedodd) : giphy API
+- [aws-sdk-*](https://github.com/awslabs/aws-sdk-rust/tree/next) : AWS SDK for Rust
 
 ## NodeJS and JS
 
@@ -467,6 +475,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
 - [scoped_threadpool](https://github.com/Kimundi/scoped-threadpool-rs) by [Marvin Löbel](https://github.com/Kimundi) : scoped and cached threadpools
+- [wasm-bindgen-rayon](https://github.com/RReverser/wasm-bindgen-rayon) by [Ingvar Stepanyan](https://github.com/RReverser)
+- [wasm-mt](https://github.com/w3reality/wasm-mt) by [j-devel](https://github.com/j-devel)
 
 ## Concurrency primitives
 
@@ -533,6 +543,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [dipa](https://github.com/chinedufn/dipa) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : structures delta encoding
 - [rkyv (archive)](https://github.com/rkyv/rkyv) by [David Koloski](https://github.com/djkoloski) : is a zero-copy deserialization framework for Rust
 - [musli](https://github.com/udoprog/musli) by [John-John Tedro](https://github.com/udoprog) : is a flexible and generic binary serialization framework
+- [typify](https://github.com/oxidecomputer/typify) by [Adam Leventhal](https://github.com/ahl) : JSON Schema -> Rust type converter
+
+
 
 ## Stringification
 
@@ -574,7 +587,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [minimad](https://github.com/Canop/minimad) by [Canop](https://github.com/Canop) : markdown ( MD ) parser
 - [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Devon Govett](https://github.com/devongovett) ( _build_ ) : CSS parser, transformer, and minifier
 - [csv](https://github.com/BurntSushi/rust-csv) by [Andrew Gallant](https://github.com/BurntSushi) : CSV parser
-- [toml](https://github.com/alexcrichton/toml-rs) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
+- [toml](https://github.com/toml-rs/toml) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
 - [toml_edit](https://github.com/ordian/toml_edit) by [Andronik Ordian](https://github.com/ordian) : format-preserving TOML parser
 - :earth_africa: [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
 - [ress](https://github.com/rusty-ecma/RESS) by [Robert Masen](https://github.com/FreeMasen) : tokenizer of JS
@@ -804,6 +817,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
 - [which](https://github.com/harryfei/which-rs) by [Harry Fei](https://github.com/harryfei) : equivalent of Unix command "which"
 - [vfs](https://github.com/manuel-woelker/rust-vfs) by [Manuel Woelker](https://github.com/manuel-woelker) : file system adapter
+- [inotify](https://github.com/hannobraun/inotify-rs) by [Hanno Braun](https://github.com/hannobraun) : track changes in file system
 
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
