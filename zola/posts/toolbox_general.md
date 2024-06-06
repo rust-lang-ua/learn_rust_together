@@ -361,7 +361,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [lmdb-rs](https://github.com/vhbit/lmdb-rs) by [Valerii Hiora](https://github.com/vhbit) : high-performance embedded key-value store designed to provide efficient storage and retrieval of data
 - [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
 - [rsmgclient](https://github.com/memgraph/rsmgclient) by [Mario Herceg](https://github.com/MarioHerceg) : used for interacting with the Redis key-value store
-- [surrealdb](https://github.com/surrealdb/surrealdb) by [Tobie Morgan Hitchcock](https://github.com/tobiemh) : 
+- [surrealdb](https://github.com/surrealdb/surrealdb) by [Tobie Morgan Hitchcock](https://github.com/tobiemh) :
 
 ## Document-oriented Database
 
@@ -370,7 +370,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
 - [monger](https://github.com/saghm/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
 - [redb](https://github.com/cberner/redb) by [Christopher Berner](https://github.com/cberner) : provides a lightweight and efficient implementation of a document-oriented database that is optimized for performance and scalability
-- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently 
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
 - [darkbird](https://github.com/Rustixir/darkbird) by [DanyalMh](https://github.com/pleshevskiy) : in-memory database solution optimized for fast document retrieval
 
 ## Relational Database

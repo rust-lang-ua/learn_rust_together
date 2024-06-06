@@ -100,6 +100,17 @@ You might also be interested in other tooboxes:
 
 - [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
 - [opencv](https://github.com/twistedfall/opencv-rust) by [twistedfall](https://github.com/twistedfall) : bindings for OpenCV 3 & 4
+- [rust_gpu_tools](https://github.com/filecoin-project/rust-gpu-tools) by [Keyvan Kambakhsh](https://github.com/keyvank) : OpenCL and GPU management.
+
+## ML
+
+( _ml_ )
+
+- [candle](https://github.com/huggingface/candle) by [huggingface](https://github.com/huggingface) : ML framework
+- [hf-hub](https://github.com/huggingface/hf-hub) by [huggingface](https://github.com/huggingface) : API for HuggingFace Hub
+- [ocrs](https://github.com/robertknight/ocrs) by [Robert Knight](https://github.com/robertknight) : optical character recognition engine
+- [rten](https://github.com/robertknight/rten) by [Robert Knight](https://github.com/robertknight) : runtime for machine learning models
+- [tokenizers](https://github.com/huggingface/tokenizers) by [huggingface](https://github.com/huggingface) : implementation of most used tokenizers.
 
 ## Tags legend
 
@@ -112,5 +123,6 @@ You might also be interested in other tooboxes:
 - ( _dsp_ ) - digital signals processing
 - ( _safety_ ) - GDPR and data safety
 - ( _hpc_ ) - high performance computing
+- ( _ml_ ) - machine learning
 
 <!-- qqq : improve tags descriptions -->
