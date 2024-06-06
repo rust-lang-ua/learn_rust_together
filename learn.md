@@ -270,6 +270,10 @@ Curated collection of resources to master Rust.
 - [Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) by [pretzelhammer](https://github.com/pretzelhammer) :
 - [Rust lifetimes book](https://okryvyts.github.io/lifetimes-book/) by [okryvyts](https://github.com/okryvyts)
 
+## Size
+
+- [Sizedness in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md) by [pretzelhammer](https://github.com/pretzelhammer) : property of being sized or unsized
+
 ## Memory
 
 ( _about:mem_ )

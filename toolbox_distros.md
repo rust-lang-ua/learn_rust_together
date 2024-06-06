@@ -31,6 +31,7 @@ You might also be interested in other tooboxes:
 
 - [xsv](https://github.com/BurntSushi/xsv) by [Andrew Gallant](https://github.com/BurntSushi) : CUI to read CSV
 - [jaq](https://github.com/01mf02/jaq) by [Michael Färber](https://github.com/01mf02) : JSON processor
+- [toml_cli](https://github.com/gnprice/toml-cli) by [Greg Price](https://github.com/gnprice) : CLI for editing and querying TOML files
 
 ## CLI for API of services
 
@@ -59,6 +60,7 @@ You might also be interested in other tooboxes:
 ## Operation System Distros
 
 - [oreutils](https://github.com/Manishearth/oreutils) by [Manish Goregaokar](https://github.com/Manishearth) : collection of distros to replace standard distros on c
+- [posixutils](https://github.com/rustcoreutils/posixutils-rs) by [https://github.com/jgarzik](Jeff Garzik) : Core POSIX command line utilities in safe Rust
 - [bottom](https://github.com/ClementTsang/bottom) by [Clement Tsang](https://github.com/ClementTsang) : cross-platform graphical process/system monitor
 
 ## Source Code
