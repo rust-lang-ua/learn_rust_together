@@ -89,6 +89,8 @@ You might also be interested in other tooboxes:
 - [reinda](https://github.com/LukasKalbertodt/reinda) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : embed assets
 - [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
 - [rust-embed](https://github.com/pyrossh/rust-embed) by [](https://github.com/pyrossh) : embed files into the rust binary at compile time during release and loads the file from the fs during dev
+- [const_format](https://github.com/rodrimati1992/const_format_crates/) by [Rodri Mati](https://github.com/rodrimati1992) : compile-time string formatting
+- [konst](https://github.com/rodrimati1992/konst) by [Rodri Mati](https://github.com/rodrimati1992) : const equivalents of std
 
 ## Global
 
@@ -545,8 +547,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [musli](https://github.com/udoprog/musli) by [John-John Tedro](https://github.com/udoprog) : is a flexible and generic binary serialization framework
 - [typify](https://github.com/oxidecomputer/typify) by [Adam Leventhal](https://github.com/ahl) : JSON Schema -> Rust type converter
 
-
-
 ## Stringification
 
 ( _stringification_ )
@@ -559,6 +559,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ubyte](https://github.com/SergioBenitez/ubyte) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : byte units
 - [num-format](https://github.com/bcmyers/num-format) by [Brian Myers](https://github.com/bcmyers) : formatting of numbers
 - [tabled](https://github.com/zhiburt/tabled) by [Maxim Zhiburt](https://github.com/zhiburt) : textual tables formatting
+- [const_format](https://github.com/rodrimati1992/const_format_crates/) by [Rodri Mati](https://github.com/rodrimati1992) : compile-time string formatting
 
 ## Parser generators / combinators
 
