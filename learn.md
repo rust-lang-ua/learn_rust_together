@@ -369,6 +369,7 @@ Curated collection of resources to master Rust.
 - [WebGL water tutorial](https://github.com/chinedufn/webgl-water-tutorial) by [Chinedu Francis Nwafili](https://github.com/chinedufn)
 - [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/) by [Ida Iyes ](https://github.com/inodentry)
 - [Bevy Assets](https://github.com/bevyengine/bevy-assets) by [Carter Anderson](https://github.com/cart) : collection of Bevy assets, plugins, learning resources, and apps
+- [Leaving Rust gamedev after 3 years](https://loglog.games/blog/leaving-rust-gamedev/#closing-thoughts)
 
 ## History and Predictions
 
