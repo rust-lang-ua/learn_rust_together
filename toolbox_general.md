@@ -721,6 +721,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [id-arena](https://github.com/fitzgen/id-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids without the ability to deallocate an individual element
 - [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element
 - [bumpalo](https://github.com/fitzgen/bumpalo) by [Nick Fitzgerald](https://github.com/fitzgen) : heterogeneous allocator operating ids without the ability to deallocate an individual element
+- [thunderdome](https://github.com/LPGhatguy/thunderdome) by [LPGhatguy](https://github.com/LPGhatguy) : one more generational arena
 
 ## Multidimensional data structures and algorithms
 

@@ -49,7 +49,11 @@ You might also be interested in other tooboxes:
 - [emerald](https://github.com/Bombfuse/emerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
 - [tetra](https://github.com/17cupsofcoffee/tetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
 - [macroquad](https://github.com/not-fl3/macroquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform game engine
-- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _physics_ ) : godot engine binding
+
+## Foreign Game Egnines
+
+- [unreal-api](https://github.com/MaikKlein/unreal-rust) by [Maik Klein](https://github.com/MaikKlein) : Rust integration for Unreal Engine
+- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) : godot engine binding
 
 ## Web engine
 

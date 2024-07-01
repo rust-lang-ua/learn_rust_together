@@ -76,6 +76,7 @@ You might also be interested in other tooboxes:
 - [beat-detector](https://github.com/phip1611/beat-detector) by [Philipp Schuster](https://github.com/phip1611) : beat detection
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
+- [fundsp](https://github.com/SamiPerttu/fundsp) by [Sami Perttu](https://github.com/SamiPerttu) : audio processing and synthesis
 
 <!-- ## GDPR and data safety
 
@@ -101,6 +102,7 @@ You might also be interested in other tooboxes:
 - [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
 - [opencv](https://github.com/twistedfall/opencv-rust) by [twistedfall](https://github.com/twistedfall) : bindings for OpenCV 3 & 4
 - [rust_gpu_tools](https://github.com/filecoin-project/rust-gpu-tools) by [Keyvan Kambakhsh](https://github.com/keyvank) : OpenCL and GPU management.
+- [ash](https://github.com/ash-rs/ash) by [Maik Klein](https://github.com/MaikKlein) : Vulkan bindings
 
 ## ML
 

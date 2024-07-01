@@ -39,6 +39,12 @@ You might also be interested in other tooboxes:
 
 - [wiki-tui](https://github.com/Builditluc/wiki-tui) by [Builditluc](https://github.com/Builditluc) : TUI for searching wikipedia without browser. Stores the log of wisited pages in the launch directory.
 
+## REPL
+
+( _repl_ )
+
+- [evcxr](https://github.com/evcxr/evcxr) by [David Lattimore](https://github.com/davidlattimore) ( _repl_ ) : an evaluation context for Rust.
+
 ## Web Backend
 
 ( _web_backend_ )
@@ -194,3 +200,4 @@ You might also be interested in other tooboxes:
 - ( _benchmark_ ) - benchmarking tools and libraries
 - ( _cpu_ ) - CPU related libraries
 - ( _gpu_ ) - GPU related libraries
+- ( _repl_ ) - Read-Eval-Print Loop
