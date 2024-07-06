@@ -45,6 +45,14 @@ You might also be interested in other tooboxes:
 
 - [evcxr](https://github.com/evcxr/evcxr) by [David Lattimore](https://github.com/davidlattimore) ( _repl_ ) : an evaluation context for Rust.
 
+## Asm
+
+( _asm_ )
+
+- [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
+- [cargo-asm](https://github.com/gnzlbg/cargo-asm) by [gnzlbg](https://github.com/gnzlbg) : ( _distro_ ) assembly or llvm-ir generated code
+
 ## Web Backend
 
 ( _web_backend_ )

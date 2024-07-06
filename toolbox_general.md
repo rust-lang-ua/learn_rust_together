@@ -856,6 +856,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [goblin](https://github.com/m4b/goblin) by [m4b](https://github.com/m4b) : binary parsing
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
+- [cargo-asm](https://github.com/gnzlbg/cargo-asm) by [gnzlbg](https://github.com/gnzlbg) : ( _distro_ ) assembly or llvm-ir generated code
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
 - [symtool](https://github.com/calebzulawski/symtool) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
 
@@ -984,6 +985,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - :earth_africa: - the most popular module in its category
 - ( _collection_ ) - awesome collection
+- ( _distro_ ) - an utility
 - ( _error_ ) - errors handling
 - ( _macro_ ) - writing macros
 - ( _meta_ ) - meta programming : reflection, introspection and such things
