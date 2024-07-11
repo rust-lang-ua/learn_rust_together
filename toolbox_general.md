@@ -598,6 +598,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [tree-sitter-parse](https://github.com/osa1/tree-sitter-parse) by [Ömer Sinan Ağacan](https://github.com/osa1) : tree-sitter-cli that can load parsers compiled to shared libraries
 - [fancy-regex](https://github.com/fancy-regex/fancy-regex) by [Robin Stocker](https://github.com/robinst) : an implementation of regexes, supporting a relatively rich set of features, including backreferences and look-around.
 
+## Interpreter
+
+- [rquickjs](https://github.com/DelSkayn/rquickjs) by [Mees Delzenne](https://github.com/DelSkayn) : ( _interpreter ) javascript engine
+
+<!-- - ( _interpreter ) - interpreters -->
+
 ## Time
 
 ( _time_ )
@@ -1058,6 +1064,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _cargo_clean_ ) - clean artifacts
 - :movie_camera: - video-processing, capturing
 - ( _asm_ ) - machine code, byte code, interpreters, assembler
+- ( _interpreter ) - interpreters
 - ( _hardware_ ) - reading / writing hardware
 - ( _embed_ ) - embedded
 - ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
