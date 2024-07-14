@@ -546,6 +546,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rkyv (archive)](https://github.com/rkyv/rkyv) by [David Koloski](https://github.com/djkoloski) : is a zero-copy deserialization framework for Rust
 - [musli](https://github.com/udoprog/musli) by [John-John Tedro](https://github.com/udoprog) : is a flexible and generic binary serialization framework
 - [typify](https://github.com/oxidecomputer/typify) by [Adam Leventhal](https://github.com/ahl) : JSON Schema -> Rust type converter
+- [databake](https://github.com/unicode-org/icu4x/tree/main/utils/databake) by [Shane F. Carr](https://github.com/sffc) : data to write itself into Rust code
+- [zerovec](https://github.com/unicode-org/icu4x/tree/main/utils/zerovec) by [Shane F. Carr](https://github.com/sffc) : zero-copy vector abstractions for arbitrary types, backed by byte slices.
 
 ## Stringification
 
@@ -580,6 +582,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - :earth_africa: [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer, the most popular
 - [lexgen](https://github.com/osa1/lexgen) by [Ömer Sinan Ağacan](https://github.com/osa1) : lexer generator, as a procedural macro
 - [lrlex](https://github.com/softdevteam/grmtools/tree/master/lrlex) by [Lukas Diekmann](https://github.com/ptersilie) : lex/flex inspired lexer
+- [beef](https://github.com/maciejhirsz/beef) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
 ## Parser of a specific language
 
@@ -621,6 +624,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [fastrand](https://github.com/smol-rs/fastrand) by [Stjepan Glavina](https://github.com/smol-rs) : fast random number generator
 - [uuid](https://github.com/uuid-rs/uuid) by [Biru Mohanathas](https://github.com/poiru) : generate and parse UUIDs
 - [rusty_ulid](https://github.com/huxi/rusty_ulid) by [Jörn Huxhorn](https://github.com/huxi) : generate and parse ULIDs, alternative of UUIDs
+- [block-id](https://github.com/jamsocket/block-id) by [Paul Butler ](https://github.com/paulgb) : opaque, unique, and short string value
 
 ## Abstract Data types
 
@@ -647,7 +651,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rc-borrow](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-borrow) by [Christopher Durham](https://github.com/CAD97) : borrow Rc/Arc without wrapping borrowed
 - [triomphe](https://github.com/Manishearth/triomphe) by [Manish Goregaokar](https://github.com/Manishearth) : FFI-focused ARC
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
-- [beef](https://github.com/maciejhirsz/beef) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
 ## Collections
 
@@ -669,6 +672,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 - [sharded-slab](https://github.com/hawkw/sharded-slab) by [Eliza Weisman](https://github.com/hawkw) ( _concurrency_ ) : lock-free concurrent slab
 - [heapless](https://github.com/rust-embedded/heapless) by [Jorge Aparicio](https://github.com/japaric) : heapless data structures, mostly for embed
+- [hibitset](https://github.com/amethyst/hibitset) by [Dzmitry Malyshau](https://github.com/kvark) : hierarchical bit set container
 
 <!-- - [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys. -->
 
@@ -715,9 +719,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [owning_ref](https://github.com/Kimundi/owning-ref-rs) by [Marvin Löbel](https://github.com/Kimundi) : references that carry their owner with them
 - [ouroboros](https://github.com/joshua-maros/ouroboros) by [Joshua Maros](https://github.com/joshua-maros) : self-referential struct generation
 
-## Ownership semantic
+## Memory management
 
-( _data_structure_ ) ( _ownership_semantics_ )
+( _data_structure_ ) ( _ownership_semantics_ ) ( _mem_man_ )
 
 - [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
 - [slab](https://github.com/tokio-rs/slab) by [Carl Lerche](https://github.com/carllerche) : hashMap-like collection with implicit key
@@ -725,9 +729,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
 - [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
 - [id-arena](https://github.com/fitzgen/id-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids without the ability to deallocate an individual element
-- [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element
+<!-- - [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element -->
 - [bumpalo](https://github.com/fitzgen/bumpalo) by [Nick Fitzgerald](https://github.com/fitzgen) : heterogeneous allocator operating ids without the ability to deallocate an individual element
 - [thunderdome](https://github.com/LPGhatguy/thunderdome) by [LPGhatguy](https://github.com/LPGhatguy) : one more generational arena
+- [anymap](https://github.com/chris-morgan/anymap) by [Chris Morgan](https://github.com/chris-morgan) : wrapper around HashMap< TypeId, Box< dyn Any > >
+- [specs]() by [Dzmitry Malyshau](https://github.com/kvark) : ( _ecs_ ) bitmap-based ECS
+- [legion](https://github.com/amethyst/legion) by [Thomas Gillen](https://github.com/TomGillen) : ( _ecs_ ) archetype-based ECS
+- [hecs](https://github.com/Ralith/hecs) by [Benjamin Saunders ](https://github.com/Ralith) : ( _ecs_ ) ergonomic ECS
 
 ## Multidimensional data structures and algorithms
 
@@ -1047,6 +1055,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _algo_ ) - algorithms
 - ( _data_structure_ ) - data structures and algorithms
 - ( _primitive_ ) - primitives
+- ( _ecs_ ) - entity component system
 - ( _ds_collection_ ) - data structures which are collections
 - ( _string_ ) - either string or bytes slice based data structures and algorithms
 - ( _stack_based_ ) - stack-based data structures and algorithms
@@ -1070,6 +1079,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
 - ( _self_ref_ ) - self referential structures
 - ( _ownership_semantics_ ) - solutions of problems of owning/borrowing/lifetimes self referring
+- ( _mem_man_ ) - memory management
 - ( _multidimensional_ ) - multidimensional data structures and algorithms
 - ( _bindings_ ) - bindings to foreign library or service
 - ( _logger_ ) - tools for printing information

@@ -370,6 +370,7 @@ Curated collection of resources to master Rust.
 - [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/) by [Ida Iyes ](https://github.com/inodentry)
 - [Bevy Assets](https://github.com/bevyengine/bevy-assets) by [Carter Anderson](https://github.com/cart) : collection of Bevy assets, plugins, learning resources, and apps
 - [Leaving Rust gamedev after 3 years](https://loglog.games/blog/leaving-rust-gamedev/#closing-thoughts)
+- [Specs and Legion, two very different approaches to ECS](https://csherratt.github.io/blog/posts/specs-and-legion/)
 
 ## History and Predictions
 

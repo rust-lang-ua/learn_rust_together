@@ -114,6 +114,24 @@ You might also be interested in other tooboxes:
 - [bevy_asset_ron](https://github.com/inodentry/bevy_asset_ron) by [Ida Iyes](https://github.com/inodentry) : RON Assets
 - [smooth-bevy-cameras](https://github.com/bonsairobo/smooth-bevy-cameras) by [Duncan](https://github.com/bonsairobo) : camera controllers with buttery, exponential smoothing
 
+## Memory management
+
+( _mem_man_ )
+
+- [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
+- [slab](https://github.com/tokio-rs/slab) by [Carl Lerche](https://github.com/carllerche) : hashMap-like collection with implicit key
+- [indexing](https://github.com/bluss/indexing) by [bluss](https://github.com/bluss) : solving indexing problem by associating lifetime with intervals
+- [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
+- [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
+- [id-arena](https://github.com/fitzgen/id-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids without the ability to deallocate an individual element
+<!-- - [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element -->
+- [bumpalo](https://github.com/fitzgen/bumpalo) by [Nick Fitzgerald](https://github.com/fitzgen) : heterogeneous allocator operating ids without the ability to deallocate an individual element
+- [thunderdome](https://github.com/LPGhatguy/thunderdome) by [LPGhatguy](https://github.com/LPGhatguy) : one more generational arena
+- [anymap](https://github.com/chris-morgan/anymap) by [Chris Morgan](https://github.com/chris-morgan) : wrapper around HashMap< TypeId, Box< dyn Any > >
+- [specs]() by [Dzmitry Malyshau](https://github.com/kvark) : ( _ecs_ ) bitmap-based ECS
+- [legion](https://github.com/amethyst/legion) by [Thomas Gillen](https://github.com/TomGillen) : ( _ecs_ ) archetype-based ECS
+- [hecs](https://github.com/Ralith/hecs) by [Benjamin Saunders ](https://github.com/Ralith) : ( _ecs_ ) ergonomic ECS
+
 ## WebGPU
 
 ( _webgpu_ )
@@ -363,8 +381,10 @@ You might also be interested in other tooboxes:
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
 - ( _simulation_ ) - simulation
+- ( _mem_man_ ) - memory management
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
+- ( _ecs_ ) - entity component systems
 - ( _svg_ ) - SVG related
 - ( _gif_ ) - GIF related
 - ( _animation_ ) - animating of drawing primitives

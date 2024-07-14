@@ -17,11 +17,17 @@ You might also be interested in other tooboxes:
 
 ( _math_ ) ( _general_ )
 
-- [ultraviolet](https://github.com/termhn/ultraviolet) by [Gray Olson](https://github.com/termhn) : linear algebra crate for games and graphics
 - [nalgebra](https://github.com/dimforge/nalgebra) by [dimforge](https://github.com/dimforge) : game linear algebra
 - [cgmath](https://github.com/rustgd/cgmath) by [rustgd](https://github.com/rustgd) : A linear algebra and mathematics library for computer graphics
 - [gml](https://lib.rs/crates/gml) : Graphics Math Library. Generic Vector and Matrix Math library targetting graphics applications.
 - [geomath](https://github.com/samibendou/geomath) by [bendou](https://github.com/samibendou) : stack-allocated maths for geometry, simulation and computer graphics
+- [ultraviolet](https://github.com/termhn/ultraviolet) by [Gray Olson](https://github.com/termhn) : linear algebra crate for games and graphics
+
+## Math helpers
+
+( _math_ )
+
+- [crevice](https://github.com/LPGhatguy/crevice) by [LPGhatguy](https://github.com/LPGhatguy) : generate GLSL structs
 
 ## Unsorted math
 
