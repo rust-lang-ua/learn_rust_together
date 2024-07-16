@@ -382,7 +382,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rust-rocksdb](https://github.com/rust-rocksdb/rust-rocksdb) by [Tyler Neely](https://github.com/spacejam) : embedded database that is designed to be used as a library within an application
 - [lmdb-rs](https://github.com/vhbit/lmdb-rs) by [Valerii Hiora](https://github.com/vhbit) : high-performance embedded key-value store designed to provide efficient storage and retrieval of data
 - [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
-- [rsmgclient](https://github.com/memgraph/rsmgclient) by [Mario Herceg](https://github.com/MarioHerceg) : used for interacting with the Redis key-value store
 - [surrealdb](https://github.com/surrealdb/surrealdb) by [Tobie Morgan Hitchcock](https://github.com/tobiemh) :
 
 ## Document-oriented Database
@@ -412,8 +411,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
 - [neo4rs](https://github.com/neo4j-labs/neo4rs) by [John Vincent](https://github.com/yehohanan7) : based on the property graph data model, which consists of nodes, relationships, and properties
+- [rsmgclient](https://github.com/memgraph/rsmgclient) by [Mario Herceg](https://github.com/MarioHerceg) : Memgraph database adapter for Rust programming language
 - [indradb](https://github.com/indradb/indradb) by [Yusuf Simonson](https://github.com/ysimonson) : uses Apache TinkerPop as its underlying graph framework
-- [oxigraph](https://github.com/oxigraph/oxigraph) by [Thomas Tanon](https://github.com/Tpt) : designed for the resource description framwork data model
+- [oxigraph](https://github.com/oxigraph/oxigraph) by [Thomas Tanon](https://github.com/Tpt) : designed for the resource description framework data model
 - [dgraph-rs](https://github.com/Swoorup/dgraph-rs) by [Swoorup Joshi](https://github.com/Swoorup) : supports complex queries, aggregations and traversals using GraphQl-like syntax
 - [cozo](https://github.com/cozodb/cozo) by [Ziyang Hu](https://github.com/zh217) : optimized for efficient graph processing on large datasets
 
