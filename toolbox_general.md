@@ -285,10 +285,11 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _html_ ) : auto-discovery of feeds in HTML
 
-
 ## Data scrapping
 
-- [chromiumoxide](https://github.com/mattsse/chromiumoxide) by [Matthias Seitz](https://github.com/mattsse) : Chrome Devtools Protocol API
+( _scrapping_ )
+
+- [chromiumoxide](https://github.com/mattsse/chromiumoxide) by [Matthias Seitz](https://github.com/mattsse) ( _scrapping_ ) : Chrome Devtools Protocol API
 
 ## HTML generating / parsing / transformation
 
@@ -1028,6 +1029,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _wasm_ ) - WebAssembly-related
 - ( _windowing_ ) - windows creating, manipulating OS GUI
 - ( _dsa_ ) - data streams aggregation
+- ( _scrapping_ ) - data scrapping
 - ( _html_ ) - HTML generating / parsing / transformation
 - ( _dom_ ) - web DOM
 - ( _web_frontend_ ) - web frontend
