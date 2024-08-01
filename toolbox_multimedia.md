@@ -300,6 +300,8 @@ You might also be interested in other tooboxes:
 
 - [BoiTracker](https://github.com/LeStahL/BoiTracker) by [Alexander Kraus](https://github.com/LeStahL) ( _shader_ ) : visualization of MIDI input
 - [midir](https://github.com/Boddlnagg/midir) by [Patrick Reisert](https://github.com/Boddlnagg/) : cross-platform realtime MIDI processing
+- [wasabi](https://github.com/arduano/wasabi) by [Leo](https://github.com/arduano) : MIDI player
+- [xsynth](https://github.com/arduano/xsynth) by [Leo](https://github.com/arduano) : MIDI synth
 
 ## GIS
 
