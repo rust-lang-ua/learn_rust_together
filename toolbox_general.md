@@ -289,7 +289,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _scrapping_ )
 
-- [chromiumoxide](https://github.com/mattsse/chromiumoxide) by [Matthias Seitz](https://github.com/mattsse) ( _scrapping_ ) : Chrome Devtools Protocol API
+- [chromiumoxide](https://github.com/mattsse/chromiumoxide) by [Matthias Seitz](https://github.com/mattsse) : Chrome Devtools Protocol API
+- [voyager](https://github.com/mattsse/voyager) by [Matthias Seitz](https://github.com/mattsse) : allows for creating web crawlers and scraper that follow a state machine model
+- [crabler](https://github.com/Gonzih/crabler) by [Maksim Soltan](https://github.com/Gonzih) : web scraper and crawler with a state machine model
+- [scraper](https://github.com/causal-agent/scraper) by [june](https://github.com/causal-agent) : dependancy for voyager and only acts as the actual scraper
+- [recursive_scraper](https://github.com/SichangHe/scraper) by [Steven Hé (Sīchàng)](https://github.com/SichangHe) : download all pages and/or images from a specific web-site 
+- [twitter-scraper](https://github.com/MegaHotel/twitter-scraper) by [MegaHotel ](https://github.com/MegaHotel) : scraping twitter search results
+- [instagram-scraper-rs](https://github.com/veeso/instagram-scraper-rs) by [Christian Visintin](https://github.com/veeso) : scrape instagram profiles, photos and videos
 
 ## HTML generating / parsing / transformation
 
