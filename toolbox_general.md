@@ -291,6 +291,15 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [chromiumoxide](https://github.com/mattsse/chromiumoxide) by [Matthias Seitz](https://github.com/mattsse) ( _scrapping_ ) : Chrome Devtools Protocol API
 
+## AI
+
+( _ai_ )
+
+- [linfa](https://github.com/rust-ml/linfa) by [Luca Palmieri](https://github.com/LukeMathWalker) : machine learning framework
+- [burn](https://github.com/tracel-ai/burn) by [Nathaniel Simard](https://github.com/nathanielsimard) : deep learning framework
+
+https://github.com/rust-ml/linfa
+
 ## HTML generating / parsing / transformation
 
 ( _html_ ) ( _xml_ )
