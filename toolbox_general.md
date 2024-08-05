@@ -303,8 +303,11 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [linfa](https://github.com/rust-ml/linfa) by [Luca Palmieri](https://github.com/LukeMathWalker) : machine learning framework
 - [burn](https://github.com/tracel-ai/burn) by [Nathaniel Simard](https://github.com/nathanielsimard) : deep learning framework
-
-https://github.com/rust-ml/linfa
+- [candle](https://github.com/huggingface/candle) by [Hugging Face](https://github.com/huggingface): Minimalist ML framework for Rust
+- [dfdx](https://github.com/coreylowman/dfdx) by [Corey Lowman](https://github.com/coreylowman): Deep learning in Rust, with shape checked tensors and neural networks
+- [rustlearn](https://github.com/maciejkula/rustlearn) by [Maciej Kula](https://github.com/maciejkula): Machine learning crate for Rust
+- [Awesome Rust Machine Learning](https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning): Other less popular frameworks\libs.
+- [Tensorflow binding](https://github.com/tensorflow/rust) by Google: Rust language bindings for [TensorFlow](https://www.tensorflow.org/)
 
 ## HTML generating / parsing / transformation
 
