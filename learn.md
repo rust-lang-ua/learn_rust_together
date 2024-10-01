@@ -21,7 +21,8 @@ Curated collection of resources to master Rust.
 ## Cookbooks
 
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) [:uk:](https://doc.rust-lang.org/rust-by-example/index.html) [:pirate_flag:](https://doc.rust-lang.ru/stable/rust-by-example/) ( _reading_ ) ( _official_ )
-- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _official_ )
+- [100-exercises](https://rust-exercises.com/100-exercises/)
+- [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) [:uk:](https://rust-lang-nursery.github.io/rust-cookbook/) [:pirate_flag:](https://doc.rust-lang.ru/rust-cookbook/intro.html) ( _reading_ ) ( _official_ ) : somewhat outdated
 
 <!-- ## About Rust
 
