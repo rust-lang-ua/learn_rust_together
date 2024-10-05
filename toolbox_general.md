@@ -293,7 +293,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [voyager](https://github.com/mattsse/voyager) by [Matthias Seitz](https://github.com/mattsse) : allows for creating web crawlers and scraper that follow a state machine model
 - [crabler](https://github.com/Gonzih/crabler) by [Maksim Soltan](https://github.com/Gonzih) : web scraper and crawler with a state machine model
 - [scraper](https://github.com/causal-agent/scraper) by [june](https://github.com/causal-agent) : dependancy for voyager and only acts as the actual scraper
-- [recursive_scraper](https://github.com/SichangHe/scraper) by [Steven Hé (Sīchàng)](https://github.com/SichangHe) : download all pages and/or images from a specific web-site 
+- [recursive_scraper](https://github.com/SichangHe/scraper) by [Steven Hé (Sīchàng)](https://github.com/SichangHe) : download all pages and/or images from a specific web-site
 - [twitter-scraper](https://github.com/MegaHotel/twitter-scraper) by [MegaHotel ](https://github.com/MegaHotel) : scraping twitter search results
 - [instagram-scraper-rs](https://github.com/veeso/instagram-scraper-rs) by [Christian Visintin](https://github.com/veeso) : scrape instagram profiles, photos and videos
 
@@ -350,7 +350,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - :earth_africa: [rocket](https://github.com/SergioBenitez/Rocket) by [Sergio Benitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
 - :earth_africa: [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
 - [axum](https://github.com/tokio-rs/axum) by [David Pedersen](https://github.com/davidpdrsn) : tokio-based web backend framework
-- [axum-yew-setup](https://github.com/rksm/axum-yew-setup) by [Robert Krahn](https://github.com/rksm) : starter project that sets up axum and yew for full stack
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : a simple static HTTP server, for learning and local development
 - [penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a static server
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
@@ -369,6 +368,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [isahc](https://github.com/sagebind/isahc) by [Stephen M. Coakley](https://github.com/sagebind) : the practical HTTP client that is fun to use
 - [ureq](https://github.com/algesten/ureq) by [Martin Algesten](https://github.com/algesten) : Simple, safe HTTP client
 - [surf](https://github.com/http-rs/surf) by [http-rs](https://github.com/http-rs) : the web - HTTP client framework
+
+## Web Full-stack Frameworks
+
+- [dioxus](https://github.com/DioxusLabs/dioxus) by [Jonathan Kelley](https://github.com/jkelleyrtp) : popular full-stack framework
+- [leptos](https://github.com/leptos-rs/leptos) by [Greg Johnston](https://github.com/gbj) : popular full-stack framework
+- [axum-yew-setup](https://github.com/rksm/axum-yew-setup) by [Robert Krahn](https://github.com/rksm) : starter project that sets up axum and yew for full stack
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
