@@ -49,7 +49,11 @@ You might also be interested in other tooboxes:
 - [emerald](https://github.com/Bombfuse/emerald) by [bombfuse](https://github.com/Bombfuse) : 2D rust game engine focused on portability
 - [tetra](https://github.com/17cupsofcoffee/tetra) by [Joe Clay](https://github.com/17cupsofcoffee) : simple 2D game engine
 - [macroquad](https://github.com/not-fl3/macroquad) by [Fedor Logachev](https://github.com/not-fl3) : minimal cross-platform game engine
-- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) ( _physics_ ) : godot engine binding
+
+## Foreign Game Egnines
+
+- [unreal-api](https://github.com/MaikKlein/unreal-rust) by [Maik Klein](https://github.com/MaikKlein) : Rust integration for Unreal Engine
+- [gdnative](https://github.com/godot-rust/godot-rust) by [vurpo](https://github.com/vurpo) : godot engine binding
 
 ## Web engine
 
@@ -69,6 +73,7 @@ You might also be interested in other tooboxes:
 
 - [glsl](https://github.com/phaazon/glsl) by [Dimitri Sabadie](https://github.com/phaazon) : OpenGL shading language parser
 - [naga](https://github.com/gfx-rs/naga) by [Dzmitry Malyshau](https://github.com/kvark) : shader translation
+- [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) by [EmbarkStudios](https://github.com/EmbarkStudios) : first-class language and ecosystem for GPU graphics & compute shaders ( _shader_ )
 
 ## Geometry
 
@@ -108,6 +113,24 @@ You might also be interested in other tooboxes:
 - [bevy_tiled](https://github.com/StarArawn/bevy_tiled) by [John Mitchell](https://github.com/StarArawn) : rendering tiled maps
 - [bevy_asset_ron](https://github.com/inodentry/bevy_asset_ron) by [Ida Iyes](https://github.com/inodentry) : RON Assets
 - [smooth-bevy-cameras](https://github.com/bonsairobo/smooth-bevy-cameras) by [Duncan](https://github.com/bonsairobo) : camera controllers with buttery, exponential smoothing
+
+## Memory management
+
+( _mem_man_ )
+
+- [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
+- [slab](https://github.com/tokio-rs/slab) by [Carl Lerche](https://github.com/carllerche) : hashMap-like collection with implicit key
+- [indexing](https://github.com/bluss/indexing) by [bluss](https://github.com/bluss) : solving indexing problem by associating lifetime with intervals
+- [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
+- [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
+- [id-arena](https://github.com/fitzgen/id-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids without the ability to deallocate an individual element
+<!-- - [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element -->
+- [bumpalo](https://github.com/fitzgen/bumpalo) by [Nick Fitzgerald](https://github.com/fitzgen) : heterogeneous allocator operating ids without the ability to deallocate an individual element
+- [thunderdome](https://github.com/LPGhatguy/thunderdome) by [LPGhatguy](https://github.com/LPGhatguy) : one more generational arena
+- [anymap](https://github.com/chris-morgan/anymap) by [Chris Morgan](https://github.com/chris-morgan) : wrapper around HashMap< TypeId, Box< dyn Any > >
+- [specs]() by [Dzmitry Malyshau](https://github.com/kvark) : ( _ecs_ ) bitmap-based ECS
+- [legion](https://github.com/amethyst/legion) by [Thomas Gillen](https://github.com/TomGillen) : ( _ecs_ ) archetype-based ECS
+- [hecs](https://github.com/Ralith/hecs) by [Benjamin Saunders ](https://github.com/Ralith) : ( _ecs_ ) ergonomic ECS
 
 ## WebGPU
 
@@ -277,6 +300,8 @@ You might also be interested in other tooboxes:
 
 - [BoiTracker](https://github.com/LeStahL/BoiTracker) by [Alexander Kraus](https://github.com/LeStahL) ( _shader_ ) : visualization of MIDI input
 - [midir](https://github.com/Boddlnagg/midir) by [Patrick Reisert](https://github.com/Boddlnagg/) : cross-platform realtime MIDI processing
+- [wasabi](https://github.com/arduano/wasabi) by [Leo](https://github.com/arduano) : MIDI player
+- [xsynth](https://github.com/arduano/xsynth) by [Leo](https://github.com/arduano) : MIDI synth
 
 ## GIS
 
@@ -358,8 +383,10 @@ You might also be interested in other tooboxes:
 - ( _color_ ) - color related
 - ( _physics_ ) - physics
 - ( _simulation_ ) - simulation
+- ( _mem_man_ ) - memory management
 - ( _line_ ) - line related
 - ( _font_ ) - fonts related
+- ( _ecs_ ) - entity component systems
 - ( _svg_ ) - SVG related
 - ( _gif_ ) - GIF related
 - ( _animation_ ) - animating of drawing primitives

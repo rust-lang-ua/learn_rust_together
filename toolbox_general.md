@@ -30,6 +30,7 @@ You might also be interested in other tooboxes:
 - [paste](https://github.com/dtolnay/paste) by [David Tolnay](https://github.com/dtolnay) : workaround of concatenating identifiers problem
 - [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : extension for cargo to expand macros
 - [syn](https://github.com/dtolnay/syn) by [David Tolnay](https://github.com/dtolnay) : parser for writing macros
+- [prettyplease](https://github.com/dtolnay/prettyplease) by [https://github.com/dtolnay](David Tolnay) : minimal `syn` syntax tree pretty-printer
 - [quote](https://github.com/dtolnay/quote) by [David Tolnay](https://github.com/dtolnay) : tool to write procedure macros
 - [rustversion](https://github.com/dtolnay/rustversion) by [David Tolnay](https://github.com/dtolnay) : conditional compilation according to rustc compiler version
 - [macro_railroad](https://github.com/lukaslueg/macro_railroad) by [Lukas Lueg](https://github.com/lukaslueg) : to generate syntax diagrams for macro_rules!()
@@ -50,6 +51,8 @@ You might also be interested in other tooboxes:
 - [maplit](https://github.com/bluss/maplit) by [bluss](https://github.com/bluss) : literal macros for containers
 - [literally](https://github.com/estk/literally) by [estk](https://github.com/estk) : alternative literal macros for containers
 - [if_chain](https://github.com/lambda-fairy/if_chain) by [Chris Wong](https://github.com/lambda-fairy) : nested if let
+- [delegate](https://github.com/kobzol/rust-delegate) by [Godfrey Chan](https://github.com/chancancode) :  removes some boilerplate for structs that simply delegate some of their methods to one or more of their fields
+- [sealed](https://github.com/jmg-duarte/sealed-rs) by [José Duarte](https://github.com/jmg-duarte) : macro to seal traits
 
 ## Derives
 
@@ -71,21 +74,29 @@ You might also be interested in other tooboxes:
 
 <!-- https://github.com/dtolnay/prettyplease -->
 
+## Interoperability
+
+- [bindgen-cli](https://github.com/rust-lang/rust-bindgen) by [Jyun-Yan You](https://github.com/crabtw) : automatically generates Rust FFI bindings to C (and some C++) libraries
+
 ## Compile-time
 
 ( _compile_time_ )
 
+- [databake](https://github.com/unicode-org/icu4x/tree/main/utils/databake) by [Shane F. Carr](https://github.com/sffc) : data to write itself into Rust code
 - [phf](https://github.com/rust-phf/rust-phf) by [Steven Fackler](https://github.com/sfackler) : compile-time hashmap
 - [constrandom](https://github.com/tkaitchuck/constrandom) by [Tom Kaitchuck](https://github.com/tkaitchuck) : random compile-time constants
 - [static_assertions](https://github.com/nvzqz/static-assertions-rs) by [Nikolai Vazquez](https://github.com/nvzqz) : compile-time cecks
 - [reinda](https://github.com/LukasKalbertodt/reinda) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : embed assets
 - [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _hardware_ ) ( _compile_time_ ) compile-time constants about process of compilation
+- [rust-embed](https://github.com/pyrossh/rust-embed) by [](https://github.com/pyrossh) : embed files into the rust binary at compile time during release and loads the file from the fs during dev
+- [const_format](https://github.com/rodrimati1992/const_format_crates/) by [Rodri Mati](https://github.com/rodrimati1992) : compile-time string formatting
+- [konst](https://github.com/rodrimati1992/konst) by [Rodri Mati](https://github.com/rodrimati1992) : const equivalents of std
 
 ## Global
 
 ( _global_ )
 
-- ( :earth_africa: ) [once_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros, the most popular
+- :earth_africa: [once_cell](https://github.com/matklad/once_cell) by [Aleksey Kladov](https://github.com/matklad) : single assignment cells and lazy statics without macros, the most popular
 - [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) by [Marvin Löbel](https://github.com/Kimundi) : macro for defining lazy evaluated static variables
 
 ## UI
@@ -114,12 +125,11 @@ You might also be interested in other tooboxes:
 - [dialoguer](https://github.com/mitsuhiko/dialoguer) by [Armin Ronacher](https://github.com/mitsuhiko) : command line prompts
 - [indicatif](https://github.com/console-rs/indicatif) by [Armin Ronacher](https://github.com/mitsuhiko) : command line progress reporting
 
-
 ## Textual user interface input / output
 
 ( _ui_ ) ( _tui_ )
 
-- ( :earth_africa: ) [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : the most popular TUI framework
+- :earth_africa: [tui-rs](https://github.com/fdehau/tui-rs) by [Florian Dehau](https://github.com/fdehau) : the most popular TUI framework
 - [cursive](https://github.com/gyscos/Cursive) by [Alexandre Bury](https://github.com/gyscos) : TUI framework
 - [expectrl](https://github.com/zhiburt/expectrl) by [Maxim Zhiburt](https://github.com/zhiburt) ( _testing_ ) ( _os_ ) : controlling input/output of interactive programs
 
@@ -127,7 +137,7 @@ You might also be interested in other tooboxes:
 
 ( _ui_ ) ( _cui_ ) ( _cui_parsing_ )
 
-- ( :earth_africa: ) [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) : the most popular CUI parsing
+- :earth_africa: [clap](https://github.com/clap-rs/clap) by [Kevin K.](https://github.com/kbknapp) : the most popular CUI parsing
 - [structopt](https://github.com/TeXitoi/structopt) by [Guillaume P.](https://github.com/TeXitoi) : CUI parsing with a structure
 - [pico-args](https://github.com/RazrFalcon/pico-args) by [Yevhenii Reizner](https://github.com/RazrFalcon) : smallest one CUI tool
 
@@ -135,7 +145,7 @@ You might also be interested in other tooboxes:
 
 ( _terminal_ )
 
-- ( :earth_africa: ) [console](https://github.com/mitsuhiko/console) by [Armin Ronacher](https://github.com/mitsuhiko) : the most popular module to manipulate terminal
+- :earth_africa: [console](https://github.com/mitsuhiko/console) by [Armin Ronacher](https://github.com/mitsuhiko) : the most popular module to manipulate terminal
 - [termion](https://gitlab.redox-os.org/redox-os/termion) by [Ticki](https://github.com/ticki) : low-level handling, manipulating and reading information about terminals
 - [crossterm](https://github.com/crossterm-rs/crossterm) by [Timon](https://github.com/TimonPost) : cross platform terminal
 - [atty](https://github.com/softprops/atty) by [Doug Tangren](https://github.com/softprops) : check is it a tty
@@ -143,7 +153,7 @@ You might also be interested in other tooboxes:
 - [terminal_size](https://github.com/eminence/terminal-size) by [Andrew Chin](https://github.com/eminence) : terminal size
 - [terminal-clipboard](https://github.com/Canop/terminal-clipboard) by [Canop](https://github.com/Canop) : text only clipboard facade
 - [termcolor](https://github.com/BurntSushi/termcolor) by [Andrew Gallant](https://github.com/BurntSushi) : terminal colors
-- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) :  colored and formatted text to a terminal
+- [bunt](https://github.com/LukasKalbertodt/bunt) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : colored and formatted text to a terminal
 - [ansi-parser](https://gitlab.com/davidbittner/ansi-parser) by [David Bittner](https://gitlab.com/davidbittner) : parseing ANSI escape codes based on nom
 
 ## Cloud APIs
@@ -153,6 +163,7 @@ You might also be interested in other tooboxes:
 - [doapi](https://github.com/kbknapp/doapi-rs) by [Kevin K.](https://github.com/kbknapp) : DigitalOcean API v2
 - [octocrab](https://github.com/XAMPPRocky/octocrab) by [Erin P](https://github.com/XAMPPRocky) : GitHub API
 - [giphy api](https://github.com/thedodd/giphy-api) by [Anthony Dodd](https://github.com/thedodd) : giphy API
+- [aws-sdk-*](https://github.com/awslabs/aws-sdk-rust/tree/next) : AWS SDK for Rust
 
 ## NodeJS and JS
 
@@ -178,6 +189,7 @@ You might also be interested in other tooboxes:
 - [tauri](https://github.com/tauri-apps/tauri) by [Razvan Stoenescu](https://github.com/rstoenescu) : desktop applications with a web frontend
 - [built](https://github.com/lukaslueg/built) by [Lukas Lueg](https://github.com/lukaslueg) : information when and how it was built
 - [cargo-pgo](https://github.com/Kobzol/cargo-pgo) by [Jakub Beránek](https://github.com/Kobzol) ( _reading_ ) ( _article_ ) : profile guided optimzation
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep) by [Viktor Holmgren](https://github.com/holmgr) : tool for cleaning unused build files created by Cargo
 
 ## Cross-compile
 
@@ -197,12 +209,20 @@ You might also be interested in other tooboxes:
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _templating_ )
 - [cargo-depgraph](https://crates.io/crates/cargo-depgraph) by [Jonas Platte](https://blog.turbo.fish/) : generate dependencies graph
 - [cargo_metadata](https://github.com/oli-obk/cargo_metadata) by [Oli Scherer](https://github.com/oli-obk) : information about cargo module
-- [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) : manage cargo cache
 - [cargo-when](https://github.com/starkat99/cargo-when) by [Kathryn Long](https://github.com/starkat99) : run conditionally upon rustc version and environment
+- [cargo-update](https://github.com/nabijaczleweli/cargo-update) by [Nabijaczleweli](https://github.com/nabijaczleweli) : update installed globally executables
+
+## Cargo clean
+
+( _cargo_ ) ( _cargo_clean_ )
+
+- [cargo-cache](https://github.com/matthiaskrgr/cargo-cache) by [Matthias Krüger](https://github.com/matthiaskrgr) ( _cargo_clean_ ) : manage cargo cache, cleaning cache
+- [cargo-wipe](https://github.com/mihai-dinculescu/cargo-wipe) by [Mihai Dinculescu](https://github.com/mihai-dinculescu) ( _cargo_clean_ ) : cleaning, removing artifacts
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep) by [Viktor Holmgren](https://github.com/holmgr) ( _cargo_clean_ ) : one more artifacts cleaner
 
 ## Video
 
-( _:movie_camera:_ )
+:movie_camera:
 
 - [camera_capture](https://github.com/oli-obk/camera_capture) by [Oli Scherer](https://github.com/oli-obk) : webcam screenshot
 
@@ -217,9 +237,17 @@ You might also be interested in other tooboxes:
 - [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
 - [test-case](https://github.com/frondeus/test-case) by [Wojciech Polak](https://github.com/frondeus) : procedural macro attribute for adding test cases
 - [cucumber](https://github.com/cucumber-rs/cucumber) by [Brendan Molloy](https://github.com/bbqsrc) : BBD
-- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
-- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _testing_ ) ( _performance_testing_ ) : HTTP load testing
+- [pprof](https://github.com/tikv/pprof-rs) by [YangKeao](https://github.com/YangKeao) : CPU profiler
 - [compiletest](https://github.com/Manishearth/compiletest-rs) by [Manish Goregaokar](https://github.com/Manishearth) : an extraction of the compiletest utility from the Rust compiler
+- [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) by [Manish Goregaokar](https://github.com/Manishearth) : testing framework for fuzzy testing
+
+## Performance benchmarking
+
+( _perf_benchmark_ )
+
+- [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _perf_benchmark_ ) : HTTP load testing
+- [goose](https://github.com/tag1consulting/goose) by [Jeremy Andrews](https://github.com/jeremyandrews) ( _network_ ) ( _perf_benchmark_ ) : HTTP load testing
+- [loom](https://github.com/tokio-rs/loom) by [Carl Lerche](https://github.com/carllerche) : ( _perf_benchmark_ ) concurrency permutation testing
 
 ## WebAssembly
 
@@ -227,6 +255,7 @@ You might also be interested in other tooboxes:
 
 - [trunk](https://github.com/thedodd/trunk) by [Anthony Dodd](https://github.com/thedodd) ( _build_ ) : WebAssembly web application bundler
 - [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by [Alex Crichton](https://github.com/alexcrichton) : interactions between WebAssembly modules and JavaScript
+- [wasm-server-runner](https://github.com/jakobhellermann/wasm-server-runner/tree/main) by [Jakob Hellermann](https://github.com/jakobhellermann) : run in the browser
 - [wasm-bindgen-test](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/test) by [Alex Crichton](https://github.com/alexcrichton) ( _testing_ ) : run tests of wasm-based application in browser
 - [console_error_panic_hook](https://github.com/rustwasm/console_error_panic_hook) by [Nick Fitzgerald](https://github.com/fitzgen) : A panic hook for wasm
 - [wasm-snip](https://github.com/rustwasm/wasm-snip) by [Nick Fitzgerald](https://github.com/fitzgen) : utility to remove function body from a wasm file
@@ -256,9 +285,33 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _html_ ) : auto-discovery of feeds in HTML
 
+## Data scrapping
+
+( _scrapping_ )
+
+- [chromiumoxide](https://github.com/mattsse/chromiumoxide) by [Matthias Seitz](https://github.com/mattsse) : Chrome Devtools Protocol API
+- [voyager](https://github.com/mattsse/voyager) by [Matthias Seitz](https://github.com/mattsse) : allows for creating web crawlers and scraper that follow a state machine model
+- [crabler](https://github.com/Gonzih/crabler) by [Maksim Soltan](https://github.com/Gonzih) : web scraper and crawler with a state machine model
+- [scraper](https://github.com/causal-agent/scraper) by [june](https://github.com/causal-agent) : dependancy for voyager and only acts as the actual scraper
+- [recursive_scraper](https://github.com/SichangHe/scraper) by [Steven Hé (Sīchàng)](https://github.com/SichangHe) : download all pages and/or images from a specific web-site
+- [twitter-scraper](https://github.com/MegaHotel/twitter-scraper) by [MegaHotel ](https://github.com/MegaHotel) : scraping twitter search results
+- [instagram-scraper-rs](https://github.com/veeso/instagram-scraper-rs) by [Christian Visintin](https://github.com/veeso) : scrape instagram profiles, photos and videos
+
+## AI
+
+( _ai_ )
+
+- [linfa](https://github.com/rust-ml/linfa) by [Luca Palmieri](https://github.com/LukeMathWalker) : machine learning framework
+- [burn](https://github.com/tracel-ai/burn) by [Nathaniel Simard](https://github.com/nathanielsimard) : deep learning framework
+- [candle](https://github.com/huggingface/candle) by [Hugging Face](https://github.com/huggingface): Minimalist ML framework for Rust
+- [dfdx](https://github.com/coreylowman/dfdx) by [Corey Lowman](https://github.com/coreylowman): Deep learning in Rust, with shape checked tensors and neural networks
+- [rustlearn](https://github.com/maciejkula/rustlearn) by [Maciej Kula](https://github.com/maciejkula): Machine learning crate for Rust
+- [Awesome Rust Machine Learning](https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning): Other less popular frameworks\libs.
+- [Tensorflow binding](https://github.com/tensorflow/rust) by Google: Rust language bindings for [TensorFlow](https://www.tensorflow.org/)
+
 ## HTML generating / parsing / transformation
 
-( _html_ )
+( _html_ ) ( _xml_ )
 
 - [feedfinder](https://github.com/wezm/feedfinder) by [Wesley Moore](https://github.com/wezm/feedfinder) ( _dsa_ ) : auto-discovery of feeds in HTML
 - [markup](https://github.com/utkarshkukreti/markup.rs) by [Utkarsh Kukreti](https://github.com/utkarshkukreti) : template engine to generate HTML
@@ -266,6 +319,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [html5ever](https://github.com/servo/html5ever) by [Keegan McAllister](https://github.com/kmcallister) : high-performance HTML5 parser
 - [minify-html](https://github.com/wilsonzlin/minify-html) by [Wilson Lin](https://github.com/wilsonzlin) ( _build_ ) : HTML minifier
 - [comrak](https://github.com/kivikakk/comrak) by [Asherah Connor](https://github.com/kivikakk) : GFM compatible Markdown parser and renderer
+- [quick-xml](https://github.com/tafia/quick-xml) by [Johann Tuffe](https://github.com/tafia) : high performance XML pull reader/writer
+- [hard-xml](https://gitlab.com/kevincox/hard-xml) by [Kevin Cox](https://gitlab.com/kevincox) : A derive-based XML parser for Rust
 
 ## Web DOM
 
@@ -292,17 +347,33 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 ( _web_backend_ )
 
-- ( :earth_africa: ) [rocket](https://github.com/SergioBenitez/Rocket) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
-- ( :earth_africa: ) [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
+- :earth_africa: [rocket](https://github.com/SergioBenitez/Rocket) by [Sergio Benitez](https://github.com/SergioBenitez) : one of the most popular web backend frameworks
+- :earth_africa: [actix](https://github.com/actix/actix) by [Nikolay Kim](https://github.com/fafhrd91) : one of the most popular web backend frameworks
 - [axum](https://github.com/tokio-rs/axum) by [David Pedersen](https://github.com/davidpdrsn) : tokio-based web backend framework
 - [basic-http-server](https://github.com/brson/basic-http-server) by [Brian Anderson](https://github.com/brson) : a simple static HTTP server, for learning and local development
 - [penguin](https://github.com/LukasKalbertodt/penguin) by [Lukas Kalbertodt](https://github.com/LukasKalbertodt) : a static server
 - [reqwest](https://github.com/seanmonstar/reqwest) by [Sean McArthur](https://github.com/seanmonstar) : high-level HTTP client
 - [hyper](https://github.com/hyperium/hyper) by [Sean McArthur](https://github.com/seanmonstar) : low-level HTTP client
 - [headers](https://github.com/hyperium/headers) by [Jonathan Reem](https://github.com/reem) : HTTP Headers for hyper
-- [warp](https://github.com/hyperium/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
-- [libreauth](https://github.com/breard-r/libreauth) by [](https://github.com/breard-r) : user authentication
+- [warp](https://github.com/seanmonstar/warp) by [Sean McArthur](https://github.com/seanmonstar) : composable, web server framework
+- [libreauth](https://github.com/breard-r/libreauth) by [Rodolphe Bréard](https://github.com/breard-r) : user authentication
 - [cookie](https://github.com/SergioBenitez/cookie-rs) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
+- [vector](https://github.com/vectordotdev/vector) by [Luke Steensen](https://github.com/lukesteensen) : data aggregator
+- [tungstenite](https://github.com/snapview/tungstenite-rs) by [](https://github.com/snapview) : websocket implementation
+- [Rust back-end frameworks comparison](https://github.com/qarux/learn_rust_together/blob/master/research/rust-backend-frameworks-comparison.md) ( _collection_ ) : bunch of back-end frameworks comparison
+- [actix-web](https://github.com/actix/actix-web) by [Actix](https://github.com/actix) : is a powerful, pragmatic, and extremely fast web framework for Rust
+- [poem](https://github.com/poem-web/poem) by [Sunli](https://github.com/sunli829) : is a full-featured and easy-to-use web framework with the Rust programming language
+- [salvo](https://github.com/salvo-rs/salvo) by [Chrislearn Young](https://github.com/chrislearn) : is a powerful and simple Rust web server framework
+- [tide](https://github.com/http-rs/tide) by [http-rs](https://github.com/http-rs) : a minimal and pragmatic Rust web application framework built for rapid development
+- [isahc](https://github.com/sagebind/isahc) by [Stephen M. Coakley](https://github.com/sagebind) : the practical HTTP client that is fun to use
+- [ureq](https://github.com/algesten/ureq) by [Martin Algesten](https://github.com/algesten) : Simple, safe HTTP client
+- [surf](https://github.com/http-rs/surf) by [http-rs](https://github.com/http-rs) : the web - HTTP client framework
+
+## Web Full-stack Frameworks
+
+- [dioxus](https://github.com/DioxusLabs/dioxus) by [Jonathan Kelley](https://github.com/jkelleyrtp) : popular full-stack framework
+- [leptos](https://github.com/leptos-rs/leptos) by [Greg Johnston](https://github.com/gbj) : popular full-stack framework
+- [axum-yew-setup](https://github.com/rksm/axum-yew-setup) by [Robert Krahn](https://github.com/rksm) : starter project that sets up axum and yew for full stack
 
 <!-- - [miniserve](https://github.com/svenstaro/miniserve) by [Sven-Hendrik Haase](https://github.com/svenstaro) : CUI to serve files and dirs over HTTP based on Actix -->
 
@@ -317,25 +388,73 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [netraffic](https://github.com/ZingerLittleBee/netraffic) by [ZingerLittleBee](https://github.com/ZingerLittleBee) : statistics network traffic
 - [portpicker](https://github.com/Dentosal/portpicker-rs) by [Hannes Karppila](https://github.com/Dentosal) ( _network_ ) ( _testing_ ) : pick a free unused port
 - [drill](https://github.com/fcsonline/drill) by [Ferran Basora](https://github.com/fcsonline) ( _network_ ) ( _testing_ ) : HTTP load testing application
+- [g3](https://github.com/bytedance/g3) by [Zhang Jingqiang](https://github.com/zh-jq-b) ( _network_ ) : generic proxy
 
 ## Database
 
 ( _db_ )
 
-- [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
-- [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
+- [ormx](https://github.com/NyxCode/ormx) by [NyxCode](https://github.com/NyxCode) : orm-like features to sqlx
+- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
+- [influxdb-rust](https://github.com/influxdb-rs/influxdb-rust) by [Gero Gerke](https://github.com/Empty2k12) : time-series database
+- [meilisearch-rust](https://github.com/meilisearch/meilisearch-rust) by [Mubelotix](https://github.com/Mubelotix) : stores data and provides some basic filtering and sorting capabilities
+- [sonic-channel](https://github.com/pleshevskiy/sonic-channel) by [pleshevskiy](https://github.com/pleshevskiy) : schema-less search backend. it is an alternative to traditional search engines like Elasticsearch or Solr
+
+## Key-Value Database
+
+( _db_ )( _db_key_value_ )
+
 - [dynomite](https://github.com/softprops/dynomite) by [Doug Tangren](https://github.com/softprops) : DynamoDB binding
 - [redis](https://github.com/mitsuhiko/redis-rs) by [Armin Ronacher](https://github.com/mitsuhiko) : Redis binding
-- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) : query engine from Apache
+- [sled](https://github.com/spacejam/sled) by [Tyler Neely](https://github.com/spacejam) : an embedded database
+- [tikv](https://github.com/tikv/tikv) by [ngaut](https://github.com/ngaut) : distributed key-value DBMS
+- [rust-rocksdb](https://github.com/rust-rocksdb/rust-rocksdb) by [Tyler Neely](https://github.com/spacejam) : embedded database that is designed to be used as a library within an application
+- [lmdb-rs](https://github.com/vhbit/lmdb-rs) by [Valerii Hiora](https://github.com/vhbit) : high-performance embedded key-value store designed to provide efficient storage and retrieval of data
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
+- [surrealdb](https://github.com/surrealdb/surrealdb) by [Tobie Morgan Hitchcock](https://github.com/tobiemh) :
+
+## Document-oriented Database
+
+( _db_ )( _db_document_oriented_ )
+
 - [mongodb](https://github.com/mongodb/mongo-rust-driver) by [Saghm Rossi](https://github.com/saghm) : official MongoDB binding
-- [monger](https://github.com/mongodb/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
+- [monger](https://github.com/saghm/monger) by [Saghm Rossi](https://github.com/saghm) : MongoDB version manager
+- [redb](https://github.com/cberner/redb) by [Christopher Berner](https://github.com/cberner) : provides a lightweight and efficient implementation of a document-oriented database that is optimized for performance and scalability
+- [heed](https://github.com/meilisearch/heed) by [Clément Renault](https://github.com/Kerollmops) : schema-less embedded database that can be used to store and retrieve data efficiently
+- [darkbird](https://github.com/Rustixir/darkbird) by [DanyalMh](https://github.com/pleshevskiy) : in-memory database solution optimized for fast document retrieval
+
+## Relational Database
+
+( _db_ )( _db_relational_ )
+
+- :earth_africa: [diesel](https://github.com/diesel-rs/diesel) by [Sage Griffin](https://github.com/sgrif) : ORM and query builder
+- [sea-orm](https://github.com/SeaQL/sea-orm) by [Chris Tsang](https://github.com/tyt2y3) : ORM and query builder
+- :earth_africa: [sqlx](https://github.com/launchbadge/sqlx) by [Ryan Leckey](https://github.com/mehcode) : SQL DBMS driver
 - [rusqlite](https://github.com/rusqlite/rusqlite) by [hydhknn](https://github.com/hydhknn) : bindings to SQLite
+- :earth_africa: [deadpool-postgres](https://github.com/bikeshedder/deadpool) by [Michael P. Jung](https://github.com/bikeshedder) : async pool for PostgreSQL
+- :earth_africa: [tokio_postgres](https://github.com/sfackler/rust-postgres) by [Steven Fackler](https://github.com/sfackler) : PostgreSQL driver
+
+## Graph Database
+
+( _db_ )( _db_graphs_ )
+
+- [bolt-client](https://github.com/0xSiO/bolt-rs) by [Luc Street](https://github.com/0xSiO) : communicate with Bolt-compatible graph databases
+- [neo4rs](https://github.com/neo4j-labs/neo4rs) by [John Vincent](https://github.com/yehohanan7) : based on the property graph data model, which consists of nodes, relationships, and properties
+- [rsmgclient](https://github.com/memgraph/rsmgclient) by [Mario Herceg](https://github.com/MarioHerceg) : Memgraph database adapter for Rust programming language
+- [indradb](https://github.com/indradb/indradb) by [Yusuf Simonson](https://github.com/ysimonson) : uses Apache TinkerPop as its underlying graph framework
+- [oxigraph](https://github.com/oxigraph/oxigraph) by [Thomas Tanon](https://github.com/Tpt) : designed for the resource description framework data model
+- [dgraph-rs](https://github.com/Swoorup/dgraph-rs) by [Swoorup Joshi](https://github.com/Swoorup) : supports complex queries, aggregations and traversals using GraphQl-like syntax
+- [cozo](https://github.com/cozodb/cozo) by [Ziyang Hu](https://github.com/zh217) : optimized for efficient graph processing on large datasets
+
+<!-- https://github.com/rust-rocksdb/rust-rocksdb -->
 
 ## Data science
 
-- ( _data_science_ )
+( _data_science_ )
 
-- [polars](https://github.com/pola-rs/polars) by [https://github.com/ritchie46](Ritchie Vink) : multi-threaded DataFrame library
+- [polars](https://github.com/pola-rs/polars) by [Ritchie Vink](https://github.com/ritchie46) : multi-threaded DataFrame library
+- [datafusion](https://github.com/apache/arrow-datafusion) by [Jacques Nadeau](https://github.com/jacques-n) ( _db_ ) ( _data_science_ ) : query engine from Apache
+- [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
 
 ## Functional programming
 
@@ -356,18 +475,39 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [shiplift](https://github.com/softprops/shiplift) by [Doug Tangren](https://github.com/softprops) : maneuvering docker containers
 - [unshare](https://github.com/tailhook/unshare) by [Paul Colomiets](https://github.com/tailhook) : low-level linux containers
 
+## Async
+
+( _async_ )
+
+- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
+- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
+- [blocking](https://github.com/smol-rs/blocking) by Stjepan Glavina : a thread pool for isolating blocking I/O in async environment
+- [yatp](https://github.com/tikv/yatp) by [ngaut](https://github.com/ngaut) : generic thread pool
+- [async-compat](https://github.com/smol-rs/async-compat) by [Taiki Endo](https://github.com/taiki-e) : compatibility adapter between tokio and futures
+- [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
+- [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : async interfaces
+- [waker-fn](https://github.com/smol-rs/waker-fn) by Stjepan Glavina : convert closures into waker
+
+## Async Runtimes
+
+( _async_ ) ( _async_runtime_ )
+
+- [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
+- [async-std](https://github.com/async-rs/async-std) by [Florian Gilcher](https://github.com/skade) : async version of std
+- [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
+- [smol](https://github.com/smol-rs/smol) by Stjepan Glavina : a small and fast async runtime for Rust
+
 ## Concurrency
 
 ( _concurrency_ )
 
 - [radium](https://github.com/bitvecto-rs/radium) by [Nika Layzell ](https://github.com/mystor) : atomic instructions fallback
-- [tokio](https://github.com/tokio-rs/tokio) by [Carl Lerche](https://github.com/carllerche) : asynchronous application framework
-- [futures](https://github.com/rust-lang/futures-rs) by [Alex Crichton](https://github.com/alexcrichton) : tools around futures
 - [rayon](https://github.com/rayon-rs/rayon) by [Niko Matsakis](https://github.com/nikomatsakis) : data-parallelism
 - [futures-signals](https://github.com/Pauan/rust-signals) by [Pauan](https://github.com/Pauan) : reactive signals
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) by [Aaron Turon](https://github.com/aturon) : tools for concurrent programming
 - [scoped_threadpool](https://github.com/Kimundi/scoped-threadpool-rs) by [Marvin Löbel](https://github.com/Kimundi) : scoped and cached threadpools
-- [async-std](https://github.com/async-rs/async-std) by [Florian Gilcher](https://github.com/skade) : async version of std
+- [wasm-bindgen-rayon](https://github.com/RReverser/wasm-bindgen-rayon) by [Ingvar Stepanyan](https://github.com/RReverser)
+- [wasm-mt](https://github.com/w3reality/wasm-mt) by [j-devel](https://github.com/j-devel)
 
 ## Concurrency primitives
 
@@ -376,9 +516,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [parking_lot](https://github.com/Amanieu/parking_lot) by [Amanieu d'Antras](https://github.com/Amanieu) : synchronization primitives on steroids
 - [state](https://github.com/SergioBenitez/state) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : HTTP cookie parsing and cookie jar management
 - [thread_local](https://github.com/Amanieu/thread_local-rs) by [Amanieu d'Antras](https://github.com/Amanieu) : thread-local storage
-- [pin-project](https://github.com/taiki-e/pin-project) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection
-- [pin-project-lite](https://github.com/taiki-e/pin-project-lite) by [Taiki Endo](https://github.com/taiki-e) : synchronization primitives pin-projection, lite version
-- [pollster](https://github.com/zesterer/pollster) by [Joshua Barretto](https://github.com/zesterer) : a minimal async executor
 - [flume](https://github.com/zesterer/flume) by [Joshua Barretto](https://github.com/zesterer) : multi-producer, multi-consumer channel
 - [bounded-spsc-queue](https://github.com/polyfractal/bounded-spsc-queue) by [Zachary Tong](https://github.com/polyfractal) : bounded, Single-producer Single-consumer queue (SPSC)
 - [bus](https://github.com/jonhoo/bus) by [Jon Gjengset](https://github.com/jonhoo) : lock-free, bounded, single-producer, multi-consumer, broadcast channel
@@ -409,6 +546,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [peekreed](https://github.com/orlp/peekread) by [Orson Peters](https://github.com/orlp) : peekable read streams
 - [bytes](https://github.com/tokio-rs/bytes) by [Carl Lerche](https://github.com/carllerche) : working with bytes
 - [arrow](https://github.com/apache/arrow-rs) by [Jacques Nadeau](https://github.com/jacques-n) : working with bytes from Apache
+- [scroll](https://github.com/m4b/scroll) by [m4b](https://github.com/m4b) : a suite of powerful, extensible, generic, endian-aware Read/Write traits for byte buffers
 
 ## Memory management
 
@@ -429,11 +567,16 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [restruct](https://github.com/lukaslueg/restruct) by [Lukas Lueg](https://github.com/lukaslueg) : serializing and deserializing of a tuple
 - [bincode](https://github.com/bincode-org/bincode) by [Nathan McCarty](https://github.com/nmccarty) : a binary encoder / decoder implementation
 - [ron](https://github.com/ron-rs) by [Dzmitry Malyshau](https://github.com/kvark) ( _gdf_ ) : readable data serialization format
-- ( :earth_africa: ) [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
+- :earth_africa: [serde](https://github.com/serde-rs/serde) by [David Tolnay](https://github.com/dtolnay) : the most popular serialization framework
 - [serde-hjson](https://github.com/hjson/hjson-rust) by [Christian Zangl](https://github.com/laktak) : serde plugin to parse JSON with comments
 - [nanoserde](https://github.com/not-fl3/nanoserde) by [Fedor Logachev](https://github.com/not-fl3) : minimal serialization library with zero dependencies
 - [speedy](https://github.com/koute/speedy) by [Koute](https://github.com/koute) : another serialization alternative
 - [dipa](https://github.com/chinedufn/dipa) by [Chinedu Francis Nwafili](https://github.com/chinedufn) : structures delta encoding
+- [rkyv (archive)](https://github.com/rkyv/rkyv) by [David Koloski](https://github.com/djkoloski) : is a zero-copy deserialization framework for Rust
+- [musli](https://github.com/udoprog/musli) by [John-John Tedro](https://github.com/udoprog) : is a flexible and generic binary serialization framework
+- [typify](https://github.com/oxidecomputer/typify) by [Adam Leventhal](https://github.com/ahl) : JSON Schema -> Rust type converter
+- [databake](https://github.com/unicode-org/icu4x/tree/main/utils/databake) by [Shane F. Carr](https://github.com/sffc) : data to write itself into Rust code
+- [zerovec](https://github.com/unicode-org/icu4x/tree/main/utils/zerovec) by [Shane F. Carr](https://github.com/sffc) : zero-copy vector abstractions for arbitrary types, backed by byte slices.
 
 ## Stringification
 
@@ -447,6 +590,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [ubyte](https://github.com/SergioBenitez/ubyte) by [https://github.com/SergioBenitez](https://github.com/SergioBenitez) : byte units
 - [num-format](https://github.com/bcmyers/num-format) by [Brian Myers](https://github.com/bcmyers) : formatting of numbers
 - [tabled](https://github.com/zhiburt/tabled) by [Maxim Zhiburt](https://github.com/zhiburt) : textual tables formatting
+- [const_format](https://github.com/rodrimati1992/const_format_crates/) by [Rodri Mati](https://github.com/rodrimati1992) : compile-time string formatting
 
 ## Parser generators / combinators
 
@@ -458,14 +602,16 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [combine-language](https://github.com/Marwes/combine-language) by [Markus Westerlind](https://github.com/Marwes) : extension of combine to generate parsers of programming languages
 - [lalrpop](https://github.com/lalrpop/lalrpop) by [Niko Matsakis](https://github.com/nikomatsakis) : LR(1) parser generator
 - [peg](https://github.com/kevinmehall/rust-peg) by [Kevin Mehall](https://github.com/kevinmehall) : PEG parser generator
+- [rust-langdev](https://github.com/Kixiron/rust-langdev) by [Chase Wilson](https://github.com/Kixiron) ( _collection_ ) : parser/language development toolboxs
 
 ## Lexer generator
 
 ( _lexer_generator_ )
 
-- ( :earth_africa: ) [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer, the most popular
+- :earth_africa: [logos](https://github.com/maciejhirsz/logos) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer, the most popular
 - [lexgen](https://github.com/osa1/lexgen) by [Ömer Sinan Ağacan](https://github.com/osa1) : lexer generator, as a procedural macro
 - [lrlex](https://github.com/softdevteam/grmtools/tree/master/lrlex) by [Lukas Diekmann](https://github.com/ptersilie) : lex/flex inspired lexer
+- [beef](https://github.com/maciejhirsz/beef) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
 ## Parser of a specific language
 
@@ -474,20 +620,27 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [minimad](https://github.com/Canop/minimad) by [Canop](https://github.com/Canop) : markdown ( MD ) parser
 - [parcel_css](https://github.com/parcel-bundler/parcel-css) by [Devon Govett](https://github.com/devongovett) ( _build_ ) : CSS parser, transformer, and minifier
 - [csv](https://github.com/BurntSushi/rust-csv) by [Andrew Gallant](https://github.com/BurntSushi) : CSV parser
-- [toml](https://github.com/alexcrichton/toml-rs) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
+- [toml](https://github.com/toml-rs/toml) by [Alex Crichton](https://github.com/alexcrichton) : TOML parser
 - [toml_edit](https://github.com/ordian/toml_edit) by [Andronik Ordian](https://github.com/ordian) : format-preserving TOML parser
-- ( :earth_africa: ) [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
+- :earth_africa: [regex](https://github.com/rust-lang/regex) by [Alex Crichton](https://github.com/alexcrichton) : the most popular regular expressions implementation
 - [ress](https://github.com/rusty-ecma/RESS) by [Robert Masen](https://github.com/FreeMasen) : tokenizer of JS
 - [ressa](https://github.com/rusty-ecma/RESSA) by [Robert Masen](https://github.com/FreeMasen) : parser of JS
 - [syntect](https://github.com/trishume/syntect) by [Tristan Hume](https://github.com/trishume) : syntax highlighting using Sublime text syntax definitions
 - [sg](https://github.com/osa1/sg) by [Ömer Sinan Ağacan](https://github.com/osa1) : syntax-aware grep-like code search
 - [tree-sitter-parse](https://github.com/osa1/tree-sitter-parse) by [Ömer Sinan Ağacan](https://github.com/osa1) : tree-sitter-cli that can load parsers compiled to shared libraries
+- [fancy-regex](https://github.com/fancy-regex/fancy-regex) by [Robin Stocker](https://github.com/robinst) : an implementation of regexes, supporting a relatively rich set of features, including backreferences and look-around.
+
+## Interpreter
+
+- [rquickjs](https://github.com/DelSkayn/rquickjs) by [Mees Delzenne](https://github.com/DelSkayn) : ( _interpreter ) javascript engine
+
+<!-- - ( _interpreter ) - interpreters -->
 
 ## Time
 
 ( _time_ )
 
-- ( :earth_africa: ) [time](https://github.com/time-rs/time) by [Jacob Pratt](https://github.com/jhpratt) : the most popular date and time module
+- :earth_africa: [time](https://github.com/time-rs/time) by [Jacob Pratt](https://github.com/jhpratt) : the most popular date and time module
 - [chrono](https://github.com/chronotope/chrono) by [Kang Seonghoon](https://github.com/lifthrasiir) : date and time module, maintained poorly
 - [chrono-humanize](https://gitlab.com/imp/chrono-humanize-rs) by [Cyril Plisko](https://gitlab.com/imp) : human-friendly time expressions
 
@@ -500,6 +653,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [fastrand](https://github.com/smol-rs/fastrand) by [Stjepan Glavina](https://github.com/smol-rs) : fast random number generator
 - [uuid](https://github.com/uuid-rs/uuid) by [Biru Mohanathas](https://github.com/poiru) : generate and parse UUIDs
 - [rusty_ulid](https://github.com/huxi/rusty_ulid) by [Jörn Huxhorn](https://github.com/huxi) : generate and parse ULIDs, alternative of UUIDs
+- [block-id](https://github.com/jamsocket/block-id) by [Paul Butler ](https://github.com/paulgb) : opaque, unique, and short string value
 
 ## Abstract Data types
 
@@ -526,15 +680,14 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [rc-borrow](https://github.com/CAD97/pointer-utils/tree/master/crates/rc-borrow) by [Christopher Durham](https://github.com/CAD97) : borrow Rc/Arc without wrapping borrowed
 - [triomphe](https://github.com/Manishearth/triomphe) by [Manish Goregaokar](https://github.com/Manishearth) : FFI-focused ARC
 - [scopeguard](https://github.com/bluss/scopeguard) by [bluss](https://github.com/bluss) : run a given closure when it goes out of scope
-- [beef](https://github.com/maciejhirsz/beef) by [Maciej Hirsz](https://github.com/maciejhirsz) : fast tokenizer
 
 ## Collections
 
-( _data_structure_ ) ( _collection_ )
+( _data_structure_ ) ( _ds_collection_ )
 
 - [indexmap](https://github.com/bluss/indexmap) by [bluss](https://github.com/bluss) : hash table which preserves insertion order
 - [hashbrown](https://github.com/rust-lang/hashbrown) by [Amanieu d'Antras](https://github.com/Amanieu) : hashmap and hashset for "no std"
-- [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys.
+- [rustc-hash](https://github.com/rust-lang/rustc-hash) by [Niko Matsakis](https://github.com/nikomatsakis) : fast non-cryptographic hashmap and hashset
 - [slice-deque](https://github.com/gnzlbg/slice_deque) by [gnzlbg](https://github.com/gnzlbg) : contiguous-in-memory double-ended queue that derefs into a slice
 - [thingbuf](https://github.com/hawkw/thingbuf) by [Eliza Weisman](https://github.com/hawkw) : in-place allocation-reusing queues
 - [bitvec](https://github.com/bitvecto-rs/bitvec) by [Alexander Payne](https://github.com/myrrlyn) : bitfields
@@ -547,6 +700,10 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [evmap](https://github.com/jonhoo/evmap) by [Jon Gjengset](https://github.com/jonhoo) ( _concurrency_ ) : lock-free, eventually consistent, concurrent multi-value map
 - [dashmap](https://github.com/xacrimon/dashmap) by [Acrimon Joel](https://github.com/xacrimon) ( _concurrency_ ) : concurrent HashMap
 - [sharded-slab](https://github.com/hawkw/sharded-slab) by [Eliza Weisman](https://github.com/hawkw) ( _concurrency_ ) : lock-free concurrent slab
+- [heapless](https://github.com/rust-embedded/heapless) by [Jorge Aparicio](https://github.com/japaric) : heapless data structures, mostly for embed
+- [hibitset](https://github.com/amethyst/hibitset) by [Dzmitry Malyshau](https://github.com/kvark) : hierarchical bit set container
+
+<!-- - [rust-fnv](https://github.com/servo/rust-fnv) by [Simon Sapin](https://github.com/SimonSapin) : hash map which is more efficient for smaller hash keys. -->
 
 ## Character encoding
 
@@ -591,9 +748,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [owning_ref](https://github.com/Kimundi/owning-ref-rs) by [Marvin Löbel](https://github.com/Kimundi) : references that carry their owner with them
 - [ouroboros](https://github.com/joshua-maros/ouroboros) by [Joshua Maros](https://github.com/joshua-maros) : self-referential struct generation
 
-## Ownership semantic
+## Memory management
 
-( _data_structure_ ) ( _ownership_semantics_ )
+( _data_structure_ ) ( _ownership_semantics_ ) ( _mem_man_ )
 
 - [slabmap](https://github.com/frozenlib/slabmap) by [Frozenlib](https://github.com/frozenlib) : hashMap-like collection with implicit key
 - [slab](https://github.com/tokio-rs/slab) by [Carl Lerche](https://github.com/carllerche) : hashMap-like collection with implicit key
@@ -601,8 +758,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [slotmap](https://github.com/orlp/slotmap) by [Orson Peters](https://github.com/orlp) : a hashmap with implicit key
 - [typed-arena](https://github.com/SimonSapin/rust-typed-arena) by [Simon Sapin](https://github.com/SimonSapin) : homogenous allocator operating references without the ability to deallocate an individual element
 - [id-arena](https://github.com/fitzgen/id-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids without the ability to deallocate an individual element
-- [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element
+<!-- - [generational-arena](https://github.com/fitzgen/generational-arena) by [Nick Fitzgerald](https://github.com/fitzgen) : homogenous allocator operating ids with the ability to deallocate an individual element -->
 - [bumpalo](https://github.com/fitzgen/bumpalo) by [Nick Fitzgerald](https://github.com/fitzgen) : heterogeneous allocator operating ids without the ability to deallocate an individual element
+- [thunderdome](https://github.com/LPGhatguy/thunderdome) by [LPGhatguy](https://github.com/LPGhatguy) : one more generational arena
+- [anymap](https://github.com/chris-morgan/anymap) by [Chris Morgan](https://github.com/chris-morgan) : wrapper around HashMap< TypeId, Box< dyn Any > >
+- [specs]() by [Dzmitry Malyshau](https://github.com/kvark) : ( _ecs_ ) bitmap-based ECS
+- [legion](https://github.com/amethyst/legion) by [Thomas Gillen](https://github.com/TomGillen) : ( _ecs_ ) archetype-based ECS
+- [hecs](https://github.com/Ralith/hecs) by [Benjamin Saunders ](https://github.com/Ralith) : ( _ecs_ ) ergonomic ECS
 
 ## Multidimensional data structures and algorithms
 
@@ -634,6 +796,12 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [elgamal-curve25519](https://github.com/chritchens/elgamal-curve25519) by [Christian Nyumbayire](https://github.com/chritchens) : ElGamal homomorphic encryption on Curve25519
 - [argonautica](https://github.com/bcmyers/argonautica) by [Brian Myers](https://github.com/bcmyers) : password hashing
 - [rust-argon2](https://github.com/sru-systems/rust-argon2) by [Martijn Rijkeboer](https://github.com/mrijkeboer) :  password hashing
+- [subtle](https://github.com/dalek-cryptography/subtle) by [dalek cryptography](https://github.com/dalek-cryptography) : Pure-Rust traits and utilities for constant-time cryptographic implementations
+- [belt-mac](https://github.com/RustCrypto/MACs/blob/master/belt-mac) by [Artyom Pavlov](https://github.com/newpavlov) : MAC specified by the BelT standard
+- [cbc-mac](https://github.com/RustCrypto/MACs/blob/master/cbc-mac) by [Artyom Pavlov](https://github.com/newpavlov) : Implementation of Cipher Block Chaining Message Authentication Code (CBC-MAC)
+- [cmac](https://github.com/RustCrypto/MACs/blob/master/cmac) by [Artyom Pavlov](https://github.com/newpavlov) : Generic implementation of Cipher-based Message Authentication Code
+- [hmac](https://github.com/RustCrypto/MACs/blob/master/hmac) by [Artyom Pavlov](https://github.com/newpavlov) : Generic implementation of Hash-based Message Authentication Code (HMAC)
+- [pmac](https://github.com/RustCrypto/MACs/blob/master/pmac) by [Artyom Pavlov](https://github.com/newpavlov) : Generic implementation of Parallelizable Message Authentication Code
 
 ## GDPR and data safety
 
@@ -707,12 +875,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [fs2](https://github.com/danburkert/fs2-rs) by [Dan Burkert](https://github.com/danburkert) : extra system fs routines
 - [walkdir](https://github.com/BurntSushi/walkdir) by [Andrew Gallant](https://github.com/BurntSushi) : walking directories recursively
 - [remove_dir_all](https://github.com/XAMPPRocky/remove_dir_all) by [Erin P](https://github.com/XAMPPRocky) : directory removal
-- [filetime](https://github.com/bitflags/filetime) by [Alex Crichton](https://github.com/bitflags) : file timestamps reading / writing
+- [filetime](https://github.com/alexcrichton/filetime) by [Alex Crichton](https://github.com/alexcrichton) : file timestamps reading / writing
 - [is_executable](https://github.com/fitzgen/is_executable) by [Nick Fitzgerald](https://github.com/fitzgen) : is an executable
 - [same-file](https://github.com/BurntSushi/same-file) by [Andrew Gallant](https://github.com/BurntSushi) : two files or directories are the same
 - [globset](https://github.com/BurntSushi/globset) by [Andrew Gallant](https://github.com/BurntSushi) ( _data_structure_ ) ( _string_ ) : glob matching
 - [which](https://github.com/harryfei/which-rs) by [Harry Fei](https://github.com/harryfei) : equivalent of Unix command "which"
 - [vfs](https://github.com/manuel-woelker/rust-vfs) by [Manuel Woelker](https://github.com/manuel-woelker) : file system adapter
+- [inotify](https://github.com/hannobraun/inotify-rs) by [Hanno Braun](https://github.com/hannobraun) : track changes in file system
 
 <!-- - [home](https://github.com/brson/home) by [Brian Anderson](https://github.com/brson) : home dir -->
 <!-- - [tempfile](https://github.com/Stebalien/tempfile) by [Steven Allen](https://github.com/Stebalien) : temporary file -->
@@ -747,8 +916,9 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [goblin](https://github.com/m4b/goblin) by [m4b](https://github.com/m4b) : binary parsing
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
+- [cargo-asm](https://github.com/gnzlbg/cargo-asm) by [gnzlbg](https://github.com/gnzlbg) : ( _distro_ ) assembly or llvm-ir generated code
 - [elfloader](https://github.com/gz/rust-elfloader) by [Gerd Zellweger](https://github.com/gz) : x86 CPUID instruction
-- [symbol](https://github.com/calebzulawski/symbol) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
+- [symtool](https://github.com/calebzulawski/symtool) by [Caleb Zulawski](https://github.com/calebzulawski) : ELF and Mach-O symbols manipulation
 
 ## Hardware
 
@@ -756,6 +926,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [num_cpus](https://github.com/seanmonstar/num_cpus) by [Sean McArthur](https://github.com/seanmonstar) : number of CPUs
 - [generic-simd](https://github.com/calebzulawski/generic-simd) by [Caleb Zulawski](https://github.com/calebzulawski) : SIMD instructions
+- [simdeez](https://github.com/arduano/simdeez) by [Leo](https://github.com/arduano) : abstracts over SIMD
 - [multiversion](https://github.com/calebzulawski/multiversion) by [Caleb Zulawski](https://github.com/calebzulawski) : tool to write multiversioned architecture-specific implementations of functions
 - [vergen](https://github.com/rustyhorde/vergen) by [Jason Ozias](https://github.com/jasonozias) : ( _compile_time_ ) compile-time constants about process of compilation
 - [Acpi](https://github.com/rust-osdev/acpi) by [Rust OSDev](https://github.com/rust-osdev) : a library to parse ACPI tables and AML
@@ -794,6 +965,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 
 - [embedded-hal](https://github.com/rust-embedded/embedded-hal) by [Jorge Aparicio](https://github.com/japaric) : hardware abstraction layer (HAL) for embedded systems
 - [serial_enumerator](https://github.com/rede97/serial_enumerator) by [eebear](https://github.com/rede97) : serial port enumreator
+- [heapless](https://github.com/rust-embedded/heapless) by [Jorge Aparicio](https://github.com/japaric) : heapless data structures, mostly for embed
+- [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
 
 ## Foreign
 
@@ -809,6 +982,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [log](https://github.com/rust-lang/log) by [Alex Crichton](https://github.com/alexcrichton) : lightweight logging
 - [log4rs](https://github.com/estk/log4rs) by [estk](https://github.com/estk) : configurable logging
 - [simplelog](https://github.com/Drakulix/simplelog.rs) by [Victoria Brekenfeld](https://github.com/Drakulix) : simple logging
+- [tracing](https://github.com/tokio-rs/tracing) by [Eliza Weisman](https://github.com/hawkw) :
+- [fregate](https://github.com/elefant-dev/fregate-rs) by [Petr Makagon](https://github.com/elefant-dev) : metrics, logging, environment all-in-one
 
 ## Config
 
@@ -836,10 +1011,10 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _android_ )
 
 - [android-ndk-rs](https://github.com/rust-windowing/android-ndk-rs) by [Mark Barbone](https://github.com/mb64) : libraries and tools for Rust programming on Android targets
-- [ndk-glue](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-glue) by [David Craven](https://github.com/dvc94ch) : interoperability library for a native Rust application with the Android framework
-- [ndk-sys](https://github.com/rust-windowing/android-ndk-rs/tree/master/ndk-sys) by [David Craven](https://github.com/dvc94ch) ( _bindings_ ) : raw FFI bindings to the NDK
+- [ndk](https://github.com/rust-mobile/ndk) by [David Craven](https://github.com/dvc94ch) : interoperability library for a native Rust application with the Android framework
+- [ndk-sys](https://github.com/rust-mobile/ndk/tree/master/ndk-sys) by [David Craven](https://github.com/dvc94ch) ( _bindings_ ) : raw FFI bindings to the NDK
+- [cargo-apk](https://github.com/rust-mobile/cargo-apk) by [David Craven](https://github.com/dvc94ch) ( _build_ ) : tool for creating Android packages
 - [android_logger](https://github.com/Nercury/android_logger-rs) by [Nerijus Arlauskas](https://github.com/Nercury) ( _logger_ ) : send Rust logs to Logcat
-- [cargo-apk](https://github.com/rust-windowing/android-ndk-rs/tree/master/cargo-apk) by [David Craven](https://github.com/dvc94ch) ( _build_ ) : tool for creating Android packages
 
 ## iOS
 
@@ -849,6 +1024,13 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [xcodegen](https://github.com/yonaskolb/XcodeGen) by [Yonas Kolb](https://github.com/yonaskolb) : utility to generates your Xcode project
 - [cargo-lipo](https://github.com/TimNN/cargo-lipo) by [Tim Neumann](https://github.com/TimNN) : utility to automatically creates a universal library for use with iOS application
 
+## HPC
+
+( _bindings_ )
+
+- [mcl-rs](https://github.com/pnnl/mcl/tree/master/rust/mcl-rs) by [Ryan Friese](https://github.com/rdfriese) : high-level bindings providing a "safe" interface to the Minos Compute Library (MCL)
+- [libmcl-sys](https://github.com/pnnl/mcl/tree/master/rust/libmcl-sys) by [Ryan Friese](https://github.com/rdfriese) : high-level bindings through an "unsafe" interface to the Minos Compute Library (MCL)
+
 ## Templating
 
 ( _templating_ )
@@ -857,15 +1039,41 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate) by [ashley williams](https://github.com/ashleygwilliams) : utility to instantiate a template ( _cargo_ ) ( _build_ )
 - [ramhorns](https://github.com/maciejhirsz/ramhorns) by [Maciej Hirsz](https://github.com/maciejhirsz) : Mustache template engine
 
+## Messaging
+
+( _messaging_ )
+
+- [paho-mqtt](https://github.com/eclipse/paho.mqtt.rust) by [Frank Pagliughi](https://github.com/fpagliughi) : The Official Eclipse Paho MQTT Rust Client Library. This is a wrapper around the Paho C library
+
+## Utilities for development
+
+( _development_ )( _utility_ )
+
+- [cargo-clippy](https://github.com/rust-lang/rust-clippy) by [Manishearth](https://github.com/Manishearth) : A collection of lints to catch common mistakes and improve your Rust code
+- [cargo-audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit) by [Tony Arcieri](https://github.com/tarcieri) : Audit Cargo.lock files for crates with security vulnerabilities reported to the RustSec Advisory Database
+- [cargo-udeps](https://github.com/est31/cargo-udeps) by [est31](https://github.com/est31) : Find unused dependencies in Cargo.toml
+- [cargo-watch](https://github.com/watchexec/cargo-watch) by [Félix Saparelli](https://github.com/passcod) : Utility to watch over your project's source for changes
+- [cargo-checkmate](https://github.com/cargo-checkmate/cargo-checkmate) by [Nathan Wilcox](https://github.com/nathan-at-least) : Perform a series of useful checks out of the box.
+- [cargo-about](https://github.com/EmbarkStudios/cargo-about) by [Jake Shadle](https://github.com/Jake-Shadle) : Cargo plugin for generating a license listing for all dependencies of a crate
+- [cargo-hack](https://github.com/taiki-e/cargo-hack) by [Taiki Endo](https://github.com/taiki-e) : Cargo subcommand to provide various options useful for testing and continuous integration
+- [cargo-outdated](https://github.com/kbknapp/cargo-outdated) by [Kevin K.](https://github.com/kbknapp) : A cargo subcommand for displaying when Rust dependencies are out of date
+- [cargo-miri](https://github.com/rust-lang/miri) by [Scott Olson](https://github.com/solson) : An experimental interpreter for Rust. Can be used to detect certain classes of undefined behavior
+- [cargo-expand](https://github.com/dtolnay/cargo-expand) by [David Tolnay](https://github.com/dtolnay) : Extension for cargo to expand macros
+- [cargo-llvm-lines](https://github.com/dtolnay/cargo-llvm-lines) by [David Tolnay](https://github.com/dtolnay) : Count the number of lines of LLVM IR across all instantiations of a generic function
+
+
 <!-- qqq : add tag::utility for each utility -->
 <!-- qqq : sort tags -->
 <!-- qqq : emoji instead of tags? -->
 <!-- qqq : replace rust-windowing by a person -->
 <!-- qqq : replace orgs by persons, add missing authors -->
+<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md -->
 
 ## Tags legend
 
-- ( :earth_africa: ) - the most popular module in its category
+- :earth_africa: - the most popular module in its category
+- ( _collection_ ) - awesome collection
+- ( _distro_ ) - an utility
 - ( _error_ ) - errors handling
 - ( _macro_ ) - writing macros
 - ( _meta_ ) - meta programming : reflection, introspection and such things
@@ -884,20 +1092,27 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _cloud_api_ ) - remote APIs, mostly REST
 - ( _cross_compile_ ) - build from one platform to another one
 - ( _build_ ) - toolchains to build your project
-- ( _performance_testing_ ) - performance testing
+- ( _perf_benchmark_ ) - performance benchmarking
 - ( _wasm_ ) - WebAssembly-related
 - ( _windowing_ ) - windows creating, manipulating OS GUI
 - ( _dsa_ ) - data streams aggregation
+- ( _scrapping_ ) - data scrapping
 - ( _html_ ) - HTML generating / parsing / transformation
 - ( _dom_ ) - web DOM
 - ( _web_frontend_ ) - web frontend
 - ( _web_backend_ ) - web backend
 - ( _network_ ) - network
 - ( _db_ ) - database-related
+- ( _db_key_value_ ) - key-value
+- ( _db_document_oriented_ ) - document-oriented
+- ( _db_relational_ ) - relational
+- ( _db_graphs_ ) - graph
 - ( _data_science_ ) - data science, data mining, data minding, machine learning
 - ( _functional_ ) - functional programming
 - ( _virtualisation_ ) - virtualisation-related, docker-related
-- ( _concurrency_ ) - concurrency and asynchronous programming
+- ( _concurrency_ ) - concurrency programming
+- ( _async_ ) - asynchronous programming
+- ( _async_runtime_ ) - asynchronous runtimes and executors
 - ( _persistence_ ) - persistence and delayed execution
 - ( _communication_ ) - either inter-process or inter-thread communication
 - ( _streams_ ) - read/write streams
@@ -915,7 +1130,8 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _algo_ ) - algorithms
 - ( _data_structure_ ) - data structures and algorithms
 - ( _primitive_ ) - primitives
-- ( _collection_ ) - data structures which are collections
+- ( _ecs_ ) - entity component system
+- ( _ds_collection_ ) - data structures which are collections
 - ( _string_ ) - either string or bytes slice based data structures and algorithms
 - ( _stack_based_ ) - stack-based data structures and algorithms
 - ( _graphs_ ) - graphs data structures and algorithms
@@ -930,14 +1146,17 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _os_ ) - operation systems, bootloaders and components of such, OS APIs
 - ( _kernel_ ) - kernel of operation system
 - ( _cargo_ ) - extension of cargo
-- ( _:movie_camera:_ ) - video-processing, capturing
+- ( _cargo_clean_ ) - clean artifacts
+- :movie_camera: - video-processing, capturing
 - ( _asm_ ) - machine code, byte code, interpreters, assembler
+- ( _interpreter ) - interpreters
 - ( _hardware_ ) - reading / writing hardware
 - ( _benchmark_ ) - benchmarking tools and libraries
 - ( _embed_ ) - embedded
 - ( _foreign_ ) - foreign functions, C / C++ binding,  foreign function interface ( FFI )
 - ( _self_ref_ ) - self referential structures
 - ( _ownership_semantics_ ) - solutions of problems of owning/borrowing/lifetimes self referring
+- ( _mem_man_ ) - memory management
 - ( _multidimensional_ ) - multidimensional data structures and algorithms
 - ( _bindings_ ) - bindings to foreign library or service
 - ( _logger_ ) - tools for printing information
@@ -951,5 +1170,6 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 - ( _example_ ) - example project
 - ( _templating_ ) - tools to generate text using template
 - ( _idea_ ) - it is rather proof of concept than production-ready implementation
-
-<!-- qqq : consider replacing by emojis https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md -->
+- ( _development_ ) - helps the developer to develop
+- ( _xml_ ) - XML parsers, readers/writers
+- ( _messaging_ ) - tools for messaging

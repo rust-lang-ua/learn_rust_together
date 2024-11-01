@@ -17,11 +17,17 @@ You might also be interested in other tooboxes:
 
 ( _math_ ) ( _general_ )
 
-- [ultraviolet](https://github.com/termhn/ultraviolet) by [Gray Olson](https://github.com/termhn) : linear algebra crate for games and graphics
 - [nalgebra](https://github.com/dimforge/nalgebra) by [dimforge](https://github.com/dimforge) : game linear algebra
 - [cgmath](https://github.com/rustgd/cgmath) by [rustgd](https://github.com/rustgd) : A linear algebra and mathematics library for computer graphics
 - [gml](https://lib.rs/crates/gml) : Graphics Math Library. Generic Vector and Matrix Math library targetting graphics applications.
 - [geomath](https://github.com/samibendou/geomath) by [bendou](https://github.com/samibendou) : stack-allocated maths for geometry, simulation and computer graphics
+- [ultraviolet](https://github.com/termhn/ultraviolet) by [Gray Olson](https://github.com/termhn) : linear algebra crate for games and graphics
+
+## Math helpers
+
+( _math_ )
+
+- [crevice](https://github.com/LPGhatguy/crevice) by [LPGhatguy](https://github.com/LPGhatguy) : generate GLSL structs
 
 ## Unsorted math
 
@@ -55,7 +61,7 @@ You might also be interested in other tooboxes:
 
 ( _math_ ) ( _meta_ )
 
-- [https://github.com/rust-num/num-traits](num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
+- [num-traits](https://github.com/rust-num/num-traits) by [Aaron Turon](https://github.com/aturon) : traits for number
 
 ## Physics
 
@@ -76,6 +82,7 @@ You might also be interested in other tooboxes:
 - [beat-detector](https://github.com/phip1611/beat-detector) by [Philipp Schuster](https://github.com/phip1611) : beat detection
 - [rustfft](https://github.com/ejmahler/RustFFT) by [Elliott Mahler](https://github.com/ejmahler) : FFT
 - [fourier](https://github.com/calebzulawski/fourier) by [Caleb Zulawski](https://github.com/calebzulawski) : FFT
+- [fundsp](https://github.com/SamiPerttu/fundsp) by [Sami Perttu](https://github.com/SamiPerttu) : audio processing and synthesis
 
 ## HPC
 
@@ -83,6 +90,18 @@ You might also be interested in other tooboxes:
 
 - [cuda_std](https://github.com/Rust-GPU/Rust-CUDA) by [Riccardo D'Ambrosio](https://github.com/RDambrosio016) : CUDA
 - [opencv](https://github.com/twistedfall/opencv-rust) by [twistedfall](https://github.com/twistedfall) : bindings for OpenCV 3 & 4
+- [rust_gpu_tools](https://github.com/filecoin-project/rust-gpu-tools) by [Keyvan Kambakhsh](https://github.com/keyvank) : OpenCL and GPU management.
+- [ash](https://github.com/ash-rs/ash) by [Maik Klein](https://github.com/MaikKlein) : Vulkan bindings
+
+## ML
+
+( _ml_ )
+
+- [candle](https://github.com/huggingface/candle) by [huggingface](https://github.com/huggingface) : ML framework
+- [hf-hub](https://github.com/huggingface/hf-hub) by [huggingface](https://github.com/huggingface) : API for HuggingFace Hub
+- [ocrs](https://github.com/robertknight/ocrs) by [Robert Knight](https://github.com/robertknight) : optical character recognition engine
+- [rten](https://github.com/robertknight/rten) by [Robert Knight](https://github.com/robertknight) : runtime for machine learning models
+- [tokenizers](https://github.com/huggingface/tokenizers) by [huggingface](https://github.com/huggingface) : implementation of most used tokenizers.
 
 ## Tags legend
 
@@ -94,5 +113,6 @@ You might also be interested in other tooboxes:
 - ( _physics_ ) - physics
 - ( _dsp_ ) - digital signals processing
 - ( _hpc_ ) - high performance computing
+- ( _ml_ ) - machine learning
 
 <!-- qqq : improve tags descriptions -->

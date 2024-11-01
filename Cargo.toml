@@ -2,7 +2,7 @@
 name = "learn_rust_together"
 version = "0.1.1"
 edition = "2018"
-description = "Curated collection of lists of useful resources to learn Rust together."
+description = "Curated collection of lists of useful resources to master Rust together."
 license = "MIT"
 
 [dependencies]
