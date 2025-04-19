@@ -67,6 +67,10 @@ You might also be interested in other tooboxes:
 - [bartib](https://github.com/nikolassv/bartib) by [Nikolas Schmidt-Voigt](https://github.com/nikolassv) : CUI for time tracking
 - [porsmo](https://crates.io/crates/porsmo) by [Color Cookie](https://github.com/ColorCookie-dev) : CUI for Pomadora time management
 
+## Crawling and Scraping
+
+- [spider](https://github.com/spider-rs/spider) by [Jeff Mendez](https://github.com/j-mendez) : A web crawler and scraper
+
 ## Templating
 
 - [eve](https://github.com/XAMPPRocky/eve) by [Erin P](https://github.com/XAMPPRocky) : CUI for environment variables based templating

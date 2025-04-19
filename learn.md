@@ -153,7 +153,7 @@ Curated collection of resources to master Rust.
 - [WebAssembly Roadmap](https://webassembly.org/roadmap/) ( _reading_ )
 - [Extism - the universal plug-in system.](https://github.com/extism/extism) ( _reading_ )
 - [Wasm and multithreading](https://web.dev/webassembly-threads/) ( _reading_ )
-- [Big picture of WebAssembly](https://drive.google.com/drive/folders/1heGh7e7Pu-L6lMidJj0fPWu_j1K1qUkc)  ( _reading_ )
+- [Big picture of WebAssembly](https://medium.com/@shahrukhalam_35790/web-assembly-the-big-picture-9a4d7d68494)  ( _reading_ )
 - [Wat2wasm demo for converting](https://webassembly.github.io/wabt/demo/wat2wasm/)
 
 ## Drills
