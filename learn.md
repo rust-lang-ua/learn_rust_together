@@ -82,7 +82,7 @@ Curated collection of resources to master Rust.
 ( _course_ ) ( _advanced_ )
 
 - :star: [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) by [Jon Gjengset](https://www.youtube.com/c/JonGjengset) ( :movie_camera: ) ( _general_ )
-- :star: [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- :star: [Effective Rust](https://www.lurklurk.org/effective-rust/) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/) ( _course_ ) ( _reading_ ) ( _official_ ) : nonsafe programming
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
 
@@ -95,7 +95,7 @@ Curated collection of resources to master Rust.
 ( _about:idiomatic_ )
 
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
-- [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [Effective Rust](https://www.lurklurk.org/effective-rust/) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines) ( _reading_ ) ( _about:idiomatic_ )
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html) by [Nick Cameron](https://github.com/nrc) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 
@@ -387,7 +387,7 @@ Curated collection of resources to master Rust.
 - [101-rs](https://github.com/tweedegolf/101-rs) by [Henk Oordt](https://github.com/hdoordt) ( _reading_ ) : Rust 101 is a university course for computer science students, introducing the Rust Programming Language.
 - [Rust by practice](https://practice.rs/why-exercise.html) by [Sunface](https://github.com/sunface) ⚡
 - [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) by [Instrumentisto](https://github.com/instrumentisto) and [our community](https://github.com/rust-lang-ua/learn_rust_together) ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
-- [Effective Rust](https://www.lurklurk.org/effective-rust/cover.html) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
+- [Effective Rust](https://www.lurklurk.org/effective-rust/) by [David Drysdale]() ( _reading_ ) ( _course_ ) ( _about:idiomatic_ )
 - [High Assurance Rust](https://highassurance.rs/landing.html) ( _reading_ ) : developing secure and robust software
 - [Writing an OS in Rust](https://os.phil-opp.com/) by [Philipp Oppermann](https://github.com/phil-opp)
 - [Teaching Material](https://github.com/ferrous-systems/teaching-material/tree/main) by [Ferrous](https://github.com/ferrous-systems)
