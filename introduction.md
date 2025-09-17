@@ -34,13 +34,11 @@ The best way to ask questions is to share your code in the [playground](https://
 **1) Practice drills, interactive feedback**
 
 - [Rustlings](https://github.com/rust-lang/rustlings) is a project with small exercises to get you used to reading and writing Rust code. In general, you have to solve compiler messages about mistakes by modifying the given code. It'd really help you to get an understanding of how the compiler works and what are the most common code issues. If you struggle to start, just follow [these steps](https://www.youtube.com/watch?v=G3Vr-yswlaU).
-- [Rust by practice](https://practice.rs/why-exercise.html) similar to rustlings drill exercises
+- [Rust by practice](https://practice.course.rs/) similar to rustlings drill exercises
 - [Exercism](https://exercism.org/tracks/rust) - an open-source, free-coding platform that offers you not only code practice but mentorship. Here you can find 103 coding exercises that will improve your understanding of Rust concepts. Recommended taking after Rustling.
 <p align="center">
 <img src="./asset/img/introduction_page/exercism.png"  width="600" align="center" />
 </p>
-
-- [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) - Interactive course. Lay the foundation of knowledge you need to build fast and effective programs in Rust.
 
 **2) Reading books**
 

@@ -771,6 +771,7 @@ _error_ ) : Debug panics on wasm32-unknown-unknown by providing a panic hook tha
 ( _data_structure_ ) ( _multidimensional_ )
 
 - [bvh](https://github.com/svenstaro/bvh) by [Sven-Hendrik Haase](https://github.com/svenstaro) : fast BVH using SAH
+- [spart](https://github.com/habedi/spart) by [Hassan Abedi](https://github.com/habedi) : space partitioning trees (Quadtree, Octree, Kd-tree, R-tree, R*-tree) for spatial indexing and queries
 
 ## Graphs
 

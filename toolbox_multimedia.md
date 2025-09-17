@@ -88,7 +88,17 @@ You might also be interested in other tooboxes:
 - [euler](https://github.com/alteous/euler) by [David Harvey-Macaulay](https://github.com/alteous) : Mathematics library for 3D computer graphics
 - [lyon](https://github.com/nical/lyon) by [Nicolas Silva](https://github.com/nical) : A path tessellation library written in rust for GPU-based 2D graphics rendering.
 - [raqote](https://github.com/jrmuizel/raqote) by [Jeff Muizelaar](https://github.com/jrmuizel) : A pure Rust 2D Graphics Library.
-- [footile](https://github.com/douglau/footile) by [Douglas Lau](https://github.com/douglau) : A 2D vector graphics library
+- [footile](https://github.com/douglau/footile) by [Douglas Lau](https://github.com/douglau) : A 2D vector graphics library.
+- [csgrs](https://github.com/timschmidt/csgrs) by [Timothy Schmidt](https://github.com/timschmidt) : A multithreaded Constructive Solid Geometry (CSG) library.
+- [mesh-tools](https://github.com/michaelblazej/mesh-tools) by [Michael Blazej](https://github.com/michaelblazej) : A library for creating, manipulating, and exporting 3D meshes in glTF 2.0 files.
+
+## Procedural generation
+
+( _procedural_ )
+
+- [wfc](https://github.com/gridbugs/wfc) by [Stephen Sherratt](https://github.com/gridbugs) : A low level crate implementing wfc on arbitrary grids.
+- [wfc-image](https://github.com/gridbugs/wfc/tree/main/wfc-image) by [Stephen Sherratt](https://github.com/gridbugs) : A helper for wfc to simplify generating images based on image files.
+- [wfc-rs](https://github.com/nsmryan/wfc-rs) by [Noah Ryan](https://github.com/nsmryan) : A wrapper for the [krychu/wfc](https://github.com/krychu/wfc) implementation of WFC.
 
 ## Window management
 
@@ -332,6 +342,7 @@ You might also be interested in other tooboxes:
 - [roguelike](https://github.com/JMS55/roguelike) by [JMS55](https://github.com/JMS55) : turn based dungeon exploration
 - [crossword](https://github.com/paulgb/crossword-composer) by [Paul Butler](https://github.com/paulgb) : crossword composer.
 - [name-needed](https://github.com/DomWilliams0/name-needed) by [Dom Williams](https://github.com/DomWilliams0) : Dwarf Fortress-like game
+- [rustydoku](https://github.com/brizzinck/rustydoku) by [Vlad Lavrishko](https://github.com/brizzinck) : a game based on Woodoku on the classic puzzle genre
 
 ## Specific
 
@@ -371,6 +382,7 @@ You might also be interested in other tooboxes:
 - ( _hid_ ) - human interface device
 - ( _shader_ ) - shader related
 - ( _geometry_ ) - geometry / mesh generation
+- ( _procedural_ ) - procedural generation
 - ( _windowing_ ) - window creation and management
 - ( _network_ ) - network programming
 - ( _bevy_ ) - Bevy related
