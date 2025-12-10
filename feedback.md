@@ -18,6 +18,10 @@ https://github.com/nubskr/walrus
 https://github.com/watchexec/watchexec
 https://github.com/Canop/bacon
 
+### ffi
+
+https://github.com/mozilla/uniffi-rs
+
 ### ai
 
 https://github.com/sajari/docconv
@@ -80,3 +84,7 @@ https://github.com/fast/mea
 - Embedded in Rust app → instant-distance or usearch
 - ML data pipelines → LanceDB (Rust)
 - Hybrid text+vector → Meilisearch (Rust)
+
+### Learn
+
+https://github.com/dtolnay/case-studies
