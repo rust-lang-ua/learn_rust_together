@@ -27,6 +27,7 @@ https://github.com/mozilla/uniffi-rs
 https://github.com/sajari/docconv
 https://github.com/facebook/openzl
 https://github.com/RubyBit/aec3-rs
+https://github.com/scaraude/supabase-client-rs
 
 ### multimedia
 
