@@ -93,3 +93,5 @@ https://github.com/dtolnay/case-studies
 ### etc
 
 https://github.com/EmbarkStudios/rpmalloc-rs
+https://github.com/taiki-e/cargo-llvm-cov
+https://github.com/xd009642/tarpaulin
