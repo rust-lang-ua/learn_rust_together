@@ -51,7 +51,7 @@ You might also be interested in other tooboxes:
 
 - [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) by [Yevhenii Reizner](https://github.com/RazrFalcon) : utility to profile code size
 - [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) by [Jorge Aparicio](https://github.com/japaric) : LLVM utility
-- [cargo-asm](https://github.com/gnzlbg/cargo-asm) by [gnzlbg](https://github.com/gnzlbg) : ( _distro_ ) assembly or llvm-ir generated code
+- [cargo-show-asm](https://github.com/pacak/cargo-show-asm) by [pacak](https://github.com/pacak) : ( _distro_ ) assembly or llvm-ir generated code
 
 ## Web Backend
 
